@@ -1,0 +1,19 @@
+{
+  "$schema": "./roster.schema.json",
+  "reps": [
+    {
+      "name": "Jane Doe",
+      "ghlUserId": "REPLACE_WITH_GHL_USER_ID",
+      "role": "AE",
+      "capacity": 250,
+      "active": true
+    },
+    {
+      "name": "John Smith",
+      "ghlUserId": "REPLACE_WITH_GHL_USER_ID",
+      "role": "AAE",
+      "capacity": 150,
+      "active": true
+    }
+  ]
+}

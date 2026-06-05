@@ -1,0 +1,17 @@
+# Secrets — never commit. This is a PUBLIC repo.
+.env
+.env.*
+!.env.example
+
+# Dependencies & build output
+node_modules/
+dist/
+
+# Run artifacts / logs
+*.log
+runs/
+.DS_Store
+
+# Editor
+.vscode/
+.idea/

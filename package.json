@@ -1,0 +1,26 @@
+{
+  "name": "keyrealestatecapital",
+  "version": "0.1.0",
+  "description": "Pulls cold leads from Elementix and distributes them across Key Real Estate Capital's account executives in GoHighLevel, balancing by non-exhausted lead count.",
+  "private": false,
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dry-run": "tsx src/index.ts --dry-run",
+    "report": "tsx src/index.ts --report-only",
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
