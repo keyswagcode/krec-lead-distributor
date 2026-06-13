@@ -1,0 +1,349 @@
+{
+  "updatedAt": "2026-06-13T01:30:00.825Z",
+  "year": 2026,
+  "monthLabel": "June 2026",
+  "monthPrefix": "2026-06",
+  "definition": "Loan Pipeline opportunities in Closed or Wire Received stage. loanAmount = 'Loan Amount' custom field (principal); loans = count. AEs = assignedTo; processors = opportunity followers. (Commission/value intentionally excluded.)",
+  "reps": [
+    {
+      "name": "Jeremiah Ibrahim",
+      "year": {
+        "loanAmount": 2888975,
+        "loans": 7
+      },
+      "month": {
+        "loanAmount": 302600,
+        "loans": 2
+      }
+    },
+    {
+      "name": "Raj Vora",
+      "year": {
+        "loanAmount": 1531428,
+        "loans": 5
+      },
+      "month": {
+        "loanAmount": 232800,
+        "loans": 2
+      }
+    },
+    {
+      "name": "Nicole Lavau",
+      "year": {
+        "loanAmount": 8929809,
+        "loans": 13
+      },
+      "month": {
+        "loanAmount": 4672034,
+        "loans": 4
+      }
+    },
+    {
+      "name": "Emily Wencelblat",
+      "year": {
+        "loanAmount": 2387857,
+        "loans": 8
+      },
+      "month": {
+        "loanAmount": 657210,
+        "loans": 3
+      }
+    },
+    {
+      "name": "Lindsay Milano",
+      "year": {
+        "loanAmount": 2796300,
+        "loans": 6
+      },
+      "month": {
+        "loanAmount": 296000,
+        "loans": 1
+      }
+    },
+    {
+      "name": "Daniel Frank",
+      "year": {
+        "loanAmount": 1813500,
+        "loans": 8
+      },
+      "month": {
+        "loanAmount": 0,
+        "loans": 0
+      }
+    },
+    {
+      "name": "Luis Danny Franco",
+      "year": {
+        "loanAmount": 608596,
+        "loans": 4
+      },
+      "month": {
+        "loanAmount": 0,
+        "loans": 0
+      }
+    },
+    {
+      "name": "Trey Victor",
+      "year": {
+        "loanAmount": 2485772,
+        "loans": 9
+      },
+      "month": {
+        "loanAmount": 0,
+        "loans": 0
+      }
+    },
+    {
+      "name": "Hazel Wilder",
+      "year": {
+        "loanAmount": 152250,
+        "loans": 2
+      },
+      "month": {
+        "loanAmount": 0,
+        "loans": 0
+      }
+    },
+    {
+      "name": "Todd Eliasen",
+      "year": {
+        "loanAmount": 180947,
+        "loans": 1
+      },
+      "month": {
+        "loanAmount": 0,
+        "loans": 0
+      }
+    },
+    {
+      "name": "Sebastian Muenda",
+      "year": {
+        "loanAmount": 1299000,
+        "loans": 5
+      },
+      "month": {
+        "loanAmount": 0,
+        "loans": 0
+      }
+    },
+    {
+      "name": "Christopher LaFlesh",
+      "year": {
+        "loanAmount": 708150,
+        "loans": 3
+      },
+      "month": {
+        "loanAmount": 0,
+        "loans": 0
+      }
+    },
+    {
+      "name": "Frank Estrada",
+      "year": {
+        "loanAmount": 1391584,
+        "loans": 4
+      },
+      "month": {
+        "loanAmount": 0,
+        "loans": 0
+      }
+    },
+    {
+      "name": "Bailey Girouard",
+      "year": {
+        "loanAmount": 633050,
+        "loans": 3
+      },
+      "month": {
+        "loanAmount": 0,
+        "loans": 0
+      }
+    },
+    {
+      "name": "Paulo Bermudez",
+      "year": {
+        "loanAmount": 291317,
+        "loans": 1
+      },
+      "month": {
+        "loanAmount": 0,
+        "loans": 0
+      }
+    }
+  ],
+  "processors": [
+    {
+      "name": "Daisy Mondragon",
+      "year": {
+        "loanAmount": 8371179,
+        "loans": 20
+      },
+      "month": {
+        "loanAmount": 2747394,
+        "loans": 7
+      }
+    },
+    {
+      "name": "Jillian Haines",
+      "year": {
+        "loanAmount": 984533,
+        "loans": 1
+      },
+      "month": {
+        "loanAmount": 0,
+        "loans": 0
+      }
+    },
+    {
+      "name": "Keyan Chang",
+      "year": {
+        "loanAmount": 1036000,
+        "loans": 1
+      },
+      "month": {
+        "loanAmount": 0,
+        "loans": 0
+      }
+    },
+    {
+      "name": "Nicole Lavau",
+      "year": {
+        "loanAmount": 1225750,
+        "loans": 2
+      },
+      "month": {
+        "loanAmount": 0,
+        "loans": 0
+      }
+    },
+    {
+      "name": "Lindsay Milano",
+      "year": {
+        "loanAmount": 710000,
+        "loans": 2
+      },
+      "month": {
+        "loanAmount": 0,
+        "loans": 0
+      }
+    },
+    {
+      "name": "Ankit Nayak",
+      "year": {
+        "loanAmount": 0,
+        "loans": 1
+      },
+      "month": {
+        "loanAmount": 0,
+        "loans": 0
+      }
+    },
+    {
+      "name": "Daniel Frank",
+      "year": {
+        "loanAmount": 198229,
+        "loans": 2
+      },
+      "month": {
+        "loanAmount": 0,
+        "loans": 0
+      }
+    },
+    {
+      "name": "Hazel Wilder",
+      "year": {
+        "loanAmount": 461498,
+        "loans": 3
+      },
+      "month": {
+        "loanAmount": 0,
+        "loans": 0
+      }
+    },
+    {
+      "name": "Brandi Smith",
+      "year": {
+        "loanAmount": 546150,
+        "loans": 2
+      },
+      "month": {
+        "loanAmount": 0,
+        "loans": 0
+      }
+    }
+  ],
+  "latest": [
+    {
+      "id": "BsscevecFK0X7DURObF9",
+      "name": "",
+      "rep": "Lindsay Milano",
+      "loanAmount": 296000,
+      "loanType": "DSCR - R/T",
+      "stage": "Wire Received",
+      "closedAt": "2026-06-12T00:36:59.728Z"
+    },
+    {
+      "id": "Ur8E3h1ogNiWiCfhxtHj",
+      "name": "",
+      "rep": "Raj Vora",
+      "loanAmount": 0,
+      "loanType": "",
+      "stage": "Closed",
+      "closedAt": "2026-06-11T21:01:26.334Z"
+    },
+    {
+      "id": "HyALzDXegf8kgKmdS4rL",
+      "name": "",
+      "rep": "Raj Vora",
+      "loanAmount": 232800,
+      "loanType": "DSCR - C/O",
+      "stage": "Closed",
+      "closedAt": "2026-06-11T21:01:11.788Z"
+    },
+    {
+      "id": "cWdY0lgLekMLId1PjGGU",
+      "name": "",
+      "rep": "Jeremiah Ibrahim",
+      "loanAmount": 108000,
+      "loanType": "DSCR - Purchase",
+      "stage": "Closed",
+      "closedAt": "2026-06-10T16:45:51.674Z"
+    },
+    {
+      "id": "JogabIxi7gW5kjdewExe",
+      "name": "",
+      "rep": "Nicole Lavau",
+      "loanAmount": 2695000,
+      "loanType": "Fix & Flip",
+      "stage": "Wire Received",
+      "closedAt": "2026-06-10T15:10:57.995Z"
+    },
+    {
+      "id": "hmmmpHrQ4dKR6yopWl0N",
+      "name": "",
+      "rep": "Nicole Lavau",
+      "loanAmount": 510004,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-06-10T14:59:02.416Z"
+    },
+    {
+      "id": "mUuzYsqYzkJ3QJIsvuQu",
+      "name": "",
+      "rep": "Nicole Lavau",
+      "loanAmount": 156000,
+      "loanType": "DSCR - Purchase",
+      "stage": "Wire Received",
+      "closedAt": "2026-06-09T03:02:14.965Z"
+    },
+    {
+      "id": "x4J29E9BCiuRDpsdk4wH",
+      "name": "",
+      "rep": "Nicole Lavau",
+      "loanAmount": 1311030,
+      "loanType": "Fix & Flip",
+      "stage": "Wire Received",
+      "closedAt": "2026-06-09T03:02:09.254Z"
+    }
+  ]
+}

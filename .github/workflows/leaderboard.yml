@@ -1,0 +1,45 @@
+name: Build closed-loans leaderboard
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"   # every 5 minutes (fresher "Just Funded")
+  workflow_dispatch: {}
+
+# Allow the job to commit the regenerated docs/leaderboard.json back to the repo.
+permissions:
+  contents: write
+
+concurrency:
+  group: leaderboard
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - run: npm ci
+
+      - name: Generate leaderboard.json
+        env:
+          GHL_API_TOKEN: ${{ secrets.GHL_API_TOKEN }}
+          GHL_LOCATION_ID: ${{ secrets.GHL_LOCATION_ID }}
+          LEADERBOARD_PUBLIC: "1"   # strip borrower/deal names from the public site
+        run: npm run leaderboard
+
+      - name: Commit if changed
+        run: |
+          if git status --porcelain docs/leaderboard.json | grep -q .; then
+            git config user.name "krec-bot"
+            git config user.email "bot@keyrealestatecapital.com"
+            git add docs/leaderboard.json
+            git commit -m "chore: refresh closed-loans leaderboard [skip ci]"
+            git push
+          else
+            echo "No change in leaderboard.json"
+          fi

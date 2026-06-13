@@ -32,15 +32,19 @@ export const ELEMENTIX = {
 /**
  * Lead-exhaustion rules. A lead is "exhausted" — and therefore no longer counts
  * against a rep's active load — when EITHER condition holds:
- *   1. It has accumulated `exhaustedTouchCount` or more outbound touchpoints, OR
+ *   1. It has accumulated `exhaustedTouchCount` (10) or more touchpoints — every
+ *      text, email, or call in either direction counts as +1 — OR
  *   2. It has opted out of the workflow (DND set, or carries an opt-out tag).
  */
 export const EXHAUSTION = {
-  exhaustedTouchCount: 15,
+  exhaustedTouchCount: 10,
   /** Tags that mark a contact as opted out of outreach. Case-insensitive match. */
   optOutTags: ["opted-out", "opt-out", "unsubscribed", "do-not-contact", "dnc"],
-  /** Which message directions count as a touchpoint. We reached out = outbound. */
-  countDirections: ["outbound"] as const,
+  /**
+   * Which message directions count as a touchpoint. Every text, email, or call
+   * — in either direction — counts as +1, so both outbound and inbound count.
+   */
+  countDirections: ["outbound", "inbound"] as const,
 };
 
 /** Distribution behavior. */
@@ -55,4 +59,6 @@ export const DISTRIBUTION = {
 export const TAGS = {
   source: "krec-lead-distributor",
   coldLead: "cold-lead",
+  /** Applied to leads classified as exhausted (10+ touches or opted out). */
+  exhausted: "exhausted",
 };

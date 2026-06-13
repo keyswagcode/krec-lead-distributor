@@ -2,17 +2,248 @@
   "$schema": "./roster.schema.json",
   "reps": [
     {
-      "name": "Jane Doe",
-      "ghlUserId": "REPLACE_WITH_GHL_USER_ID",
+      "name": "Luis Danny Franco",
+      "ghlUserId": "Zoww7NHIwoZde0Tnj6y8",
       "role": "AE",
-      "capacity": 250,
+      "capacity": 200,
       "active": true
     },
     {
-      "name": "John Smith",
-      "ghlUserId": "REPLACE_WITH_GHL_USER_ID",
-      "role": "AAE",
-      "capacity": 150,
+      "name": "Raj Vora",
+      "ghlUserId": "CbkJqYbYwVuIh1fuEG1U",
+      "role": "AE",
+      "capacity": 200,
+      "active": true
+    },
+    {
+      "name": "Paulo Bermudez",
+      "ghlUserId": "rk6GnxwOrJZIJFty7Hh2",
+      "role": "AE",
+      "capacity": 200,
+      "active": true
+    },
+    {
+      "name": "Nicole Lavau",
+      "ghlUserId": "CsJaS1ZeCZEgwClZtr2r",
+      "role": "AE",
+      "capacity": 200,
+      "active": true
+    },
+    {
+      "name": "Frank Estrada",
+      "ghlUserId": "goEJcoIoYExUJtbLcK2K",
+      "role": "AE",
+      "capacity": 200,
+      "active": true
+    },
+    {
+      "name": "Trey Victor",
+      "ghlUserId": "Zb6oTh7mtLXrAQa5ksft",
+      "role": "AE",
+      "capacity": 200,
+      "active": true
+    },
+    {
+      "name": "Sebastian Muenda",
+      "ghlUserId": "PFkeZro8e3pb2CF2mVVS",
+      "role": "AE",
+      "capacity": 200,
+      "active": true
+    },
+    {
+      "name": "Hazel Wilder",
+      "ghlUserId": "b1BnqF4YaSwLFcMm0QGg",
+      "role": "AE",
+      "capacity": 200,
+      "active": true
+    },
+    {
+      "name": "Christopher LaFlesh",
+      "ghlUserId": "c3Yt2tpyNMTK1u9f0pmd",
+      "role": "AE",
+      "capacity": 200,
+      "active": true
+    },
+    {
+      "name": "Emily Wencelblat",
+      "ghlUserId": "MREYNs6CtKRmQeHx6Ajn",
+      "role": "AE",
+      "capacity": 200,
+      "active": true
+    },
+    {
+      "name": "Samuel Vickrey",
+      "ghlUserId": "S3xlig6D4UzvgAXX9WUJ",
+      "role": "AE",
+      "capacity": 200,
+      "active": true
+    },
+    {
+      "name": "Bailey Girouard",
+      "ghlUserId": "RSIFElD8Ru46GCvNlODI",
+      "role": "AE",
+      "capacity": 200,
+      "active": true
+    },
+    {
+      "name": "Gabriel Giordano",
+      "ghlUserId": "mQkORzsfxndruQ8P5ZQI",
+      "role": "AE",
+      "capacity": 200,
+      "active": true
+    },
+    {
+      "name": "Mathieu StGermain",
+      "ghlUserId": "pLgZi53Z8n3uQZFOlRQK",
+      "role": "AE",
+      "capacity": 200,
+      "active": true
+    },
+    {
+      "name": "Ryan Hensley",
+      "ghlUserId": "pPaA4XtUPYfJIoS22tFA",
+      "role": "AE",
+      "capacity": 200,
+      "active": true
+    },
+    {
+      "name": "Jason Weber",
+      "ghlUserId": "gXqMNdHWGLJFZoC8YiGe",
+      "role": "AE",
+      "capacity": 200,
+      "active": true
+    },
+    {
+      "name": "Keyan Chang",
+      "ghlUserId": "Qo2OuCV7XCTWDZAwbk3F",
+      "role": "AE",
+      "capacity": 200,
+      "active": true
+    },
+    {
+      "name": "Will Deroo",
+      "ghlUserId": "FTq87ni7fU5eqZuXafTf",
+      "role": "AE",
+      "capacity": 200,
+      "active": true
+    },
+    {
+      "name": "Ivy Xiao",
+      "ghlUserId": "i194Bq94pnvcPtObTNGK",
+      "role": "AE",
+      "capacity": 200,
+      "active": true
+    },
+    {
+      "name": "Tony Tang",
+      "ghlUserId": "4tDxNcCUJuvB4kJR7F7N",
+      "role": "AE",
+      "capacity": 200,
+      "active": true
+    },
+    {
+      "name": "Brandon Landis",
+      "ghlUserId": "Run1tfCrf5Syoi4bapnv",
+      "role": "AE",
+      "capacity": 200,
+      "active": true
+    },
+    {
+      "name": "Max Chappie",
+      "ghlUserId": "eJozcy12EkwNUGhmoyPc",
+      "role": "AE",
+      "capacity": 200,
+      "active": true
+    },
+    {
+      "name": "Paul Lameiro",
+      "ghlUserId": "kSNXir1OExaHF5sqFsEo",
+      "role": "AE",
+      "capacity": 200,
+      "active": true
+    },
+    {
+      "name": "Todd Eliasen",
+      "ghlUserId": "uoqQJyZSSLzADjFyssh5",
+      "role": "AE",
+      "capacity": 200,
+      "active": true
+    },
+    {
+      "name": "Virtual Assistant",
+      "ghlUserId": "PCmRO7cSMzFEdCXstCNM",
+      "role": "AE",
+      "capacity": 200,
+      "active": true
+    },
+    {
+      "name": "Kyle Eberts",
+      "ghlUserId": "Y4wpcno8xmXYveKYRmUZ",
+      "role": "AE",
+      "capacity": 200,
+      "active": true
+    },
+    {
+      "name": "Jeremiah Ibrahim",
+      "ghlUserId": "BKDx0KyyqmsQRwa4WyUo",
+      "role": "AE",
+      "capacity": 200,
+      "active": true
+    },
+    {
+      "name": "Lynne Myers",
+      "ghlUserId": "PqFRI4PyPv2ijQFH4nXf",
+      "role": "AE",
+      "capacity": 200,
+      "active": true
+    },
+    {
+      "name": "William Applewood",
+      "ghlUserId": "CbcgO28ZZy5G4Nebg50L",
+      "role": "AE",
+      "capacity": 200,
+      "active": true
+    },
+    {
+      "name": "Lindsay Milano",
+      "ghlUserId": "7MCftS6ShXIk7KdB2pSv",
+      "role": "AE",
+      "capacity": 200,
+      "active": true
+    },
+    {
+      "name": "Nicholas DeMaio",
+      "ghlUserId": "eHP4HK3s5lC4rLkGluRM",
+      "role": "AE",
+      "capacity": 200,
+      "active": true
+    },
+    {
+      "name": "Eric Zesati",
+      "ghlUserId": "pZlQIb02Iv3KywnyBRHI",
+      "role": "AE",
+      "capacity": 200,
+      "active": true
+    },
+    {
+      "name": "Gracey Reingold",
+      "ghlUserId": "jU70XHK4pb5DF4zrFSLS",
+      "role": "AE",
+      "capacity": 200,
+      "active": true
+    },
+    {
+      "name": "Cole Dressler",
+      "ghlUserId": "OCobZMIU5f8wBCD1rL2W",
+      "role": "AE",
+      "capacity": 200,
+      "active": true
+    },
+    {
+      "name": "Harlow Wolok",
+      "ghlUserId": "DhufF3TFD8SekmkkMzz5",
+      "role": "AE",
+      "capacity": 200,
       "active": true
     }
   ]

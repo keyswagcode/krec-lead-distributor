@@ -12,6 +12,7 @@
     "start": "tsx src/index.ts",
     "dry-run": "tsx src/index.ts --dry-run",
     "report": "tsx src/index.ts --report-only",
+    "leaderboard": "tsx src/leaderboard.ts",
     "build": "tsc -p tsconfig.json",
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },

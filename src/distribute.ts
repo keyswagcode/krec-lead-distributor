@@ -1,7 +1,8 @@
 import { DISTRIBUTION } from "./config.js";
-import { searchContactsByAssignedTo } from "./ghl.js";
+import { GHLContact, searchContactsByAssignedTo } from "./ghl.js";
+import { log } from "./logger.js";
 import { Rep } from "./roster.js";
-import { classifyContact } from "./touchpoints.js";
+import { Classification, classifyContact } from "./touchpoints.js";
 
 export interface RepLoad {
   rep: Rep;
@@ -11,6 +12,8 @@ export interface RepLoad {
   optedOut: number;
   /** Room for new leads before hitting capacity. */
   headroom: number;
+  /** The actual contacts classified as exhausted, for downstream tagging. */
+  exhaustedContacts: GHLContact[];
 }
 
 /** Run an async mapper over items with bounded concurrency. */
@@ -34,13 +37,28 @@ async function mapLimit<T, R>(items: T[], limit: number, fn: (item: T) => Promis
  */
 export async function computeRepLoad(rep: Rep): Promise<RepLoad> {
   const contacts = await searchContactsByAssignedTo(rep.ghlUserId);
-  const classes = await mapLimit(contacts, DISTRIBUTION.classifyConcurrency, classifyContact);
+  // A single contact whose classification fails (after retries) must not abort
+  // the whole run. Treat it as non-exhausted (safer to under-tag than mis-tag)
+  // and keep going, leaving a breadcrumb in the log.
+  const classes = await mapLimit(contacts, DISTRIBUTION.classifyConcurrency, async (c): Promise<Classification> => {
+    try {
+      return await classifyContact(c);
+    } catch (err: any) {
+      log.warn(`  classify failed for ${rep.name} contact ${c.id}: ${err.message} — treating as non-exhausted`);
+      return { contactId: c.id, touchpoints: 0, optedOut: false, exhausted: false };
+    }
+  });
 
   let exhausted = 0;
   let optedOut = 0;
-  for (const c of classes) {
+  const exhaustedContacts: GHLContact[] = [];
+  for (let i = 0; i < classes.length; i++) {
+    const c = classes[i];
     if (c.optedOut) optedOut++;
-    if (c.exhausted) exhausted++;
+    if (c.exhausted) {
+      exhausted++;
+      exhaustedContacts.push(contacts[i]);
+    }
   }
   const total = contacts.length;
   const active = total - exhausted;
@@ -51,6 +69,7 @@ export async function computeRepLoad(rep: Rep): Promise<RepLoad> {
     exhausted,
     optedOut,
     headroom: Math.max(0, rep.capacity - active),
+    exhaustedContacts,
   };
 }
 

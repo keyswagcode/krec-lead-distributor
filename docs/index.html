@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>KREC — Closed-Loan Leaderboard</title>
+<meta name="robots" content="noindex,nofollow" />
+<style>
+  :root { --bg:#0b1020; --card:#141b30; --line:#243049; --txt:#e8edf7; --muted:#8a96b3; --gold:#f5c542; --silver:#c7cfdc; --bronze:#cd8a52; --accent:#22d3ee; --green:#22c55e; }
+  * { box-sizing:border-box; }
+  html, body { height:100%; margin:0; }
+  body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; color:var(--txt); overflow:hidden;
+         background:radial-gradient(1200px 600px at 20% -10%, #182040 0%, transparent 60%), radial-gradient(1000px 500px at 100% 110%, #14233f 0%, transparent 55%), linear-gradient(180deg,#0b1020,#0e1428); }
+  .wrap { height:100vh; display:flex; flex-direction:column; max-width:1240px; margin:0 auto; padding:18px 26px 12px; position:relative; z-index:2; }
+  header { text-align:center; }
+  .brand { color:var(--muted); font-size:.9rem; letter-spacing:.5px; }
+  .funded { margin:10px auto 4px; max-width:960px; display:flex; align-items:center; gap:14px; justify-content:center;
+            background:linear-gradient(90deg, rgba(34,197,94,.12), rgba(34,211,238,.10)); border:1px solid #1f6d44; border-radius:14px; padding:10px 18px; }
+  .funded .tag { font-weight:800; letter-spacing:1px; color:var(--green); font-size:.8rem; text-transform:uppercase; white-space:nowrap; }
+  .funded .body { font-size:1.05rem; } .funded .body b { color:#fff; }
+  .funded .when { color:var(--muted); font-size:.82rem; white-space:nowrap; }
+  h1 { font-size:2.0rem; margin:12px 0 2px; letter-spacing:.3px; }
+  .window { display:inline-block; font-size:.82rem; font-weight:700; text-transform:uppercase; letter-spacing:1px; color:#0b1020; background:var(--accent); padding:3px 12px; border-radius:999px; margin-top:6px; }
+  .window.month { background:var(--gold); }
+  .dots { margin:10px 0 2px; }
+  .dot { display:inline-block; width:8px; height:8px; border-radius:50%; background:#2a3550; margin:0 4px; transition:background .3s; }
+  .dot.on { background:var(--accent); }
+  .grand { text-align:center; font-size:1.0rem; color:var(--muted); margin:4px 0 8px; }
+  .grand b { color:var(--txt); font-size:1.25rem; }
+  /* paged deck */
+  .stage { flex:1; position:relative; overflow:hidden; }
+  .panel { position:absolute; inset:0; transition:transform .6s cubic-bezier(.6,.05,.3,1), opacity .6s; }
+  .grid { display:grid; grid-template-columns:1fr 1fr; grid-template-rows:repeat(3,1fr); grid-auto-flow:column; gap:16px 22px; height:100%; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:16px 22px; display:flex; align-items:center; gap:18px; }
+  .card .rank { font-size:2rem; font-weight:900; width:56px; text-align:center; color:var(--muted); flex:none; }
+  .card .info { flex:1; min-width:0; }
+  .card .name { font-size:1.45rem; font-weight:700; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .card .barwrap { height:9px; background:#0c1326; border-radius:6px; margin-top:10px; overflow:hidden; }
+  .card .bar { height:100%; background:linear-gradient(90deg,#3b82f6,#22d3ee); border-radius:6px; }
+  .card .amt { text-align:right; flex:none; }
+  .card .amt .big { font-size:1.5rem; font-weight:800; }
+  .card .amt .sub { color:var(--muted); font-size:.82rem; }
+  .card.r1 { border-color:#5a4d18; background:linear-gradient(90deg,#1a1c12,#141b30); }
+  .card.r2 { border-color:#3a414f; } .card.r3 { border-color:#5a3f28; }
+  .card.r1 .rank { color:var(--gold); } .card.r2 .rank { color:var(--silver); } .card.r3 .rank { color:var(--bronze); }
+  .empty { display:flex; align-items:center; justify-content:center; height:100%; color:var(--muted); font-size:1.3rem; }
+  footer { text-align:center; color:var(--muted); font-size:.78rem; padding-top:8px; }
+  .pulse { display:inline-block; width:8px; height:8px; border-radius:50%; background:var(--green); margin-right:6px; animation:pulse 2s infinite; vertical-align:middle; }
+  @keyframes pulse { 0%{opacity:.3} 50%{opacity:1} 100%{opacity:.3} }
+  #confetti { position:fixed; inset:0; z-index:5; pointer-events:none; }
+  #celebrate { position:fixed; inset:0; z-index:6; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:8px;
+               background:radial-gradient(circle at 50% 40%, rgba(34,197,94,.18), rgba(11,16,32,.92)); opacity:0; pointer-events:none; transition:opacity .4s; }
+  #celebrate.show { opacity:1; }
+  #celebrate .boom { font-size:4.2rem; font-weight:900; letter-spacing:2px; background:linear-gradient(90deg,#f5c542,#22d3ee,#22c55e); -webkit-background-clip:text; background-clip:text; color:transparent; animation:pop .6s ease; }
+  #celebrate .c-rep { font-size:3rem; font-weight:800; } #celebrate .c-amt { font-size:2.4rem; font-weight:800; color:var(--gold); } #celebrate .c-type { font-size:1.2rem; color:var(--muted); }
+  @keyframes pop { 0%{transform:scale(.4);opacity:0} 60%{transform:scale(1.15)} 100%{transform:scale(1);opacity:1} }
+  #soundbtn { position:fixed; right:14px; bottom:12px; z-index:7; background:#1b2440; color:var(--txt); border:1px solid var(--line); border-radius:10px; padding:8px 12px; font-size:.85rem; cursor:pointer; }
+  #soundbtn.hidden { display:none; }
+</style>
+</head>
+<body>
+  <canvas id="confetti"></canvas>
+  <div class="wrap">
+    <header>
+      <div class="brand">🏆 Key Real Estate Capital — Closed-Loan Leaderboard</div>
+      <div class="funded" id="funded" style="display:none">
+        <span class="tag">💸 Just Funded</span><span class="body" id="fundedBody"></span><span class="when" id="fundedWhen"></span>
+      </div>
+      <h1 id="title">—</h1>
+      <span class="window" id="window">—</span>
+      <div class="dots" id="dots"></div>
+    </header>
+    <div class="grand" id="grand"></div>
+    <div class="stage" id="stage"></div>
+    <footer><span class="pulse"></span><span id="updated">loading…</span> · data from GoHighLevel</footer>
+  </div>
+  <div id="celebrate"><div class="boom">🎉 JUST FUNDED 🎉</div><div class="c-rep"></div><div class="c-amt"></div><div class="c-type"></div></div>
+  <button id="soundbtn">🔊 Enable sound (for TV)</button>
+
+<script>
+const PAGE_MS = 10000;   // hold each page of 6 for 10s, then swipe
+const PER_PAGE = 6;
+const VIEWS = [
+  { group:"reps",       window:"year",  metric:"loanAmount", title:"AEs — Total Loan Amount",   fmt:"money" },
+  { group:"processors", window:"year",  metric:"loans",      title:"Processors — Loans Closed", fmt:"count" },
+  { group:"reps",       window:"month", metric:"loanAmount", title:"AEs — Total Loan Amount",   fmt:"money" },
+  { group:"processors", window:"month", metric:"loans",      title:"Processors — Loans Closed", fmt:"count" },
+];
+const fmtMoney = n => "$" + Math.round(n||0).toLocaleString("en-US");
+const fmtVal = (n,f) => f==="money" ? fmtMoney(n) : (n||0).toLocaleString("en-US");
+const ago = iso => { const s=(Date.now()-new Date(iso).getTime())/1000; if(s<90)return"just now"; if(s<5400)return Math.round(s/60)+"m ago"; if(s<172800)return Math.round(s/3600)+"h ago"; return Math.round(s/86400)+"d ago"; };
+const chunk = (a,n) => { const o=[]; for(let i=0;i<a.length;i+=n) o.push(a.slice(i,i+n)); return o; };
+
+let data=null, viewIndex=0, pageIndex=0, curPanel=null, booted=false, soundEnabled=false, actx=null;
+
+/* audio */
+function ensureAudio(){ try{ if(!actx) actx=new (window.AudioContext||window.webkitAudioContext)(); if(actx.state==="suspended") actx.resume(); }catch(e){} }
+function fanfare(){ if(!soundEnabled||!actx) return; const t0=actx.currentTime; [523.25,659.25,783.99,1046.5,1318.5].forEach((f,i)=>{ const o=actx.createOscillator(),g=actx.createGain(); o.type="triangle"; o.frequency.value=f; const t=t0+i*0.13; g.gain.setValueAtTime(0,t); g.gain.linearRampToValueAtTime(.28,t+.03); g.gain.exponentialRampToValueAtTime(.001,t+.6); o.connect(g).connect(actx.destination); o.start(t); o.stop(t+.62); }); }
+function announce(d){ if(!soundEnabled||!("speechSynthesis"in window)) return; const u=new SpeechSynthesisUtterance(`Just funded! ${d.rep}. ${Math.round(d.loanAmount).toLocaleString()} dollars.`); u.rate=1; u.pitch=1.1; setTimeout(()=>{ try{speechSynthesis.cancel();speechSynthesis.speak(u);}catch(e){} },750); }
+
+/* confetti */
+const cv=document.getElementById("confetti"), cx=cv.getContext("2d");
+function resize(){ cv.width=innerWidth; cv.height=innerHeight; } resize(); addEventListener("resize",resize);
+let pieces=[];
+function burst(n=200){ for(let i=0;i<n;i++) pieces.push({x:Math.random()*cv.width,y:-20-Math.random()*cv.height*.3,vx:(Math.random()-.5)*7,vy:2+Math.random()*5,s:6+Math.random()*9,rot:Math.random()*6.28,vr:(Math.random()-.5)*.35,c:`hsl(${Math.random()*360},90%,62%)`}); }
+function confettiTick(){ cx.clearRect(0,0,cv.width,cv.height); for(const p of pieces){ p.x+=p.vx;p.y+=p.vy;p.vy+=.08;p.rot+=p.vr; cx.save();cx.translate(p.x,p.y);cx.rotate(p.rot);cx.fillStyle=p.c;cx.fillRect(-p.s/2,-p.s/2,p.s,p.s*.6);cx.restore(); } pieces=pieces.filter(p=>p.y<cv.height+40); requestAnimationFrame(confettiTick); } confettiTick();
+
+/* celebration */
+let celebrateTimer=null;
+function celebrate(d){
+  const o=document.getElementById("celebrate");
+  o.querySelector(".c-rep").textContent=d.rep;
+  o.querySelector(".c-amt").textContent=fmtMoney(d.loanAmount);
+  o.querySelector(".c-type").textContent=[d.name,d.loanType,d.stage].filter(Boolean).join(" · ");
+  o.classList.add("show"); burst(240); setTimeout(()=>burst(140),600); setTimeout(()=>burst(120),1200);
+  fanfare(); announce(d);
+  clearTimeout(celebrateTimer); celebrateTimer=setTimeout(()=>o.classList.remove("show"), 9000);
+}
+
+/* ranked reps for a view */
+function rankedReps(view){
+  return (data[view.group]||[])
+    .map(r=>({name:r.name,val:(r[view.window]||{})[view.metric]||0,loans:(r[view.window]||{}).loans||0,amount:(r[view.window]||{}).loanAmount||0}))
+    .filter(r=>r.val>0).sort((a,b)=>b.val-a.val).map((r,i)=>({rank:i+1,...r}));
+}
+function gridHtml(pageReps, view, max){
+  const sub=r=> view.metric==="loans" ? fmtMoney(r.amount)+" volume" : r.loans+" loan"+(r.loans===1?"":"s");
+  if(!pageReps.length) return '<div class="empty">No closed loans in this window yet.</div>';
+  return '<div class="grid">'+pageReps.map(r=>`
+    <div class="card r${r.rank}">
+      <div class="rank">${r.rank<=3?["🥇","🥈","🥉"][r.rank-1]:r.rank}</div>
+      <div class="info"><div class="name">${r.name.replace(/</g,"&lt;")}</div>
+        <div class="barwrap"><div class="bar" style="width:${Math.max(2,(r.val/max)*100).toFixed(1)}%"></div></div></div>
+      <div class="amt"><div class="big">${fmtVal(r.val,view.fmt)}</div><div class="sub">${sub(r)}</div></div>
+    </div>`).join("")+'</div>';
+}
+function renderPanel(){
+  if(!data) return;
+  const view=VIEWS[viewIndex];
+  const reps=rankedReps(view);
+  const pages=chunk(reps,PER_PAGE);
+  if(pageIndex>=pages.length) pageIndex=0;
+  const page=pages[pageIndex]||[];
+  const max=Math.max(1,...reps.map(r=>r.val));
+  // header
+  document.getElementById("title").textContent=view.title;
+  const w=document.getElementById("window");
+  w.textContent= view.window==="year" ? ("This Year · "+data.year) : ("This Month · "+(data.monthLabel||""));
+  w.className="window "+view.window;
+  document.getElementById("dots").innerHTML=VIEWS.map((_,i)=>`<span class="dot ${i===viewIndex?"on":""}"></span>`).join("");
+  const total=reps.reduce((s,r)=>s+r.val,0);
+  const range = page.length ? ` · ranks ${page[0].rank}–${page[page.length-1].rank} of ${reps.length}` : "";
+  document.getElementById("grand").innerHTML=`Team total: <b>${fmtVal(total,view.fmt)}</b>${range}`;
+  // swipe-in new panel
+  const stage=document.getElementById("stage");
+  const p=document.createElement("div"); p.className="panel"; p.style.transform="translateX(100%)"; p.innerHTML=gridHtml(page,view,max);
+  stage.appendChild(p); void p.offsetWidth;
+  p.style.transform="translateX(0)";
+  if(curPanel){ const old=curPanel; old.style.transform="translateX(-100%)"; old.style.opacity="0.15"; setTimeout(()=>old.remove(),650); }
+  curPanel=p;
+}
+function advance(){
+  if(!data) return;
+  const reps=rankedReps(VIEWS[viewIndex]);
+  const pageCount=Math.max(1, chunk(reps,PER_PAGE).length);
+  pageIndex++;
+  if(pageIndex>=pageCount){ pageIndex=0; viewIndex=(viewIndex+1)%VIEWS.length; }
+  renderPanel();
+}
+
+let fundedIndex=0;
+function updateFunded(){
+  const list=data.latest||[]; const el=document.getElementById("funded");
+  if(!list.length){ el.style.display="none"; return; }
+  el.style.display="flex";
+  const i=fundedIndex % list.length, d=list[i];
+  const deal = d.name ? ` — <span style="color:var(--muted)">${d.name.replace(/</g,"&lt;")}</span>` : "";
+  document.getElementById("fundedBody").innerHTML=`<b>${d.rep.replace(/</g,"&lt;")}</b> · ${fmtMoney(d.loanAmount)}${d.loanType?(" · "+d.loanType):""}${deal}`;
+  document.getElementById("fundedWhen").textContent=`${d.closedAt?ago(d.closedAt):""} · ${i+1}/${list.length}`;
+}
+function rotateFunded(){ const list=(data&&data.latest)||[]; if(list.length){ fundedIndex=(fundedIndex+1)%list.length; updateFunded(); } }
+
+async function load(){
+  try{
+    const res=await fetch("leaderboard.json?t="+Date.now(),{cache:"no-store"});
+    if(!res.ok) throw new Error("HTTP "+res.status);
+    data=await res.json();
+    if(!curPanel) renderPanel();
+    updateFunded();
+    const top=(data.latest||[])[0];
+    if(top){ const stored=localStorage.getItem("krec_last_funded");
+      if(stored!==top.id){ localStorage.setItem("krec_last_funded",top.id); if(booted) celebrate(top); } }
+    document.getElementById("updated").textContent="Updated "+new Date(data.updatedAt).toLocaleString();
+    booted=true;
+  }catch(e){ document.getElementById("updated").textContent="Error loading data: "+e.message; }
+}
+
+document.getElementById("soundbtn").addEventListener("click",function(){
+  ensureAudio(); soundEnabled=true;
+  try{ const u=new SpeechSynthesisUtterance("Sound on"); speechSynthesis.speak(u); }catch(e){}
+  this.classList.add("hidden");
+});
+addEventListener("keydown", e => { if((e.key==="t"||e.key==="T") && data && (data.latest||[])[0]) celebrate(data.latest[0]); });
+
+load();
+setInterval(advance, PAGE_MS);
+setInterval(rotateFunded, 4500);   // cycle the Just Funded ticker through last-7-day deals
+setInterval(load, 30000);
+</script>
+</body>
+</html>
