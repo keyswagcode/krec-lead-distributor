@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-16T17:34:00.995Z",
+  "updatedAt": "2026-06-16T20:28:32.087Z",
   "year": 2026,
   "monthLabel": "June 2026",
   "monthPrefix": "2026-06",
@@ -107,11 +107,11 @@
     {
       "name": "Nicole Lavau",
       "year": {
-        "loanAmount": 16660792,
+        "loanAmount": 16315788,
         "loans": 26
       },
       "month": {
-        "loanAmount": 12403017,
+        "loanAmount": 12058013,
         "loans": 17
       }
     },
@@ -152,11 +152,11 @@
       "name": "Luis Danny Franco",
       "year": {
         "loanAmount": 1145496,
-        "loans": 6
+        "loans": 7
       },
       "month": {
         "loanAmount": 536900,
-        "loans": 2
+        "loans": 3
       }
     },
     {
@@ -179,17 +179,6 @@
       "month": {
         "loanAmount": 4386720,
         "loans": 9
-      }
-    },
-    {
-      "name": "Keyan Chang",
-      "year": {
-        "loanAmount": 0,
-        "loans": 2
-      },
-      "month": {
-        "loanAmount": 0,
-        "loans": 2
       }
     },
     {
@@ -217,23 +206,23 @@
     {
       "name": "Jason Weber",
       "year": {
-        "loanAmount": 636775,
-        "loans": 5
+        "loanAmount": 936775,
+        "loans": 6
       },
       "month": {
-        "loanAmount": 636775,
-        "loans": 5
+        "loanAmount": 936775,
+        "loans": 6
       }
     },
     {
       "name": "Ryan McCoy",
       "year": {
-        "loanAmount": 317700,
-        "loans": 2
+        "loanAmount": 767700,
+        "loans": 3
       },
       "month": {
-        "loanAmount": 317700,
-        "loans": 2
+        "loanAmount": 767700,
+        "loans": 3
       }
     },
     {
@@ -244,6 +233,17 @@
       },
       "month": {
         "loanAmount": 76500,
+        "loans": 1
+      }
+    },
+    {
+      "name": "Keyan Chang",
+      "year": {
+        "loanAmount": 0,
+        "loans": 1
+      },
+      "month": {
+        "loanAmount": 0,
         "loans": 1
       }
     },
@@ -274,12 +274,12 @@
     {
       "name": "Daisy Mondragon",
       "year": {
-        "loanAmount": 35022474,
-        "loans": 114
+        "loanAmount": 34512470,
+        "loans": 113
       },
       "month": {
-        "loanAmount": 29398689,
-        "loans": 101
+        "loanAmount": 28888685,
+        "loans": 100
       }
     },
     {
@@ -297,11 +297,11 @@
       "name": "Luis Danny Franco",
       "year": {
         "loanAmount": 1553606,
-        "loans": 6
+        "loans": 5
       },
       "month": {
         "loanAmount": 1553606,
-        "loans": 6
+        "loans": 5
       }
     },
     {
@@ -362,12 +362,12 @@
     {
       "name": "Adam Epperson",
       "year": {
-        "loanAmount": 2903620,
-        "loans": 9
+        "loanAmount": 3818620,
+        "loans": 12
       },
       "month": {
-        "loanAmount": 2903620,
-        "loans": 9
+        "loanAmount": 3818620,
+        "loans": 12
       }
     },
     {
@@ -389,17 +389,6 @@
       },
       "month": {
         "loanAmount": 202500,
-        "loans": 1
-      }
-    },
-    {
-      "name": "Raj Vora",
-      "year": {
-        "loanAmount": 0,
-        "loans": 1
-      },
-      "month": {
-        "loanAmount": 0,
         "loans": 1
       }
     },
@@ -438,6 +427,33 @@
     }
   ],
   "latest": [
+    {
+      "id": "clckzNgT9cctXfmLxFSx",
+      "name": "",
+      "rep": "Nicole Lavau",
+      "loanAmount": 165000,
+      "loanType": "DSCR - C/O",
+      "stage": "Closed",
+      "closedAt": "2026-06-16T18:42:22.571Z"
+    },
+    {
+      "id": "jqeiRSwUYiEQSjWihO2P",
+      "name": "",
+      "rep": "Jason Weber",
+      "loanAmount": 300000,
+      "loanType": "DSCR - C/O",
+      "stage": "Closed",
+      "closedAt": "2026-06-16T18:42:18.307Z"
+    },
+    {
+      "id": "OQWE9Q8alWlDNpm6sc4y",
+      "name": "",
+      "rep": "Ryan McCoy",
+      "loanAmount": 450000,
+      "loanType": "DSCR - C/O",
+      "stage": "Closed",
+      "closedAt": "2026-06-16T18:42:15.098Z"
+    },
     {
       "id": "xJ13IU34cWGbgyzhNEgd",
       "name": "",
@@ -1089,7 +1105,7 @@
     {
       "id": "Ej2tQ2C7RqmXERaJYt7F",
       "name": "",
-      "rep": "Keyan Chang",
+      "rep": "Luis Danny Franco",
       "loanAmount": 0,
       "loanType": "",
       "stage": "Wire Received",
@@ -2183,15 +2199,6 @@
       "loanType": "Fix & Flip",
       "stage": "Wire Received",
       "closedAt": "2026-06-10T15:10:57.995Z"
-    },
-    {
-      "id": "hmmmpHrQ4dKR6yopWl0N",
-      "name": "",
-      "rep": "Nicole Lavau",
-      "loanAmount": 510004,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-06-10T14:59:02.416Z"
     }
   ]
 }
