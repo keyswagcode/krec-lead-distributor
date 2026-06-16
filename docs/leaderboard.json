@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-16T22:31:03.415Z",
+  "updatedAt": "2026-06-16T23:59:52.801Z",
   "year": 2026,
   "monthLabel": "June 2026",
   "monthPrefix": "2026-06",
@@ -30,12 +30,12 @@
     {
       "name": "Bailey Girouard",
       "year": {
-        "loanAmount": 7492467,
-        "loans": 33
+        "loanAmount": 7819714,
+        "loans": 34
       },
       "month": {
-        "loanAmount": 6859417,
-        "loans": 30
+        "loanAmount": 7186664,
+        "loans": 31
       }
     },
     {
@@ -184,12 +184,12 @@
     {
       "name": "Gabriel Giordano",
       "year": {
-        "loanAmount": 324903,
-        "loans": 1
+        "loanAmount": 649806,
+        "loans": 2
       },
       "month": {
-        "loanAmount": 324903,
-        "loans": 1
+        "loanAmount": 649806,
+        "loans": 2
       }
     },
     {
@@ -362,12 +362,12 @@
     {
       "name": "Adam Epperson",
       "year": {
-        "loanAmount": 3818620,
-        "loans": 12
+        "loanAmount": 4470770,
+        "loans": 14
       },
       "month": {
-        "loanAmount": 3818620,
-        "loans": 12
+        "loanAmount": 4470770,
+        "loans": 14
       }
     },
     {
@@ -427,6 +427,24 @@
     }
   ],
   "latest": [
+    {
+      "id": "Kg7pI2Ecb4ohyNwQgr0e",
+      "name": "",
+      "rep": "Gabriel Giordano",
+      "loanAmount": 324903,
+      "loanType": "Fix & Flip",
+      "stage": "Wire Received",
+      "closedAt": "2026-06-16T23:45:34.382Z"
+    },
+    {
+      "id": "uS2wYApQoPi96fwBu5hf",
+      "name": "",
+      "rep": "Bailey Girouard",
+      "loanAmount": 327247,
+      "loanType": "Fix & Flip",
+      "stage": "Wire Received",
+      "closedAt": "2026-06-16T23:45:08.271Z"
+    },
     {
       "id": "clckzNgT9cctXfmLxFSx",
       "name": "",
