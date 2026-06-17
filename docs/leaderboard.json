@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T19:15:42.315Z",
+  "updatedAt": "2026-06-17T21:24:04.857Z",
   "year": 2026,
   "monthLabel": "June 2026",
   "monthPrefix": "2026-06",
@@ -427,6 +427,24 @@
     }
   ],
   "latest": [
+    {
+      "id": "u3gL13TDy94kg8CsrvwV",
+      "name": "",
+      "rep": "Trey Victor",
+      "loanAmount": 206250,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-06-17T20:40:26.111Z"
+    },
+    {
+      "id": "KVSnS3PHu6pwpMLX2j34",
+      "name": "",
+      "rep": "Trey Victor",
+      "loanAmount": 206250,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-06-17T20:40:20.397Z"
+    },
     {
       "id": "Kg7pI2Ecb4ohyNwQgr0e",
       "name": "",
@@ -1022,15 +1040,6 @@
       "closedAt": "2026-06-16T17:09:06.868Z"
     },
     {
-      "id": "KVSnS3PHu6pwpMLX2j34",
-      "name": "",
-      "rep": "Trey Victor",
-      "loanAmount": 206250,
-      "loanType": "DSCR - C/O",
-      "stage": "Closed",
-      "closedAt": "2026-06-16T17:09:04.613Z"
-    },
-    {
       "id": "XmcptYm2I0zNY7kdzCb0",
       "name": "",
       "rep": "Bailey Girouard",
@@ -1533,15 +1542,6 @@
       "loanType": "DSCR - C/O",
       "stage": "Wire Received",
       "closedAt": "2026-06-16T16:42:38.114Z"
-    },
-    {
-      "id": "u3gL13TDy94kg8CsrvwV",
-      "name": "",
-      "rep": "Trey Victor",
-      "loanAmount": 206250,
-      "loanType": "DSCR - C/O",
-      "stage": "Closed",
-      "closedAt": "2026-06-16T16:42:37.256Z"
     },
     {
       "id": "7gN4JqyrawdHpYqvEz6D",
