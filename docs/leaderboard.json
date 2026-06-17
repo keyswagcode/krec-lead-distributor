@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T21:24:04.857Z",
+  "updatedAt": "2026-06-17T22:56:06.886Z",
   "year": 2026,
   "monthLabel": "June 2026",
   "monthPrefix": "2026-06",
@@ -74,8 +74,8 @@
     {
       "name": "Frank Estrada",
       "year": {
-        "loanAmount": 8211418,
-        "loans": 19
+        "loanAmount": 6819834,
+        "loans": 15
       },
       "month": {
         "loanAmount": 6819834,
@@ -274,8 +274,8 @@
     {
       "name": "Daisy Mondragon",
       "year": {
-        "loanAmount": 34512470,
-        "loans": 113
+        "loanAmount": 33834007,
+        "loans": 112
       },
       "month": {
         "loanAmount": 28888685,
@@ -285,8 +285,8 @@
     {
       "name": "Daniel Frank",
       "year": {
-        "loanAmount": 858458,
-        "loans": 6
+        "loanAmount": 763458,
+        "loans": 5
       },
       "month": {
         "loanAmount": 660229,
