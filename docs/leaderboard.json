@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T23:03:46.416Z",
+  "updatedAt": "2026-06-19T01:50:31.418Z",
   "year": 2026,
   "monthLabel": "June 2026",
   "monthPrefix": "2026-06",
@@ -2172,15 +2172,6 @@
       "loanType": "DSCR - C/O",
       "stage": "Wire Received",
       "closedAt": "2026-06-16T16:00:22.330Z"
-    },
-    {
-      "id": "BsscevecFK0X7DURObF9",
-      "name": "",
-      "rep": "Lindsay Milano",
-      "loanAmount": 296000,
-      "loanType": "DSCR - R/T",
-      "stage": "Wire Received",
-      "closedAt": "2026-06-12T00:36:59.728Z"
     }
   ]
 }
