@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T16:44:37.543Z",
+  "updatedAt": "2026-06-19T18:25:42.819Z",
   "year": 2026,
   "monthLabel": "June 2026",
   "monthPrefix": "2026-06",
@@ -85,12 +85,12 @@
     {
       "name": "Jeremiah Ibrahim",
       "year": {
-        "loanAmount": 6637935,
-        "loans": 18
+        "loanAmount": 8545937,
+        "loans": 19
       },
       "month": {
-        "loanAmount": 4051560,
-        "loans": 13
+        "loanAmount": 5959562,
+        "loans": 14
       }
     },
     {
@@ -274,12 +274,12 @@
     {
       "name": "Daisy Mondragon",
       "year": {
-        "loanAmount": 33834007,
-        "loans": 112
+        "loanAmount": 35742009,
+        "loans": 113
       },
       "month": {
-        "loanAmount": 28888685,
-        "loans": 100
+        "loanAmount": 30796687,
+        "loans": 101
       }
     },
     {
@@ -427,6 +427,15 @@
     }
   ],
   "latest": [
+    {
+      "id": "37dIIlp9zOmrVCY5IB5m",
+      "name": "",
+      "rep": "Jeremiah Ibrahim",
+      "loanAmount": 1908002,
+      "loanType": "Ground Up Construction",
+      "stage": "Closed",
+      "closedAt": "2026-06-19T17:50:44.585Z"
+    },
     {
       "id": "LwZiJt07OGWsGG7KHoLl",
       "name": "",
