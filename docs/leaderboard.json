@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T18:25:13.842Z",
+  "updatedAt": "2026-06-23T20:31:27.127Z",
   "year": 2026,
   "monthLabel": "June 2026",
   "monthPrefix": "2026-06",
@@ -498,33 +498,6 @@
       "loanType": "Fix & Flip",
       "stage": "Wire Received",
       "closedAt": "2026-06-16T23:45:08.271Z"
-    },
-    {
-      "id": "clckzNgT9cctXfmLxFSx",
-      "name": "",
-      "rep": "Nicole Lavau",
-      "loanAmount": 165000,
-      "loanType": "DSCR - C/O",
-      "stage": "Closed",
-      "closedAt": "2026-06-16T18:42:22.571Z"
-    },
-    {
-      "id": "jqeiRSwUYiEQSjWihO2P",
-      "name": "",
-      "rep": "Jason Weber",
-      "loanAmount": 300000,
-      "loanType": "DSCR - C/O",
-      "stage": "Closed",
-      "closedAt": "2026-06-16T18:42:18.307Z"
-    },
-    {
-      "id": "OQWE9Q8alWlDNpm6sc4y",
-      "name": "",
-      "rep": "Ryan McCoy",
-      "loanAmount": 450000,
-      "loanType": "DSCR - C/O",
-      "stage": "Closed",
-      "closedAt": "2026-06-16T18:42:15.098Z"
     }
   ]
 }
