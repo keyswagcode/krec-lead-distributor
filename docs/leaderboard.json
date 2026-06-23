@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T14:00:33.127Z",
+  "updatedAt": "2026-06-23T16:31:39.824Z",
   "year": 2026,
   "monthLabel": "June 2026",
   "monthPrefix": "2026-06",
@@ -2145,51 +2145,6 @@
       "loanType": "DSCR - C/O",
       "stage": "Wire Received",
       "closedAt": "2026-06-16T16:38:28.799Z"
-    },
-    {
-      "id": "U4z0iEY6bTTpGWdIadEf",
-      "name": "",
-      "rep": "Luis Danny Franco",
-      "loanAmount": 350000,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-06-16T16:27:41.332Z"
-    },
-    {
-      "id": "2es9JogbTRnC9cPr34hM",
-      "name": "",
-      "rep": "Keyan Chang",
-      "loanAmount": 0,
-      "loanType": "",
-      "stage": "Wire Received",
-      "closedAt": "2026-06-16T16:07:15.019Z"
-    },
-    {
-      "id": "SzaCv9eV8U7cjMt0bQQg",
-      "name": "",
-      "rep": "Will Deroo",
-      "loanAmount": 412300,
-      "loanType": "DSCR - R/T",
-      "stage": "Closed",
-      "closedAt": "2026-06-16T16:01:35.394Z"
-    },
-    {
-      "id": "03bbb0ZV28kHXe5vAd2r",
-      "name": "",
-      "rep": "Will Deroo",
-      "loanAmount": 711600,
-      "loanType": "DSCR - R/T",
-      "stage": "Wire Received",
-      "closedAt": "2026-06-16T16:01:33.279Z"
-    },
-    {
-      "id": "nLMEVQoPmqUYjFneFVTR",
-      "name": "",
-      "rep": "Bailey Girouard",
-      "loanAmount": 168750,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-06-16T16:00:22.330Z"
     }
   ]
 }
