@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T22:25:22.262Z",
+  "updatedAt": "2026-06-24T23:41:07.987Z",
   "year": 2026,
   "monthLabel": "June 2026",
   "monthPrefix": "2026-06",
@@ -41,12 +41,12 @@
     {
       "name": "Bailey Girouard",
       "year": {
-        "loanAmount": 7819714,
-        "loans": 34
+        "loanAmount": 7979714,
+        "loans": 35
       },
       "month": {
-        "loanAmount": 7186664,
-        "loans": 31
+        "loanAmount": 7346664,
+        "loans": 32
       }
     },
     {
@@ -217,12 +217,12 @@
     {
       "name": "Ryan McCoy",
       "year": {
-        "loanAmount": 767700,
-        "loans": 3
+        "loanAmount": 1103700,
+        "loans": 5
       },
       "month": {
-        "loanAmount": 767700,
-        "loans": 3
+        "loanAmount": 1103700,
+        "loans": 5
       }
     },
     {
@@ -233,6 +233,17 @@
       },
       "month": {
         "loanAmount": 76500,
+        "loans": 1
+      }
+    },
+    {
+      "name": "Seneca Schachter",
+      "year": {
+        "loanAmount": 0,
+        "loans": 1
+      },
+      "month": {
+        "loanAmount": 0,
         "loans": 1
       }
     },
@@ -285,12 +296,12 @@
     {
       "name": "Daisy Mondragon",
       "year": {
-        "loanAmount": 36154509,
-        "loans": 114
+        "loanAmount": 36314509,
+        "loans": 115
       },
       "month": {
-        "loanAmount": 31209187,
-        "loans": 102
+        "loanAmount": 31369187,
+        "loans": 103
       }
     },
     {
@@ -362,12 +373,12 @@
     {
       "name": "Adam Epperson",
       "year": {
-        "loanAmount": 4470770,
-        "loans": 14
+        "loanAmount": 4806770,
+        "loans": 17
       },
       "month": {
-        "loanAmount": 4470770,
-        "loans": 14
+        "loanAmount": 4806770,
+        "loans": 17
       }
     },
     {
@@ -393,6 +404,17 @@
       }
     },
     {
+      "name": "Hazel Wilder",
+      "year": {
+        "loanAmount": 461498,
+        "loans": 4
+      },
+      "month": {
+        "loanAmount": 0,
+        "loans": 1
+      }
+    },
+    {
       "name": "Keyan Chang",
       "year": {
         "loanAmount": 1036000,
@@ -413,20 +435,54 @@
         "loanAmount": 0,
         "loans": 0
       }
-    },
-    {
-      "name": "Hazel Wilder",
-      "year": {
-        "loanAmount": 461498,
-        "loans": 3
-      },
-      "month": {
-        "loanAmount": 0,
-        "loans": 0
-      }
     }
   ],
   "latest": [
+    {
+      "id": "nOYRaEvh7heyRkr9a6mP",
+      "name": "",
+      "rep": "Seneca Schachter",
+      "loanAmount": 0,
+      "loanType": "DSCR - Purchase",
+      "stage": "Closed",
+      "closedAt": "2026-06-24T22:54:12.873Z"
+    },
+    {
+      "id": "clckzNgT9cctXfmLxFSx",
+      "name": "",
+      "rep": "Nicole Lavau",
+      "loanAmount": 165000,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-06-24T22:53:57.551Z"
+    },
+    {
+      "id": "ej9Ve1Y7iPLdWmI992L7",
+      "name": "",
+      "rep": "Ryan McCoy",
+      "loanAmount": 168000,
+      "loanType": "DSCR - C/O",
+      "stage": "Closed",
+      "closedAt": "2026-06-24T22:53:49.411Z"
+    },
+    {
+      "id": "95lLONvqzU02ZO1oMpYm",
+      "name": "",
+      "rep": "Ryan McCoy",
+      "loanAmount": 168000,
+      "loanType": "DSCR - C/O",
+      "stage": "Closed",
+      "closedAt": "2026-06-24T22:53:48.212Z"
+    },
+    {
+      "id": "9pkwHemZFcYTMCxbVqbj",
+      "name": "",
+      "rep": "Bailey Girouard",
+      "loanAmount": 160000,
+      "loanType": "DSCR - R/T",
+      "stage": "Closed",
+      "closedAt": "2026-06-24T22:31:12.568Z"
+    },
     {
       "id": "0X09s0AZwYk01U9ejMLK",
       "name": "",
