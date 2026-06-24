@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T00:14:29.224Z",
+  "updatedAt": "2026-06-24T04:38:56.621Z",
   "year": 2026,
   "monthLabel": "June 2026",
   "monthPrefix": "2026-06",
@@ -8,12 +8,12 @@
     {
       "name": "Trey Victor",
       "year": {
-        "loanAmount": 7041960,
-        "loans": 29
+        "loanAmount": 7231710,
+        "loans": 30
       },
       "month": {
-        "loanAmount": 4745938,
-        "loans": 21
+        "loanAmount": 4935688,
+        "loans": 22
       }
     },
     {
@@ -427,6 +427,15 @@
     }
   ],
   "latest": [
+    {
+      "id": "5LuBGmv6JLN4uIFJZNGB",
+      "name": "",
+      "rep": "Trey Victor",
+      "loanAmount": 189750,
+      "loanType": "DSCR - R/T",
+      "stage": "Wire Received",
+      "closedAt": "2026-06-24T01:01:51.828Z"
+    },
     {
       "id": "xubo3GghaTKmLvvBet8G",
       "name": "",
