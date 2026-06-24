@@ -1,10 +1,21 @@
 {
-  "updatedAt": "2026-06-23T23:17:41.703Z",
+  "updatedAt": "2026-06-24T00:14:29.224Z",
   "year": 2026,
   "monthLabel": "June 2026",
   "monthPrefix": "2026-06",
   "definition": "Loan Pipeline opportunities in Closed or Wire Received stage. loanAmount = 'Loan Amount' custom field (principal); loans = count. AEs = assignedTo; processors = opportunity followers. (Commission/value intentionally excluded.)",
   "reps": [
+    {
+      "name": "Trey Victor",
+      "year": {
+        "loanAmount": 7041960,
+        "loans": 29
+      },
+      "month": {
+        "loanAmount": 4745938,
+        "loans": 21
+      }
+    },
     {
       "name": "Hazel Wilder",
       "year": {
@@ -36,17 +47,6 @@
       "month": {
         "loanAmount": 7186664,
         "loans": 31
-      }
-    },
-    {
-      "name": "Trey Victor",
-      "year": {
-        "loanAmount": 6675246,
-        "loans": 27
-      },
-      "month": {
-        "loanAmount": 4379224,
-        "loans": 19
       }
     },
     {
@@ -261,6 +261,17 @@
   ],
   "processors": [
     {
+      "name": "Nicole Lavau",
+      "year": {
+        "loanAmount": 2564364,
+        "loans": 7
+      },
+      "month": {
+        "loanAmount": 1528364,
+        "loans": 6
+      }
+    },
+    {
       "name": "Lindsay Milano",
       "year": {
         "loanAmount": 6583439,
@@ -301,17 +312,6 @@
       },
       "month": {
         "loanAmount": 1553606,
-        "loans": 5
-      }
-    },
-    {
-      "name": "Nicole Lavau",
-      "year": {
-        "loanAmount": 2381007,
-        "loans": 6
-      },
-      "month": {
-        "loanAmount": 1345007,
         "loans": 5
       }
     },
@@ -428,6 +428,24 @@
   ],
   "latest": [
     {
+      "id": "xubo3GghaTKmLvvBet8G",
+      "name": "",
+      "rep": "Trey Victor",
+      "loanAmount": 183357,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-06-24T00:09:13.701Z"
+    },
+    {
+      "id": "ozgeuUPMrjvnAzdqH6Nt",
+      "name": "",
+      "rep": "Trey Victor",
+      "loanAmount": 183357,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-06-24T00:03:06.490Z"
+    },
+    {
       "id": "LkiyelmH74zqizcHnxTh",
       "name": "",
       "rep": "Hazel Wilder",
@@ -480,24 +498,6 @@
       "loanType": "DSCR - C/O",
       "stage": "Wire Received",
       "closedAt": "2026-06-17T20:40:20.397Z"
-    },
-    {
-      "id": "Kg7pI2Ecb4ohyNwQgr0e",
-      "name": "",
-      "rep": "Gabriel Giordano",
-      "loanAmount": 324903,
-      "loanType": "Fix & Flip",
-      "stage": "Wire Received",
-      "closedAt": "2026-06-16T23:45:34.382Z"
-    },
-    {
-      "id": "uS2wYApQoPi96fwBu5hf",
-      "name": "",
-      "rep": "Bailey Girouard",
-      "loanAmount": 327247,
-      "loanType": "Fix & Flip",
-      "stage": "Wire Received",
-      "closedAt": "2026-06-16T23:45:08.271Z"
     }
   ]
 }
