@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T19:20:31.876Z",
+  "updatedAt": "2026-06-24T21:02:10.587Z",
   "year": 2026,
   "monthLabel": "June 2026",
   "monthPrefix": "2026-06",
@@ -206,12 +206,12 @@
     {
       "name": "Jason Weber",
       "year": {
-        "loanAmount": 936775,
-        "loans": 6
+        "loanAmount": 1318775,
+        "loans": 7
       },
       "month": {
-        "loanAmount": 936775,
-        "loans": 6
+        "loanAmount": 1318775,
+        "loans": 7
       }
     },
     {
@@ -351,12 +351,12 @@
     {
       "name": "Josh Papazis",
       "year": {
-        "loanAmount": 215910,
-        "loans": 1
+        "loanAmount": 597910,
+        "loans": 2
       },
       "month": {
-        "loanAmount": 215910,
-        "loans": 1
+        "loanAmount": 597910,
+        "loans": 2
       }
     },
     {
@@ -428,6 +428,15 @@
   ],
   "latest": [
     {
+      "id": "0X09s0AZwYk01U9ejMLK",
+      "name": "",
+      "rep": "Jason Weber",
+      "loanAmount": 382000,
+      "loanType": "Fix & Flip",
+      "stage": "Closed",
+      "closedAt": "2026-06-24T19:28:10.358Z"
+    },
+    {
       "id": "5LuBGmv6JLN4uIFJZNGB",
       "name": "",
       "rep": "Trey Victor",
@@ -489,24 +498,6 @@
       "loanType": "DSCR - Purchase",
       "stage": "Wire Received",
       "closedAt": "2026-06-18T18:54:54.859Z"
-    },
-    {
-      "id": "u3gL13TDy94kg8CsrvwV",
-      "name": "",
-      "rep": "Trey Victor",
-      "loanAmount": 206250,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-06-17T20:40:26.111Z"
-    },
-    {
-      "id": "KVSnS3PHu6pwpMLX2j34",
-      "name": "",
-      "rep": "Trey Victor",
-      "loanAmount": 206250,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-06-17T20:40:20.397Z"
     }
   ]
 }
