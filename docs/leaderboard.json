@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T18:24:23.582Z",
+  "updatedAt": "2026-06-25T20:29:05.709Z",
   "year": 2026,
   "monthLabel": "June 2026",
   "monthPrefix": "2026-06",
@@ -572,24 +572,6 @@
       "loanType": "Ground Up Construction",
       "stage": "Closed",
       "closedAt": "2026-06-19T17:50:44.585Z"
-    },
-    {
-      "id": "LwZiJt07OGWsGG7KHoLl",
-      "name": "",
-      "rep": "Nicole Lavau",
-      "loanAmount": 165500,
-      "loanType": "Fix & Flip",
-      "stage": "Wire Received",
-      "closedAt": "2026-06-18T18:55:25.231Z"
-    },
-    {
-      "id": "VlDfAk4H1Uy5xTCnVzcy",
-      "name": "",
-      "rep": "Nicole Lavau",
-      "loanAmount": 156000,
-      "loanType": "DSCR - Purchase",
-      "stage": "Wire Received",
-      "closedAt": "2026-06-18T18:54:54.859Z"
     }
   ]
 }
