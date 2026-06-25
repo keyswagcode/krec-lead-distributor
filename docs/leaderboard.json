@@ -1,10 +1,21 @@
 {
-  "updatedAt": "2026-06-25T13:37:48.144Z",
+  "updatedAt": "2026-06-25T16:08:24.245Z",
   "year": 2026,
   "monthLabel": "June 2026",
   "monthPrefix": "2026-06",
   "definition": "Loan Pipeline opportunities in Closed or Wire Received stage. loanAmount = 'Loan Amount' custom field (principal); loans = count. AEs = assignedTo; processors = opportunity followers. (Commission/value intentionally excluded.)",
   "reps": [
+    {
+      "name": "Nicole Lavau",
+      "year": {
+        "loanAmount": 14491338,
+        "loans": 23
+      },
+      "month": {
+        "loanAmount": 12802688,
+        "loans": 19
+      }
+    },
     {
       "name": "Trey Victor",
       "year": {
@@ -102,17 +113,6 @@
       "month": {
         "loanAmount": 3239550,
         "loans": 11
-      }
-    },
-    {
-      "name": "Nicole Lavau",
-      "year": {
-        "loanAmount": 13378163,
-        "loans": 23
-      },
-      "month": {
-        "loanAmount": 9207013,
-        "loans": 15
       }
     },
     {
@@ -296,12 +296,12 @@
     {
       "name": "Daisy Mondragon",
       "year": {
-        "loanAmount": 36314509,
-        "loans": 115
+        "loanAmount": 37840934,
+        "loans": 116
       },
       "month": {
-        "loanAmount": 31369187,
-        "loans": 103
+        "loanAmount": 33416112,
+        "loans": 105
       }
     },
     {
@@ -373,12 +373,12 @@
     {
       "name": "Adam Epperson",
       "year": {
-        "loanAmount": 4806770,
-        "loans": 17
+        "loanAmount": 5014770,
+        "loans": 18
       },
       "month": {
-        "loanAmount": 4806770,
-        "loans": 17
+        "loanAmount": 5014770,
+        "loans": 18
       }
     },
     {
@@ -438,6 +438,42 @@
     }
   ],
   "latest": [
+    {
+      "id": "NnHohnucGCeTNr7vlViw",
+      "name": "",
+      "rep": "Nicole Lavau",
+      "loanAmount": 1340750,
+      "loanType": "Fix & Flip",
+      "stage": "Wire Received",
+      "closedAt": "2026-06-25T15:21:28.879Z"
+    },
+    {
+      "id": "2Iawo3FieCrjiZjn1c2R",
+      "name": "",
+      "rep": "Nicole Lavau",
+      "loanAmount": 1498925,
+      "loanType": "Fix & Flip",
+      "stage": "Wire Received",
+      "closedAt": "2026-06-25T14:19:19.788Z"
+    },
+    {
+      "id": "1LdB5ohvY6jy9TYvSaTw",
+      "name": "",
+      "rep": "Nicole Lavau",
+      "loanAmount": 548000,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-06-25T14:13:59.514Z"
+    },
+    {
+      "id": "Xhn2uqDkWrbKCk5EqdFe",
+      "name": "",
+      "rep": "Nicole Lavau",
+      "loanAmount": 208000,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-06-25T14:11:39.511Z"
+    },
     {
       "id": "nOYRaEvh7heyRkr9a6mP",
       "name": "",
