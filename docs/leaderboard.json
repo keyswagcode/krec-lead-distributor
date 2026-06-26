@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T22:50:35.032Z",
+  "updatedAt": "2026-06-26T23:50:58.742Z",
   "year": 2026,
   "monthLabel": "June 2026",
   "monthPrefix": "2026-06",
@@ -14,17 +14,6 @@
       "month": {
         "loanAmount": 12802688,
         "loans": 19
-      }
-    },
-    {
-      "name": "Trey Victor",
-      "year": {
-        "loanAmount": 7231710,
-        "loans": 30
-      },
-      "month": {
-        "loanAmount": 4935688,
-        "loans": 22
       }
     },
     {
@@ -58,6 +47,17 @@
       "month": {
         "loanAmount": 7346664,
         "loans": 32
+      }
+    },
+    {
+      "name": "Trey Victor",
+      "year": {
+        "loanAmount": 4379224,
+        "loans": 19
+      },
+      "month": {
+        "loanAmount": 4172974,
+        "loans": 18
       }
     },
     {
@@ -272,17 +272,6 @@
   ],
   "processors": [
     {
-      "name": "Nicole Lavau",
-      "year": {
-        "loanAmount": 2564364,
-        "loans": 7
-      },
-      "month": {
-        "loanAmount": 1528364,
-        "loans": 6
-      }
-    },
-    {
       "name": "Lindsay Milano",
       "year": {
         "loanAmount": 6583439,
@@ -296,8 +285,8 @@
     {
       "name": "Daisy Mondragon",
       "year": {
-        "loanAmount": 37840934,
-        "loans": 116
+        "loanAmount": 37066584,
+        "loans": 114
       },
       "month": {
         "loanAmount": 33416112,
@@ -307,8 +296,8 @@
     {
       "name": "Daniel Frank",
       "year": {
-        "loanAmount": 763458,
-        "loans": 5
+        "loanAmount": 660229,
+        "loans": 4
       },
       "month": {
         "loanAmount": 660229,
@@ -323,6 +312,17 @@
       },
       "month": {
         "loanAmount": 1553606,
+        "loans": 5
+      }
+    },
+    {
+      "name": "Nicole Lavau",
+      "year": {
+        "loanAmount": 2381007,
+        "loans": 6
+      },
+      "month": {
+        "loanAmount": 1345007,
         "loans": 5
       }
     },
@@ -439,6 +439,15 @@
   ],
   "latest": [
     {
+      "id": "9pkwHemZFcYTMCxbVqbj",
+      "name": "",
+      "rep": "Bailey Girouard",
+      "loanAmount": 160000,
+      "loanType": "DSCR - R/T",
+      "stage": "Wire Received",
+      "closedAt": "2026-06-26T23:48:52.971Z"
+    },
+    {
       "id": "ej9Ve1Y7iPLdWmI992L7",
       "name": "",
       "rep": "Ryan McCoy",
@@ -538,15 +547,6 @@
       "closedAt": "2026-06-24T22:53:57.551Z"
     },
     {
-      "id": "9pkwHemZFcYTMCxbVqbj",
-      "name": "",
-      "rep": "Bailey Girouard",
-      "loanAmount": 160000,
-      "loanType": "DSCR - R/T",
-      "stage": "Closed",
-      "closedAt": "2026-06-24T22:31:12.568Z"
-    },
-    {
       "id": "0X09s0AZwYk01U9ejMLK",
       "name": "",
       "rep": "Jason Weber",
@@ -554,33 +554,6 @@
       "loanType": "Fix & Flip",
       "stage": "Closed",
       "closedAt": "2026-06-24T19:28:10.358Z"
-    },
-    {
-      "id": "5LuBGmv6JLN4uIFJZNGB",
-      "name": "",
-      "rep": "Trey Victor",
-      "loanAmount": 189750,
-      "loanType": "DSCR - R/T",
-      "stage": "Wire Received",
-      "closedAt": "2026-06-24T01:01:51.828Z"
-    },
-    {
-      "id": "xubo3GghaTKmLvvBet8G",
-      "name": "",
-      "rep": "Trey Victor",
-      "loanAmount": 183357,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-06-24T00:09:13.701Z"
-    },
-    {
-      "id": "ozgeuUPMrjvnAzdqH6Nt",
-      "name": "",
-      "rep": "Trey Victor",
-      "loanAmount": 183357,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-06-24T00:03:06.490Z"
     },
     {
       "id": "LkiyelmH74zqizcHnxTh",
