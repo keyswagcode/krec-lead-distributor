@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T16:51:24.881Z",
+  "updatedAt": "2026-06-26T18:19:42.740Z",
   "year": 2026,
   "monthLabel": "June 2026",
   "monthPrefix": "2026-06",
@@ -439,6 +439,51 @@
   ],
   "latest": [
     {
+      "id": "ej9Ve1Y7iPLdWmI992L7",
+      "name": "",
+      "rep": "Ryan McCoy",
+      "loanAmount": 168000,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-06-26T16:52:33.973Z"
+    },
+    {
+      "id": "OQWE9Q8alWlDNpm6sc4y",
+      "name": "",
+      "rep": "Ryan McCoy",
+      "loanAmount": 450000,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-06-26T16:52:31.513Z"
+    },
+    {
+      "id": "95lLONvqzU02ZO1oMpYm",
+      "name": "",
+      "rep": "Ryan McCoy",
+      "loanAmount": 168000,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-06-26T16:52:29.276Z"
+    },
+    {
+      "id": "nOYRaEvh7heyRkr9a6mP",
+      "name": "",
+      "rep": "Seneca Schachter",
+      "loanAmount": 0,
+      "loanType": "DSCR - Purchase",
+      "stage": "Wire Received",
+      "closedAt": "2026-06-26T16:52:27.645Z"
+    },
+    {
+      "id": "jqeiRSwUYiEQSjWihO2P",
+      "name": "",
+      "rep": "Jason Weber",
+      "loanAmount": 300000,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-06-26T16:52:25.912Z"
+    },
+    {
       "id": "mFrAjXIOMxEULoAa56xz",
       "name": "",
       "rep": "Lindsay Milano",
@@ -484,15 +529,6 @@
       "closedAt": "2026-06-25T14:11:39.511Z"
     },
     {
-      "id": "nOYRaEvh7heyRkr9a6mP",
-      "name": "",
-      "rep": "Seneca Schachter",
-      "loanAmount": 0,
-      "loanType": "DSCR - Purchase",
-      "stage": "Closed",
-      "closedAt": "2026-06-24T22:54:12.873Z"
-    },
-    {
       "id": "clckzNgT9cctXfmLxFSx",
       "name": "",
       "rep": "Nicole Lavau",
@@ -500,24 +536,6 @@
       "loanType": "DSCR - C/O",
       "stage": "Wire Received",
       "closedAt": "2026-06-24T22:53:57.551Z"
-    },
-    {
-      "id": "ej9Ve1Y7iPLdWmI992L7",
-      "name": "",
-      "rep": "Ryan McCoy",
-      "loanAmount": 168000,
-      "loanType": "DSCR - C/O",
-      "stage": "Closed",
-      "closedAt": "2026-06-24T22:53:49.411Z"
-    },
-    {
-      "id": "95lLONvqzU02ZO1oMpYm",
-      "name": "",
-      "rep": "Ryan McCoy",
-      "loanAmount": 168000,
-      "loanType": "DSCR - C/O",
-      "stage": "Closed",
-      "closedAt": "2026-06-24T22:53:48.212Z"
     },
     {
       "id": "9pkwHemZFcYTMCxbVqbj",
@@ -572,15 +590,6 @@
       "loanType": "DSCR - Purchase",
       "stage": "Closed",
       "closedAt": "2026-06-22T16:56:49.032Z"
-    },
-    {
-      "id": "37dIIlp9zOmrVCY5IB5m",
-      "name": "",
-      "rep": "Jeremiah Ibrahim",
-      "loanAmount": 1908002,
-      "loanType": "Ground Up Construction",
-      "stage": "Closed",
-      "closedAt": "2026-06-19T17:50:44.585Z"
     }
   ]
 }
