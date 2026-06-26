@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T01:52:46.713Z",
+  "updatedAt": "2026-06-26T05:59:33.625Z",
   "year": 2026,
   "monthLabel": "June 2026",
   "monthPrefix": "2026-06",
@@ -261,12 +261,12 @@
     {
       "name": "Lindsay Milano",
       "year": {
-        "loanAmount": 2796300,
-        "loans": 6
+        "loanAmount": 3058800,
+        "loans": 7
       },
       "month": {
-        "loanAmount": 296000,
-        "loans": 1
+        "loanAmount": 558500,
+        "loans": 2
       }
     }
   ],
@@ -438,6 +438,15 @@
     }
   ],
   "latest": [
+    {
+      "id": "mFrAjXIOMxEULoAa56xz",
+      "name": "",
+      "rep": "Lindsay Milano",
+      "loanAmount": 262500,
+      "loanType": "DSCR - R/T",
+      "stage": "Closed",
+      "closedAt": "2026-06-26T01:56:05.645Z"
+    },
     {
       "id": "NnHohnucGCeTNr7vlViw",
       "name": "",
