@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T19:59:48.489Z",
+  "updatedAt": "2026-06-27T21:12:55.372Z",
   "year": 2026,
   "monthLabel": "June 2026",
   "monthPrefix": "2026-06",
@@ -443,7 +443,7 @@
       "name": "",
       "rep": "Bailey Girouard",
       "loanAmount": 160000,
-      "loanType": "DSCR - R/T",
+      "loanType": "DSCR - C/O",
       "stage": "Wire Received",
       "closedAt": "2026-06-26T23:48:52.971Z"
     },
