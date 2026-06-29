@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T16:10:04.148Z",
+  "updatedAt": "2026-06-29T18:22:32.971Z",
   "year": 2026,
   "monthLabel": "June 2026",
   "monthPrefix": "2026-06",
@@ -554,15 +554,6 @@
       "loanType": "Fix & Flip",
       "stage": "Closed",
       "closedAt": "2026-06-24T19:28:10.358Z"
-    },
-    {
-      "id": "LkiyelmH74zqizcHnxTh",
-      "name": "",
-      "rep": "Hazel Wilder",
-      "loanAmount": 412500,
-      "loanType": "DSCR - Purchase",
-      "stage": "Closed",
-      "closedAt": "2026-06-22T16:56:49.032Z"
     }
   ]
 }
