@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T20:19:27.750Z",
+  "updatedAt": "2026-06-29T21:47:45.949Z",
   "year": 2026,
   "monthLabel": "June 2026",
   "monthPrefix": "2026-06",
@@ -14,6 +14,17 @@
       "month": {
         "loanAmount": 12802688,
         "loans": 19
+      }
+    },
+    {
+      "name": "Samuel Vickrey",
+      "year": {
+        "loanAmount": 177300,
+        "loans": 2
+      },
+      "month": {
+        "loanAmount": 177300,
+        "loans": 2
       }
     },
     {
@@ -226,17 +237,6 @@
       }
     },
     {
-      "name": "Samuel Vickrey",
-      "year": {
-        "loanAmount": 76500,
-        "loans": 1
-      },
-      "month": {
-        "loanAmount": 76500,
-        "loans": 1
-      }
-    },
-    {
       "name": "Seneca Schachter",
       "year": {
         "loanAmount": 0,
@@ -271,6 +271,17 @@
     }
   ],
   "processors": [
+    {
+      "name": "Adam Epperson",
+      "year": {
+        "loanAmount": 5115570,
+        "loans": 19
+      },
+      "month": {
+        "loanAmount": 5115570,
+        "loans": 19
+      }
+    },
     {
       "name": "Lindsay Milano",
       "year": {
@@ -371,17 +382,6 @@
       }
     },
     {
-      "name": "Adam Epperson",
-      "year": {
-        "loanAmount": 5014770,
-        "loans": 18
-      },
-      "month": {
-        "loanAmount": 5014770,
-        "loans": 18
-      }
-    },
-    {
       "name": "Jillian Haines",
       "year": {
         "loanAmount": 4329891,
@@ -438,6 +438,15 @@
     }
   ],
   "latest": [
+    {
+      "id": "QLLDmgMpMv4a1KQMzQjc",
+      "name": "",
+      "rep": "Samuel Vickrey",
+      "loanAmount": 100800,
+      "loanType": "Fix & Flip",
+      "stage": "Closed",
+      "closedAt": "2026-06-29T21:00:10.370Z"
+    },
     {
       "id": "9pkwHemZFcYTMCxbVqbj",
       "name": "",
