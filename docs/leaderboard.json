@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T21:59:49.322Z",
+  "updatedAt": "2026-06-30T23:20:11.127Z",
   "year": 2026,
   "monthLabel": "June 2026",
   "monthPrefix": "2026-06",
@@ -74,12 +74,12 @@
     {
       "name": "Paulo Bermudez",
       "year": {
-        "loanAmount": 582634,
-        "loans": 2
+        "loanAmount": 953884,
+        "loans": 3
       },
       "month": {
-        "loanAmount": 291317,
-        "loans": 1
+        "loanAmount": 662567,
+        "loans": 2
       }
     },
     {
@@ -274,12 +274,12 @@
     {
       "name": "Adam Epperson",
       "year": {
-        "loanAmount": 5115570,
-        "loans": 19
+        "loanAmount": 5486820,
+        "loans": 20
       },
       "month": {
-        "loanAmount": 5115570,
-        "loans": 19
+        "loanAmount": 5486820,
+        "loans": 20
       }
     },
     {
@@ -438,6 +438,15 @@
     }
   ],
   "latest": [
+    {
+      "id": "kE5BEUN4BgudfQcgsxyr",
+      "name": "",
+      "rep": "Paulo Bermudez",
+      "loanAmount": 371250,
+      "loanType": "Bank Statement",
+      "stage": "Closed",
+      "closedAt": "2026-06-30T23:15:22.350Z"
+    },
     {
       "id": "m5C3EF6SzZIQI0VhtJkt",
       "name": "",
