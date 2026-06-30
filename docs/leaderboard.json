@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T20:30:32.076Z",
+  "updatedAt": "2026-06-30T21:59:49.322Z",
   "year": 2026,
   "monthLabel": "June 2026",
   "monthPrefix": "2026-06",
@@ -162,12 +162,12 @@
     {
       "name": "Luis Danny Franco",
       "year": {
-        "loanAmount": 1145496,
-        "loans": 7
+        "loanAmount": 2045496,
+        "loans": 8
       },
       "month": {
-        "loanAmount": 536900,
-        "loans": 3
+        "loanAmount": 1436900,
+        "loans": 4
       }
     },
     {
@@ -438,6 +438,15 @@
     }
   ],
   "latest": [
+    {
+      "id": "m5C3EF6SzZIQI0VhtJkt",
+      "name": "",
+      "rep": "Luis Danny Franco",
+      "loanAmount": 900000,
+      "loanType": "DSCR - C/O",
+      "stage": "Closed",
+      "closedAt": "2026-06-30T21:01:21.643Z"
+    },
     {
       "id": "E3lXjHmaUQN7SMprOwSy",
       "name": "",
