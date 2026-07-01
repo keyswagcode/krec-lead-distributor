@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-06-30T23:20:11.127Z",
+  "updatedAt": "2026-07-01T01:36:15.036Z",
   "year": 2026,
-  "monthLabel": "June 2026",
-  "monthPrefix": "2026-06",
+  "monthLabel": "July 2026",
+  "monthPrefix": "2026-07",
   "definition": "Loan Pipeline opportunities in Closed or Wire Received stage. loanAmount = 'Loan Amount' custom field (principal); loans = count. AEs = assignedTo; processors = opportunity followers. (Commission/value intentionally excluded.)",
   "reps": [
     {
@@ -12,8 +12,8 @@
         "loans": 23
       },
       "month": {
-        "loanAmount": 12802688,
-        "loans": 19
+        "loanAmount": 0,
+        "loans": 0
       }
     },
     {
@@ -23,8 +23,8 @@
         "loans": 2
       },
       "month": {
-        "loanAmount": 177300,
-        "loans": 2
+        "loanAmount": 0,
+        "loans": 0
       }
     },
     {
@@ -34,8 +34,8 @@
         "loans": 19
       },
       "month": {
-        "loanAmount": 2903688,
-        "loans": 17
+        "loanAmount": 0,
+        "loans": 0
       }
     },
     {
@@ -45,8 +45,8 @@
         "loans": 27
       },
       "month": {
-        "loanAmount": 4298160,
-        "loans": 19
+        "loanAmount": 0,
+        "loans": 0
       }
     },
     {
@@ -56,8 +56,8 @@
         "loans": 35
       },
       "month": {
-        "loanAmount": 7346664,
-        "loans": 32
+        "loanAmount": 0,
+        "loans": 0
       }
     },
     {
@@ -67,8 +67,8 @@
         "loans": 19
       },
       "month": {
-        "loanAmount": 4172974,
-        "loans": 18
+        "loanAmount": 0,
+        "loans": 0
       }
     },
     {
@@ -78,8 +78,8 @@
         "loans": 3
       },
       "month": {
-        "loanAmount": 662567,
-        "loans": 2
+        "loanAmount": 0,
+        "loans": 0
       }
     },
     {
@@ -89,8 +89,8 @@
         "loans": 13
       },
       "month": {
-        "loanAmount": 1764200,
-        "loans": 10
+        "loanAmount": 0,
+        "loans": 0
       }
     },
     {
@@ -100,8 +100,8 @@
         "loans": 15
       },
       "month": {
-        "loanAmount": 6819834,
-        "loans": 15
+        "loanAmount": 0,
+        "loans": 0
       }
     },
     {
@@ -111,8 +111,8 @@
         "loans": 19
       },
       "month": {
-        "loanAmount": 5959562,
-        "loans": 14
+        "loanAmount": 0,
+        "loans": 0
       }
     },
     {
@@ -122,8 +122,8 @@
         "loans": 16
       },
       "month": {
-        "loanAmount": 3239550,
-        "loans": 11
+        "loanAmount": 0,
+        "loans": 0
       }
     },
     {
@@ -133,8 +133,8 @@
         "loans": 1
       },
       "month": {
-        "loanAmount": 147098,
-        "loans": 1
+        "loanAmount": 0,
+        "loans": 0
       }
     },
     {
@@ -144,8 +144,8 @@
         "loans": 16
       },
       "month": {
-        "loanAmount": 3045067,
-        "loans": 11
+        "loanAmount": 0,
+        "loans": 0
       }
     },
     {
@@ -155,8 +155,8 @@
         "loans": 3
       },
       "month": {
-        "loanAmount": 407909,
-        "loans": 2
+        "loanAmount": 0,
+        "loans": 0
       }
     },
     {
@@ -166,8 +166,8 @@
         "loans": 8
       },
       "month": {
-        "loanAmount": 1436900,
-        "loans": 4
+        "loanAmount": 0,
+        "loans": 0
       }
     },
     {
@@ -177,8 +177,8 @@
         "loans": 10
       },
       "month": {
-        "loanAmount": 1321000,
-        "loans": 7
+        "loanAmount": 0,
+        "loans": 0
       }
     },
     {
@@ -188,8 +188,8 @@
         "loans": 9
       },
       "month": {
-        "loanAmount": 4386720,
-        "loans": 9
+        "loanAmount": 0,
+        "loans": 0
       }
     },
     {
@@ -199,8 +199,8 @@
         "loans": 2
       },
       "month": {
-        "loanAmount": 649806,
-        "loans": 2
+        "loanAmount": 0,
+        "loans": 0
       }
     },
     {
@@ -210,8 +210,8 @@
         "loans": 6
       },
       "month": {
-        "loanAmount": 2449650,
-        "loans": 6
+        "loanAmount": 0,
+        "loans": 0
       }
     },
     {
@@ -221,8 +221,8 @@
         "loans": 7
       },
       "month": {
-        "loanAmount": 1318775,
-        "loans": 7
+        "loanAmount": 0,
+        "loans": 0
       }
     },
     {
@@ -232,8 +232,8 @@
         "loans": 7
       },
       "month": {
-        "loanAmount": 1578300,
-        "loans": 7
+        "loanAmount": 0,
+        "loans": 0
       }
     },
     {
@@ -244,7 +244,7 @@
       },
       "month": {
         "loanAmount": 0,
-        "loans": 1
+        "loans": 0
       }
     },
     {
@@ -255,7 +255,7 @@
       },
       "month": {
         "loanAmount": 0,
-        "loans": 1
+        "loans": 0
       }
     },
     {
@@ -265,8 +265,8 @@
         "loans": 7
       },
       "month": {
-        "loanAmount": 558500,
-        "loans": 2
+        "loanAmount": 0,
+        "loans": 0
       }
     }
   ],
@@ -278,8 +278,8 @@
         "loans": 20
       },
       "month": {
-        "loanAmount": 5486820,
-        "loans": 20
+        "loanAmount": 0,
+        "loans": 0
       }
     },
     {
@@ -289,8 +289,8 @@
         "loans": 30
       },
       "month": {
-        "loanAmount": 5873439,
-        "loans": 28
+        "loanAmount": 0,
+        "loans": 0
       }
     },
     {
@@ -300,8 +300,8 @@
         "loans": 114
       },
       "month": {
-        "loanAmount": 33416112,
-        "loans": 105
+        "loanAmount": 0,
+        "loans": 0
       }
     },
     {
@@ -311,8 +311,8 @@
         "loans": 4
       },
       "month": {
-        "loanAmount": 660229,
-        "loans": 4
+        "loanAmount": 0,
+        "loans": 0
       }
     },
     {
@@ -322,8 +322,8 @@
         "loans": 5
       },
       "month": {
-        "loanAmount": 1553606,
-        "loans": 5
+        "loanAmount": 0,
+        "loans": 0
       }
     },
     {
@@ -333,8 +333,8 @@
         "loans": 6
       },
       "month": {
-        "loanAmount": 1345007,
-        "loans": 5
+        "loanAmount": 0,
+        "loans": 0
       }
     },
     {
@@ -344,8 +344,8 @@
         "loans": 1
       },
       "month": {
-        "loanAmount": 186900,
-        "loans": 1
+        "loanAmount": 0,
+        "loans": 0
       }
     },
     {
@@ -355,8 +355,8 @@
         "loans": 37
       },
       "month": {
-        "loanAmount": 10628570,
-        "loans": 35
+        "loanAmount": 0,
+        "loans": 0
       }
     },
     {
@@ -366,8 +366,8 @@
         "loans": 5
       },
       "month": {
-        "loanAmount": 3410963,
-        "loans": 5
+        "loanAmount": 0,
+        "loans": 0
       }
     },
     {
@@ -377,8 +377,8 @@
         "loans": 2
       },
       "month": {
-        "loanAmount": 597910,
-        "loans": 2
+        "loanAmount": 0,
+        "loans": 0
       }
     },
     {
@@ -388,8 +388,8 @@
         "loans": 3
       },
       "month": {
-        "loanAmount": 3345358,
-        "loans": 2
+        "loanAmount": 0,
+        "loans": 0
       }
     },
     {
@@ -399,8 +399,8 @@
         "loans": 1
       },
       "month": {
-        "loanAmount": 202500,
-        "loans": 1
+        "loanAmount": 0,
+        "loans": 0
       }
     },
     {
@@ -411,7 +411,7 @@
       },
       "month": {
         "loanAmount": 0,
-        "loans": 1
+        "loans": 0
       }
     },
     {
