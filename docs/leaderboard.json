@@ -1,10 +1,21 @@
 {
-  "updatedAt": "2026-07-01T17:31:51.426Z",
+  "updatedAt": "2026-07-01T19:21:01.215Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
   "definition": "Loan Pipeline opportunities in Closed or Wire Received stage. loanAmount = 'Loan Amount' custom field (principal); loans = count. AEs = assignedTo; processors = opportunity followers. (Commission/value intentionally excluded.)",
   "reps": [
+    {
+      "name": "Todd Eliasen",
+      "year": {
+        "loanAmount": 618796,
+        "loans": 4
+      },
+      "month": {
+        "loanAmount": 29940,
+        "loans": 1
+      }
+    },
     {
       "name": "Lindsay Milano",
       "year": {
@@ -160,17 +171,6 @@
       }
     },
     {
-      "name": "Todd Eliasen",
-      "year": {
-        "loanAmount": 588856,
-        "loans": 3
-      },
-      "month": {
-        "loanAmount": 0,
-        "loans": 0
-      }
-    },
-    {
       "name": "Luis Danny Franco",
       "year": {
         "loanAmount": 2045496,
@@ -272,6 +272,17 @@
   ],
   "processors": [
     {
+      "name": "Daisy Mondragon",
+      "year": {
+        "loanAmount": 37096524,
+        "loans": 115
+      },
+      "month": {
+        "loanAmount": 29940,
+        "loans": 1
+      }
+    },
+    {
       "name": "Adam Epperson",
       "year": {
         "loanAmount": 5486820,
@@ -287,17 +298,6 @@
       "year": {
         "loanAmount": 6583439,
         "loans": 30
-      },
-      "month": {
-        "loanAmount": 0,
-        "loans": 0
-      }
-    },
-    {
-      "name": "Daisy Mondragon",
-      "year": {
-        "loanAmount": 37066584,
-        "loans": 114
       },
       "month": {
         "loanAmount": 0,
@@ -438,6 +438,15 @@
     }
   ],
   "latest": [
+    {
+      "id": "aNgKDQvMN0YaKGGdDz5p",
+      "name": "",
+      "rep": "Todd Eliasen",
+      "loanAmount": 29940,
+      "loanType": "Bridge",
+      "stage": "Closed",
+      "closedAt": "2026-07-01T17:42:59.430Z"
+    },
     {
       "id": "ZWI4hVaKOWoIe6G3ji7G",
       "name": "",
