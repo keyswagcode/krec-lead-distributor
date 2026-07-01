@@ -1,10 +1,21 @@
 {
-  "updatedAt": "2026-07-01T15:32:21.911Z",
+  "updatedAt": "2026-07-01T17:31:51.426Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
   "definition": "Loan Pipeline opportunities in Closed or Wire Received stage. loanAmount = 'Loan Amount' custom field (principal); loans = count. AEs = assignedTo; processors = opportunity followers. (Commission/value intentionally excluded.)",
   "reps": [
+    {
+      "name": "Lindsay Milano",
+      "year": {
+        "loanAmount": 11810100,
+        "loans": 9
+      },
+      "month": {
+        "loanAmount": 9013800,
+        "loans": 3
+      }
+    },
     {
       "name": "Nicole Lavau",
       "year": {
@@ -94,7 +105,7 @@
       }
     },
     {
-      "name": "Frank Estrada",
+      "name": "Frankie Estrada",
       "year": {
         "loanAmount": 6819834,
         "loans": 15
@@ -257,17 +268,6 @@
         "loanAmount": 0,
         "loans": 0
       }
-    },
-    {
-      "name": "Lindsay Milano",
-      "year": {
-        "loanAmount": 3058800,
-        "loans": 7
-      },
-      "month": {
-        "loanAmount": 0,
-        "loans": 0
-      }
     }
   ],
   "processors": [
@@ -384,16 +384,16 @@
     {
       "name": "Jillian Haines",
       "year": {
-        "loanAmount": 4329891,
-        "loans": 3
+        "loanAmount": 5342391,
+        "loans": 4
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 1012500,
+        "loans": 1
       }
     },
     {
-      "name": "Frank Estrada",
+      "name": "Frankie Estrada",
       "year": {
         "loanAmount": 202500,
         "loans": 1
@@ -438,6 +438,33 @@
     }
   ],
   "latest": [
+    {
+      "id": "ZWI4hVaKOWoIe6G3ji7G",
+      "name": "",
+      "rep": "Lindsay Milano",
+      "loanAmount": 1012500,
+      "loanType": "Bank Statement",
+      "stage": "Wire Received",
+      "closedAt": "2026-07-01T17:18:45.568Z"
+    },
+    {
+      "id": "mFrAjXIOMxEULoAa56xz",
+      "name": "",
+      "rep": "Lindsay Milano",
+      "loanAmount": 262500,
+      "loanType": "DSCR - R/T",
+      "stage": "Wire Received",
+      "closedAt": "2026-07-01T17:18:42.512Z"
+    },
+    {
+      "id": "2Kvl6ARI6ayz9lVhGzJB",
+      "name": "",
+      "rep": "Lindsay Milano",
+      "loanAmount": 7738800,
+      "loanType": "DSCR - R/T",
+      "stage": "Closed",
+      "closedAt": "2026-07-01T17:18:23.536Z"
+    },
     {
       "id": "kE5BEUN4BgudfQcgsxyr",
       "name": "",
@@ -545,15 +572,6 @@
       "loanType": "DSCR - C/O",
       "stage": "Wire Received",
       "closedAt": "2026-06-26T16:52:25.912Z"
-    },
-    {
-      "id": "mFrAjXIOMxEULoAa56xz",
-      "name": "",
-      "rep": "Lindsay Milano",
-      "loanAmount": 262500,
-      "loanType": "DSCR - R/T",
-      "stage": "Closed",
-      "closedAt": "2026-06-26T01:56:05.645Z"
     },
     {
       "id": "NnHohnucGCeTNr7vlViw",
