@@ -1,10 +1,21 @@
 {
-  "updatedAt": "2026-07-01T19:21:01.215Z",
+  "updatedAt": "2026-07-01T20:58:24.031Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
   "definition": "Loan Pipeline opportunities in Closed or Wire Received stage. loanAmount = 'Loan Amount' custom field (principal); loans = count. AEs = assignedTo; processors = opportunity followers. (Commission/value intentionally excluded.)",
   "reps": [
+    {
+      "name": "Luis Danny Franco",
+      "year": {
+        "loanAmount": 2019915,
+        "loans": 8
+      },
+      "month": {
+        "loanAmount": 324419,
+        "loans": 1
+      }
+    },
     {
       "name": "Todd Eliasen",
       "year": {
@@ -171,17 +182,6 @@
       }
     },
     {
-      "name": "Luis Danny Franco",
-      "year": {
-        "loanAmount": 2045496,
-        "loans": 8
-      },
-      "month": {
-        "loanAmount": 0,
-        "loans": 0
-      }
-    },
-    {
       "name": "Christopher LaFlesh",
       "year": {
         "loanAmount": 2029150,
@@ -271,6 +271,17 @@
     }
   ],
   "processors": [
+    {
+      "name": "Keyan Chang",
+      "year": {
+        "loanAmount": 1360419,
+        "loans": 2
+      },
+      "month": {
+        "loanAmount": 324419,
+        "loans": 1
+      }
+    },
     {
       "name": "Daisy Mondragon",
       "year": {
@@ -415,17 +426,6 @@
       }
     },
     {
-      "name": "Keyan Chang",
-      "year": {
-        "loanAmount": 1036000,
-        "loans": 1
-      },
-      "month": {
-        "loanAmount": 0,
-        "loans": 0
-      }
-    },
-    {
       "name": "Ankit Nayak",
       "year": {
         "loanAmount": 0,
@@ -438,6 +438,15 @@
     }
   ],
   "latest": [
+    {
+      "id": "UJvEbYE9etUvgpnZcIPQ",
+      "name": "",
+      "rep": "Luis Danny Franco",
+      "loanAmount": 324419,
+      "loanType": "",
+      "stage": "Closed",
+      "closedAt": "2026-07-01T20:44:48.965Z"
+    },
     {
       "id": "aNgKDQvMN0YaKGGdDz5p",
       "name": "",
@@ -626,15 +635,6 @@
       "loanType": "DSCR - C/O",
       "stage": "Wire Received",
       "closedAt": "2026-06-24T22:53:57.551Z"
-    },
-    {
-      "id": "0X09s0AZwYk01U9ejMLK",
-      "name": "",
-      "rep": "Jason Weber",
-      "loanAmount": 382000,
-      "loanType": "Fix & Flip",
-      "stage": "Closed",
-      "closedAt": "2026-06-24T19:28:10.358Z"
     }
   ]
 }
