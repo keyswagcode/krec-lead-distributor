@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T15:30:19.199Z",
+  "updatedAt": "2026-07-02T17:13:08.154Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
@@ -118,12 +118,12 @@
     {
       "name": "Raj Vora",
       "year": {
-        "loanAmount": 3434828,
-        "loans": 15
+        "loanAmount": 3806828,
+        "loans": 17
       },
       "month": {
-        "loanAmount": 372000,
-        "loans": 2
+        "loanAmount": 744000,
+        "loans": 4
       }
     },
     {
@@ -248,6 +248,17 @@
       }
     },
     {
+      "name": "Brendon Dragon",
+      "year": {
+        "loanAmount": 487500,
+        "loans": 1
+      },
+      "month": {
+        "loanAmount": 487500,
+        "loans": 1
+      }
+    },
+    {
       "name": "Seneca Schachter",
       "year": {
         "loanAmount": 0,
@@ -285,12 +296,12 @@
     {
       "name": "Daisy Mondragon",
       "year": {
-        "loanAmount": 37468524,
-        "loans": 117
+        "loanAmount": 39228024,
+        "loans": 121
       },
       "month": {
-        "loanAmount": 401940,
-        "loans": 3
+        "loanAmount": 1261440,
+        "loans": 6
       }
     },
     {
@@ -438,6 +449,33 @@
     }
   ],
   "latest": [
+    {
+      "id": "Sej61Dy38pAs8ghPpvmf",
+      "name": "",
+      "rep": "Brendon Dragon",
+      "loanAmount": 487500,
+      "loanType": "DSCR - C/O",
+      "stage": "Closed",
+      "closedAt": "2026-07-02T15:45:52.534Z"
+    },
+    {
+      "id": "xdqGzXIRmowJXKGG4NFo",
+      "name": "",
+      "rep": "Raj Vora",
+      "loanAmount": 186750,
+      "loanType": "DSCR - C/O",
+      "stage": "Closed",
+      "closedAt": "2026-07-02T15:40:54.663Z"
+    },
+    {
+      "id": "8qKOhmRlydPghT9dMxvV",
+      "name": "",
+      "rep": "Raj Vora",
+      "loanAmount": 185250,
+      "loanType": "DSCR - C/O",
+      "stage": "Closed",
+      "closedAt": "2026-07-02T15:40:51.218Z"
+    },
     {
       "id": "l5v9q9Ok85IfL9cefxl3",
       "name": "",
