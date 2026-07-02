@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T22:41:12.661Z",
+  "updatedAt": "2026-07-02T23:45:03.375Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
@@ -56,19 +56,19 @@
         "loans": 2
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 100800,
+        "loans": 1
       }
     },
     {
       "name": "Hazel Wilder",
       "year": {
-        "loanAmount": 3055938,
-        "loans": 19
+        "loanAmount": 3459688,
+        "loans": 20
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 403750,
+        "loans": 1
       }
     },
     {
@@ -228,12 +228,12 @@
     {
       "name": "Jason Weber",
       "year": {
-        "loanAmount": 1318775,
-        "loans": 7
+        "loanAmount": 1427275,
+        "loans": 8
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 108500,
+        "loans": 1
       }
     },
     {
@@ -307,12 +307,12 @@
     {
       "name": "Adam Epperson",
       "year": {
-        "loanAmount": 5486820,
-        "loans": 20
+        "loanAmount": 5999070,
+        "loans": 22
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 613050,
+        "loans": 3
       }
     },
     {
@@ -395,12 +395,12 @@
     {
       "name": "Josh Papazis",
       "year": {
-        "loanAmount": 597910,
-        "loans": 2
+        "loanAmount": 706410,
+        "loans": 3
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 108500,
+        "loans": 1
       }
     },
     {
@@ -449,6 +449,33 @@
     }
   ],
   "latest": [
+    {
+      "id": "QLLDmgMpMv4a1KQMzQjc",
+      "name": "",
+      "rep": "Samuel Vickrey",
+      "loanAmount": 100800,
+      "loanType": "Fix & Flip",
+      "stage": "Wire Received",
+      "closedAt": "2026-07-02T23:14:20.679Z"
+    },
+    {
+      "id": "KudFlgKVibe89zB6sgmM",
+      "name": "",
+      "rep": "Hazel Wilder",
+      "loanAmount": 403750,
+      "loanType": "DSCR - Purchase",
+      "stage": "Closed",
+      "closedAt": "2026-07-02T23:14:15.460Z"
+    },
+    {
+      "id": "aPxesS33Tdh31CQLcq4k",
+      "name": "",
+      "rep": "Jason Weber",
+      "loanAmount": 108500,
+      "loanType": "DSCR - C/O",
+      "stage": "Closed",
+      "closedAt": "2026-07-02T23:14:13.209Z"
+    },
     {
       "id": "Sej61Dy38pAs8ghPpvmf",
       "name": "",
@@ -583,15 +610,6 @@
       "loanType": "DSCR - R/T",
       "stage": "Wire Received",
       "closedAt": "2026-06-30T18:29:45.116Z"
-    },
-    {
-      "id": "QLLDmgMpMv4a1KQMzQjc",
-      "name": "",
-      "rep": "Samuel Vickrey",
-      "loanAmount": 100800,
-      "loanType": "Fix & Flip",
-      "stage": "Closed",
-      "closedAt": "2026-06-29T21:00:10.370Z"
     },
     {
       "id": "9pkwHemZFcYTMCxbVqbj",
