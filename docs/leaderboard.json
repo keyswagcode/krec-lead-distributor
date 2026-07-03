@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T23:45:03.375Z",
+  "updatedAt": "2026-07-03T01:19:31.135Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
@@ -418,6 +418,17 @@
       "name": "Frankie Estrada",
       "year": {
         "loanAmount": 202500,
+        "loans": 1
+      },
+      "month": {
+        "loanAmount": 0,
+        "loans": 0
+      }
+    },
+    {
+      "name": "Trey Victor",
+      "year": {
+        "loanAmount": 165000,
         "loans": 1
       },
       "month": {
