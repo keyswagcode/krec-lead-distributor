@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T22:46:13.755Z",
+  "updatedAt": "2026-07-03T23:47:36.000Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
@@ -217,12 +217,12 @@
     {
       "name": "Mathieu StGermain",
       "year": {
-        "loanAmount": 2449650,
-        "loans": 6
+        "loanAmount": 2794650,
+        "loans": 7
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 345000,
+        "loans": 1
       }
     },
     {
@@ -373,12 +373,12 @@
     {
       "name": "Brandi Smith",
       "year": {
-        "loanAmount": 11174720,
-        "loans": 37
+        "loanAmount": 11519720,
+        "loans": 38
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 345000,
+        "loans": 1
       }
     },
     {
@@ -460,6 +460,15 @@
     }
   ],
   "latest": [
+    {
+      "id": "PkMVrDegwML2xsKlU9av",
+      "name": "",
+      "rep": "Mathieu StGermain",
+      "loanAmount": 345000,
+      "loanType": "DSCR - C/O",
+      "stage": "Closed",
+      "closedAt": "2026-07-03T23:35:35.466Z"
+    },
     {
       "id": "QLLDmgMpMv4a1KQMzQjc",
       "name": "",
