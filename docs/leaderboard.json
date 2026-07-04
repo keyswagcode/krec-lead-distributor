@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T23:47:36.000Z",
+  "updatedAt": "2026-07-04T01:20:55.228Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
@@ -630,15 +630,6 @@
       "loanType": "DSCR - R/T",
       "stage": "Wire Received",
       "closedAt": "2026-06-30T18:29:45.116Z"
-    },
-    {
-      "id": "9pkwHemZFcYTMCxbVqbj",
-      "name": "",
-      "rep": "Bailey Girouard",
-      "loanAmount": 160000,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-06-26T23:48:52.971Z"
     }
   ]
 }
