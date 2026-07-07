@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T22:44:43.444Z",
+  "updatedAt": "2026-07-07T23:39:11.028Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
@@ -594,15 +594,6 @@
       "loanType": "DSCR - R/T",
       "stage": "Closed",
       "closedAt": "2026-07-01T17:18:23.536Z"
-    },
-    {
-      "id": "kE5BEUN4BgudfQcgsxyr",
-      "name": "",
-      "rep": "Paulo Bermudez",
-      "loanAmount": 371250,
-      "loanType": "Bank Statement",
-      "stage": "Closed",
-      "closedAt": "2026-06-30T23:15:22.350Z"
     }
   ]
 }
