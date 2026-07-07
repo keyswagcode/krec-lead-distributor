@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T23:05:34.440Z",
+  "updatedAt": "2026-07-07T00:18:21.849Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
@@ -217,12 +217,12 @@
     {
       "name": "Mathieu StGermain",
       "year": {
-        "loanAmount": 2794650,
-        "loans": 7
+        "loanAmount": 3266650,
+        "loans": 8
       },
       "month": {
-        "loanAmount": 345000,
-        "loans": 1
+        "loanAmount": 817000,
+        "loans": 2
       }
     },
     {
@@ -406,12 +406,12 @@
     {
       "name": "Jillian Haines",
       "year": {
-        "loanAmount": 5342391,
-        "loans": 4
+        "loanAmount": 5814391,
+        "loans": 5
       },
       "month": {
-        "loanAmount": 1012500,
-        "loans": 1
+        "loanAmount": 1484500,
+        "loans": 2
       }
     },
     {
@@ -460,6 +460,15 @@
     }
   ],
   "latest": [
+    {
+      "id": "VrozRLo4817vn7KFco7M",
+      "name": "",
+      "rep": "Mathieu StGermain",
+      "loanAmount": 472000,
+      "loanType": "DSCR - Purchase",
+      "stage": "Closed",
+      "closedAt": "2026-07-07T00:14:27.015Z"
+    },
     {
       "id": "PkMVrDegwML2xsKlU9av",
       "name": "",
