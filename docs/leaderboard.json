@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-08T20:00:17.044Z",
+  "updatedAt": "2026-07-08T21:18:23.277Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
@@ -576,15 +576,6 @@
       "loanType": "DSCR - C/O",
       "stage": "Closed",
       "closedAt": "2026-07-02T15:09:56.790Z"
-    },
-    {
-      "id": "UJvEbYE9etUvgpnZcIPQ",
-      "name": "",
-      "rep": "Luis Danny Franco",
-      "loanAmount": 324419,
-      "loanType": "",
-      "stage": "Closed",
-      "closedAt": "2026-07-01T20:44:48.965Z"
     }
   ]
 }
