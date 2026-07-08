@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-08T16:59:38.714Z",
+  "updatedAt": "2026-07-08T18:23:26.370Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
@@ -558,42 +558,6 @@
       "loanType": "",
       "stage": "Closed",
       "closedAt": "2026-07-01T20:44:48.965Z"
-    },
-    {
-      "id": "aNgKDQvMN0YaKGGdDz5p",
-      "name": "",
-      "rep": "Todd Eliasen",
-      "loanAmount": 29940,
-      "loanType": "Bridge",
-      "stage": "Closed",
-      "closedAt": "2026-07-01T17:42:59.430Z"
-    },
-    {
-      "id": "ZWI4hVaKOWoIe6G3ji7G",
-      "name": "",
-      "rep": "Lindsay Milano",
-      "loanAmount": 1012500,
-      "loanType": "Bank Statement",
-      "stage": "Wire Received",
-      "closedAt": "2026-07-01T17:18:45.568Z"
-    },
-    {
-      "id": "mFrAjXIOMxEULoAa56xz",
-      "name": "",
-      "rep": "Lindsay Milano",
-      "loanAmount": 262500,
-      "loanType": "DSCR - R/T",
-      "stage": "Wire Received",
-      "closedAt": "2026-07-01T17:18:42.512Z"
-    },
-    {
-      "id": "2Kvl6ARI6ayz9lVhGzJB",
-      "name": "",
-      "rep": "Lindsay Milano",
-      "loanAmount": 7738800,
-      "loanType": "DSCR - R/T",
-      "stage": "Closed",
-      "closedAt": "2026-07-01T17:18:23.536Z"
     }
   ]
 }
