@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T14:10:53.914Z",
+  "updatedAt": "2026-07-09T16:40:19.412Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
@@ -540,51 +540,6 @@
       "loanType": "Fix & Flip",
       "stage": "Wire Received",
       "closedAt": "2026-07-02T23:14:20.679Z"
-    },
-    {
-      "id": "Sej61Dy38pAs8ghPpvmf",
-      "name": "",
-      "rep": "Brendon Dragon",
-      "loanAmount": 487500,
-      "loanType": "DSCR - C/O",
-      "stage": "Closed",
-      "closedAt": "2026-07-02T15:45:52.534Z"
-    },
-    {
-      "id": "xdqGzXIRmowJXKGG4NFo",
-      "name": "",
-      "rep": "Raj Vora",
-      "loanAmount": 186750,
-      "loanType": "DSCR - C/O",
-      "stage": "Closed",
-      "closedAt": "2026-07-02T15:40:54.663Z"
-    },
-    {
-      "id": "8qKOhmRlydPghT9dMxvV",
-      "name": "",
-      "rep": "Raj Vora",
-      "loanAmount": 185250,
-      "loanType": "DSCR - C/O",
-      "stage": "Closed",
-      "closedAt": "2026-07-02T15:40:51.218Z"
-    },
-    {
-      "id": "l5v9q9Ok85IfL9cefxl3",
-      "name": "",
-      "rep": "Raj Vora",
-      "loanAmount": 186750,
-      "loanType": "DSCR - C/O",
-      "stage": "Closed",
-      "closedAt": "2026-07-02T15:10:00.501Z"
-    },
-    {
-      "id": "KpeJSLkvIHhAZGw6MmEF",
-      "name": "",
-      "rep": "Raj Vora",
-      "loanAmount": 185250,
-      "loanType": "DSCR - C/O",
-      "stage": "Closed",
-      "closedAt": "2026-07-02T15:09:56.790Z"
     }
   ]
 }
