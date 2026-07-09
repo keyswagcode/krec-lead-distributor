@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T21:50:47.461Z",
+  "updatedAt": "2026-07-09T22:59:23.452Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
@@ -461,6 +461,15 @@
   ],
   "latest": [
     {
+      "id": "9l1Li83ftHC81LUbKMeW",
+      "name": "",
+      "rep": "Ryan McCoy",
+      "loanAmount": 217500,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-07-09T22:52:19.199Z"
+    },
+    {
       "id": "UIUeKgyWqSbJ0tEobg5z",
       "name": "",
       "rep": "Jeremiah Ibrahim",
@@ -504,15 +513,6 @@
       "loanType": "DSCR - Purchase",
       "stage": "Wire Received",
       "closedAt": "2026-07-08T19:37:56.126Z"
-    },
-    {
-      "id": "9l1Li83ftHC81LUbKMeW",
-      "name": "",
-      "rep": "Ryan McCoy",
-      "loanAmount": 217500,
-      "loanType": "DSCR - C/O",
-      "stage": "Closed",
-      "closedAt": "2026-07-08T19:37:52.923Z"
     },
     {
       "id": "VrozRLo4817vn7KFco7M",
