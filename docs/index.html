@@ -204,7 +204,7 @@ function render(){
   if(!data)return;
   (data.latest||[]).forEach(l=>{if(HIDE.has(l.rep))l.rep="KREC"});
   const reps=(data.reps||[]).filter(r=>!HIDE.has(r.name)).slice().sort((a,b)=>(b.year.loanAmount||0)-(a.year.loanAmount||0));
-  const board=reps.filter(r=>(r.year.loanAmount||0)>0||(r.year.loans||0)>0);
+  const board=reps.filter(r=>(r.year.loanAmount||0)>0);
   const totY=board.reduce((s,r)=>s+(r.year.loanAmount||0),0);
   const nY=board.reduce((s,r)=>s+(r.year.loans||0),0);
   const totM=board.reduce((s,r)=>s+(r.month.loanAmount||0),0);
@@ -241,7 +241,7 @@ function render(){
     </div>`}).join("");
   document.getElementById("pager").innerHTML=Array.from({length:pages},(_,i)=>`<div class="pip ${i===page?"on":""}"></div>`).join("");
 
-  const procs=(data.processors||[]).filter(p=>!HIDE.has(p.name)).slice().sort((a,b)=>(b.year.loans||0)-(a.year.loans||0)).filter(p=>(p.year.loans||0)>0).slice(0,6);
+  const procs=(data.processors||[]).filter(p=>!HIDE.has(p.name)).slice().sort((a,b)=>(b.year.loans||0)-(a.year.loans||0)).filter(p=>(p.year.loans||0)>0&&(p.year.loanAmount||0)>0).slice(0,6);
   const maxP=Math.max(1,...procs.map(p=>p.year.loans||0));
   document.getElementById("procRows").innerHTML=procs.map((p,i)=>`
     <div class="pitem">
