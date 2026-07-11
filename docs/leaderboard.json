@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T21:25:41.398Z",
+  "updatedAt": "2026-07-11T22:12:50.557Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
@@ -160,17 +160,6 @@
       }
     },
     {
-      "name": "Unassigned",
-      "year": {
-        "loanAmount": 147098,
-        "loans": 1
-      },
-      "month": {
-        "loanAmount": 0,
-        "loans": 0
-      }
-    },
-    {
       "name": "Emily Wencelblat",
       "year": {
         "loanAmount": 4775714,
@@ -268,31 +257,9 @@
         "loanAmount": 0,
         "loans": 0
       }
-    },
-    {
-      "name": "Keyan Chang",
-      "year": {
-        "loanAmount": 0,
-        "loans": 1
-      },
-      "month": {
-        "loanAmount": 0,
-        "loans": 0
-      }
     }
   ],
   "processors": [
-    {
-      "name": "Keyan Chang",
-      "year": {
-        "loanAmount": 1360419,
-        "loans": 2
-      },
-      "month": {
-        "loanAmount": 324419,
-        "loans": 1
-      }
-    },
     {
       "name": "Daisy Mondragon",
       "year": {
