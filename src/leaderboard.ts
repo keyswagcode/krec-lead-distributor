@@ -215,8 +215,11 @@ async function main() {
       year: round(v.year),
       month: round(v.month),
     }));
-  const repArr = toArr(reps);
-  const processorArr = toArr(processors);
+  /** Names hidden from the public board (owner/system buckets, not sales staff). */
+  const EXCLUDED_NAMES = new Set(["Keyan Chang", "Unassigned"]);
+  const repArr = toArr(reps).filter((r) => !EXCLUDED_NAMES.has(r.name));
+  const processorArr = toArr(processors).filter((p) => !EXCLUDED_NAMES.has(p.name));
+  for (const l of latest) if (EXCLUDED_NAMES.has(l.rep)) l.rep = "KREC";
 
   const payload = {
     updatedAt: new Date().toISOString(),
