@@ -1,279 +1,301 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>KREC — Closed-Loan Leaderboard</title>
-<meta name="robots" content="noindex,nofollow" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Key Loan Scoreboard</title>
+<meta name="robots" content="noindex,nofollow">
 <style>
-  :root { --bg:#0b1020; --card:#141b30; --line:#243049; --txt:#e8edf7; --muted:#8a96b3; --gold:#f5c542; --silver:#c7cfdc; --bronze:#cd8a52; --accent:#22d3ee; --green:#22c55e; }
-  * { box-sizing:border-box; }
-  html, body { height:100%; margin:0; }
-  body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; color:var(--txt); overflow:hidden; background:#070b16; }
+  /* ---- tokens: validated dark palette; gold = brand accent only ---- */
+  :root{
+    --surface:#101318; --panel:#171b22; --panel-2:#20252e; --line:#2b313c;
+    --ink:#ffffff; --ink-2:#c3c2b7; --ink-3:#828a96;
+    --data:#3987e5; --data-2:#199e70; --brand:#e9b83c; --good:#22c55e;
+    --gold:#e9b83c; --silver:#c7cfdc; --bronze:#cd8a52;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{background:var(--surface);color:var(--ink);overflow:hidden;cursor:none;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  .num{font-variant-numeric:tabular-nums;font-feature-settings:"tnum"}
 
-  /* ---- animated aurora background ---- */
-  .aurora { position:fixed; inset:-20%; z-index:0; filter:blur(70px); opacity:.55; }
-  .blob { position:absolute; width:46vw; height:46vw; border-radius:50%; }
-  .b1 { background:radial-gradient(circle, #1d4ed8 0%, transparent 65%); animation:drift1 26s ease-in-out infinite alternate; top:-6%; left:-4%; }
-  .b2 { background:radial-gradient(circle, #0e7490 0%, transparent 65%); animation:drift2 32s ease-in-out infinite alternate; bottom:-12%; right:-6%; }
-  .b3 { background:radial-gradient(circle, #6d28d9 0%, transparent 68%); animation:drift3 38s ease-in-out infinite alternate; top:38%; left:34%; width:34vw; height:34vw; opacity:.7; }
-  @keyframes drift1 { from{transform:translate(0,0) scale(1)} to{transform:translate(9vw,7vh) scale(1.18)} }
-  @keyframes drift2 { from{transform:translate(0,0) scale(1.1)} to{transform:translate(-8vw,-6vh) scale(.92)} }
-  @keyframes drift3 { from{transform:translate(0,0) rotate(0)} to{transform:translate(-6vw,8vh) rotate(40deg)} }
+  /* subtle ambient glow (kept from v1, dialed down) */
+  .aurora{position:fixed;inset:-25%;z-index:0;filter:blur(90px);opacity:.28;pointer-events:none}
+  .blob{position:absolute;width:44vw;height:44vw;border-radius:50%}
+  .b1{background:radial-gradient(circle,#1d4ed8 0%,transparent 65%);top:-8%;left:-6%;animation:d1 30s ease-in-out infinite alternate}
+  .b2{background:radial-gradient(circle,#0e7490 0%,transparent 65%);bottom:-14%;right:-8%;animation:d2 36s ease-in-out infinite alternate}
+  @keyframes d1{to{transform:translate(8vw,6vh) scale(1.15)}}
+  @keyframes d2{to{transform:translate(-7vw,-5vh) scale(.9)}}
 
-  .wrap { height:100vh; display:flex; flex-direction:column; max-width:1240px; margin:0 auto; padding:18px 26px 12px; position:relative; z-index:2; }
-  header { text-align:center; }
-  .brand { color:var(--muted); font-size:.92rem; letter-spacing:2.5px; text-transform:uppercase; }
-  .brand b { color:var(--gold); }
+  #app{position:relative;z-index:2;display:flex;flex-direction:column;height:calc(100vh - 6vh);padding:2vh 2.2vw 1.2vh;gap:1.4vh}
+  header{display:flex;align-items:center;gap:1vw}
+  .logo{display:flex;align-items:baseline;gap:.5vw;white-space:nowrap}
+  .logo b{font-size:2.6vh;letter-spacing:.16em;color:var(--brand);font-weight:800}
+  .logo span{font-size:2.6vh;letter-spacing:.16em;font-weight:800}
+  .live{display:flex;align-items:center;gap:.45vw;color:var(--ink-3);font-size:1.5vh;margin-left:.8vw}
+  .livedot{width:.9vh;height:.9vh;border-radius:50%;background:var(--good);animation:pulse 2s infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+  #clock{margin-left:auto;font-size:2.1vh;color:var(--ink-2);font-weight:600}
 
-  .funded { margin:10px auto 4px; max-width:980px; display:flex; align-items:center; gap:14px; justify-content:center;
-            background:linear-gradient(90deg, rgba(34,197,94,.14), rgba(34,211,238,.10)); border:1px solid #1f6d44; border-radius:14px; padding:10px 18px;
-            box-shadow:0 0 24px rgba(34,197,94,.10); }
-  .funded .tag { font-weight:800; letter-spacing:1px; color:var(--green); font-size:.8rem; text-transform:uppercase; white-space:nowrap; }
-  .funded .tag .dollar { display:inline-block; animation:bounce 1.6s ease infinite; }
-  @keyframes bounce { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-3px)} }
-  .funded .body { font-size:1.05rem; } .funded .body b { color:#fff; }
-  .funded .when { color:var(--muted); font-size:.82rem; white-space:nowrap; }
+  .tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:1vw}
+  .tile{background:var(--panel);border:1px solid var(--line);border-radius:1.2vh;padding:1.5vh 1.3vw;animation:in .5s ease both}
+  .tiles .tile:nth-child(2){animation-delay:.07s}.tiles .tile:nth-child(3){animation-delay:.14s}.tiles .tile:nth-child(4){animation-delay:.21s}
+  @keyframes in{from{opacity:0;transform:translateY(12px)}to{opacity:1}}
+  .tile .k{font-size:1.5vh;letter-spacing:.13em;color:var(--ink-3);text-transform:uppercase}
+  .tile .v{font-size:4.4vh;font-weight:800;margin-top:.3vh}
+  .tile .s{font-size:1.6vh;color:var(--ink-2);margin-top:.2vh;min-height:1.6vh}
+  .tile.ytd .v{color:var(--data)} .tile.month .v{color:var(--data-2)}
 
-  h1 { font-size:2.15rem; margin:12px 0 2px; letter-spacing:.5px;
-       background:linear-gradient(90deg,#e8edf7 20%, #22d3ee 50%, #e8edf7 80%); background-size:200% auto;
-       -webkit-background-clip:text; background-clip:text; color:transparent; animation:sheenText 6s linear infinite; }
-  @keyframes sheenText { to { background-position:200% center; } }
-  .window { display:inline-block; font-size:.82rem; font-weight:700; text-transform:uppercase; letter-spacing:1px; color:#0b1020; background:var(--accent); padding:3px 14px; border-radius:999px; margin-top:6px; box-shadow:0 0 18px rgba(34,211,238,.45); }
-  .window.month { background:var(--gold); box-shadow:0 0 18px rgba(245,197,66,.45); }
-  .dots { margin:11px 0 4px; }
-  .dot { display:inline-block; width:8px; height:8px; border-radius:50%; background:#2a3550; margin:0 4px; transition:all .3s; }
-  .dot.on { background:var(--accent); box-shadow:0 0 8px var(--accent); transform:scale(1.25); }
-  .grand { text-align:center; font-size:1.0rem; color:var(--muted); margin:4px 0 8px; }
-  .grand b { color:var(--txt); font-size:1.3rem; }
+  main{flex:1;display:grid;grid-template-columns:1.75fr 1fr;gap:1vw;min-height:0}
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:1.2vh;padding:1.6vh 1.3vw;display:flex;flex-direction:column;min-height:0;animation:in .55s ease both .1s}
+  .panel h2{font-size:1.75vh;letter-spacing:.14em;color:var(--ink-3);text-transform:uppercase;display:flex;align-items:center;gap:.7vw}
+  .panel h2 .chip{font-size:1.3vh;color:#14161a;background:var(--brand);border-radius:999px;padding:.2vh .6vw;font-weight:800;letter-spacing:.04em}
+  .panel h2 .hint{margin-left:auto;color:var(--ink-3);font-weight:400;letter-spacing:0;text-transform:none;font-size:1.45vh}
+  .rows{flex:1;display:flex;flex-direction:column;justify-content:space-evenly;min-height:0;margin-top:.4vh}
 
-  .stage { flex:1; position:relative; overflow:hidden; }
-  .panel { position:absolute; inset:0; transition:transform .6s cubic-bezier(.6,.05,.3,1), opacity .6s; }
-  .grid { display:grid; grid-template-columns:1fr 1fr; grid-template-rows:repeat(3,1fr); grid-auto-flow:column; gap:16px 22px; height:100%; }
+  .row{display:grid;grid-template-columns:2.6vw 14.5vw 1fr 12.5vw;align-items:center;gap:1vw}
+  .rank{font-size:2.3vh;font-weight:800;color:var(--ink-3);text-align:center}
+  .row.r1 .rank{color:var(--gold)} .row.r2 .rank{color:var(--silver)} .row.r3 .rank{color:var(--bronze)}
+  .who{overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+  .who .nm{font-size:2.3vh;font-weight:700}
+  .who .sub{font-size:1.45vh;color:var(--ink-3)}
+  .track{position:relative;height:22px;background:var(--panel-2);border-radius:4px;overflow:hidden}
+  .fill{position:absolute;inset:0 auto 0 0;background:var(--data);border-radius:0 4px 4px 0;min-width:4px;transition:width .9s ease}
+  .row.r1 .fill{background:linear-gradient(90deg,var(--data),#5ea4f0)}
+  .row .val{text-align:right}
+  .row .val .a{font-size:2.4vh;font-weight:800}
+  .row .val .b{font-size:1.45vh;color:var(--ink-2)}
+  .crown{margin-left:.4vw;display:inline-block;filter:drop-shadow(0 0 6px rgba(233,184,60,.75));animation:bob 2.4s ease-in-out infinite}
+  @keyframes bob{0%,100%{transform:rotate(14deg)}50%{transform:rotate(8deg) translateY(-2px)}}
 
-  .card { position:relative; overflow:hidden; background:linear-gradient(135deg, rgba(30,41,66,.92), rgba(16,22,40,.92));
-          border:1px solid var(--line); border-radius:18px; padding:16px 22px; display:flex; align-items:center; gap:16px;
-          box-shadow:0 8px 24px rgba(0,0,0,.35); animation:cardIn .55s ease both; }
-  .grid .card:nth-child(1){animation-delay:.05s} .grid .card:nth-child(2){animation-delay:.13s} .grid .card:nth-child(3){animation-delay:.21s}
-  .grid .card:nth-child(4){animation-delay:.09s} .grid .card:nth-child(5){animation-delay:.17s} .grid .card:nth-child(6){animation-delay:.25s}
-  @keyframes cardIn { from{opacity:0; transform:translateY(14px) scale(.97)} to{opacity:1; transform:none} }
-  /* sheen sweep */
-  .card::after { content:""; position:absolute; top:0; bottom:0; width:55%; left:-70%;
-                 background:linear-gradient(105deg, transparent 0%, rgba(255,255,255,.06) 45%, rgba(255,255,255,.12) 50%, rgba(255,255,255,.06) 55%, transparent 100%);
-                 animation:sheen 7s ease-in-out infinite; }
-  @keyframes sheen { 0%,55%{left:-70%} 75%{left:120%} 100%{left:120%} }
+  .pager{display:flex;gap:.5vw;justify-content:center;padding:.9vh 0 .1vh}
+  .pip{width:.95vh;height:.95vh;border-radius:50%;background:var(--line);transition:all .3s}
+  .pip.on{background:var(--brand);box-shadow:0 0 8px rgba(233,184,60,.6);transform:scale(1.2)}
 
-  .card .rank { font-size:1.6rem; font-weight:900; width:54px; text-align:center; color:var(--muted); flex:none; }
-  .avatar { flex:none; width:52px; height:52px; border-radius:50%; display:flex; align-items:center; justify-content:center;
-            font-weight:800; font-size:1.15rem; color:#fff; text-shadow:0 1px 2px rgba(0,0,0,.4); border:2px solid rgba(255,255,255,.18); }
-  .card .info { flex:1; min-width:0; }
-  .card .name { font-size:1.35rem; font-weight:700; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
-  .card .barwrap { height:10px; background:#0c1326; border-radius:6px; margin-top:10px; overflow:hidden; }
-  .card .bar { height:100%; background:linear-gradient(90deg,#3b82f6,#22d3ee); border-radius:6px; width:0; transition:width 1s cubic-bezier(.2,.7,.3,1); box-shadow:0 0 10px rgba(34,211,238,.5); }
-  .card .amt { text-align:right; flex:none; }
-  .card .amt .big { font-size:1.5rem; font-weight:800; font-variant-numeric:tabular-nums; }
-  .card .amt .sub { color:var(--muted); font-size:.82rem; }
+  .rail{display:flex;flex-direction:column;gap:1vh;min-height:0}
+  .rail .panel{flex:1}
+  .pwrap{display:flex;flex-direction:column;justify-content:space-evenly;flex:1;min-height:0;margin-top:.3vh}
+  .pitem{display:flex;flex-direction:column;gap:.35vh}
+  .prow{display:grid;grid-template-columns:1.8vw 1fr 8.5vw;align-items:center;gap:.7vw}
+  .prow .rank{font-size:1.8vh}
+  .prow .nm{font-size:1.95vh;font-weight:650;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+  .prow .val{text-align:right;font-size:1.95vh;font-weight:750}
+  .prow .val small{display:block;font-weight:400;font-size:1.3vh;color:var(--ink-3)}
+  .ptrack{grid-column:2/4;position:relative;height:14px;background:var(--panel-2);border-radius:4px;overflow:hidden}
+  .pfill{position:absolute;inset:0 auto 0 0;background:var(--data-2);border-radius:0 4px 4px 0;min-width:3px;transition:width .9s ease}
+  .empty{color:var(--ink-3);font-size:1.7vh;padding:1vh 0}
 
-  .card.r1 { border-color:rgba(245,197,66,.55); background:linear-gradient(135deg, rgba(58,48,16,.9), rgba(20,27,48,.94)); animation:cardIn .55s ease both, glowGold 2.6s ease-in-out infinite; }
-  @keyframes glowGold { 0%,100%{box-shadow:0 8px 24px rgba(0,0,0,.35), 0 0 18px rgba(245,197,66,.25)} 50%{box-shadow:0 8px 24px rgba(0,0,0,.35), 0 0 34px rgba(245,197,66,.5)} }
-  .card.r1 .bar { background:linear-gradient(90deg,#f5c542,#ffe9a3); box-shadow:0 0 12px rgba(245,197,66,.6); }
-  .card.r1 .rank { color:var(--gold); }
-  .card.r2 { border-color:#46506a; } .card.r2 .rank { color:var(--silver); }
-  .card.r3 { border-color:#5a3f28; } .card.r3 .rank { color:var(--bronze); }
-  .crown { position:absolute; top:-2px; right:14px; font-size:1.6rem; transform:rotate(18deg); animation:crownBob 2.2s ease-in-out infinite; filter:drop-shadow(0 0 6px rgba(245,197,66,.7)); }
-  @keyframes crownBob { 0%,100%{transform:rotate(18deg) translateY(0)} 50%{transform:rotate(14deg) translateY(-3px)} }
+  #tickerbar{position:relative;z-index:2;display:flex;align-items:center;background:var(--panel);border-top:2px solid var(--brand);margin:0 -2.2vw;height:6vh}
+  #tickerbar .tag{background:var(--brand);color:#14161a;font-weight:800;letter-spacing:.1em;font-size:1.85vh;display:flex;align-items:center;height:100%;padding:0 1.3vw;white-space:nowrap}
+  .tickerclip{overflow:hidden;flex:1;height:100%;display:flex;align-items:center}
+  #ticker{display:inline-flex;gap:3.5vw;white-space:nowrap;animation:scroll 50s linear infinite;padding-left:2vw;will-change:transform}
+  @keyframes scroll{to{transform:translateX(-50%)}}
+  .titem{font-size:2.1vh;color:var(--ink-2)}
+  .titem b{color:var(--ink)} .titem .amt{color:var(--data);font-weight:800} .titem .sep{color:var(--ink-3);margin:0 .45vw}
 
-  .empty { display:flex; align-items:center; justify-content:center; height:100%; color:var(--muted); font-size:1.3rem; }
-  footer { text-align:center; color:var(--muted); font-size:.78rem; padding-top:8px; }
-  .pulse { display:inline-block; width:8px; height:8px; border-radius:50%; background:var(--green); margin-right:6px; animation:pulse 2s infinite; vertical-align:middle; }
-  @keyframes pulse { 0%{opacity:.3} 50%{opacity:1} 100%{opacity:.3} }
-
-  #confetti { position:fixed; inset:0; z-index:5; pointer-events:none; }
-  #celebrate { position:fixed; inset:0; z-index:6; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:8px;
-               background:radial-gradient(circle at 50% 40%, rgba(34,197,94,.18), rgba(11,16,32,.93)); opacity:0; pointer-events:none; transition:opacity .4s; }
-  #celebrate.show { opacity:1; }
-  #celebrate .boom { font-size:4.4rem; font-weight:900; letter-spacing:2px; background:linear-gradient(90deg,#f5c542,#22d3ee,#22c55e); -webkit-background-clip:text; background-clip:text; color:transparent; animation:pop .6s ease; }
-  #celebrate .c-rep { font-size:3rem; font-weight:800; } #celebrate .c-amt { font-size:2.5rem; font-weight:800; color:var(--gold); } #celebrate .c-type { font-size:1.2rem; color:var(--muted); }
-  @keyframes pop { 0%{transform:scale(.4);opacity:0} 60%{transform:scale(1.15)} 100%{transform:scale(1);opacity:1} }
-  #soundbtn { position:fixed; right:14px; bottom:12px; z-index:7; background:#1b2440; color:var(--txt); border:1px solid var(--line); border-radius:10px; padding:8px 12px; font-size:.85rem; cursor:pointer; }
-  #soundbtn.hidden { display:none; }
+  #confetti{position:fixed;inset:0;pointer-events:none;z-index:50}
+  #celebrate{position:fixed;inset:0;display:none;align-items:center;justify-content:center;z-index:40;background:rgba(8,10,13,.75);backdrop-filter:blur(4px)}
+  #celebrate .card{background:var(--panel);border:2px solid var(--brand);border-radius:2vh;padding:5vh 6vw;text-align:center;animation:pop .5s cubic-bezier(.2,1.6,.4,1);box-shadow:0 0 60px rgba(233,184,60,.25)}
+  @keyframes pop{from{transform:scale(.6);opacity:0}}
+  #celebrate .t1{font-size:3vh;letter-spacing:.2em;color:var(--brand);font-weight:800}
+  #celebrate .t2{font-size:7.5vh;font-weight:900;margin:1.2vh 0}
+  #celebrate .t3{font-size:3.1vh;color:var(--ink-2)}
+  #soundhint{position:fixed;right:1.2vw;bottom:7.2vh;color:var(--ink-3);font-size:1.35vh;z-index:3}
 </style>
 </head>
 <body>
-  <div class="aurora"><div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div></div>
-  <canvas id="confetti"></canvas>
-  <div class="wrap">
-    <header>
-      <div class="brand">🏆 <b>Key Real Estate Capital</b> · Closed-Loan Leaderboard</div>
-      <div class="funded" id="funded" style="display:none">
-        <span class="tag"><span class="dollar">💸</span> Just Funded</span><span class="body" id="fundedBody"></span><span class="when" id="fundedWhen"></span>
+<div class="aurora"><div class="blob b1"></div><div class="blob b2"></div></div>
+
+<div id="app">
+  <header>
+    <div class="logo"><b>KEY</b><span>LOAN SCOREBOARD</span></div>
+    <div class="live"><span class="livedot"></span><span id="updated">LIVE</span></div>
+    <div id="clock" class="num"></div>
+  </header>
+
+  <section class="tiles">
+    <div class="tile ytd"><div class="k" id="k-ytd">Funded YTD</div><div class="v num" id="t-ytd">—</div><div class="s" id="t-ytd-sub"></div></div>
+    <div class="tile"><div class="k">Loans YTD</div><div class="v num" id="t-loans">—</div><div class="s" id="t-loans-sub"></div></div>
+    <div class="tile month"><div class="k" id="k-month">This Month</div><div class="v num" id="t-month">—</div><div class="s" id="t-month-sub"></div></div>
+    <div class="tile"><div class="k">Last Funded</div><div class="v num" id="t-last">—</div><div class="s" id="t-last-sub"></div></div>
+  </section>
+
+  <main>
+    <div class="panel">
+      <h2>Account Executives <span class="chip num" id="yearchip"></span><span class="hint">funded volume · loans</span></h2>
+      <div class="rows" id="aeRows"></div>
+      <div class="pager" id="pager"></div>
+    </div>
+    <div class="rail">
+      <div class="panel">
+        <h2>Processors <span class="hint">loans processed</span></h2>
+        <div class="pwrap" id="procRows"></div>
       </div>
-      <h1 id="title">—</h1>
-      <span class="window" id="window">—</span>
-      <div class="dots" id="dots"></div>
-    </header>
-    <div class="grand" id="grand"></div>
-    <div class="stage" id="stage"></div>
-    <footer><span class="pulse"></span><span id="updated">loading…</span> · data from GoHighLevel</footer>
-  </div>
-  <div id="celebrate"><div class="boom">🎉 JUST FUNDED 🎉</div><div class="c-rep"></div><div class="c-amt"></div><div class="c-type"></div></div>
-  <button id="soundbtn">🔊 Enable sound (for TV)</button>
+      <div class="panel">
+        <h2 id="monthHdr">Month Leaders</h2>
+        <div class="pwrap" id="monthRows"></div>
+      </div>
+    </div>
+  </main>
+</div>
+
+<div id="tickerbar">
+  <div class="tag">💸 JUST FUNDED</div>
+  <div class="tickerclip"><div id="ticker"></div></div>
+</div>
+<div id="soundhint">tap once to arm sound 🔊</div>
+
+<div id="celebrate"><div class="card">
+  <div class="t1">🎉 JUST FUNDED 🎉</div>
+  <div class="t2 num" id="c-amt"></div>
+  <div class="t3" id="c-who"></div>
+</div></div>
+<canvas id="confetti"></canvas>
 
 <script>
-const PAGE_MS = 10000;
-const PER_PAGE = 6;
-const VIEWS = [
-  { group:"reps",       window:"year",  metric:"loanAmount", title:"AEs — Total Loan Amount",   fmt:"money" },
-  { group:"processors", window:"year",  metric:"loans",      title:"Processors — Loans Closed", fmt:"count" },
-  { group:"reps",       window:"month", metric:"loanAmount", title:"AEs — Total Loan Amount",   fmt:"money" },
-  { group:"processors", window:"month", metric:"loans",      title:"Processors — Loans Closed", fmt:"count" },
-];
-const fmtMoney = n => "$" + Math.round(n||0).toLocaleString("en-US");
-const fmtVal = (n,f) => f==="money" ? fmtMoney(n) : (n||0).toLocaleString("en-US");
-const ago = iso => { const s=(Date.now()-new Date(iso).getTime())/1000; if(s<90)return"just now"; if(s<5400)return Math.round(s/60)+"m ago"; if(s<172800)return Math.round(s/3600)+"h ago"; return Math.round(s/86400)+"d ago"; };
-const chunk = (a,n) => { const o=[]; for(let i=0;i<a.length;i+=n) o.push(a.slice(i,i+n)); return o; };
-const initials = name => name.split(/\s+/).filter(Boolean).slice(0,2).map(w=>w[0].toUpperCase()).join("") || "?";
-const hueOf = name => { let h=0; for(const c of name) h=(h*31 + c.charCodeAt(0))>>>0; return h%360; };
+const DATA_URL="leaderboard.json";
+const PAGE_MS=10000, REFRESH_MS=60000, PER_PAGE=8;
+const fmt$=n=>"$"+Math.round(n||0).toLocaleString("en-US");
+const fmt$s=n=>{n=n||0;if(n>=1e6)return "$"+(n/1e6).toFixed(2).replace(/\.?0+$/,"")+"M";if(n>=1e3)return "$"+Math.round(n/1e3)+"K";return "$"+n};
+let data=null,page=0,pages=1;
 
-let data=null, viewIndex=0, pageIndex=0, curPanel=null, booted=false, soundEnabled=false, actx=null;
-
-/* audio */
-function ensureAudio(){ try{ if(!actx) actx=new (window.AudioContext||window.webkitAudioContext)(); if(actx.state==="suspended") actx.resume(); }catch(e){} }
-function fanfare(){ if(!soundEnabled||!actx) return; const t0=actx.currentTime; [523.25,659.25,783.99,1046.5,1318.5].forEach((f,i)=>{ const o=actx.createOscillator(),g=actx.createGain(); o.type="triangle"; o.frequency.value=f; const t=t0+i*0.13; g.gain.setValueAtTime(0,t); g.gain.linearRampToValueAtTime(.28,t+.03); g.gain.exponentialRampToValueAtTime(.001,t+.6); o.connect(g).connect(actx.destination); o.start(t); o.stop(t+.62); }); }
-function announce(d){ if(!soundEnabled||!("speechSynthesis"in window)) return; const u=new SpeechSynthesisUtterance(`Just funded! ${d.rep}. ${Math.round(d.loanAmount).toLocaleString()} dollars.`); u.rate=1; u.pitch=1.1; setTimeout(()=>{ try{speechSynthesis.cancel();speechSynthesis.speak(u);}catch(e){} },750); }
-
-/* confetti + ambient sparkles */
-const cv=document.getElementById("confetti"), cx=cv.getContext("2d");
-function resize(){ cv.width=innerWidth; cv.height=innerHeight; } resize(); addEventListener("resize",resize);
-let pieces=[];
-const sparks=Array.from({length:26},()=>({x:Math.random()*innerWidth,y:Math.random()*innerHeight,r:.8+Math.random()*1.7,vy:.12+Math.random()*.3,a:.15+Math.random()*.4,tw:Math.random()*6.28}));
-function burst(n=200){ for(let i=0;i<n;i++) pieces.push({x:Math.random()*cv.width,y:-20-Math.random()*cv.height*.3,vx:(Math.random()-.5)*7,vy:2+Math.random()*5,s:6+Math.random()*9,rot:Math.random()*6.28,vr:(Math.random()-.5)*.35,c:`hsl(${Math.random()*360},90%,62%)`}); }
-function confettiTick(t){
-  cx.clearRect(0,0,cv.width,cv.height);
-  for(const s of sparks){ s.y-=s.vy; s.tw+=.03; if(s.y<-5){s.y=cv.height+5;s.x=Math.random()*cv.width;}
-    cx.globalAlpha=s.a*(0.6+0.4*Math.sin(s.tw)); cx.fillStyle="#9fd6ff"; cx.beginPath(); cx.arc(s.x,s.y,s.r,0,6.28); cx.fill(); }
-  cx.globalAlpha=1;
-  for(const p of pieces){ p.x+=p.vx;p.y+=p.vy;p.vy+=.08;p.rot+=p.vr; cx.save();cx.translate(p.x,p.y);cx.rotate(p.rot);cx.fillStyle=p.c;cx.fillRect(-p.s/2,-p.s/2,p.s,p.s*.6);cx.restore(); }
-  pieces=pieces.filter(p=>p.y<cv.height+40);
-  requestAnimationFrame(confettiTick);
-} requestAnimationFrame(confettiTick);
-
-/* celebration */
-let celebrateTimer=null;
-function celebrate(d){
-  const o=document.getElementById("celebrate");
-  o.querySelector(".c-rep").textContent=d.rep;
-  o.querySelector(".c-amt").textContent=fmtMoney(d.loanAmount);
-  o.querySelector(".c-type").textContent=[d.name,d.loanType,d.stage].filter(Boolean).join(" · ");
-  o.classList.add("show"); burst(240); setTimeout(()=>burst(140),600); setTimeout(()=>burst(120),1200);
-  fanfare(); announce(d);
-  clearTimeout(celebrateTimer); celebrateTimer=setTimeout(()=>o.classList.remove("show"), 9000);
-}
-
-/* leaderboard */
-function rankedReps(view){
-  return (data[view.group]||[])
-    .map(r=>({name:r.name,val:(r[view.window]||{})[view.metric]||0,loans:(r[view.window]||{}).loans||0,amount:(r[view.window]||{}).loanAmount||0}))
-    .filter(r=>r.val>0).sort((a,b)=>b.val-a.val).map((r,i)=>({rank:i+1,...r}));
-}
-function gridHtml(pageReps, view, max){
-  const sub=r=> view.metric==="loans" ? fmtMoney(r.amount)+" volume" : r.loans+" loan"+(r.loans===1?"":"s");
-  if(!pageReps.length) return '<div class="empty">No closed loans in this window yet.</div>';
-  return '<div class="grid">'+pageReps.map(r=>{
-    const hue=hueOf(r.name);
-    return `<div class="card r${r.rank}">
-      ${r.rank===1?'<div class="crown">👑</div>':''}
-      <div class="rank">${r.rank<=3?["🥇","🥈","🥉"][r.rank-1]:r.rank}</div>
-      <div class="avatar" style="background:linear-gradient(135deg, hsl(${hue},65%,45%), hsl(${(hue+50)%360},70%,35%))">${initials(r.name)}</div>
-      <div class="info"><div class="name">${r.name.replace(/</g,"&lt;")}</div>
-        <div class="barwrap"><div class="bar" data-w="${Math.max(2,(r.val/max)*100).toFixed(1)}"></div></div></div>
-      <div class="amt"><div class="big" data-count="${r.val}" data-fmt="${view.fmt}">${fmtVal(0,view.fmt)}</div><div class="sub">${sub(r)}</div></div>
-    </div>`;}).join("")+'</div>';
-}
-function animatePanel(p){
-  // bars grow in
-  requestAnimationFrame(()=>{ for(const b of p.querySelectorAll(".bar")) b.style.width=b.dataset.w+"%"; });
-  // numbers count up
-  const els=[...p.querySelectorAll(".big[data-count]")];
-  const t0=performance.now(), DUR=900;
-  function step(t){
-    const k=Math.min(1,(t-t0)/DUR), e=1-Math.pow(1-k,3);
-    for(const el of els) el.textContent=fmtVal(Number(el.dataset.count)*e, el.dataset.fmt);
-    if(k<1) requestAnimationFrame(step);
+/* ---- audio: synth fanfare, armed on first interaction ---- */
+let actx=null,soundOn=false;
+function armSound(){try{actx=actx||new (window.AudioContext||window.webkitAudioContext)();if(actx.state==="suspended")actx.resume();soundOn=true;document.getElementById("soundhint").style.display="none"}catch(e){}}
+addEventListener("pointerdown",armSound);addEventListener("keydown",armSound);
+function fanfare(){
+  if(!soundOn||!actx)return;
+  const notes=[[523,0,.18],[659,.14,.18],[784,.28,.2],[1047,.44,.5],[784,.78,.14],[1047,.9,.7]];
+  for(const [f,t,d] of notes){
+    const o=actx.createOscillator(),g=actx.createGain();
+    o.type="triangle";o.frequency.value=f;
+    g.gain.setValueAtTime(0,actx.currentTime+t);
+    g.gain.linearRampToValueAtTime(.22,actx.currentTime+t+.03);
+    g.gain.exponentialRampToValueAtTime(.001,actx.currentTime+t+d);
+    o.connect(g).connect(actx.destination);o.start(actx.currentTime+t);o.stop(actx.currentTime+t+d+.05);
   }
-  requestAnimationFrame(step);
-}
-function renderPanel(){
-  if(!data) return;
-  const view=VIEWS[viewIndex];
-  const reps=rankedReps(view);
-  const pages=chunk(reps,PER_PAGE);
-  if(pageIndex>=pages.length) pageIndex=0;
-  const page=pages[pageIndex]||[];
-  const max=Math.max(1,...reps.map(r=>r.val));
-  document.getElementById("title").textContent=view.title;
-  const w=document.getElementById("window");
-  w.textContent= view.window==="year" ? ("This Year · "+data.year) : ("This Month · "+(data.monthLabel||""));
-  w.className="window "+view.window;
-  document.getElementById("dots").innerHTML=VIEWS.map((_,i)=>`<span class="dot ${i===viewIndex?"on":""}"></span>`).join("");
-  const total=reps.reduce((s,r)=>s+r.val,0);
-  const range = page.length ? ` · ranks ${page[0].rank}–${page[page.length-1].rank} of ${reps.length}` : "";
-  document.getElementById("grand").innerHTML=`Team total: <b>${fmtVal(total,view.fmt)}</b>${range}`;
-  const stage=document.getElementById("stage");
-  const p=document.createElement("div"); p.className="panel"; p.style.transform="translateX(100%)"; p.innerHTML=gridHtml(page,view,max);
-  stage.appendChild(p); void p.offsetWidth;
-  p.style.transform="translateX(0)";
-  if(curPanel){ const old=curPanel; old.style.transform="translateX(-100%)"; old.style.opacity="0.15"; setTimeout(()=>old.remove(),650); }
-  curPanel=p;
-  animatePanel(p);
-}
-function advance(){
-  if(!data) return;
-  const reps=rankedReps(VIEWS[viewIndex]);
-  const pageCount=Math.max(1, chunk(reps,PER_PAGE).length);
-  pageIndex++;
-  if(pageIndex>=pageCount){ pageIndex=0; viewIndex=(viewIndex+1)%VIEWS.length; }
-  renderPanel();
 }
 
-let fundedIndex=0;
-function updateFunded(){
-  const list=data.latest||[]; const el=document.getElementById("funded");
-  if(!list.length){ el.style.display="none"; return; }
-  el.style.display="flex";
-  const i=fundedIndex % list.length, d=list[i];
-  const deal = d.name ? ` — <span style="color:var(--muted)">${d.name.replace(/</g,"&lt;")}</span>` : "";
-  document.getElementById("fundedBody").innerHTML=`<b>${d.rep.replace(/</g,"&lt;")}</b> · ${fmtMoney(d.loanAmount)}${d.loanType?(" · "+d.loanType):""}${deal}`;
-  document.getElementById("fundedWhen").textContent=`${d.closedAt?ago(d.closedAt):""} · ${i+1}/${list.length}`;
+/* ---- confetti ---- */
+const cv=document.getElementById("confetti"),cx=cv.getContext("2d");
+let pieces=[],rafOn=false;
+function sizeCv(){cv.width=innerWidth;cv.height=innerHeight}
+sizeCv();addEventListener("resize",sizeCv);
+function burst(){
+  const colors=["#e9b83c","#3987e5","#199e70","#ffffff","#e66767","#9085e9"];
+  for(let i=0;i<260;i++)pieces.push({x:Math.random()*cv.width,y:-20-Math.random()*cv.height*.3,
+    vx:(Math.random()-.5)*2.4,vy:2+Math.random()*3.4,s:6+Math.random()*8,rot:Math.random()*6.28,vr:(Math.random()-.5)*.25,
+    c:colors[i%colors.length]});
+  if(!rafOn){rafOn=true;requestAnimationFrame(step)}
 }
-function rotateFunded(){ const list=(data&&data.latest)||[]; if(list.length){ fundedIndex=(fundedIndex+1)%list.length; updateFunded(); } }
+function step(){
+  cx.clearRect(0,0,cv.width,cv.height);
+  pieces=pieces.filter(p=>p.y<cv.height+30);
+  for(const p of pieces){p.x+=p.vx;p.y+=p.vy;p.vy+=.05;p.rot+=p.vr;
+    cx.save();cx.translate(p.x,p.y);cx.rotate(p.rot);cx.fillStyle=p.c;cx.fillRect(-p.s/2,-p.s/2,p.s,p.s*.62);cx.restore()}
+  if(pieces.length)requestAnimationFrame(step);else{rafOn=false;cx.clearRect(0,0,cv.width,cv.height)}
+}
 
+/* ---- render ---- */
+const esc=s=>String(s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function medal(r){return r===1?"r1":r===2?"r2":r===3?"r3":""}
+function render(){
+  if(!data)return;
+  const reps=(data.reps||[]).slice().sort((a,b)=>(b.year.loanAmount||0)-(a.year.loanAmount||0));
+  const board=reps.filter(r=>(r.year.loanAmount||0)>0||(r.year.loans||0)>0);
+  const totY=board.reduce((s,r)=>s+(r.year.loanAmount||0),0);
+  const nY=board.reduce((s,r)=>s+(r.year.loans||0),0);
+  const totM=board.reduce((s,r)=>s+(r.month.loanAmount||0),0);
+  const nM=board.reduce((s,r)=>s+(r.month.loans||0),0);
+
+  document.getElementById("yearchip").textContent=data.year;
+  document.getElementById("k-ytd").textContent=`Funded ${data.year}`;
+  document.getElementById("t-ytd").textContent=fmt$(totY);
+  document.getElementById("t-ytd-sub").textContent=`${board.length} AEs on the board`;
+  document.getElementById("t-loans").textContent=nY;
+  document.getElementById("t-loans-sub").textContent=nY?`avg ${fmt$s(totY/nY)} per loan`:"";
+  document.getElementById("k-month").textContent=data.monthLabel||"This Month";
+  document.getElementById("t-month").textContent=fmt$(totM);
+  document.getElementById("t-month-sub").textContent=`${nM} loan${nM===1?"":"s"} funded`;
+  const last=(data.latest||[]).find(l=>(l.loanAmount||0)>0);
+  if(last){
+    document.getElementById("t-last").textContent=fmt$s(last.loanAmount);
+    document.getElementById("t-last-sub").textContent=`${last.rep||""} · ${new Date(last.closedAt).toLocaleDateString("en-US",{month:"short",day:"numeric"})}`;
+  }
+
+  const maxAmt=Math.max(1,...board.map(r=>r.year.loanAmount||0));
+  pages=Math.max(1,Math.ceil(board.length/PER_PAGE));
+  if(page>=pages)page=0;
+  const slice=board.slice(page*PER_PAGE,(page+1)*PER_PAGE);
+  const mShort=(data.monthLabel||"Month").split(" ")[0];
+  document.getElementById("aeRows").innerHTML=slice.map((r,i)=>{
+    const rank=page*PER_PAGE+i+1;
+    const w=Math.max(1.5,(r.year.loanAmount||0)/maxAmt*100);
+    return `<div class="row ${medal(rank)}">
+      <div class="rank num">${rank}</div>
+      <div class="who"><span class="nm">${esc(r.name)}${rank===1?'<span class="crown">👑</span>':""}</span><div class="sub num">${esc(mShort)}: ${fmt$s(r.month.loanAmount)} · ${r.month.loans||0}</div></div>
+      <div class="track"><div class="fill" style="width:${w}%"></div></div>
+      <div class="val"><div class="a num">${fmt$(r.year.loanAmount)}</div><div class="b num">${r.year.loans||0} loan${(r.year.loans||0)===1?"":"s"}</div></div>
+    </div>`}).join("");
+  document.getElementById("pager").innerHTML=Array.from({length:pages},(_,i)=>`<div class="pip ${i===page?"on":""}"></div>`).join("");
+
+  const procs=(data.processors||[]).slice().sort((a,b)=>(b.year.loans||0)-(a.year.loans||0)).filter(p=>(p.year.loans||0)>0).slice(0,6);
+  const maxP=Math.max(1,...procs.map(p=>p.year.loans||0));
+  document.getElementById("procRows").innerHTML=procs.map((p,i)=>`
+    <div class="pitem">
+      <div class="prow"><div class="rank num ${medal(i+1)}">${i+1}</div><div class="nm">${esc(p.name)}</div>
+        <div class="val num">${p.year.loans}<small>${fmt$s(p.year.loanAmount)}</small></div></div>
+      <div class="prow"><span></span><div class="ptrack"><div class="pfill" style="width:${Math.max(2,(p.year.loans||0)/maxP*100)}%"></div></div></div>
+    </div>`).join("")||`<div class="empty">No processed loans yet this year</div>`;
+
+  document.getElementById("monthHdr").innerHTML=`${esc(data.monthLabel||"This Month")} Leaders`;
+  const mreps=board.filter(r=>(r.month.loanAmount||0)>0).sort((a,b)=>b.month.loanAmount-a.month.loanAmount).slice(0,5);
+  const maxM=Math.max(1,...mreps.map(r=>r.month.loanAmount||0));
+  document.getElementById("monthRows").innerHTML=mreps.map((r,i)=>`
+    <div class="pitem">
+      <div class="prow"><div class="rank num">${i+1}</div><div class="nm">${esc(r.name)}</div>
+        <div class="val num">${fmt$s(r.month.loanAmount)}<small>${r.month.loans} loan${r.month.loans===1?"":"s"}</small></div></div>
+      <div class="prow"><span></span><div class="ptrack"><div class="pfill" style="width:${Math.max(2,(r.month.loanAmount||0)/maxM*100)}%"></div></div></div>
+    </div>`).join("")||`<div class="empty">Nothing funded yet this month — go get it 🚀</div>`;
+
+  const items=(data.latest||[]).filter(l=>(l.loanAmount||0)>0).slice(0,12).map(l=>`<span class="titem"><span class="amt num">${fmt$(l.loanAmount)}</span><span class="sep">·</span><b>${esc(l.rep||"KREC")}</b><span class="sep">·</span>${esc(l.loanType||l.stage||"Funded")}<span class="sep">·</span>${new Date(l.closedAt).toLocaleDateString("en-US",{month:"short",day:"numeric"})}</span>`);
+  document.getElementById("ticker").innerHTML=items.join("")+items.join("");
+
+  document.getElementById("updated").textContent="LIVE · updated "+new Date(data.updatedAt).toLocaleTimeString("en-US",{hour:"numeric",minute:"2-digit"});
+}
+
+/* ---- celebrate new fundings ---- */
+function checkNew(){
+  const KEY="klsb_seen_ids";
+  const seen=new Set(JSON.parse(localStorage.getItem(KEY)||"[]"));
+  const latest=(data.latest||[]).filter(l=>(l.loanAmount||0)>0).slice(0,12);
+  const fresh=latest.filter(l=>l.id&&!seen.has(l.id));
+  if(fresh.length&&seen.size){
+    const f=fresh[0];
+    document.getElementById("c-amt").textContent=fmt$(f.loanAmount);
+    document.getElementById("c-who").textContent=`${f.rep||"KREC"} · ${f.loanType||"Funded"}`;
+    const cel=document.getElementById("celebrate");
+    cel.style.display="flex";
+    burst();fanfare();setTimeout(burst,700);setTimeout(burst,1400);
+    setTimeout(()=>{cel.style.display="none"},12000);
+  }
+  latest.forEach(l=>l.id&&seen.add(l.id));
+  localStorage.setItem(KEY,JSON.stringify([...seen].slice(-200)));
+}
+
+/* ---- loops ---- */
 async function load(){
   try{
-    const res=await fetch("leaderboard.json?t="+Date.now(),{cache:"no-store"});
-    if(!res.ok) throw new Error("HTTP "+res.status);
-    data=await res.json();
-    if(!curPanel) renderPanel();
-    updateFunded();
-    const top=(data.latest||[])[0];
-    if(top){ const stored=localStorage.getItem("krec_last_funded");
-      if(stored!==top.id){ localStorage.setItem("krec_last_funded",top.id); if(booted) celebrate(top); } }
-    document.getElementById("updated").textContent="Updated "+new Date(data.updatedAt).toLocaleString();
-    booted=true;
-  }catch(e){ document.getElementById("updated").textContent="Error loading data: "+e.message; }
+    const r=await fetch(DATA_URL+"?t="+Date.now(),{cache:"no-store"});
+    data=await r.json();render();checkNew();
+  }catch(e){console.error(e)}
 }
-
-document.getElementById("soundbtn").addEventListener("click",function(){
-  ensureAudio(); soundEnabled=true;
-  try{ const u=new SpeechSynthesisUtterance("Sound on"); speechSynthesis.speak(u); }catch(e){}
-  this.classList.add("hidden");
-});
-addEventListener("keydown", e => { if((e.key==="t"||e.key==="T") && data && (data.latest||[])[0]) celebrate(data.latest[0]); });
-
+function tickClock(){document.getElementById("clock").textContent=new Date().toLocaleString("en-US",{weekday:"short",month:"short",day:"numeric",hour:"numeric",minute:"2-digit"})}
+setInterval(()=>{page=(page+1)%pages;render()},PAGE_MS);
+setInterval(load,REFRESH_MS);
+setInterval(tickClock,1000);tickClock();
 load();
-setInterval(advance, PAGE_MS);
-setInterval(rotateFunded, 4500);
-setInterval(load, 30000);
+setInterval(()=>{const d=new Date();if(d.getHours()===4&&d.getMinutes()===0)location.reload()},60000);
 </script>
 </body>
 </html>
