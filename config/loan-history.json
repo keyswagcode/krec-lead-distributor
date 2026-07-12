@@ -1,0 +1,3263 @@
+{
+"source": "Loan Info Sheet \u2014 Closed tabs, Status=Paid only",
+"cutoff": "2026-07-12",
+"snapshotAt": "2026-07-11",
+"loans": [
+{
+"date": "2025-09-08",
+"month": "2025-09",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 91200,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-09-16",
+"month": "2025-09",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 79920,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-09-16",
+"month": "2025-09",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 72000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-09-08",
+"month": "2025-09",
+"ae": "Lindsay Milano",
+"proc": "Lindsay Milano",
+"amount": 70400,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-09-12",
+"month": "2025-09",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 0,
+"type": "DSCR Rate Term"
+},
+{
+"date": "2025-09-03",
+"month": "2025-09",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 82595,
+"type": "Fix and Flip"
+},
+{
+"date": "2025-09-16",
+"month": "2025-09",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 136000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2025-09-17",
+"month": "2025-09",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 59200,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-09-16",
+"month": "2025-09",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 67400,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-09-16",
+"month": "2025-09",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 92000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-09-18",
+"month": "2025-09",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 172000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-09-26",
+"month": "2025-09",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 100000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-09-22",
+"month": "2025-09",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 83288,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-09-22",
+"month": "2025-09",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 63198,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-09-23",
+"month": "2025-09",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 58000,
+"type": "Coral Watts /Reef Holdings IL "
+},
+{
+"date": "2025-09-15",
+"month": "2025-09",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 165000,
+"type": "Dzung Nyugen / YMC Properties "
+},
+{
+"date": "2025-09-26",
+"month": "2025-09",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 73600,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-09-26",
+"month": "2025-09",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 84000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-10-01",
+"month": "2025-09",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 80625,
+"type": "Bridge"
+},
+{
+"date": "2025-10-02",
+"month": "2025-10",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 63750,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2025-10-08",
+"month": "2025-10",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 80000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-10-03",
+"month": "2025-10",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 500000,
+"type": "DSCR Rate Term"
+},
+{
+"date": "2025-10-10",
+"month": "2025-10",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 130360,
+"type": "Fix and Flip"
+},
+{
+"date": "2025-10-10",
+"month": "2025-10",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 77600,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-10-15",
+"month": "2025-10",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 92000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-10-16",
+"month": "2025-10",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 166400,
+"type": "Fix and Flip"
+},
+{
+"date": "2025-10-17",
+"month": "2025-10",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 92000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-10-17",
+"month": "2025-10",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 88000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-10-16",
+"month": "2025-10",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 809000,
+"type": "Bank Statement Program"
+},
+{
+"date": "2025-10-21",
+"month": "2025-10",
+"ae": "Trey Victor",
+"proc": "Lindsay Milano",
+"amount": 180400,
+"type": "Fix and Flip"
+},
+{
+"date": "2025-10-21",
+"month": "2025-10",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 84000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-10-22",
+"month": "2025-10",
+"ae": "Daniel Frank",
+"proc": "Lindsay Milano",
+"amount": 114750,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2025-10-24",
+"month": "2025-10",
+"ae": "Daniel Frank",
+"proc": "Lindsay Milano",
+"amount": 97500,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2025-10-24",
+"month": "2025-10",
+"ae": "Daniel Frank",
+"proc": "Lindsay Milano",
+"amount": 53250,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2025-10-24",
+"month": "2025-10",
+"ae": "Daniel Frank",
+"proc": "Lindsay Milano",
+"amount": 75000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2025-10-22",
+"month": "2025-10",
+"ae": "Daniel Frank",
+"proc": "Lindsay Milano",
+"amount": 210000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2025-10-24",
+"month": "2025-10",
+"ae": "Bailey Girouard",
+"proc": "Lindsay Milano",
+"amount": 207000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2025-10-27",
+"month": "2025-10",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 85000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-10-28",
+"month": "2025-10",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 96390,
+"type": "Fix and Flip"
+},
+{
+"date": "2025-10-28",
+"month": "2025-10",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 160800,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-10-28",
+"month": "2025-10",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 124000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-10-27",
+"month": "2025-10",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 64400,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-10-29",
+"month": "2025-10",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 88500,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2025-10-22",
+"month": "2025-10",
+"ae": null,
+"proc": "Chelsea Juda",
+"amount": 74800,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-10-22",
+"month": "2025-10",
+"ae": "Nicole Lavau",
+"proc": null,
+"amount": 74800,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-10-22",
+"month": "2025-10",
+"ae": null,
+"proc": null,
+"amount": 147098,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-11-05",
+"month": "2025-11",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 828766,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-10-31",
+"month": "2025-11",
+"ae": "Bailey Girouard",
+"proc": "Lindsay Milano",
+"amount": 219750,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2025-11-03",
+"month": "2025-11",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 80800,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-11-04",
+"month": "2025-11",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 84000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-11-04",
+"month": "2025-11",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 84000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-11-06",
+"month": "2025-11",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 72000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-11-07",
+"month": "2025-11",
+"ae": "Trey Victor",
+"proc": "Lindsay Milano",
+"amount": 103229,
+"type": "Fix and Flip"
+},
+{
+"date": "2025-11-10",
+"month": "2025-11",
+"ae": "Daniel Frank",
+"proc": "Lindsay Milano",
+"amount": 263000,
+"type": "DSCR Rate Term"
+},
+{
+"date": "2025-11-13",
+"month": "2025-11",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 96000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-11-13",
+"month": "2025-11",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 96000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-11-14",
+"month": "2025-11",
+"ae": "Lindsay Milano",
+"proc": "Lindsay Milano",
+"amount": 828793,
+"type": "DSCR Rate Term"
+},
+{
+"date": "2025-11-14",
+"month": "2025-11",
+"ae": "Lindsay Milano",
+"proc": "Lindsay Milano",
+"amount": 828839,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2025-11-14",
+"month": "2025-11",
+"ae": "Lindsay Milano",
+"proc": "Lindsay Milano",
+"amount": 828950,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2025-11-14",
+"month": "2025-11",
+"ae": "Bailey Girouard",
+"proc": "Lindsay Milano",
+"amount": 213000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2025-11-14",
+"month": "2025-11",
+"ae": "Bailey Girouard",
+"proc": "Lindsay Milano",
+"amount": 210000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2025-11-17",
+"month": "2025-11",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 115000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-11-17",
+"month": "2025-11",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 88000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-11-18",
+"month": "2025-11",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 92800,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-11-15",
+"month": "2025-11",
+"ae": null,
+"proc": "Chelsea Juda",
+"amount": 78800,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-11-11",
+"month": "2025-11",
+"ae": null,
+"proc": "Chelsea Juda",
+"amount": 62800,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-11-05",
+"month": "2025-11",
+"ae": null,
+"proc": "Daisy Mondragon",
+"amount": 520500,
+"type": "Fix and Flip"
+},
+{
+"date": "2025-11-14",
+"month": "2025-11",
+"ae": null,
+"proc": "Daisy Mondragon",
+"amount": 134847,
+"type": "Fix and Flip"
+},
+{
+"date": "2025-11-20",
+"month": "2025-11",
+"ae": "Frank Estrada",
+"proc": "Daisy Mondragon",
+"amount": 118921,
+"type": "Fix and Flip"
+},
+{
+"date": "2025-11-25",
+"month": "2025-11",
+"ae": "Nicole Lavau",
+"proc": "Daisy Mondragon",
+"amount": 548000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2025-11-26",
+"month": "2025-11",
+"ae": "Nicole Lavau",
+"proc": "Daisy Mondragon",
+"amount": 240000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2025-11-26",
+"month": "2025-11",
+"ae": "Trey Victor",
+"proc": "Daisy Mondragon",
+"amount": 324225,
+"type": "Fix and Flip"
+},
+{
+"date": "2025-11-25",
+"month": "2025-12",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 0,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-11-26",
+"month": "2025-12",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 0,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-12-08",
+"month": "2025-12",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 0,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-12-09",
+"month": "2025-12",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 0,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-12-12",
+"month": "2025-12",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 0,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-12-16",
+"month": "2025-12",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 0,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2025-12-17",
+"month": "2025-12",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 0,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-12-15",
+"month": "2025-12",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 0,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2025-12-10",
+"month": "2025-12",
+"ae": "Daniel Frank",
+"proc": "Lindsay Milano",
+"amount": 0,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2025-12-23",
+"month": "2025-12",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 0,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-12-03",
+"month": "2025-12",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 0,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-12-26",
+"month": "2025-12",
+"ae": "Keyan Chang",
+"proc": "Lindsay Milano",
+"amount": 0,
+"type": ""
+},
+{
+"date": "2025-12-22",
+"month": "2025-12",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 0,
+"type": "DSCR Purchase"
+},
+{
+"date": "2025-12-25",
+"month": "2025-12",
+"ae": null,
+"proc": null,
+"amount": 678463,
+"type": "Fix and Flip"
+},
+{
+"date": "2025-12-25",
+"month": "2025-12",
+"ae": null,
+"proc": null,
+"amount": 331500,
+"type": "Fix and Flip"
+},
+{
+"date": "2025-12-05",
+"month": "2025-12",
+"ae": null,
+"proc": null,
+"amount": 54000,
+"type": "Fix and Flip"
+},
+{
+"date": "2025-12-05",
+"month": "2025-12",
+"ae": null,
+"proc": null,
+"amount": 36000,
+"type": "Fix and Flip"
+},
+{
+"date": "2025-12-05",
+"month": "2025-12",
+"ae": "Jeremiah Ibrahim",
+"proc": "Daisy Mondragon",
+"amount": 134250,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2025-12-12",
+"month": "2025-12",
+"ae": "Sebastian Muenda",
+"proc": "Daisy Mondragon",
+"amount": 290000,
+"type": "Fix and Flip"
+},
+{
+"date": "2025-12-15",
+"month": "2025-12",
+"ae": null,
+"proc": "Daisy Mondragon",
+"amount": 699998,
+"type": "Fix and Flip"
+},
+{
+"date": "2025-12-15",
+"month": "2025-12",
+"ae": null,
+"proc": "Daisy Mondragon",
+"amount": 499200,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2025-12-16",
+"month": "2025-12",
+"ae": "Jeremiah Ibrahim",
+"proc": "Daisy Mondragon",
+"amount": 734625,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2025-12-19",
+"month": "2025-12",
+"ae": "Hazel Wilder",
+"proc": "Daisy Mondragon",
+"amount": 110105,
+"type": "Fix and Flip"
+},
+{
+"date": "2025-12-18",
+"month": "2025-12",
+"ae": "Sebastian Muenda",
+"proc": "Daisy Mondragon",
+"amount": 446200,
+"type": "Fix and Flip"
+},
+{
+"date": "2025-12-18",
+"month": "2025-12",
+"ae": null,
+"proc": "Daisy Mondragon",
+"amount": 78000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2025-12-15",
+"month": "2025-12",
+"ae": "Nicole Lavau",
+"proc": "Daisy Mondragon",
+"amount": 72500,
+"type": "Fix and Flip"
+},
+{
+"date": "2025-12-23",
+"month": "2025-12",
+"ae": null,
+"proc": "Daisy Mondragon",
+"amount": 243500,
+"type": "Fix and Flip"
+},
+{
+"date": "2025-12-29",
+"month": "2025-12",
+"ae": "Nicole Lavau",
+"proc": "Daisy Mondragon",
+"amount": 915000,
+"type": "Fix and Flip"
+},
+{
+"date": "2025-12-30",
+"month": "2025-12",
+"ae": null,
+"proc": "Daisy Mondragon",
+"amount": 479900,
+"type": "Fix and Flip"
+},
+{
+"date": "2025-12-30",
+"month": "2025-12",
+"ae": "Bailey Girouard",
+"proc": "Daisy Mondragon",
+"amount": 195000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2025-12-31",
+"month": "2025-12",
+"ae": null,
+"proc": "Daisy Mondragon",
+"amount": 281600,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2025-12-31",
+"month": "2025-12",
+"ae": "Raj Vora",
+"proc": "Daisy Mondragon",
+"amount": 200467,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2025-12-31",
+"month": "2025-12",
+"ae": "Nicole Lavau",
+"proc": "Daisy Mondragon",
+"amount": 1190000,
+"type": "Fix and Flip"
+},
+{
+"date": "2025-12-09",
+"month": "2025-12",
+"ae": "Lindsay Milano",
+"proc": "Lindsay Milano",
+"amount": 621000,
+"type": "Fix and Flip"
+},
+{
+"date": "2025-12-08",
+"month": "2025-12",
+"ae": "Lindsay Milano",
+"proc": "Lindsay Milano",
+"amount": 253300,
+"type": "Fix and Flip"
+},
+{
+"date": "2025-12-18",
+"month": "2025-12",
+"ae": "Lindsay Milano",
+"proc": "Lindsay Milano",
+"amount": 1125000,
+"type": ""
+},
+{
+"date": "2026-01-05",
+"month": "2026-01",
+"ae": "Keyan Chang",
+"proc": "Lindsay Milano",
+"amount": 80000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-01-05",
+"month": "2026-01",
+"ae": "Keyan Chang",
+"proc": "Lindsay Milano",
+"amount": 74400,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-01-08",
+"month": "2026-01",
+"ae": "Keyan Chang",
+"proc": "Lindsay Milano",
+"amount": 80000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-01-08",
+"month": "2026-01",
+"ae": "Keyan Chang",
+"proc": "Lindsay Milano",
+"amount": 96000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-01-09",
+"month": "2026-01",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 95040,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-01-09",
+"month": "2026-01",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 84000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-01-15",
+"month": "2026-01",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 92000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-01-13",
+"month": "2026-01",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 76000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-01-16",
+"month": "2026-01",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 108800,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-01-19",
+"month": "2026-01",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 78000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-01-16",
+"month": "2026-01",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 79200,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-01-26",
+"month": "2026-01",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 84000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-01-26",
+"month": "2026-01",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 76000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-01-26",
+"month": "2026-01",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 71200,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-01-26",
+"month": "2026-01",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 88000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-01-29",
+"month": "2026-01",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 172000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-01-26",
+"month": "2026-01",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 77200,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-01-29",
+"month": "2026-01",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 92800,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-01-30",
+"month": "2026-01",
+"ae": "Daniel Frank",
+"proc": "Lindsay Milano",
+"amount": 378000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-01-30",
+"month": "2026-01",
+"ae": "Daniel Frank",
+"proc": "Lindsay Milano",
+"amount": 378000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-01-30",
+"month": "2026-01",
+"ae": "Daniel Frank",
+"proc": "Lindsay Milano",
+"amount": 378000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-01-30",
+"month": "2026-01",
+"ae": "Daniel Frank",
+"proc": "Lindsay Milano",
+"amount": 335000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-01-30",
+"month": "2026-01",
+"ae": "Daniel Frank",
+"proc": "Lindsay Milano",
+"amount": 335000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-01-30",
+"month": "2026-01",
+"ae": "Daniel Frank",
+"proc": "Lindsay Milano",
+"amount": 335000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-01-30",
+"month": "2026-01",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 66400,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-01-29",
+"month": "2026-01",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 52500,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-01-30",
+"month": "2026-01",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 53600,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-01-06",
+"month": "2026-01",
+"ae": "Sebastian Muenda",
+"proc": "Daisy Mondragon",
+"amount": 331400,
+"type": "Fix and Flip"
+},
+{
+"date": "2026-01-05",
+"month": "2026-01",
+"ae": "Hazel Wilder",
+"proc": "Daisy Mondragon",
+"amount": 195000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-01-13",
+"month": "2026-01",
+"ae": "Bailey Girouard",
+"proc": "Daisy Mondragon",
+"amount": 206250,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-01-12",
+"month": "2026-01",
+"ae": "Sebastian Muenda",
+"proc": "Daisy Mondragon",
+"amount": 184000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-01-13",
+"month": "2026-01",
+"ae": "Frank Estrada",
+"proc": "Daisy Mondragon",
+"amount": 178500,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-01-20",
+"month": "2026-01",
+"ae": "Todd Eliasen",
+"proc": null,
+"amount": 183297,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-01-12",
+"month": "2026-01",
+"ae": "Raj Vora",
+"proc": "Daisy Mondragon",
+"amount": 279738,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-01-15",
+"month": "2026-01",
+"ae": "Bailey Girouard",
+"proc": "Daisy Mondragon",
+"amount": 260800,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-01-16",
+"month": "2026-01",
+"ae": null,
+"proc": "Daisy Mondragon",
+"amount": 629568,
+"type": "Fix and Flip"
+},
+{
+"date": "2026-01-16",
+"month": "2026-01",
+"ae": null,
+"proc": "Daisy Mondragon",
+"amount": 136500,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-01-21",
+"month": "2026-01",
+"ae": "Jeremiah Ibrahim",
+"proc": "Daisy Mondragon",
+"amount": 977500,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-01-21",
+"month": "2026-01",
+"ae": null,
+"proc": "Daisy Mondragon",
+"amount": 357700,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-01-22",
+"month": "2026-01",
+"ae": "Raj Vora",
+"proc": "Daisy Mondragon",
+"amount": 129600,
+"type": "DSCR Rate Term"
+},
+{
+"date": "2026-01-30",
+"month": "2026-01",
+"ae": "Bailey Girouard",
+"proc": "Daisy Mondragon",
+"amount": 166000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-01-29",
+"month": "2026-01",
+"ae": "Trey Victor",
+"proc": "Daisy Mondragon",
+"amount": 189750,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-01-30",
+"month": "2026-01",
+"ae": "Bailey Girouard",
+"proc": "Daisy Mondragon",
+"amount": 181600,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-01-30",
+"month": "2026-01",
+"ae": "Bailey Girouard",
+"proc": "Daisy Mondragon",
+"amount": 233600,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-01-30",
+"month": "2026-01",
+"ae": "Bailey Girouard",
+"proc": "Daisy Mondragon",
+"amount": 256000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-01-05",
+"month": "2026-01",
+"ae": null,
+"proc": "Chelsea Juda",
+"amount": 64000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-01-12",
+"month": "2026-01",
+"ae": null,
+"proc": "Chelsea Juda",
+"amount": 68000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-01-22",
+"month": "2026-01",
+"ae": null,
+"proc": "Chelsea Juda",
+"amount": 79920,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-01-29",
+"month": "2026-01",
+"ae": null,
+"proc": "Chelsea Juda",
+"amount": 79120,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-01-29",
+"month": "2026-01",
+"ae": null,
+"proc": "Brandi Smith",
+"amount": 245000,
+"type": "Bridge"
+},
+{
+"date": "2026-02-09",
+"month": "2026-02",
+"ae": "Bailey Girouard",
+"proc": "Lindsay Milano",
+"amount": 126400,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-02-03",
+"month": "2026-02",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 92000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-02-11",
+"month": "2026-02",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 75750,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-02-13",
+"month": "2026-02",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 84000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-02-02",
+"month": "2026-02",
+"ae": null,
+"proc": "Chelsea Juda",
+"amount": 96000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-02-02",
+"month": "2026-02",
+"ae": null,
+"proc": "Chelsea Juda",
+"amount": 110000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-02-17",
+"month": "2026-02",
+"ae": null,
+"proc": "Chelsea Juda",
+"amount": 67796,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-02-23",
+"month": "2026-02",
+"ae": null,
+"proc": "Chelsea Juda",
+"amount": 68800,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-02-27",
+"month": "2026-02",
+"ae": null,
+"proc": "Chelsea Juda",
+"amount": 96000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-02-25",
+"month": "2026-02",
+"ae": null,
+"proc": "Chelsea Juda",
+"amount": 76000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-02-03",
+"month": "2026-02",
+"ae": "Emily Wencelblat",
+"proc": "Daisy Mondragon",
+"amount": 134250,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-02-02",
+"month": "2026-02",
+"ae": "Sebastian Muenda",
+"proc": null,
+"amount": 364000,
+"type": "Fix and Flip"
+},
+{
+"date": "2026-02-04",
+"month": "2026-02",
+"ae": "Trey Victor",
+"proc": "Daisy Mondragon",
+"amount": 294450,
+"type": "Bridge"
+},
+{
+"date": "2026-02-06",
+"month": "2026-02",
+"ae": "Hazel Wilder",
+"proc": "Daisy Mondragon",
+"amount": 255000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-02-06",
+"month": "2026-02",
+"ae": null,
+"proc": "Daisy Mondragon",
+"amount": 272000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-02-11",
+"month": "2026-02",
+"ae": "Jeremiah Ibrahim",
+"proc": "Daisy Mondragon",
+"amount": 88000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-02-13",
+"month": "2026-02",
+"ae": "Luis Danny Franco",
+"proc": "Daisy Mondragon",
+"amount": 186900,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-02-13",
+"month": "2026-02",
+"ae": "Bailey Girouard",
+"proc": "Daisy Mondragon",
+"amount": 144500,
+"type": "Fix and Flip"
+},
+{
+"date": "2026-02-13",
+"month": "2026-02",
+"ae": "Frank Estrada",
+"proc": null,
+"amount": 436500,
+"type": "Fix and Flip"
+},
+{
+"date": "2026-02-25",
+"month": "2026-02",
+"ae": "Emily Wencelblat",
+"proc": "Daisy Mondragon",
+"amount": 404100,
+"type": "Fix and Flip"
+},
+{
+"date": "2026-02-27",
+"month": "2026-02",
+"ae": "Frank Estrada",
+"proc": "Daisy Mondragon",
+"amount": 225000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-02-27",
+"month": "2026-02",
+"ae": "Nicole Lavau",
+"proc": "Daisy Mondragon",
+"amount": 156000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-02-27",
+"month": "2026-02",
+"ae": "Frank Estrada",
+"proc": "Daisy Mondragon",
+"amount": 352000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-02-23",
+"month": "2026-02",
+"ae": "Hazel Wilder",
+"proc": "Daisy Mondragon",
+"amount": 65250,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-02-10",
+"month": "2026-02",
+"ae": "Sebastian Muenda",
+"proc": "Brandi Smith",
+"amount": 275000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-02-27",
+"month": "2026-02",
+"ae": null,
+"proc": null,
+"amount": 266650,
+"type": "Fix and Flip"
+},
+{
+"date": "2026-03-06",
+"month": "2026-03",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 78400,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-03-10",
+"month": "2026-03",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 88000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-03-11",
+"month": "2026-03",
+"ae": "Lindsay Milano",
+"proc": "Lindsay Milano",
+"amount": 60000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-03-12",
+"month": "2026-03",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 96000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-03-02",
+"month": "2026-03",
+"ae": "Keyan Chang",
+"proc": "Lindsay Milano",
+"amount": 60000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-03-11",
+"month": "2026-03",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 76000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-03-16",
+"month": "2026-03",
+"ae": "Keyan Chang",
+"proc": "Lindsay Milano",
+"amount": 315000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-03-19",
+"month": "2026-03",
+"ae": "Lindsay Milano",
+"proc": "Lindsay Milano",
+"amount": 166500,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-03-19",
+"month": "2026-03",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 86000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-03-19",
+"month": "2026-03",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 79200,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-03-20",
+"month": "2026-03",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 62300,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-03-23",
+"month": "2026-03",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 76000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-03-27",
+"month": "2026-03",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 79200,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-03-30",
+"month": "2026-03",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 80000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-03-27",
+"month": "2026-03",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 82008,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-03-09",
+"month": "2026-03",
+"ae": null,
+"proc": "Chelsea Juda",
+"amount": 71200,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-03-11",
+"month": "2026-03",
+"ae": null,
+"proc": "Chelsea Juda",
+"amount": 73200,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-03-24",
+"month": "2026-03",
+"ae": null,
+"proc": "Chelsea Juda",
+"amount": 91367,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-04-06",
+"month": "2026-03",
+"ae": null,
+"proc": "Chelsea Juda",
+"amount": 95600,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-03-30",
+"month": "2026-03",
+"ae": null,
+"proc": "Chelsea Juda",
+"amount": 90400,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-03-06",
+"month": "2026-03",
+"ae": null,
+"proc": "Daisy Mondragon",
+"amount": 224000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-03-09",
+"month": "2026-03",
+"ae": "Jeremiah Ibrahim",
+"proc": "Daisy Mondragon",
+"amount": 108000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-03-06",
+"month": "2026-03",
+"ae": "Todd Eliasen",
+"proc": "Daisy Mondragon",
+"amount": 242981,
+"type": "Fix and Flip"
+},
+{
+"date": "2026-03-10",
+"month": "2026-03",
+"ae": "Trey Victor",
+"proc": "Daisy Mondragon",
+"amount": 170260,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-03-10",
+"month": "2026-03",
+"ae": "Nicole Lavau",
+"proc": "Daisy Mondragon",
+"amount": 224000,
+"type": "DSCR Rate Term"
+},
+{
+"date": "2026-03-13",
+"month": "2026-03",
+"ae": "Bailey Girouard",
+"proc": "Daisy Mondragon",
+"amount": 196000,
+"type": "DSCR Rate Term"
+},
+{
+"date": "2026-03-13",
+"month": "2026-03",
+"ae": "Bailey Girouard",
+"proc": "Daisy Mondragon",
+"amount": 220000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-03-13",
+"month": "2026-03",
+"ae": "Bailey Girouard",
+"proc": "Daisy Mondragon",
+"amount": 180000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-03-16",
+"month": "2026-03",
+"ae": "Sebastian Muenda",
+"proc": "Daisy Mondragon",
+"amount": 217500,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-03-19",
+"month": "2026-03",
+"ae": "Hazel Wilder",
+"proc": "Daisy Mondragon",
+"amount": 127500,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-03-20",
+"month": "2026-03",
+"ae": "Bailey Girouard",
+"proc": "Daisy Mondragon",
+"amount": 126750,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-03-20",
+"month": "2026-03",
+"ae": "Sebastian Muenda",
+"proc": "Daisy Mondragon",
+"amount": 210000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-03-20",
+"month": "2026-03",
+"ae": "Frank Estrada",
+"proc": "Daisy Mondragon",
+"amount": 237000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-03-20",
+"month": "2026-03",
+"ae": "Todd Eliasen",
+"proc": "Daisy Mondragon",
+"amount": 114790,
+"type": "Fix and Flip"
+},
+{
+"date": "2026-03-27",
+"month": "2026-03",
+"ae": "Hazel Wilder",
+"proc": "Daisy Mondragon",
+"amount": 146250,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-03-25",
+"month": "2026-03",
+"ae": "Mathieu StGermain",
+"proc": "Brandi Smith",
+"amount": 133200,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-03-10",
+"month": "2026-03",
+"ae": "Will Deroo",
+"proc": "Brandi Smith",
+"amount": 280000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-03-02",
+"month": "2026-03",
+"ae": "Christopher LaFlesh",
+"proc": "Brandi Smith",
+"amount": 271150,
+"type": "DSCR Rate Term"
+},
+{
+"date": "2026-03-02",
+"month": "2026-03",
+"ae": "Trey Victor",
+"proc": "Brandi Smith",
+"amount": 132800,
+"type": "Bank Statement Cash-Out Refi"
+},
+{
+"date": "2026-03-02",
+"month": "2026-03",
+"ae": "Trey Victor",
+"proc": "Brandi Smith",
+"amount": 109500,
+"type": "Bank Statement Cash-Out Refi"
+},
+{
+"date": "2026-03-02",
+"month": "2026-03",
+"ae": "Trey Victor",
+"proc": "Brandi Smith",
+"amount": 92250,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-03-02",
+"month": "2026-03",
+"ae": "Trey Victor",
+"proc": "Brandi Smith",
+"amount": 105000,
+"type": "Bank Statement Cash-Out Refi"
+},
+{
+"date": "2026-03-02",
+"month": "2026-03",
+"ae": "Trey Victor",
+"proc": "Brandi Smith",
+"amount": 121500,
+"type": "Bank Statement Cash-Out Refi"
+},
+{
+"date": "2026-03-31",
+"month": "2026-03",
+"ae": "Christopher LaFlesh",
+"proc": "Brandi Smith",
+"amount": 158250,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-03-26",
+"month": "2026-03",
+"ae": "Christopher LaFlesh",
+"proc": "Brandi Smith",
+"amount": 207200,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-03-25",
+"month": "2026-03",
+"ae": "Trey Victor",
+"proc": "Brandi Smith",
+"amount": 136500,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-03-25",
+"month": "2026-03",
+"ae": "Will Deroo",
+"proc": "Brandi Smith",
+"amount": 251250,
+"type": "Fix and Flip"
+},
+{
+"date": "2026-03-27",
+"month": "2026-03",
+"ae": "Emily Wencelblat",
+"proc": null,
+"amount": 132000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-03-13",
+"month": "2026-03",
+"ae": "Jason Weber",
+"proc": null,
+"amount": 101575,
+"type": "Fix and Flip"
+},
+{
+"date": "2026-03-09",
+"month": "2026-03",
+"ae": "Mathieu StGermain",
+"proc": null,
+"amount": 108000,
+"type": "Fix and Flip"
+},
+{
+"date": "2026-03-27",
+"month": "2026-03",
+"ae": null,
+"proc": null,
+"amount": 363750,
+"type": "DSCR"
+},
+{
+"date": "2026-04-03",
+"month": "2026-04",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 88000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-03-31",
+"month": "2026-04",
+"ae": "Lindsay Milano",
+"proc": "Lindsay Milano",
+"amount": 57600,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-04-09",
+"month": "2026-04",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 160000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-04-13",
+"month": "2026-04",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 106000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-04-16",
+"month": "2026-04",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 115200,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-04-16",
+"month": "2026-04",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 63920,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-04-22",
+"month": "2026-04",
+"ae": "Keyan Chang",
+"proc": "Lindsay Milano",
+"amount": 0,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-04-15",
+"month": "2026-04",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 108000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-04-29",
+"month": "2026-04",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 86250,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-04-30",
+"month": "2026-04",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 105000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-04-15",
+"month": "2026-04",
+"ae": "Lindsay Milano",
+"proc": null,
+"amount": 354000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-04-15",
+"month": "2026-04",
+"ae": "Lindsay Milano",
+"proc": null,
+"amount": 365250,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-04-13",
+"month": "2026-04",
+"ae": null,
+"proc": "Chelsea Juda",
+"amount": 71920,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-04-09",
+"month": "2026-04",
+"ae": null,
+"proc": "Chelsea Juda",
+"amount": 73190,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-04-08",
+"month": "2026-04",
+"ae": null,
+"proc": "Chelsea Juda",
+"amount": 55920,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-04-14",
+"month": "2026-04",
+"ae": null,
+"proc": "Chelsea Juda",
+"amount": 76000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-04-13",
+"month": "2026-04",
+"ae": null,
+"proc": "Chelsea Juda",
+"amount": 65920,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-04-16",
+"month": "2026-04",
+"ae": null,
+"proc": "Chelsea Juda",
+"amount": 68000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-04-21",
+"month": "2026-04",
+"ae": null,
+"proc": "Chelsea Juda",
+"amount": 46400,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-04-21",
+"month": "2026-04",
+"ae": null,
+"proc": "Chelsea Juda",
+"amount": 89600,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-04-27",
+"month": "2026-04",
+"ae": null,
+"proc": "Chelsea Juda",
+"amount": 95920,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-04-03",
+"month": "2026-04",
+"ae": "Luis Danny Franco",
+"proc": "Daisy Mondragon",
+"amount": 1999999,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-04-07",
+"month": "2026-04",
+"ae": "Jeremiah Ibrahim",
+"proc": "Daisy Mondragon",
+"amount": 144500,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-04-10",
+"month": "2026-04",
+"ae": "Raj Vora",
+"proc": "Daisy Mondragon",
+"amount": 202500,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-04-10",
+"month": "2026-04",
+"ae": "Nicole Lavau",
+"proc": "Daisy Mondragon",
+"amount": 152750,
+"type": "Fix and Flip"
+},
+{
+"date": "2026-04-13",
+"month": "2026-04",
+"ae": "Nicole Lavau",
+"proc": "Daisy Mondragon",
+"amount": 510000,
+"type": "Fix and Flip"
+},
+{
+"date": "2026-04-10",
+"month": "2026-04",
+"ae": "Hazel Wilder",
+"proc": "Daisy Mondragon",
+"amount": 97500,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-04-09",
+"month": "2026-04",
+"ae": "Jason Weber",
+"proc": null,
+"amount": 76082,
+"type": "Fix and Flip"
+},
+{
+"date": "2026-04-09",
+"month": "2026-04",
+"ae": null,
+"proc": null,
+"amount": 216372,
+"type": "Fix and Flip"
+},
+{
+"date": "2026-04-10",
+"month": "2026-04",
+"ae": "Jeremiah Ibrahim",
+"proc": "Daisy Mondragon",
+"amount": 297585,
+"type": "Fix and Flip"
+},
+{
+"date": "2026-04-14",
+"month": "2026-04",
+"ae": null,
+"proc": "Daisy Mondragon",
+"amount": 765000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-04-24",
+"month": "2026-04",
+"ae": "Raj Vora",
+"proc": "Daisy Mondragon",
+"amount": 120000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-04-24",
+"month": "2026-04",
+"ae": "Nicole Lavau",
+"proc": "Daisy Mondragon",
+"amount": 1525844,
+"type": "Fix and Flip"
+},
+{
+"date": "2026-04-08",
+"month": "2026-04",
+"ae": "Mathieu StGermain",
+"proc": "Brandi Smith",
+"amount": 140250,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-04-17",
+"month": "2026-04",
+"ae": "Jason Weber",
+"proc": "Brandi Smith",
+"amount": 129000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-04-17",
+"month": "2026-04",
+"ae": "Mathieu StGermain",
+"proc": "Brandi Smith",
+"amount": 161250,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-04-17",
+"month": "2026-04",
+"ae": "Sebastian Muenda",
+"proc": "Brandi Smith",
+"amount": 210000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-04-20",
+"month": "2026-04",
+"ae": "Hazel Wilder",
+"proc": "Brandi Smith",
+"amount": 518400,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-04-10",
+"month": "2026-04",
+"ae": "Samuel Vickrey",
+"proc": "Adam Epperson",
+"amount": 83870,
+"type": "Fix and Flip"
+},
+{
+"date": "2026-04-15",
+"month": "2026-04",
+"ae": "Jeremiah Ibrahim",
+"proc": "Adam Epperson",
+"amount": 102000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-04-17",
+"month": "2026-04",
+"ae": null,
+"proc": "Adam Epperson",
+"amount": 324903,
+"type": "Fix and Flip"
+},
+{
+"date": "2026-04-15",
+"month": "2026-04",
+"ae": "Trey Victor",
+"proc": "Adam Epperson",
+"amount": 663795,
+"type": "Fix and Flip"
+},
+{
+"date": "2026-04-30",
+"month": "2026-04",
+"ae": "Trey Victor",
+"proc": "Heather",
+"amount": 200000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-04-30",
+"month": "2026-04",
+"ae": "Trey Victor",
+"proc": "Heather",
+"amount": 212000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-05-04",
+"month": "2026-05",
+"ae": "Lindsay Milano",
+"proc": "Lindsay Milano",
+"amount": 1036000,
+"type": "Bank Statement Purchase"
+},
+{
+"date": "2026-05-04",
+"month": "2026-05",
+"ae": "Lindsay Milano",
+"proc": "Lindsay Milano",
+"amount": 202500,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-05-04",
+"month": "2026-05",
+"ae": "Lindsay Milano",
+"proc": "Lindsay Milano",
+"amount": 184173,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-05-04",
+"month": "2026-05",
+"ae": "Lindsay Milano",
+"proc": "Lindsay Milano",
+"amount": 177750,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-05-04",
+"month": "2026-05",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 457600,
+"type": "Conventional - Primary"
+},
+{
+"date": "2026-05-15",
+"month": "2026-05",
+"ae": "Lindsay Milano",
+"proc": "Lindsay Milano",
+"amount": 120000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-05-15",
+"month": "2026-05",
+"ae": "Lindsay Milano",
+"proc": "Lindsay Milano",
+"amount": 92000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-05-18",
+"month": "2026-05",
+"ae": "Lindsay Milano",
+"proc": "Lindsay Milano",
+"amount": 149000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-05-22",
+"month": "2026-05",
+"ae": "Lindsay Milano",
+"proc": "Lindsay Milano",
+"amount": 70000,
+"type": "407 W 23rd St, Lorain, OH 4405"
+},
+{
+"date": "2026-05-29",
+"month": "2026-05",
+"ae": "Lindsay Milano",
+"proc": "Lindsay Milano",
+"amount": 204750,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-05-28",
+"month": "2026-05",
+"ae": "Lindsay Milano",
+"proc": "Lindsay Milano",
+"amount": 202500,
+"type": "DSCR Rate Term"
+},
+{
+"date": "2026-05-29",
+"month": "2026-05",
+"ae": "Lindsay Milano",
+"proc": "Lindsay Milano",
+"amount": 175500,
+"type": "DSCR Rate Term"
+},
+{
+"date": "2026-05-29",
+"month": "2026-05",
+"ae": "Lindsay Milano",
+"proc": "Lindsay Milano",
+"amount": 174750,
+"type": "DSCR Rate Term"
+},
+{
+"date": "2026-05-29",
+"month": "2026-05",
+"ae": "Lindsay Milano",
+"proc": "Lindsay Milano",
+"amount": 165000,
+"type": "DSCR Rate Term"
+},
+{
+"date": "2026-05-29",
+"month": "2026-05",
+"ae": "Lindsay Milano",
+"proc": "Lindsay Milano",
+"amount": 183750,
+"type": "DSCR Rate Term"
+},
+{
+"date": "2026-05-29",
+"month": "2026-05",
+"ae": "Lindsay Milano",
+"proc": "Lindsay Milano",
+"amount": 168750,
+"type": "DSCR Rate Term"
+},
+{
+"date": "2026-05-29",
+"month": "2026-05",
+"ae": "Lindsay Milano",
+"proc": "Lindsay Milano",
+"amount": 170250,
+"type": "DSCR Rate Term"
+},
+{
+"date": "2026-05-14",
+"month": "2026-05",
+"ae": null,
+"proc": "Chelsea Juda",
+"amount": 88000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-05-26",
+"month": "2026-05",
+"ae": null,
+"proc": "Chelsea Juda",
+"amount": 70400,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-04-27",
+"month": "2026-05",
+"ae": "Bailey Girouard",
+"proc": "Daisy Mondragon",
+"amount": 216000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-04-29",
+"month": "2026-05",
+"ae": "Bailey Girouard",
+"proc": "Daisy Mondragon",
+"amount": 162750,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-04-28",
+"month": "2026-05",
+"ae": "Jeremiah Ibrahim",
+"proc": "Daisy Mondragon",
+"amount": 340000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-04-28",
+"month": "2026-05",
+"ae": "Jeremiah Ibrahim",
+"proc": "Daisy Mondragon",
+"amount": 400000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-04-30",
+"month": "2026-05",
+"ae": "Nicole Lavau",
+"proc": "Daisy Mondragon",
+"amount": 461500,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-05-01",
+"month": "2026-05",
+"ae": "Frank Estrada",
+"proc": "Daisy Mondragon",
+"amount": 1144000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-05-08",
+"month": "2026-05",
+"ae": "Bailey Girouard",
+"proc": "Daisy Mondragon",
+"amount": 176000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-05-08",
+"month": "2026-05",
+"ae": "Bailey Girouard",
+"proc": "Daisy Mondragon",
+"amount": 338400,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-05-14",
+"month": "2026-05",
+"ae": "Emily Wencelblat",
+"proc": "Daisy Mondragon",
+"amount": 390960,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-05-18",
+"month": "2026-05",
+"ae": "Frank Estrada",
+"proc": "Daisy Mondragon",
+"amount": 230000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-05-19",
+"month": "2026-05",
+"ae": "Trey Victor",
+"proc": "Daisy Mondragon",
+"amount": 143000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-05-19",
+"month": "2026-05",
+"ae": "Frank Estrada",
+"proc": "Daisy Mondragon",
+"amount": 1230120,
+"type": "Fix and Flip"
+},
+{
+"date": "2026-05-20",
+"month": "2026-05",
+"ae": "Raj Vora",
+"proc": "Daisy Mondragon",
+"amount": 181800,
+"type": "Fix and Flip"
+},
+{
+"date": "2026-05-22",
+"month": "2026-05",
+"ae": "Raj Vora",
+"proc": "Daisy Mondragon",
+"amount": 232800,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-05-28",
+"month": "2026-05",
+"ae": "Jeremiah Ibrahim",
+"proc": "Daisy Mondragon",
+"amount": 205500,
+"type": "Fix and Flip"
+},
+{
+"date": "2026-05-28",
+"month": "2026-05",
+"ae": "Nicole Lavau",
+"proc": null,
+"amount": 1311030,
+"type": "Fix and Flip"
+},
+{
+"date": "2026-05-13",
+"month": "2026-05",
+"ae": "Ryan McCoy",
+"proc": "Brandi Smith",
+"amount": 175200,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-04-30",
+"month": "2026-05",
+"ae": "Will Deroo",
+"proc": "Brandi Smith",
+"amount": 1050000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-04-24",
+"month": "2026-05",
+"ae": "Christopher LaFlesh",
+"proc": "Brandi Smith",
+"amount": 162500,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-04-29",
+"month": "2026-05",
+"ae": "Mathieu StGermain",
+"proc": "Brandi Smith",
+"amount": 165600,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-05-15",
+"month": "2026-05",
+"ae": "Hazel Wilder",
+"proc": "Brandi Smith",
+"amount": 311000,
+"type": "DSCR Rate/Term"
+},
+{
+"date": "2026-05-18",
+"month": "2026-05",
+"ae": "Will Deroo",
+"proc": "Brandi Smith",
+"amount": 127500,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-05-18",
+"month": "2026-05",
+"ae": "Will Deroo",
+"proc": "Brandi Smith",
+"amount": 280000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-05-14",
+"month": "2026-05",
+"ae": null,
+"proc": "Brandi Smith",
+"amount": 210000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-05-15",
+"month": "2026-05",
+"ae": "Jason Weber",
+"proc": "Brandi Smith",
+"amount": 222400,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-05-15",
+"month": "2026-05",
+"ae": "Hazel Wilder",
+"proc": "Adam Epperson",
+"amount": 164700,
+"type": "DSCR Rate/Term"
+},
+{
+"date": "2026-04-30",
+"month": "2026-05",
+"ae": "Nicole Lavau",
+"proc": "Jillian Haines",
+"amount": 2695000,
+"type": "Fix and Flip"
+},
+{
+"date": "2026-05-13",
+"month": "2026-05",
+"ae": "Lindsay Milano",
+"proc": "Jillian Haines",
+"amount": 840000,
+"type": "Conventional Loan"
+},
+{
+"date": "2026-05-18",
+"month": "2026-05",
+"ae": "Nicole Lavau",
+"proc": "Jillian Haines",
+"amount": 325858,
+"type": "Bridge"
+},
+{
+"date": "2026-05-20",
+"month": "2026-05",
+"ae": "Raj Vora",
+"proc": "Jillian Haines",
+"amount": 984533,
+"type": "Fix and Flip"
+},
+{
+"date": "2026-05-29",
+"month": "2026-05",
+"ae": "Jason Weber",
+"proc": "Jillian Haines",
+"amount": 137000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-05-15",
+"month": "2026-05",
+"ae": null,
+"proc": null,
+"amount": 392000,
+"type": "DSCR"
+},
+{
+"date": "2026-05-15",
+"month": "2026-05",
+"ae": null,
+"proc": null,
+"amount": 3845,
+"type": "HELOC"
+},
+{
+"date": "2026-05-15",
+"month": "2026-05",
+"ae": "Keyan Chang",
+"proc": null,
+"amount": 463250,
+"type": "BANK STMNT"
+},
+{
+"date": "2026-06-15",
+"month": "2026-06",
+"ae": "Lindsay Milano",
+"proc": "Lindsay Milano",
+"amount": 0,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-05-29",
+"month": "2026-06",
+"ae": null,
+"proc": "Lindsay Milano",
+"amount": 840000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-06-11",
+"month": "2026-06",
+"ae": "Lindsay Milano",
+"proc": "Lindsay Milano",
+"amount": 68000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-06-11",
+"month": "2026-06",
+"ae": "Lindsay Milano",
+"proc": "Lindsay Milano",
+"amount": 92000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-06-17",
+"month": "2026-06",
+"ae": "Lindsay Milano",
+"proc": "Lindsay Milano",
+"amount": 81600,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-06-17",
+"month": "2026-06",
+"ae": "Lindsay Milano",
+"proc": "Lindsay Milano",
+"amount": 95200,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-06-17",
+"month": "2026-06",
+"ae": "Lindsay Milano",
+"proc": "Lindsay Milano",
+"amount": 95200,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-06-15",
+"month": "2026-06",
+"ae": "Lindsay Milano",
+"proc": "Lindsay Milano",
+"amount": 243650,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-07-01",
+"month": "2026-06",
+"ae": "Lindsay Milano",
+"proc": "Chelsea Juda",
+"amount": 22400,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-06-04",
+"month": "2026-06",
+"ae": "Jeremiah Ibrahim",
+"proc": "Daisy Mondragon",
+"amount": 422500,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-06-04",
+"month": "2026-06",
+"ae": "Jeremiah Ibrahim",
+"proc": "Daisy Mondragon",
+"amount": 194600,
+"type": "Fix and Flip"
+},
+{
+"date": "2026-06-04",
+"month": "2026-06",
+"ae": "Frank Estrada",
+"proc": "Daisy Mondragon",
+"amount": 431250,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-06-05",
+"month": "2026-06",
+"ae": "Bailey Girouard",
+"proc": "Daisy Mondragon",
+"amount": 212500,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-06-10",
+"month": "2026-06",
+"ae": "Bailey Girouard",
+"proc": "Daisy Mondragon",
+"amount": 168750,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-06-10",
+"month": "2026-06",
+"ae": "Bailey Girouard",
+"proc": "Daisy Mondragon",
+"amount": 182250,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-06-10",
+"month": "2026-06",
+"ae": "Bailey Girouard",
+"proc": "Daisy Mondragon",
+"amount": 247500,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-06-10",
+"month": "2026-06",
+"ae": "Bailey Girouard",
+"proc": "Daisy Mondragon",
+"amount": 168750,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-06-11",
+"month": "2026-06",
+"ae": null,
+"proc": "Daisy Mondragon",
+"amount": 412500,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-06-22",
+"month": "2026-06",
+"ae": "Bailey Girouard",
+"proc": "Daisy Mondragon",
+"amount": 160000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-06-22",
+"month": "2026-06",
+"ae": "Brendon Dragon",
+"proc": "Daisy Mondragon",
+"amount": 508500,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-06-18",
+"month": "2026-06",
+"ae": "Jeremiah Ibrahim",
+"proc": "Daisy Mondragon",
+"amount": 1908022,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-06-23",
+"month": "2026-06",
+"ae": "Christopher LaFlesh",
+"proc": "Daisy Mondragon",
+"amount": 227200,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-06-18",
+"month": "2026-06",
+"ae": "Nicole Lavau",
+"proc": null,
+"amount": 1340750,
+"type": "Fix and Flip"
+},
+{
+"date": "2026-06-18",
+"month": "2026-06",
+"ae": "Todd Eliasen",
+"proc": null,
+"amount": 491000,
+"type": "Fix and Flip"
+},
+{
+"date": "2026-06-30",
+"month": "2026-06",
+"ae": "Luis Danny Franco",
+"proc": "Daisy Mondragon",
+"amount": 863845,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-06-01",
+"month": "2026-06",
+"ae": "Christopher LaFlesh",
+"proc": "Brandi Smith",
+"amount": 110500,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-05-29",
+"month": "2026-06",
+"ae": "Christopher LaFlesh",
+"proc": "Brandi Smith",
+"amount": 166400,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-06-12",
+"month": "2026-06",
+"ae": "Will Deroo",
+"proc": "Brandi Smith",
+"amount": 283570,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-06-03",
+"month": "2026-06",
+"ae": "Will Deroo",
+"proc": "Brandi Smith",
+"amount": 630000,
+"type": "DSCR Rate/Term"
+},
+{
+"date": "2026-06-03",
+"month": "2026-06",
+"ae": "Will Deroo",
+"proc": "Brandi Smith",
+"amount": 826000,
+"type": "DSCR R/T Bank Statement Loan"
+},
+{
+"date": "2026-06-03",
+"month": "2026-06",
+"ae": "Will Deroo",
+"proc": "Brandi Smith",
+"amount": 711600,
+"type": "DSCR Rate/Term"
+},
+{
+"date": "2026-06-03",
+"month": "2026-06",
+"ae": "Will Deroo",
+"proc": "Brandi Smith",
+"amount": 640500,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-06-05",
+"month": "2026-06",
+"ae": null,
+"proc": "Brandi Smith",
+"amount": 697500,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-06-08",
+"month": "2026-06",
+"ae": null,
+"proc": "Brandi Smith",
+"amount": 163800,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-06-12",
+"month": "2026-06",
+"ae": "Will Deroo",
+"proc": "Brandi Smith",
+"amount": 412300,
+"type": "DSCR Rate/Term"
+},
+{
+"date": "2026-06-16",
+"month": "2026-06",
+"ae": "Ryan McCoy",
+"proc": "Brandi Smith",
+"amount": 225000,
+"type": "DSCR Rate/Term"
+},
+{
+"date": "2026-06-16",
+"month": "2026-06",
+"ae": "Ryan McCoy",
+"proc": "Brandi Smith",
+"amount": 233250,
+"type": "DSCR Rate/Term"
+},
+{
+"date": "2026-05-29",
+"month": "2026-06",
+"ae": "Hazel Wilder",
+"proc": "Adam Epperson",
+"amount": 164700,
+"type": "DSCR Rate/Term"
+},
+{
+"date": "2026-05-21",
+"month": "2026-06",
+"ae": "Daniel Frank",
+"proc": "Adam Epperson",
+"amount": 140000,
+"type": "DSCR Rate/Term"
+},
+{
+"date": "2026-06-03",
+"month": "2026-06",
+"ae": "Ryan McCoy",
+"proc": "Adam Epperson",
+"amount": 142500,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-06-18",
+"month": "2026-06",
+"ae": "Nicole Lavau",
+"proc": "Adam Epperson",
+"amount": 153500,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-06-22",
+"month": "2026-06",
+"ae": "Nicole Lavau",
+"proc": "Adam Epperson",
+"amount": 208000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-06-04",
+"month": "2026-06",
+"ae": "Bailey Girouard",
+"proc": "Adam Epperson",
+"amount": 320973,
+"type": "Fix and Flip"
+},
+{
+"date": "2026-06-11",
+"month": "2026-06",
+"ae": "Bailey Girouard",
+"proc": "Adam Epperson",
+"amount": 898207,
+"type": "Fix and Flip"
+},
+{
+"date": "2026-06-12",
+"month": "2026-06",
+"ae": "Ryan McCoy",
+"proc": "Adam Epperson",
+"amount": 440000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-06-15",
+"month": "2026-06",
+"ae": "Ryan McCoy",
+"proc": "Adam Epperson",
+"amount": 158250,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-06-15",
+"month": "2026-06",
+"ae": "Ryan McCoy",
+"proc": "Adam Epperson",
+"amount": 187500,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-06-16",
+"month": "2026-06",
+"ae": "Jason Weber",
+"proc": "Adam Epperson",
+"amount": 296250,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-06-15",
+"month": "2026-06",
+"ae": "Seneca Schachter",
+"proc": "Adam Epperson",
+"amount": 565960,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-06-18",
+"month": "2026-06",
+"ae": "Ryan McCoy",
+"proc": "Adam Epperson",
+"amount": 127500,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-05-29",
+"month": "2026-06",
+"ae": "Jason Weber",
+"proc": "Jillian Haines",
+"amount": 137000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-06-04",
+"month": "2026-06",
+"ae": "Lindsay Milano",
+"proc": "Jillian Haines",
+"amount": 296000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-06-17",
+"month": "2026-06",
+"ae": "Nicole Lavau",
+"proc": "Jillian Haines",
+"amount": 253755,
+"type": "Bridge"
+},
+{
+"date": "2026-06-25",
+"month": "2026-06",
+"ae": "Lindsay Milano",
+"proc": "Jillian Haines",
+"amount": 262000,
+"type": "Bank statement"
+},
+{
+"date": "2025-06-26",
+"month": "2026-06",
+"ae": "Lindsay Milano",
+"proc": "Jillian Haines",
+"amount": 1012500,
+"type": "Bank statement"
+},
+{
+"date": "2026-06-15",
+"month": "2026-06",
+"ae": "Bailey Girouard",
+"proc": null,
+"amount": 189945,
+"type": "Fix and Flip"
+},
+{
+"date": "2026-07-02",
+"month": "2026-07",
+"ae": "Lindsay Milano",
+"proc": "Lindsay Milano",
+"amount": 0,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-07-02",
+"month": "2026-07",
+"ae": "Lindsay Milano",
+"proc": "Lindsay Milano",
+"amount": 7757900,
+"type": "DSCR Rate Term"
+},
+{
+"date": "2026-07-06",
+"month": "2026-07",
+"ae": "Lindsay Milano",
+"proc": "Lindsay Milano",
+"amount": 258000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-07-06",
+"month": "2026-07",
+"ae": null,
+"proc": "Chelsea Juda",
+"amount": 50000,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-07-02",
+"month": "2026-07",
+"ae": null,
+"proc": "Chelsea Juda",
+"amount": 79200,
+"type": "DSCR Purchase"
+},
+{
+"date": "2026-06-12",
+"month": "2026-07",
+"ae": "Jason Weber",
+"proc": "Adam Epperson",
+"amount": 382000,
+"type": "Fix and Flip"
+},
+{
+"date": "2026-06-30",
+"month": "2026-07",
+"ae": "Paulo Bermudez",
+"proc": "Adam Epperson",
+"amount": 360000,
+"type": "DSCR R/T Bank Statement Loan"
+},
+{
+"date": "2026-07-02",
+"month": "2026-07",
+"ae": "Hazel Wilder",
+"proc": "Adam Epperson",
+"amount": 408000,
+"type": "Bank statement"
+},
+{
+"date": "2026-07-01",
+"month": "2026-07",
+"ae": "Samuel Vickrey",
+"proc": "Adam Epperson",
+"amount": 100800,
+"type": "Fix and Flip"
+},
+{
+"date": "2026-07-01",
+"month": "2026-07",
+"ae": "Jason Weber",
+"proc": "Adam Epperson",
+"amount": 108500,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-07-08",
+"month": "2026-07",
+"ae": "Ryan McCoy",
+"proc": "Adam Epperson",
+"amount": 202500,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-07-02",
+"month": "2026-07",
+"ae": "Jeremiah Ibrahim",
+"proc": "Daisy Mondragon",
+"amount": 344900,
+"type": "Fix and Flip"
+},
+{
+"date": "2026-07-01",
+"month": "2026-07",
+"ae": "Brendon Dragon",
+"proc": "Daisy Mondragon",
+"amount": 320000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-07-01",
+"month": "2026-07",
+"ae": "Raj Vora",
+"proc": "Daisy Mondragon",
+"amount": 186750,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-07-01",
+"month": "2026-07",
+"ae": "Raj Vora",
+"proc": "Daisy Mondragon",
+"amount": 185250,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-07-01",
+"month": "2026-07",
+"ae": "Todd Eliasen",
+"proc": null,
+"amount": 29940,
+"type": "Fix and Flip"
+},
+{
+"date": "2026-07-08",
+"month": "2026-07",
+"ae": "Jason Weber",
+"proc": "Daisy Mondragon",
+"amount": 261250,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-07-02",
+"month": "2026-07",
+"ae": null,
+"proc": "Brandi Smith",
+"amount": 345000,
+"type": "DSCR Cash-Out Refi"
+},
+{
+"date": "2026-07-15",
+"month": "2026-07",
+"ae": "Nicole Lavau",
+"proc": null,
+"amount": 1755000,
+"type": "Fix and Flip"
+}
+]
+}

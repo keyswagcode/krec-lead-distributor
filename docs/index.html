@@ -205,10 +205,11 @@ function render(){
   (data.latest||[]).forEach(l=>{if(HIDE.has(l.rep))l.rep="KREC"});
   const reps=(data.reps||[]).filter(r=>!HIDE.has(r.name)).slice().sort((a,b)=>(b.year.loanAmount||0)-(a.year.loanAmount||0));
   const board=reps.filter(r=>(r.year.loanAmount||0)>0);
-  const totY=board.reduce((s,r)=>s+(r.year.loanAmount||0),0);
-  const nY=board.reduce((s,r)=>s+(r.year.loans||0),0);
-  const totM=board.reduce((s,r)=>s+(r.month.loanAmount||0),0);
-  const nM=board.reduce((s,r)=>s+(r.month.loans||0),0);
+  const T=data.totals||null;
+  const totY=T?T.year.loanAmount:board.reduce((s,r)=>s+(r.year.loanAmount||0),0);
+  const nY=T?T.year.loans:board.reduce((s,r)=>s+(r.year.loans||0),0);
+  const totM=T?T.month.loanAmount:board.reduce((s,r)=>s+(r.month.loanAmount||0),0);
+  const nM=T?T.month.loans:board.reduce((s,r)=>s+(r.month.loans||0),0);
 
   document.getElementById("yearchip").textContent=data.year;
   document.getElementById("k-ytd").textContent=`Funded ${data.year}`;

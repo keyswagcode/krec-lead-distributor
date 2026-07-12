@@ -1,6 +1,6 @@
 import "dotenv/config";
-import { writeFileSync, mkdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
+import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 
 /**
  * Builds the closed-loan leaderboard from GoHighLevel and writes an aggregated
@@ -149,6 +149,13 @@ async function allClosedOpps(): Promise<Opp[]> {
   return out;
 }
 
+/** Historical Paid loans from the processing sheet (through the cutoff); GHL counts after. */
+interface HistLoan { date: string; month: string; ae: string | null; proc: string | null; amount: number; type: string }
+const HISTORY = JSON.parse(
+  readFileSync(fileURLToPath(new URL("../config/loan-history.json", import.meta.url)), "utf8"),
+) as { cutoff: string; loans: HistLoan[] };
+const HISTORY_CUTOFF = HISTORY.cutoff; // GHL opps count only when funded on/after this date
+
 function closedThisYear(o: Opp): boolean {
   if (!o.pipelineStageId || !CLOSED_STAGES.has(o.pipelineStageId)) return false;
   const when = o.lastStageChangeAt || o.updatedAt || "";
@@ -172,6 +179,7 @@ async function main() {
 
   const repNameOf = (id?: string | null) => (!id ? "Unassigned" : names[id] || `(user ${id.slice(0, 6)})`);
 
+  // Buckets are keyed by DISPLAY NAME so sheet history and GHL merge cleanly.
   const reps = new Map<string, { year: Bucket; month: Bucket }>();
   // Processors = users added as followers on the opportunity; credited by loan count.
   const processors = new Map<string, { year: Bucket; month: Bucket }>();
@@ -185,16 +193,36 @@ async function main() {
     }
     map.set(key, rec);
   };
+  const totals = { year: mkBucket(), month: mkBucket() };
+  const bump = (la: number, inMonth: boolean) => {
+    totals.year.loanAmount += la; totals.year.loans += 1;
+    if (inMonth) { totals.month.loanAmount += la; totals.month.loans += 1; }
+  };
+  // 1) Sheet history (Status=Paid), current year only — the pre-cutoff record.
+  for (const l of HISTORY.loans) {
+    if (!l.month.startsWith(String(YEAR))) continue;
+    const inMonth = l.month === monthPrefix;
+    bump(l.amount, inMonth);
+    if (l.ae) credit(reps, l.ae, l.amount, inMonth);
+    if (l.proc) credit(processors, l.proc, l.amount, inMonth);
+  }
+  // 2) GHL — the go-forward standard: only fundings on/after the cutoff.
   closed.forEach((o, i) => {
+    const when = o.lastStageChangeAt || o.updatedAt || "";
+    if (when.slice(0, 10) < HISTORY_CUTOFF) return;
     const la = details[i]?.loanAmount || 0;
-    const inMonth = (o.lastStageChangeAt || o.updatedAt || "").startsWith(monthPrefix);
-    credit(reps, o.assignedTo || "__unassigned__", la, inMonth);
-    for (const f of new Set(o.followers || [])) credit(processors, f, la, inMonth);
+    const inMonth = when.startsWith(monthPrefix);
+    bump(la, inMonth);
+    credit(reps, repNameOf(o.assignedTo), la, inMonth);
+    for (const f of new Set(o.followers || [])) credit(processors, repNameOf(f), la, inMonth);
   });
 
   // Deals closed in the last RECENT_DAYS for the "Just Funded" ticker. NO borrower
   // PII and NO commission/value — only rep, loan amount, loan type, stage, time.
   const cutoff = Date.now() - RECENT_DAYS * 86400_000;
+  const histLatest = HISTORY.loans
+    .filter((l) => new Date(l.date + "T12:00:00Z").getTime() >= cutoff && l.amount > 0)
+    .map((l, i) => ({ id: `hist-${l.date}-${i}`, name: "", rep: l.ae || "KREC", loanAmount: l.amount, loanType: l.type, stage: "Funded", closedAt: l.date + "T12:00:00Z" }));
   const latest = closed
     .map((o, i) => ({
       id: o.id,
@@ -205,16 +233,13 @@ async function main() {
       stage: STAGE_LABEL[o.pipelineStageId || ""] || "Closed",
       closedAt: o.lastStageChangeAt || o.updatedAt || "",
     }))
-    .filter((d) => d.closedAt && new Date(d.closedAt).getTime() >= cutoff)
+    .filter((d) => d.closedAt && new Date(d.closedAt).getTime() >= cutoff && d.closedAt.slice(0, 10) >= HISTORY_CUTOFF)
+    .concat(histLatest)
     .sort((a, b) => (a.closedAt < b.closedAt ? 1 : -1));
 
   const round = (b: Bucket): Bucket => ({ loanAmount: Math.round(b.loanAmount), loans: b.loans });
   const toArr = (map: Map<string, { year: Bucket; month: Bucket }>) =>
-    [...map.entries()].map(([id, v]) => ({
-      name: id === "__unassigned__" ? "Unassigned" : names[id] || `(user ${id.slice(0, 6)})`,
-      year: round(v.year),
-      month: round(v.month),
-    }));
+    [...map.entries()].map(([name, v]) => ({ name, year: round(v.year), month: round(v.month) }));
   /** Names hidden from the public board (owner/system buckets, not sales staff). */
   const EXCLUDED_NAMES = new Set(["Keyan Chang", "Unassigned"]);
   const repArr = toArr(reps).filter((r) => !EXCLUDED_NAMES.has(r.name));
@@ -226,7 +251,8 @@ async function main() {
     year: YEAR,
     monthLabel: now.toLocaleString("en-US", { month: "long", year: "numeric" }),
     monthPrefix,
-    definition: "Loan Pipeline opportunities in Closed or Wire Received stage. loanAmount = 'Loan Amount' custom field (principal); loans = count. AEs = assignedTo; processors = opportunity followers. (Commission/value intentionally excluded.)",
+    definition: `Funded loans: processing-sheet Paid record through ${HISTORY_CUTOFF}, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.`,
+    totals: { year: round(totals.year), month: round(totals.month) },
     reps: repArr,
     processors: processorArr,
     latest,
