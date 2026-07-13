@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T10:02:21.084Z",
+  "updatedAt": "2026-07-13T12:38:39.298Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
@@ -339,7 +339,7 @@
   ],
   "latest": [
     {
-      "id": "hist-2026-07-15-4",
+      "id": "hist-2026-07-15-2",
       "name": "",
       "rep": "Nicole Lavau",
       "loanAmount": 1755000,
@@ -348,7 +348,7 @@
       "closedAt": "2026-07-15T12:00:00Z"
     },
     {
-      "id": "hist-2026-07-08-3",
+      "id": "hist-2026-07-08-1",
       "name": "",
       "rep": "Jason Weber",
       "loanAmount": 261250,
@@ -357,31 +357,13 @@
       "closedAt": "2026-07-08T12:00:00Z"
     },
     {
-      "id": "hist-2026-07-08-2",
+      "id": "hist-2026-07-08-0",
       "name": "",
       "rep": "Ryan McCoy",
       "loanAmount": 202500,
       "loanType": "DSCR Cash-Out Refi",
       "stage": "Funded",
       "closedAt": "2026-07-08T12:00:00Z"
-    },
-    {
-      "id": "hist-2026-07-06-1",
-      "name": "",
-      "rep": "KREC",
-      "loanAmount": 50000,
-      "loanType": "DSCR Purchase",
-      "stage": "Funded",
-      "closedAt": "2026-07-06T12:00:00Z"
-    },
-    {
-      "id": "hist-2026-07-06-0",
-      "name": "",
-      "rep": "Lindsay Milano",
-      "loanAmount": 258000,
-      "loanType": "DSCR Cash-Out Refi",
-      "stage": "Funded",
-      "closedAt": "2026-07-06T12:00:00Z"
     }
   ]
 }
