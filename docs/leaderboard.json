@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-07-14T00:14:25.214Z",
+  "updatedAt": "2026-07-14T03:37:18.360Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 86695586,
-      "loans": 300
+      "loanAmount": 94434386,
+      "loans": 301
     },
     "month": {
-      "loanAmount": 13393390,
-      "loans": 20
+      "loanAmount": 21132190,
+      "loans": 21
     }
   },
   "reps": [
@@ -150,12 +150,12 @@
     {
       "name": "Lindsay Milano",
       "year": {
-        "loanAmount": 15604473,
-        "loans": 36
+        "loanAmount": 23343273,
+        "loans": 37
       },
       "month": {
-        "loanAmount": 8015900,
-        "loans": 3
+        "loanAmount": 15754700,
+        "loans": 4
       }
     },
     {
@@ -346,6 +346,15 @@
       "loanType": "Fix and Flip",
       "stage": "Funded",
       "closedAt": "2026-07-15T12:00:00Z"
+    },
+    {
+      "id": "2Kvl6ARI6ayz9lVhGzJB",
+      "name": "",
+      "rep": "Lindsay Milano",
+      "loanAmount": 7738800,
+      "loanType": "DSCR - R/T",
+      "stage": "Wire Received",
+      "closedAt": "2026-07-14T01:57:45.173Z"
     },
     {
       "id": "7Grt73wbv2qUvOmQtgDu",
