@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-07-14T16:01:26.866Z",
+  "updatedAt": "2026-07-14T17:24:04.566Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 94434386,
-      "loans": 301
+      "loanAmount": 94602386,
+      "loans": 302
     },
     "month": {
-      "loanAmount": 21132190,
-      "loans": 21
+      "loanAmount": 21300190,
+      "loans": 22
     }
   },
   "reps": [
@@ -51,12 +51,12 @@
     {
       "name": "Bailey Girouard",
       "year": {
-        "loanAmount": 5739925,
-        "loans": 25
+        "loanAmount": 5907925,
+        "loans": 26
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 168000,
+        "loans": 1
       }
     },
     {
@@ -295,12 +295,12 @@
     {
       "name": "Brandi Smith",
       "year": {
-        "loanAmount": 11827120,
-        "loans": 41
+        "loanAmount": 11995120,
+        "loans": 42
       },
       "month": {
-        "loanAmount": 345000,
-        "loans": 1
+        "loanAmount": 513000,
+        "loans": 2
       }
     },
     {
@@ -335,6 +335,17 @@
         "loanAmount": 0,
         "loans": 0
       }
+    },
+    {
+      "name": "Kyle Eberts",
+      "year": {
+        "loanAmount": 168000,
+        "loans": 1
+      },
+      "month": {
+        "loanAmount": 168000,
+        "loans": 1
+      }
     }
   ],
   "latest": [
@@ -346,6 +357,15 @@
       "loanType": "Fix and Flip",
       "stage": "Funded",
       "closedAt": "2026-07-15T12:00:00Z"
+    },
+    {
+      "id": "4DeMd5JWxgw0plYw88MQ",
+      "name": "",
+      "rep": "Bailey Girouard",
+      "loanAmount": 168000,
+      "loanType": "DSCR - C/O",
+      "stage": "Closed",
+      "closedAt": "2026-07-14T17:03:01.166Z"
     },
     {
       "id": "2Kvl6ARI6ayz9lVhGzJB",
