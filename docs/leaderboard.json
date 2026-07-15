@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-07-15T15:13:07.855Z",
+  "updatedAt": "2026-07-15T16:45:41.026Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 94716639,
-      "loans": 303
+      "loanAmount": 94982889,
+      "loans": 304
     },
     "month": {
-      "loanAmount": 21414443,
-      "loans": 23
+      "loanAmount": 21680693,
+      "loans": 24
     }
   },
   "reps": [
@@ -194,12 +194,12 @@
     {
       "name": "Jason Weber",
       "year": {
-        "loanAmount": 1851057,
-        "loans": 10
+        "loanAmount": 2117307,
+        "loans": 11
       },
       "month": {
-        "loanAmount": 751750,
-        "loans": 3
+        "loanAmount": 1018000,
+        "loans": 4
       }
     },
     {
@@ -273,12 +273,12 @@
     {
       "name": "Daisy Mondragon",
       "year": {
-        "loanAmount": 29549212,
-        "loans": 89
+        "loanAmount": 29815462,
+        "loans": 90
       },
       "month": {
-        "loanAmount": 1556550,
-        "loans": 6
+        "loanAmount": 1822800,
+        "loans": 7
       }
     },
     {
@@ -349,6 +349,15 @@
     }
   ],
   "latest": [
+    {
+      "id": "Lu2p0iCBTkm0xekiGmAe",
+      "name": "",
+      "rep": "Jason Weber",
+      "loanAmount": 266250,
+      "loanType": "DSCR - C/O",
+      "stage": "Closed",
+      "closedAt": "2026-07-15T16:12:58.991Z"
+    },
     {
       "id": "hist-2026-07-15-0",
       "name": "",
