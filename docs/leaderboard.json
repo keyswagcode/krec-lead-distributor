@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T22:29:17.515Z",
+  "updatedAt": "2026-07-15T23:31:46.863Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
@@ -383,6 +383,15 @@
   ],
   "latest": [
     {
+      "id": "HnOuQLo7JZzk8ebELqwD",
+      "name": "",
+      "rep": "Frankie Estrada",
+      "loanAmount": 1280000,
+      "loanType": "Bank Statement",
+      "stage": "Wire Received",
+      "closedAt": "2026-07-15T23:00:11.504Z"
+    },
+    {
       "id": "zRo5CboRHgsxTW735Hxm",
       "name": "",
       "rep": "Nick DeLaCruz",
@@ -390,15 +399,6 @@
       "loanType": "Fix & Flip",
       "stage": "Closed",
       "closedAt": "2026-07-15T22:17:55.677Z"
-    },
-    {
-      "id": "HnOuQLo7JZzk8ebELqwD",
-      "name": "",
-      "rep": "Frankie Estrada",
-      "loanAmount": 1280000,
-      "loanType": "Bank Statement",
-      "stage": "Closed",
-      "closedAt": "2026-07-15T20:24:10.505Z"
     },
     {
       "id": "o9buvUjaEjW2xZ1BfLHb",
