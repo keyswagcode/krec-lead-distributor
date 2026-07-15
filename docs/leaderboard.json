@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-07-15T16:45:41.026Z",
+  "updatedAt": "2026-07-15T17:57:34.286Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 94982889,
-      "loans": 304
+      "loanAmount": 95517389,
+      "loans": 305
     },
     "month": {
-      "loanAmount": 21680693,
-      "loans": 24
+      "loanAmount": 22215193,
+      "loans": 25
     }
   },
   "reps": [
@@ -194,12 +194,12 @@
     {
       "name": "Jason Weber",
       "year": {
-        "loanAmount": 2117307,
-        "loans": 11
+        "loanAmount": 2651807,
+        "loans": 12
       },
       "month": {
-        "loanAmount": 1018000,
-        "loans": 4
+        "loanAmount": 1552500,
+        "loans": 5
       }
     },
     {
@@ -306,12 +306,12 @@
     {
       "name": "Adam Epperson",
       "year": {
-        "loanAmount": 6704408,
-        "loans": 24
+        "loanAmount": 7238908,
+        "loans": 25
       },
       "month": {
-        "loanAmount": 1561800,
-        "loans": 6
+        "loanAmount": 2096300,
+        "loans": 7
       }
     },
     {
@@ -349,6 +349,15 @@
     }
   ],
   "latest": [
+    {
+      "id": "o9buvUjaEjW2xZ1BfLHb",
+      "name": "",
+      "rep": "Jason Weber",
+      "loanAmount": 534500,
+      "loanType": "Fix & Flip",
+      "stage": "Closed",
+      "closedAt": "2026-07-15T17:47:08.318Z"
+    },
     {
       "id": "Lu2p0iCBTkm0xekiGmAe",
       "name": "",
