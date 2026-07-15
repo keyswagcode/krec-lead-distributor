@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T11:57:58.386Z",
+  "updatedAt": "2026-07-15T13:46:11.378Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
@@ -350,7 +350,7 @@
   ],
   "latest": [
     {
-      "id": "hist-2026-07-15-2",
+      "id": "hist-2026-07-15-0",
       "name": "",
       "rep": "Nicole Lavau",
       "loanAmount": 1755000,
@@ -393,24 +393,6 @@
       "loanType": "Fix & Flip",
       "stage": "Closed",
       "closedAt": "2026-07-13T14:07:10.895Z"
-    },
-    {
-      "id": "hist-2026-07-08-1",
-      "name": "",
-      "rep": "Jason Weber",
-      "loanAmount": 261250,
-      "loanType": "DSCR Cash-Out Refi",
-      "stage": "Funded",
-      "closedAt": "2026-07-08T12:00:00Z"
-    },
-    {
-      "id": "hist-2026-07-08-0",
-      "name": "",
-      "rep": "Ryan McCoy",
-      "loanAmount": 202500,
-      "loanType": "DSCR Cash-Out Refi",
-      "stage": "Funded",
-      "closedAt": "2026-07-08T12:00:00Z"
     }
   ]
 }
