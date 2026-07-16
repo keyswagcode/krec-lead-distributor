@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-07-16T01:01:32.865Z",
+  "updatedAt": "2026-07-16T04:16:23.354Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 97316364,
+      "loanAmount": 97317316,
       "loans": 309
     },
     "month": {
-      "loanAmount": 24014168,
+      "loanAmount": 24015120,
       "loans": 29
     }
   },
@@ -271,11 +271,11 @@
     {
       "name": "Nick DeLaCruz",
       "year": {
-        "loanAmount": 237725,
+        "loanAmount": 238677,
         "loans": 1
       },
       "month": {
-        "loanAmount": 237725,
+        "loanAmount": 238677,
         "loans": 1
       }
     }
@@ -361,11 +361,11 @@
     {
       "name": "Bailey Girouard",
       "year": {
-        "loanAmount": 237725,
+        "loanAmount": 238677,
         "loans": 1
       },
       "month": {
-        "loanAmount": 237725,
+        "loanAmount": 238677,
         "loans": 1
       }
     },
@@ -382,6 +382,15 @@
     }
   ],
   "latest": [
+    {
+      "id": "zRo5CboRHgsxTW735Hxm",
+      "name": "",
+      "rep": "Nick DeLaCruz",
+      "loanAmount": 238677,
+      "loanType": "Fix & Flip",
+      "stage": "Wire Received",
+      "closedAt": "2026-07-16T01:17:32.946Z"
+    },
     {
       "id": "PQePppPtC3gbokRhiD1j",
       "name": "",
@@ -408,15 +417,6 @@
       "loanType": "Bank Statement",
       "stage": "Wire Received",
       "closedAt": "2026-07-15T23:00:11.504Z"
-    },
-    {
-      "id": "zRo5CboRHgsxTW735Hxm",
-      "name": "",
-      "rep": "Nick DeLaCruz",
-      "loanAmount": 237725,
-      "loanType": "Fix & Flip",
-      "stage": "Closed",
-      "closedAt": "2026-07-15T22:17:55.677Z"
     },
     {
       "id": "o9buvUjaEjW2xZ1BfLHb",
