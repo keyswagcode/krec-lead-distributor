@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-07-16T18:45:11.605Z",
+  "updatedAt": "2026-07-16T19:48:12.030Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 97317316,
-      "loans": 309
+      "loanAmount": 98271791,
+      "loans": 314
     },
     "month": {
-      "loanAmount": 24015120,
-      "loans": 29
+      "loanAmount": 24969595,
+      "loans": 34
     }
   },
   "reps": [
@@ -183,12 +183,12 @@
     {
       "name": "Christopher LaFlesh",
       "year": {
-        "loanAmount": 1303200,
-        "loans": 7
+        "loanAmount": 2257675,
+        "loans": 12
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 954475,
+        "loans": 5
       }
     },
     {
@@ -295,12 +295,12 @@
     {
       "name": "Daisy Mondragon",
       "year": {
-        "loanAmount": 31095462,
-        "loans": 91
+        "loanAmount": 31614787,
+        "loans": 93
       },
       "month": {
-        "loanAmount": 3102800,
-        "loans": 8
+        "loanAmount": 3622125,
+        "loans": 10
       }
     },
     {
@@ -317,12 +317,12 @@
     {
       "name": "Brandi Smith",
       "year": {
-        "loanAmount": 11995120,
-        "loans": 42
+        "loanAmount": 12430270,
+        "loans": 45
       },
       "month": {
-        "loanAmount": 513000,
-        "loans": 2
+        "loanAmount": 948150,
+        "loans": 5
       }
     },
     {
@@ -382,6 +382,51 @@
     }
   ],
   "latest": [
+    {
+      "id": "ofzJAYSDi8gRL4MP0oTs",
+      "name": "",
+      "rep": "Christopher LaFlesh",
+      "loanAmount": 166400,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-07-16T19:45:21.817Z"
+    },
+    {
+      "id": "w3PjzAqw2w5AJEfFZqpl",
+      "name": "",
+      "rep": "Christopher LaFlesh",
+      "loanAmount": 227200,
+      "loanType": "DSCR - R/T",
+      "stage": "Wire Received",
+      "closedAt": "2026-07-16T19:44:56.331Z"
+    },
+    {
+      "id": "DRlXiSUEEkoozHB13hkm",
+      "name": "",
+      "rep": "Christopher LaFlesh",
+      "loanAmount": 292125,
+      "loanType": "Fix & Flip",
+      "stage": "Wire Received",
+      "closedAt": "2026-07-16T19:44:34.310Z"
+    },
+    {
+      "id": "B2zpQSTlGQZpik05N3OB",
+      "name": "",
+      "rep": "Christopher LaFlesh",
+      "loanAmount": 110500,
+      "loanType": "DSCR - R/T",
+      "stage": "Wire Received",
+      "closedAt": "2026-07-16T19:43:42.495Z"
+    },
+    {
+      "id": "YD8yfuJKTm3vHpkNJYfp",
+      "name": "",
+      "rep": "Christopher LaFlesh",
+      "loanAmount": 158250,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-07-16T19:43:27.226Z"
+    },
     {
       "id": "zRo5CboRHgsxTW735Hxm",
       "name": "",
