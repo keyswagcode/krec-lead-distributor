@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-07-17T16:57:17.460Z",
+  "updatedAt": "2026-07-17T18:06:12.936Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 98271791,
-      "loans": 315
+      "loanAmount": 99490541,
+      "loans": 317
     },
     "month": {
-      "loanAmount": 24969595,
-      "loans": 35
+      "loanAmount": 26188345,
+      "loans": 37
     }
   },
   "reps": [
@@ -95,12 +95,12 @@
     {
       "name": "Jeremiah Ibrahim",
       "year": {
-        "loanAmount": 5533107,
-        "loans": 13
+        "loanAmount": 5851857,
+        "loans": 14
       },
       "month": {
-        "loanAmount": 344900,
-        "loans": 1
+        "loanAmount": 663650,
+        "loans": 2
       }
     },
     {
@@ -128,12 +128,12 @@
     {
       "name": "Luis Danny Franco",
       "year": {
-        "loanAmount": 3050744,
-        "loans": 3
+        "loanAmount": 3950744,
+        "loans": 4
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 900000,
+        "loans": 1
       }
     },
     {
@@ -295,12 +295,12 @@
     {
       "name": "Daisy Mondragon",
       "year": {
-        "loanAmount": 31614787,
-        "loans": 93
+        "loanAmount": 32833537,
+        "loans": 95
       },
       "month": {
-        "loanAmount": 3622125,
-        "loans": 10
+        "loanAmount": 4840875,
+        "loans": 12
       }
     },
     {
@@ -382,6 +382,24 @@
     }
   ],
   "latest": [
+    {
+      "id": "m5C3EF6SzZIQI0VhtJkt",
+      "name": "",
+      "rep": "Luis Danny Franco",
+      "loanAmount": 900000,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-07-17T17:50:05.560Z"
+    },
+    {
+      "id": "bQNprJgO9k423XO78QwL",
+      "name": "",
+      "rep": "Jeremiah Ibrahim",
+      "loanAmount": 318750,
+      "loanType": "DSCR - C/O",
+      "stage": "Closed",
+      "closedAt": "2026-07-17T17:03:21.397Z"
+    },
     {
       "id": "AQeEAmd3ZBUmgMegkBY5",
       "name": "",
