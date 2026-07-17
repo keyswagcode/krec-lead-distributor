@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T15:52:58.836Z",
+  "updatedAt": "2026-07-17T16:57:17.460Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
@@ -7,11 +7,11 @@
   "totals": {
     "year": {
       "loanAmount": 98271791,
-      "loans": 314
+      "loans": 315
     },
     "month": {
       "loanAmount": 24969595,
-      "loans": 34
+      "loans": 35
     }
   },
   "reps": [
@@ -162,11 +162,11 @@
       "name": "Mathieu StGermain",
       "year": {
         "loanAmount": 822553,
-        "loans": 6
+        "loans": 7
       },
       "month": {
         "loanAmount": 114253,
-        "loans": 1
+        "loans": 2
       }
     },
     {
@@ -318,11 +318,11 @@
       "name": "Brandi Smith",
       "year": {
         "loanAmount": 12430270,
-        "loans": 45
+        "loans": 46
       },
       "month": {
         "loanAmount": 948150,
-        "loans": 5
+        "loans": 6
       }
     },
     {
@@ -382,6 +382,15 @@
     }
   ],
   "latest": [
+    {
+      "id": "AQeEAmd3ZBUmgMegkBY5",
+      "name": "",
+      "rep": "Mathieu StGermain",
+      "loanAmount": 0,
+      "loanType": "Fix & Flip",
+      "stage": "Closed",
+      "closedAt": "2026-07-17T16:15:37.509Z"
+    },
     {
       "id": "ofzJAYSDi8gRL4MP0oTs",
       "name": "",
