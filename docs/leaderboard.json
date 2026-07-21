@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T20:19:17.250Z",
+  "updatedAt": "2026-07-21T21:36:52.287Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
@@ -561,15 +561,6 @@
       "loanType": "Fix and Flip",
       "stage": "Funded",
       "closedAt": "2026-07-15T12:00:00Z"
-    },
-    {
-      "id": "O3brItoS5zCz2njvnT56",
-      "name": "",
-      "rep": "Mathieu StGermain",
-      "loanAmount": 114253,
-      "loanType": "Fix & Flip",
-      "stage": "Closed",
-      "closedAt": "2026-07-14T21:19:05.996Z"
     }
   ]
 }
