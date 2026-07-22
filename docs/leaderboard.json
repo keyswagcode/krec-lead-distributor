@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-22T22:37:30.817Z",
+  "updatedAt": "2026-07-22T23:37:21.939Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
@@ -525,15 +525,6 @@
       "loanType": "Fix & Flip",
       "stage": "Wire Received",
       "closedAt": "2026-07-16T01:17:32.946Z"
-    },
-    {
-      "id": "HnOuQLo7JZzk8ebELqwD",
-      "name": "",
-      "rep": "Frankie Estrada",
-      "loanAmount": 1280000,
-      "loanType": "Bank Statement",
-      "stage": "Wire Received",
-      "closedAt": "2026-07-15T23:00:11.504Z"
     }
   ]
 }
