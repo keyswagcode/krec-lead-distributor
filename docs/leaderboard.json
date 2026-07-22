@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-22T11:28:32.171Z",
+  "updatedAt": "2026-07-22T13:00:10.404Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
@@ -552,15 +552,6 @@
       "loanType": "DSCR - C/O",
       "stage": "Closed",
       "closedAt": "2026-07-15T16:12:58.991Z"
-    },
-    {
-      "id": "hist-2026-07-15-0",
-      "name": "",
-      "rep": "Nicole Lavau",
-      "loanAmount": 1755000,
-      "loanType": "Fix and Flip",
-      "stage": "Funded",
-      "closedAt": "2026-07-15T12:00:00Z"
     }
   ]
 }
