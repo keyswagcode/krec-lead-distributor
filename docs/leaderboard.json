@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-22T15:09:45.819Z",
+  "updatedAt": "2026-07-22T16:43:44.471Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
@@ -543,15 +543,6 @@
       "loanType": "Fix & Flip",
       "stage": "Closed",
       "closedAt": "2026-07-15T17:47:08.318Z"
-    },
-    {
-      "id": "Lu2p0iCBTkm0xekiGmAe",
-      "name": "",
-      "rep": "Jason Weber",
-      "loanAmount": 266250,
-      "loanType": "DSCR - C/O",
-      "stage": "Closed",
-      "closedAt": "2026-07-15T16:12:58.991Z"
     }
   ]
 }
