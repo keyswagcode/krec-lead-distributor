@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-07-23T18:04:22.073Z",
+  "updatedAt": "2026-07-23T19:40:44.035Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 100172960,
-      "loans": 320
+      "loanAmount": 101131460,
+      "loans": 321
     },
     "month": {
-      "loanAmount": 26870764,
-      "loans": 40
+      "loanAmount": 27829264,
+      "loans": 41
     }
   },
   "reps": [
@@ -227,12 +227,12 @@
     {
       "name": "Brendon Dragon",
       "year": {
-        "loanAmount": 828500,
-        "loans": 2
+        "loanAmount": 1787000,
+        "loans": 3
       },
       "month": {
-        "loanAmount": 320000,
-        "loans": 1
+        "loanAmount": 1278500,
+        "loans": 2
       }
     },
     {
@@ -295,12 +295,12 @@
     {
       "name": "Daisy Mondragon",
       "year": {
-        "loanAmount": 33043537,
-        "loans": 96
+        "loanAmount": 34002037,
+        "loans": 97
       },
       "month": {
-        "loanAmount": 5050875,
-        "loans": 13
+        "loanAmount": 6009375,
+        "loans": 14
       }
     },
     {
@@ -379,9 +379,29 @@
         "loanAmount": 168000,
         "loans": 1
       }
+    },
+    {
+      "name": "Harlow Wolok",
+      "year": {
+        "loanAmount": 958500,
+        "loans": 1
+      },
+      "month": {
+        "loanAmount": 958500,
+        "loans": 1
+      }
     }
   ],
   "latest": [
+    {
+      "id": "kg6i8uucfxAALgfH0e7e",
+      "name": "",
+      "rep": "Brendon Dragon",
+      "loanAmount": 958500,
+      "loanType": "Portfolio",
+      "stage": "Closed",
+      "closedAt": "2026-07-23T18:15:34.008Z"
+    },
     {
       "id": "PQePppPtC3gbokRhiD1j",
       "name": "",
