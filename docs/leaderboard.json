@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T20:42:34.292Z",
+  "updatedAt": "2026-07-24T20:43:37.255Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
@@ -384,7 +384,7 @@
   "latest": [
     {
       "id": "o9buvUjaEjW2xZ1BfLHb",
-      "name": "Eric Lopez - 480 E San Salvador Street",
+      "name": "",
       "rep": "Jason Weber",
       "loanAmount": 534500,
       "loanType": "Fix & Flip",
@@ -393,7 +393,7 @@
     },
     {
       "id": "vWtP5Ox3lUHdwRMlMkIq",
-      "name": "Daisy Agajanian · DSCR Rental Purchase · 2417 NW 42nd St, Lawton, OK",
+      "name": "",
       "rep": "Lindsay Milano",
       "loanAmount": 84000,
       "loanType": "",
@@ -402,7 +402,7 @@
     },
     {
       "id": "Pr6nXXGgMOXIFEUbXI4L",
-      "name": "Sam Abdelmasih",
+      "name": "",
       "rep": "Lindsay Milano",
       "loanAmount": 86760,
       "loanType": "DSCR - Purchase",
@@ -411,7 +411,7 @@
     },
     {
       "id": "ZTJOZnnH5fRrWuuJ5ZCJ",
-      "name": "807 March Ct Unit E Wilmington NC 28405",
+      "name": "",
       "rep": "Mathieu StGermain",
       "loanAmount": 126000,
       "loanType": "Bridge",
@@ -420,7 +420,7 @@
     },
     {
       "id": "kg6i8uucfxAALgfH0e7e",
-      "name": "Hattiesburg Portfolio",
+      "name": "",
       "rep": "Brendon Dragon",
       "loanAmount": 958500,
       "loanType": "Portfolio",
@@ -429,7 +429,7 @@
     },
     {
       "id": "PQePppPtC3gbokRhiD1j",
-      "name": "Tonya Sanders - 4023 E 24th Pl, Tulsa, OK 74114",
+      "name": "",
       "rep": "Bailey Girouard",
       "loanAmount": 138750,
       "loanType": "DSCR - C/O",
@@ -438,7 +438,7 @@
     },
     {
       "id": "vPZpPP4YLvDc1x5lH5hu",
-      "name": "Tonya Sanders - 1907 N Cheyenne Ave, Tulsa, OK 74106",
+      "name": "",
       "rep": "Bailey Girouard",
       "loanAmount": 142500,
       "loanType": "DSCR - C/O",
@@ -447,7 +447,7 @@
     },
     {
       "id": "8Z2KQv2eJX4FZFu0ojU1",
-      "name": "566 Minette Ln, Chicago Heights, IL 60411",
+      "name": "",
       "rep": "Ryan McCoy",
       "loanAmount": 148000,
       "loanType": "DSCR - R/T",
@@ -456,7 +456,7 @@
     },
     {
       "id": "UJvEbYE9etUvgpnZcIPQ",
-      "name": "Rosa M Hernandez",
+      "name": "",
       "rep": "Luis Danny Franco",
       "loanAmount": 324419,
       "loanType": "",
@@ -465,7 +465,7 @@
     },
     {
       "id": "DqzN7CvPPPJoaaB3ycKo",
-      "name": "Aaron Labrie",
+      "name": "",
       "rep": "Hazel Wilder",
       "loanAmount": 210000,
       "loanType": "DSCR - R/T",
@@ -474,7 +474,7 @@
     },
     {
       "id": "7Grt73wbv2qUvOmQtgDu",
-      "name": "Peggy Kimball - 1630 NE 6th St Redmond",
+      "name": "",
       "rep": "Nicole Lavau",
       "loanAmount": 258400,
       "loanType": "Fix & Flip",
@@ -483,7 +483,7 @@
     },
     {
       "id": "4DeMd5JWxgw0plYw88MQ",
-      "name": "Bobby Agee - 1688 East Galbraith Road",
+      "name": "",
       "rep": "Bailey Girouard",
       "loanAmount": 168000,
       "loanType": "DSCR - C/O",
