@@ -177,7 +177,10 @@ async function main() {
   const closed = opps.filter(closedThisYear);
   const details = await mapLimit(closed, DETAIL_CONCURRENCY, (o) => detailFor(o.id, loanTypeId));
 
-  const repNameOf = (id?: string | null) => (!id ? "Unassigned" : names[id] || `(user ${id.slice(0, 6)})`);
+  /** Merge name variants so one person never appears as two rows. */
+  const CANONICAL: Record<string, string> = { "Frankie Estrada": "Frank Estrada" };
+  const canon = (n: string) => CANONICAL[n] || n;
+  const repNameOf = (id?: string | null) => canon(!id ? "Unassigned" : names[id] || `(user ${id.slice(0, 6)})`);
 
   // Buckets are keyed by DISPLAY NAME so sheet history and GHL merge cleanly.
   const reps = new Map<string, { year: Bucket; month: Bucket }>();
@@ -203,8 +206,8 @@ async function main() {
     if (!l.month.startsWith(String(YEAR))) continue;
     const inMonth = l.month === monthPrefix;
     bump(l.amount, inMonth);
-    if (l.ae) credit(reps, l.ae, l.amount, inMonth);
-    if (l.proc) credit(processors, l.proc, l.amount, inMonth);
+    if (l.ae) credit(reps, canon(l.ae), l.amount, inMonth);
+    if (l.proc) credit(processors, canon(l.proc), l.amount, inMonth);
   }
   // 2) GHL — the go-forward standard: only fundings on/after the cutoff.
   closed.forEach((o, i) => {
