@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-07-24T17:27:48.040Z",
+  "updatedAt": "2026-07-24T18:58:33.069Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 101362460,
-      "loans": 323
+      "loanAmount": 101428220,
+      "loans": 324
     },
     "month": {
-      "loanAmount": 28060264,
-      "loans": 43
+      "loanAmount": 28126024,
+      "loans": 44
     }
   },
   "reps": [
@@ -128,12 +128,12 @@
     {
       "name": "Luis Danny Franco",
       "year": {
-        "loanAmount": 4380163,
-        "loans": 6
+        "loanAmount": 4275163,
+        "loans": 5
       },
       "month": {
-        "loanAmount": 1329419,
-        "loans": 3
+        "loanAmount": 1224419,
+        "loans": 2
       }
     },
     {
@@ -150,12 +150,12 @@
     {
       "name": "Lindsay Milano",
       "year": {
-        "loanAmount": 23343273,
-        "loans": 37
+        "loanAmount": 23514033,
+        "loans": 39
       },
       "month": {
-        "loanAmount": 15754700,
-        "loans": 4
+        "loanAmount": 15925460,
+        "loans": 6
       }
     },
     {
@@ -295,12 +295,12 @@
     {
       "name": "Daisy Mondragon",
       "year": {
-        "loanAmount": 34107037,
-        "loans": 98
+        "loanAmount": 34002037,
+        "loans": 97
       },
       "month": {
-        "loanAmount": 6114375,
-        "loans": 15
+        "loanAmount": 6009375,
+        "loans": 14
       }
     },
     {
@@ -394,6 +394,24 @@
   ],
   "latest": [
     {
+      "id": "vWtP5Ox3lUHdwRMlMkIq",
+      "name": "",
+      "rep": "Lindsay Milano",
+      "loanAmount": 84000,
+      "loanType": "",
+      "stage": "Wire Received",
+      "closedAt": "2026-07-24T18:06:57.335Z"
+    },
+    {
+      "id": "Pr6nXXGgMOXIFEUbXI4L",
+      "name": "",
+      "rep": "Lindsay Milano",
+      "loanAmount": 86760,
+      "loanType": "DSCR - Purchase",
+      "stage": "Closed",
+      "closedAt": "2026-07-24T17:35:46.469Z"
+    },
+    {
       "id": "ZTJOZnnH5fRrWuuJ5ZCJ",
       "name": "",
       "rep": "Mathieu StGermain",
@@ -401,15 +419,6 @@
       "loanType": "Bridge",
       "stage": "Closed",
       "closedAt": "2026-07-23T20:31:49.141Z"
-    },
-    {
-      "id": "5J4SnQsHjeBQ5E6WjZhR",
-      "name": "",
-      "rep": "Luis Danny Franco",
-      "loanAmount": 105000,
-      "loanType": "",
-      "stage": "Closed",
-      "closedAt": "2026-07-23T20:17:46.738Z"
     },
     {
       "id": "kg6i8uucfxAALgfH0e7e",
@@ -482,15 +491,6 @@
       "loanType": "DSCR - C/O",
       "stage": "Wire Received",
       "closedAt": "2026-07-17T21:50:13.821Z"
-    },
-    {
-      "id": "m5C3EF6SzZIQI0VhtJkt",
-      "name": "",
-      "rep": "Luis Danny Franco",
-      "loanAmount": 900000,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-07-17T17:50:05.560Z"
     }
   ]
 }
