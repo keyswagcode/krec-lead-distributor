@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-07-27T18:07:17.988Z",
+  "updatedAt": "2026-07-27T19:50:32.762Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 101912500,
-      "loans": 328
+      "loanAmount": 102169700,
+      "loans": 329
     },
     "month": {
-      "loanAmount": 28610304,
-      "loans": 48
+      "loanAmount": 28867504,
+      "loans": 49
     }
   },
   "reps": [
@@ -117,12 +117,12 @@
     {
       "name": "Emily Wencelblat",
       "year": {
-        "loanAmount": 1061310,
-        "loans": 4
+        "loanAmount": 1318510,
+        "loans": 5
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 257200,
+        "loans": 1
       }
     },
     {
@@ -284,12 +284,12 @@
     {
       "name": "Daisy Mondragon",
       "year": {
-        "loanAmount": 34226037,
-        "loans": 98
+        "loanAmount": 34483237,
+        "loans": 99
       },
       "month": {
-        "loanAmount": 6233375,
-        "loans": 15
+        "loanAmount": 6490575,
+        "loans": 16
       }
     },
     {
@@ -359,6 +359,17 @@
       }
     },
     {
+      "name": "Maru Biess",
+      "year": {
+        "loanAmount": 257200,
+        "loans": 1
+      },
+      "month": {
+        "loanAmount": 257200,
+        "loans": 1
+      }
+    },
+    {
       "name": "Kyle Eberts",
       "year": {
         "loanAmount": 168000,
@@ -382,6 +393,15 @@
     }
   ],
   "latest": [
+    {
+      "id": "WtwD9DFn2dLFvFgCuldX",
+      "name": "",
+      "rep": "Emily Wencelblat",
+      "loanAmount": 257200,
+      "loanType": "Bridge",
+      "stage": "Closed",
+      "closedAt": "2026-07-27T18:31:35.418Z"
+    },
     {
       "id": "123O0iEhrA8b1nqCMpOJ",
       "name": "",
