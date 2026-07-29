@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-07-29T19:24:02.234Z",
+  "updatedAt": "2026-07-29T20:28:49.069Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 102573700,
-      "loans": 331
+      "loanAmount": 103015200,
+      "loans": 334
     },
     "month": {
-      "loanAmount": 29271504,
-      "loans": 51
+      "loanAmount": 29713004,
+      "loans": 54
     }
   },
   "reps": [
@@ -106,12 +106,12 @@
     {
       "name": "Trey Victor",
       "year": {
-        "loanAmount": 2570805,
-        "loans": 13
+        "loanAmount": 2773305,
+        "loans": 14
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 202500,
+        "loans": 1
       }
     },
     {
@@ -205,12 +205,12 @@
     {
       "name": "Samuel Vickrey",
       "year": {
-        "loanAmount": 184670,
-        "loans": 2
+        "loanAmount": 423670,
+        "loans": 4
       },
       "month": {
-        "loanAmount": 100800,
-        "loans": 1
+        "loanAmount": 339800,
+        "loans": 3
       }
     },
     {
@@ -306,23 +306,23 @@
     {
       "name": "Brandi Smith",
       "year": {
-        "loanAmount": 12556270,
-        "loans": 47
+        "loanAmount": 12795270,
+        "loans": 49
       },
       "month": {
-        "loanAmount": 1074150,
-        "loans": 7
+        "loanAmount": 1313150,
+        "loans": 9
       }
     },
     {
       "name": "Adam Epperson",
       "year": {
-        "loanAmount": 7668158,
-        "loans": 28
+        "loanAmount": 7870658,
+        "loans": 29
       },
       "month": {
-        "loanAmount": 2525550,
-        "loans": 10
+        "loanAmount": 2728050,
+        "loans": 11
       }
     },
     {
@@ -393,6 +393,33 @@
     }
   ],
   "latest": [
+    {
+      "id": "5hwckc7XfpJstWVhLgJ7",
+      "name": "",
+      "rep": "Trey Victor",
+      "loanAmount": 202500,
+      "loanType": "DSCR - R/T",
+      "stage": "Closed",
+      "closedAt": "2026-07-29T20:17:44.929Z"
+    },
+    {
+      "id": "jbGOagUF7SoLhtHOnNR6",
+      "name": "",
+      "rep": "Samuel Vickrey",
+      "loanAmount": 135000,
+      "loanType": "DSCR - R/T",
+      "stage": "Closed",
+      "closedAt": "2026-07-29T19:30:51.554Z"
+    },
+    {
+      "id": "EJorcXi0rVkSTn8sNqaZ",
+      "name": "",
+      "rep": "Samuel Vickrey",
+      "loanAmount": 104000,
+      "loanType": "DSCR - R/T",
+      "stage": "Closed",
+      "closedAt": "2026-07-29T19:30:49.706Z"
+    },
     {
       "id": "RBTPx0WkaZDOaeBZqAaW",
       "name": "",
