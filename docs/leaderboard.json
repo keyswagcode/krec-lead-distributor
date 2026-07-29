@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-07-29T16:48:57.845Z",
+  "updatedAt": "2026-07-29T17:59:15.025Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 102349700,
-      "loans": 330
+      "loanAmount": 102573700,
+      "loans": 331
     },
     "month": {
-      "loanAmount": 29047504,
-      "loans": 50
+      "loanAmount": 29271504,
+      "loans": 51
     }
   },
   "reps": [
@@ -84,12 +84,12 @@
     {
       "name": "Raj Vora",
       "year": {
-        "loanAmount": 2502971,
-        "loans": 9
+        "loanAmount": 2726971,
+        "loans": 10
       },
       "month": {
-        "loanAmount": 372000,
-        "loans": 2
+        "loanAmount": 596000,
+        "loans": 3
       }
     },
     {
@@ -284,12 +284,12 @@
     {
       "name": "Daisy Mondragon",
       "year": {
-        "loanAmount": 34663237,
-        "loans": 100
+        "loanAmount": 34887237,
+        "loans": 101
       },
       "month": {
-        "loanAmount": 6670575,
-        "loans": 17
+        "loanAmount": 6894575,
+        "loans": 18
       }
     },
     {
@@ -393,6 +393,15 @@
     }
   ],
   "latest": [
+    {
+      "id": "RBTPx0WkaZDOaeBZqAaW",
+      "name": "",
+      "rep": "Raj Vora",
+      "loanAmount": 224000,
+      "loanType": "DSCR - R/T",
+      "stage": "Closed",
+      "closedAt": "2026-07-29T17:49:22.494Z"
+    },
     {
       "id": "a7run6WCXeqP5tTfKWmu",
       "name": "",
