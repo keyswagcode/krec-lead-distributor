@@ -62,6 +62,9 @@
   .track{position:relative;height:22px;background:var(--panel-2);border-radius:4px;overflow:hidden}
   .fill{position:absolute;inset:0 auto 0 0;background:var(--data);border-radius:0 4px 4px 0;min-width:4px;transition:width .9s ease}
   .row.r1 .fill{background:linear-gradient(90deg,var(--data),#5ea4f0)}
+  .track .base{position:absolute;inset:0;border-radius:4px;transition:none}
+  .track .over{position:absolute;inset:0 auto 0 0;background:linear-gradient(90deg,var(--brand),#f5d97a);border-radius:0 4px 4px 0;min-width:4px;transition:width .9s ease;box-shadow:0 0 10px rgba(233,184,60,.45)}
+  .qhit{margin-left:.5vw;font-size:1.35vh;font-weight:800;color:var(--brand);letter-spacing:.08em;vertical-align:middle;text-shadow:0 0 8px rgba(233,184,60,.55)}
   .row .val{text-align:right}
   .row .val .a{font-size:2.4vh;font-weight:800}
   .row .val .b{font-size:1.45vh;color:var(--ink-2)}
@@ -122,7 +125,7 @@
 
   <main>
     <div class="panel">
-      <h2>Account Executives <span class="chip num" id="yearchip"></span><span class="hint">funded volume · loans</span></h2>
+      <h2>Account Executives <span class="chip num" id="yearchip"></span><span class="hint">bars = progress to $20M annual quota · gold = over quota</span></h2>
       <div class="rows" id="aeRows"></div>
       <div class="pager" id="pager"></div>
     </div>
@@ -155,6 +158,7 @@
 <script>
 const DATA_URL="leaderboard.json";
 const PAGE_MS=10000, REFRESH_MS=60000, PER_PAGE=8;
+const QUOTA=20000000; // $20M annual quota per AE — bars fill against this
 const fmt$=n=>"$"+Math.round(n||0).toLocaleString("en-US");
 const fmt$s=n=>{n=n||0;if(n>=1e6)return "$"+(n/1e6).toFixed(2).replace(/\.?0+$/,"")+"M";if(n>=1e3)return "$"+Math.round(n/1e3)+"K";return "$"+n};
 let data=null,page=0,pages=1;
@@ -226,18 +230,30 @@ function render(){
     document.getElementById("t-last-sub").textContent=`${last.rep||""} · ${new Date(last.closedAt).toLocaleDateString("en-US",{month:"short",day:"numeric"})}`;
   }
 
-  const maxAmt=Math.max(1,...board.map(r=>r.year.loanAmount||0));
   pages=Math.max(1,Math.ceil(board.length/PER_PAGE));
   if(page>=pages)page=0;
   const slice=board.slice(page*PER_PAGE,(page+1)*PER_PAGE);
   const mShort=(data.monthLabel||"Month").split(" ")[0];
   document.getElementById("aeRows").innerHTML=slice.map((r,i)=>{
     const rank=page*PER_PAGE+i+1;
-    const w=Math.max(1.5,(r.year.loanAmount||0)/maxAmt*100);
+    const amt=r.year.loanAmount||0;
+    const laps=Math.floor(amt/QUOTA);           // completed quota laps
+    const rem=amt-laps*QUOTA;
+    const pct=Math.round(amt/QUOTA*100);
+    let track;
+    if(laps<1){
+      track=`<div class="track"><div class="fill" style="width:${Math.max(1.5,rem/QUOTA*100)}%"></div></div>`;
+    }else{
+      // quota met: base bar shows the completed lap, gold overage bar refills on top
+      const baseColor=laps>=2?"linear-gradient(90deg,var(--brand),#f5d97a)":"var(--data)";
+      const over=rem>0?`<div class="over" style="width:${Math.max(1.5,rem/QUOTA*100)}%"></div>`:"";
+      track=`<div class="track"><div class="base" style="background:${baseColor}"></div>${over}</div>`;
+    }
+    const badge=laps>=1?`<span class="qhit" title="Over the $20M annual quota">★${laps>1?"×"+laps:""}</span>`:"";
     return `<div class="row ${medal(rank)}">
       <div class="rank num">${rank}</div>
-      <div class="who"><span class="nm">${esc(r.name)}${rank===1?'<span class="crown">👑</span>':""}</span><div class="sub num">${esc(mShort)}: ${fmt$s(r.month.loanAmount)} · ${r.month.loans||0}</div></div>
-      <div class="track"><div class="fill" style="width:${w}%"></div></div>
+      <div class="who"><span class="nm">${esc(r.name)}${rank===1?'<span class="crown">👑</span>':""}${badge}</span><div class="sub num">${esc(mShort)}: ${fmt$s(r.month.loanAmount)} · ${r.month.loans||0} — ${pct}% of quota</div></div>
+      ${track}
       <div class="val"><div class="a num">${fmt$(r.year.loanAmount)}</div><div class="b num">${r.year.loans||0} loan${(r.year.loans||0)===1?"":"s"}</div></div>
     </div>`}).join("");
   document.getElementById("pager").innerHTML=Array.from({length:pages},(_,i)=>`<div class="pip ${i===page?"on":""}"></div>`).join("");
