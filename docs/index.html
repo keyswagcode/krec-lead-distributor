@@ -86,6 +86,9 @@
   .prow .val small{display:block;font-weight:400;font-size:1.3vh;color:var(--ink-3)}
   .ptrack{grid-column:2/4;position:relative;height:14px;background:var(--panel-2);border-radius:4px;overflow:hidden}
   .pfill{position:absolute;inset:0 auto 0 0;background:var(--data-2);border-radius:0 4px 4px 0;min-width:3px;transition:width .9s ease}
+  .ptrack .pbase{position:absolute;inset:0;border-radius:4px;transition:none}
+  .ptrack .pover{position:absolute;inset:0 auto 0 0;border-radius:0 4px 4px 0;min-width:3px;transition:width .9s ease;box-shadow:0 0 8px rgba(233,184,60,.35)}
+  .prow .nm .qhit{font-size:1.25vh}
   .empty{color:var(--ink-3);font-size:1.7vh;padding:1vh 0}
 
   #tickerbar{position:relative;z-index:2;display:flex;align-items:center;background:var(--panel);border-top:2px solid var(--brand);margin:0 -2.2vw;height:6vh}
@@ -131,7 +134,7 @@
     </div>
     <div class="rail">
       <div class="panel">
-        <h2>Processors <span class="hint">loans processed</span></h2>
+        <h2>Processors <span class="hint">quota 15/mo · 180/yr</span></h2>
         <div class="pwrap" id="procRows"></div>
       </div>
       <div class="panel">
@@ -158,7 +161,19 @@
 <script>
 const DATA_URL="leaderboard.json";
 const PAGE_MS=10000, REFRESH_MS=60000, PER_PAGE=8;
-const QUOTA=20000000; // $20M annual quota per AE — bars fill against this
+const QUOTA=20000000;      // $20M annual quota per AE — bars fill against this
+const QUOTA_MONTH=QUOTA/12; // ≈ $1.67M/mo per AE — month-leader bars
+const PROC_QUOTA=180;       // processors: 15 loans/mo = 180/yr
+const GOLD_GRAD="linear-gradient(90deg,var(--brand),#f5d97a)";
+const qsplit=(v,q)=>{const laps=Math.floor((v||0)/q);return {laps,rem:(v||0)-laps*q,pct:Math.round((v||0)/q*100)}};
+const qbadge=laps=>laps>=1?`<span class="qhit" title="Over quota">★${laps>1?"×"+laps:""}</span>`:"";
+function ptrackHTML(v,q,color){
+  const {laps,rem}=qsplit(v,q);
+  if(laps<1)return `<div class="ptrack"><div class="pfill" style="width:${Math.max(2,(v||0)/q*100)}%;background:${color}"></div></div>`;
+  const cols=[color,GOLD_GRAD]; // completed laps alternate base color; overage refills on top
+  const over=rem>0?`<div class="pover" style="width:${Math.max(2,rem/q*100)}%;background:${cols[laps%2]}"></div>`:"";
+  return `<div class="ptrack"><div class="pbase" style="background:${cols[(laps-1)%2]}"></div>${over}</div>`;
+}
 const fmt$=n=>"$"+Math.round(n||0).toLocaleString("en-US");
 const fmt$s=n=>{n=n||0;if(n>=1e6)return "$"+(n/1e6).toFixed(2).replace(/\.?0+$/,"")+"M";if(n>=1e3)return "$"+Math.round(n/1e3)+"K";return "$"+n};
 let data=null,page=0,pages=1;
@@ -244,12 +259,12 @@ function render(){
     if(laps<1){
       track=`<div class="track"><div class="fill" style="width:${Math.max(1.5,rem/QUOTA*100)}%"></div></div>`;
     }else{
-      // quota met: base bar shows the completed lap, gold overage bar refills on top
-      const baseColor=laps>=2?"linear-gradient(90deg,var(--brand),#f5d97a)":"var(--data)";
-      const over=rem>0?`<div class="over" style="width:${Math.max(1.5,rem/QUOTA*100)}%"></div>`:"";
-      track=`<div class="track"><div class="base" style="background:${baseColor}"></div>${over}</div>`;
+      // quota met: base bar shows the completed lap, overage bar refills on top (colors alternate per lap)
+      const cols=["var(--data)",GOLD_GRAD];
+      const over=rem>0?`<div class="over" style="width:${Math.max(1.5,rem/QUOTA*100)}%;background:${cols[laps%2]}"></div>`:"";
+      track=`<div class="track"><div class="base" style="background:${cols[(laps-1)%2]}"></div>${over}</div>`;
     }
-    const badge=laps>=1?`<span class="qhit" title="Over the $20M annual quota">★${laps>1?"×"+laps:""}</span>`:"";
+    const badge=qbadge(laps);
     return `<div class="row ${medal(rank)}">
       <div class="rank num">${rank}</div>
       <div class="who"><span class="nm">${esc(r.name)}${rank===1?'<span class="crown">👑</span>':""}${badge}</span><div class="sub num">${esc(mShort)}: ${fmt$s(r.month.loanAmount)} · ${r.month.loans||0} — ${pct}% of quota</div></div>
@@ -259,23 +274,23 @@ function render(){
   document.getElementById("pager").innerHTML=Array.from({length:pages},(_,i)=>`<div class="pip ${i===page?"on":""}"></div>`).join("");
 
   const procs=(data.processors||[]).filter(p=>!HIDE.has(p.name)).slice().sort((a,b)=>(b.year.loans||0)-(a.year.loans||0)).filter(p=>(p.year.loans||0)>0&&(p.year.loanAmount||0)>0).slice(0,6);
-  const maxP=Math.max(1,...procs.map(p=>p.year.loans||0));
-  document.getElementById("procRows").innerHTML=procs.map((p,i)=>`
-    <div class="pitem">
-      <div class="prow"><div class="rank num ${medal(i+1)}">${i+1}</div><div class="nm">${esc(p.name)}</div>
-        <div class="val num">${p.year.loans}<small>${fmt$s(p.year.loanAmount)}</small></div></div>
-      <div class="prow"><span></span><div class="ptrack"><div class="pfill" style="width:${Math.max(2,(p.year.loans||0)/maxP*100)}%"></div></div></div>
-    </div>`).join("")||`<div class="empty">No processed loans yet this year</div>`;
+  document.getElementById("procRows").innerHTML=procs.map((p,i)=>{
+    const q=qsplit(p.year.loans||0,PROC_QUOTA);
+    return `<div class="pitem">
+      <div class="prow"><div class="rank num ${medal(i+1)}">${i+1}</div><div class="nm">${esc(p.name)}${qbadge(q.laps)}</div>
+        <div class="val num">${p.year.loans}<small>${fmt$s(p.year.loanAmount)} · ${q.pct}%</small></div></div>
+      <div class="prow"><span></span>${ptrackHTML(p.year.loans||0,PROC_QUOTA,"var(--data-2)")}</div>
+    </div>`}).join("")||`<div class="empty">No processed loans yet this year</div>`;
 
-  document.getElementById("monthHdr").innerHTML=`${esc(data.monthLabel||"This Month")} Leaders`;
+  document.getElementById("monthHdr").innerHTML=`${esc(data.monthLabel||"This Month")} Leaders <span class="hint">quota $1.67M/mo</span>`;
   const mreps=board.filter(r=>(r.month.loanAmount||0)>0).sort((a,b)=>b.month.loanAmount-a.month.loanAmount).slice(0,5);
-  const maxM=Math.max(1,...mreps.map(r=>r.month.loanAmount||0));
-  document.getElementById("monthRows").innerHTML=mreps.map((r,i)=>`
-    <div class="pitem">
-      <div class="prow"><div class="rank num">${i+1}</div><div class="nm">${esc(r.name)}</div>
-        <div class="val num">${fmt$s(r.month.loanAmount)}<small>${r.month.loans} loan${r.month.loans===1?"":"s"}</small></div></div>
-      <div class="prow"><span></span><div class="ptrack"><div class="pfill" style="width:${Math.max(2,(r.month.loanAmount||0)/maxM*100)}%"></div></div></div>
-    </div>`).join("")||`<div class="empty">Nothing funded yet this month — go get it 🚀</div>`;
+  document.getElementById("monthRows").innerHTML=mreps.map((r,i)=>{
+    const q=qsplit(r.month.loanAmount||0,QUOTA_MONTH);
+    return `<div class="pitem">
+      <div class="prow"><div class="rank num">${i+1}</div><div class="nm">${esc(r.name)}${qbadge(q.laps)}</div>
+        <div class="val num">${fmt$s(r.month.loanAmount)}<small>${r.month.loans} loan${r.month.loans===1?"":"s"} · ${q.pct}%</small></div></div>
+      <div class="prow"><span></span>${ptrackHTML(r.month.loanAmount||0,QUOTA_MONTH,"var(--data-2)")}</div>
+    </div>`}).join("")||`<div class="empty">Nothing funded yet this month — go get it 🚀</div>`;
 
   const items=(data.latest||[]).filter(l=>(l.loanAmount||0)>0).slice(0,12).map(l=>`<span class="titem"><span class="amt num">${fmt$(l.loanAmount)}</span><span class="sep">·</span><b>${esc(l.rep||"KREC")}</b><span class="sep">·</span>${esc(l.loanType||l.stage||"Funded")}<span class="sep">·</span>${new Date(l.closedAt).toLocaleDateString("en-US",{month:"short",day:"numeric"})}</span>`);
   document.getElementById("ticker").innerHTML=items.join("")+items.join("");
