@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-07-30T18:09:38.950Z",
+  "updatedAt": "2026-07-30T19:49:25.672Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 103426310,
-      "loans": 336
+      "loanAmount": 103661510,
+      "loans": 337
     },
     "month": {
-      "loanAmount": 30124114,
-      "loans": 56
+      "loanAmount": 30359314,
+      "loans": 57
     }
   },
   "reps": [
@@ -194,12 +194,12 @@
     {
       "name": "Jason Weber",
       "year": {
-        "loanAmount": 2651807,
-        "loans": 12
+        "loanAmount": 2887007,
+        "loans": 13
       },
       "month": {
-        "loanAmount": 1552500,
-        "loans": 5
+        "loanAmount": 1787700,
+        "loans": 6
       }
     },
     {
@@ -295,12 +295,12 @@
     {
       "name": "Chelsea Juda",
       "year": {
-        "loanAmount": 2180273,
-        "loans": 29
+        "loanAmount": 2415473,
+        "loans": 30
       },
       "month": {
-        "loanAmount": 129200,
-        "loans": 2
+        "loanAmount": 364400,
+        "loans": 3
       }
     },
     {
@@ -404,6 +404,15 @@
     }
   ],
   "latest": [
+    {
+      "id": "MJpXIK3iTZgJMEf4VR8F",
+      "name": "",
+      "rep": "Jason Weber",
+      "loanAmount": 235200,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-07-30T19:26:52.470Z"
+    },
     {
       "id": "Pr6nXXGgMOXIFEUbXI4L",
       "name": "",
@@ -547,15 +556,6 @@
       "loanType": "Bridge",
       "stage": "Closed",
       "closedAt": "2026-07-23T20:31:49.141Z"
-    },
-    {
-      "id": "kg6i8uucfxAALgfH0e7e",
-      "name": "",
-      "rep": "Brendon Dragon",
-      "loanAmount": 958500,
-      "loanType": "Portfolio",
-      "stage": "Closed",
-      "closedAt": "2026-07-23T18:15:34.008Z"
     }
   ]
 }
