@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-07-30T13:00:59.167Z",
+  "updatedAt": "2026-07-30T15:18:46.641Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 103015200,
-      "loans": 334
+      "loanAmount": 103415110,
+      "loans": 336
     },
     "month": {
-      "loanAmount": 29713004,
-      "loans": 54
+      "loanAmount": 30112914,
+      "loans": 56
     }
   },
   "reps": [
@@ -73,12 +73,12 @@
     {
       "name": "Todd Eliasen",
       "year": {
-        "loanAmount": 1062008,
-        "loans": 5
+        "loanAmount": 1461918,
+        "loans": 7
       },
       "month": {
-        "loanAmount": 29940,
-        "loans": 1
+        "loanAmount": 429850,
+        "loans": 3
       }
     },
     {
@@ -390,9 +390,38 @@
         "loanAmount": 958500,
         "loans": 1
       }
+    },
+    {
+      "name": "Josh Papazis",
+      "year": {
+        "loanAmount": 215910,
+        "loans": 1
+      },
+      "month": {
+        "loanAmount": 215910,
+        "loans": 1
+      }
     }
   ],
   "latest": [
+    {
+      "id": "Qy3cVW6UV9A7Vfxsc1mq",
+      "name": "",
+      "rep": "Todd Eliasen",
+      "loanAmount": 184000,
+      "loanType": "",
+      "stage": "Closed",
+      "closedAt": "2026-07-30T13:39:55.404Z"
+    },
+    {
+      "id": "7sIZHaUDMtDsyrs4rEbo",
+      "name": "",
+      "rep": "Todd Eliasen",
+      "loanAmount": 215910,
+      "loanType": "",
+      "stage": "Closed",
+      "closedAt": "2026-07-30T13:39:35.696Z"
+    },
     {
       "id": "5hwckc7XfpJstWVhLgJ7",
       "name": "",
