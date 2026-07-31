@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T22:27:52.721Z",
+  "updatedAt": "2026-07-31T23:30:54.685Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
@@ -585,15 +585,6 @@
       "loanType": "Bridge",
       "stage": "Closed",
       "closedAt": "2026-07-27T18:31:35.418Z"
-    },
-    {
-      "id": "123O0iEhrA8b1nqCMpOJ",
-      "name": "",
-      "rep": "Bailey Girouard",
-      "loanAmount": 224000,
-      "loanType": "DSCR - C/O",
-      "stage": "Closed",
-      "closedAt": "2026-07-24T23:09:28.271Z"
     }
   ]
 }
