@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-07-31T18:43:37.247Z",
+  "updatedAt": "2026-07-31T20:09:26.219Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 105083010,
-      "loans": 341
+      "loanAmount": 105292010,
+      "loans": 342
     },
     "month": {
-      "loanAmount": 31780814,
-      "loans": 61
+      "loanAmount": 31989814,
+      "loans": 62
     }
   },
   "reps": [
@@ -106,12 +106,12 @@
     {
       "name": "Trey Victor",
       "year": {
-        "loanAmount": 2773305,
-        "loans": 14
+        "loanAmount": 2982305,
+        "loans": 15
       },
       "month": {
-        "loanAmount": 202500,
-        "loans": 1
+        "loanAmount": 411500,
+        "loans": 2
       }
     },
     {
@@ -339,12 +339,12 @@
     {
       "name": "Jillian Haines",
       "year": {
-        "loanAmount": 6943646,
-        "loans": 10
+        "loanAmount": 7152646,
+        "loans": 11
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 209000,
+        "loans": 1
       }
     },
     {
@@ -415,6 +415,15 @@
     }
   ],
   "latest": [
+    {
+      "id": "ipZJUGSbIsprDtAqTeMa",
+      "name": "",
+      "rep": "Trey Victor",
+      "loanAmount": 209000,
+      "loanType": "Fix & Flip",
+      "stage": "Closed",
+      "closedAt": "2026-07-31T19:19:10.637Z"
+    },
     {
       "id": "enX7tmt4B5DedzD0AbvZ",
       "name": "",
@@ -585,15 +594,6 @@
       "loanType": "DSCR - C/O",
       "stage": "Closed",
       "closedAt": "2026-07-24T23:09:28.271Z"
-    },
-    {
-      "id": "o9buvUjaEjW2xZ1BfLHb",
-      "name": "",
-      "rep": "Jason Weber",
-      "loanAmount": 534500,
-      "loanType": "Fix & Flip",
-      "stage": "Wire Received",
-      "closedAt": "2026-07-24T19:50:44.262Z"
     }
   ]
 }
