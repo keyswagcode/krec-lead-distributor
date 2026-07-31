@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T17:08:27.486Z",
+  "updatedAt": "2026-07-31T18:43:37.247Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
@@ -594,15 +594,6 @@
       "loanType": "Fix & Flip",
       "stage": "Wire Received",
       "closedAt": "2026-07-24T19:50:44.262Z"
-    },
-    {
-      "id": "vWtP5Ox3lUHdwRMlMkIq",
-      "name": "",
-      "rep": "Lindsay Milano",
-      "loanAmount": 84000,
-      "loanType": "",
-      "stage": "Wire Received",
-      "closedAt": "2026-07-24T18:06:57.335Z"
     }
   ]
 }
