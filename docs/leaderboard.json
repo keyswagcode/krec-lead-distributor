@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-07-31T00:01:15.015Z",
+  "updatedAt": "2026-07-31T03:42:24.869Z",
   "year": 2026,
   "monthLabel": "July 2026",
   "monthPrefix": "2026-07",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 103661510,
-      "loans": 337
+      "loanAmount": 103881510,
+      "loans": 338
     },
     "month": {
-      "loanAmount": 30359314,
-      "loans": 57
+      "loanAmount": 30579314,
+      "loans": 58
     }
   },
   "reps": [
@@ -216,12 +216,12 @@
     {
       "name": "Ryan McCoy",
       "year": {
-        "loanAmount": 2039700,
-        "loans": 10
+        "loanAmount": 2259700,
+        "loans": 11
       },
       "month": {
-        "loanAmount": 350500,
-        "loans": 2
+        "loanAmount": 570500,
+        "loans": 3
       }
     },
     {
@@ -317,12 +317,12 @@
     {
       "name": "Adam Epperson",
       "year": {
-        "loanAmount": 7870658,
-        "loans": 29
+        "loanAmount": 8090658,
+        "loans": 30
       },
       "month": {
-        "loanAmount": 2728050,
-        "loans": 11
+        "loanAmount": 2948050,
+        "loans": 12
       }
     },
     {
@@ -404,6 +404,24 @@
     }
   ],
   "latest": [
+    {
+      "id": "8Z2KQv2eJX4FZFu0ojU1",
+      "name": "",
+      "rep": "Ryan McCoy",
+      "loanAmount": 148000,
+      "loanType": "DSCR - R/T",
+      "stage": "Wire Received",
+      "closedAt": "2026-07-31T00:54:12.214Z"
+    },
+    {
+      "id": "TZxaf2YkWmcgghXQUxGB",
+      "name": "",
+      "rep": "Ryan McCoy",
+      "loanAmount": 220000,
+      "loanType": "",
+      "stage": "Closed",
+      "closedAt": "2026-07-31T00:54:10.510Z"
+    },
     {
       "id": "MJpXIK3iTZgJMEf4VR8F",
       "name": "",
