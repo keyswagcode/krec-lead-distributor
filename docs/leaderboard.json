@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-08-04T21:57:40.487Z",
+  "updatedAt": "2026-08-04T23:04:18.077Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 105307604,
-      "loans": 342
+      "loanAmount": 105388404,
+      "loans": 343
     },
     "month": {
-      "loanAmount": 0,
-      "loans": 0
+      "loanAmount": 80800,
+      "loans": 1
     }
   },
   "reps": [
@@ -128,12 +128,12 @@
     {
       "name": "Luis Danny Franco",
       "year": {
-        "loanAmount": 4275163,
-        "loans": 5
+        "loanAmount": 4355963,
+        "loans": 6
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 80800,
+        "loans": 1
       }
     },
     {
@@ -339,12 +339,12 @@
     {
       "name": "Jillian Haines",
       "year": {
-        "loanAmount": 7168240,
-        "loans": 11
+        "loanAmount": 7249040,
+        "loans": 12
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 80800,
+        "loans": 1
       }
     },
     {
@@ -415,6 +415,15 @@
     }
   ],
   "latest": [
+    {
+      "id": "9PXCEhbSrHWIHo1hH9hu",
+      "name": "",
+      "rep": "Luis Danny Franco",
+      "loanAmount": 80800,
+      "loanType": "DSCR - Purchase",
+      "stage": "Closed",
+      "closedAt": "2026-08-04T22:50:02.792Z"
+    },
     {
       "id": "ipZJUGSbIsprDtAqTeMa",
       "name": "",
