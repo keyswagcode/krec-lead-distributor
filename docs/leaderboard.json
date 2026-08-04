@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-04T17:47:49.808Z",
+  "updatedAt": "2026-08-04T19:12:47.002Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 105292010,
+      "loanAmount": 105307604,
       "loans": 342
     },
     "month": {
@@ -106,7 +106,7 @@
     {
       "name": "Trey Victor",
       "year": {
-        "loanAmount": 2982305,
+        "loanAmount": 2997899,
         "loans": 15
       },
       "month": {
@@ -339,7 +339,7 @@
     {
       "name": "Jillian Haines",
       "year": {
-        "loanAmount": 7152646,
+        "loanAmount": 7168240,
         "loans": 11
       },
       "month": {
@@ -419,7 +419,7 @@
       "id": "ipZJUGSbIsprDtAqTeMa",
       "name": "",
       "rep": "Trey Victor",
-      "loanAmount": 209000,
+      "loanAmount": 224594,
       "loanType": "Fix & Flip",
       "stage": "Closed",
       "closedAt": "2026-07-31T19:19:10.637Z"
