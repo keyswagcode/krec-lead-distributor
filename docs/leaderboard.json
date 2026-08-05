@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T16:58:14.911Z",
+  "updatedAt": "2026-08-05T18:23:19.226Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
@@ -567,15 +567,6 @@
       "loanType": "DSCR - R/T",
       "stage": "Closed",
       "closedAt": "2026-07-29T19:30:49.706Z"
-    },
-    {
-      "id": "RBTPx0WkaZDOaeBZqAaW",
-      "name": "",
-      "rep": "Raj Vora",
-      "loanAmount": 235200,
-      "loanType": "DSCR - R/T",
-      "stage": "Closed",
-      "closedAt": "2026-07-29T17:49:22.494Z"
     }
   ]
 }
