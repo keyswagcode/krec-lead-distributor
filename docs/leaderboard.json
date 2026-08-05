@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T20:02:39.343Z",
+  "updatedAt": "2026-08-05T21:22:02.808Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
@@ -540,15 +540,6 @@
       "loanType": "",
       "stage": "Closed",
       "closedAt": "2026-07-30T13:39:35.696Z"
-    },
-    {
-      "id": "5hwckc7XfpJstWVhLgJ7",
-      "name": "",
-      "rep": "Trey Victor",
-      "loanAmount": 202500,
-      "loanType": "DSCR - R/T",
-      "stage": "Closed",
-      "closedAt": "2026-07-29T20:17:44.929Z"
     }
   ]
 }
