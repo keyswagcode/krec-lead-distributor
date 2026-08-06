@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T23:32:25.327Z",
+  "updatedAt": "2026-08-06T00:56:30.647Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
@@ -10,8 +10,8 @@
       "loans": 343
     },
     "month": {
-      "loanAmount": 80800,
-      "loans": 1
+      "loanAmount": 245800,
+      "loans": 2
     }
   },
   "reps": [
@@ -143,8 +143,8 @@
         "loans": 18
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 165000,
+        "loans": 1
       }
     },
     {
@@ -288,8 +288,8 @@
         "loans": 102
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 165000,
+        "loans": 1
       }
     },
     {
@@ -354,8 +354,8 @@
         "loans": 3
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 165000,
+        "loans": 1
       }
     },
     {
@@ -416,6 +416,15 @@
   ],
   "latest": [
     {
+      "id": "EmXfH1subkZQIpcpITL6",
+      "name": "",
+      "rep": "Nicole Lavau",
+      "loanAmount": 165000,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-08-06T00:45:42.987Z"
+    },
+    {
       "id": "9PXCEhbSrHWIHo1hH9hu",
       "name": "",
       "rep": "Luis Danny Franco",
@@ -441,15 +450,6 @@
       "loanType": "Ground Up Construction",
       "stage": "Wire Received",
       "closedAt": "2026-07-31T13:52:04.177Z"
-    },
-    {
-      "id": "EmXfH1subkZQIpcpITL6",
-      "name": "",
-      "rep": "Nicole Lavau",
-      "loanAmount": 165000,
-      "loanType": "DSCR - C/O",
-      "stage": "Closed",
-      "closedAt": "2026-07-31T13:51:37.624Z"
     },
     {
       "id": "WOdbR36GMj0kgKZItuG1",
