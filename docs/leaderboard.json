@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T11:49:08.971Z",
+  "updatedAt": "2026-08-06T13:24:42.214Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
@@ -10,8 +10,8 @@
       "loans": 344
     },
     "month": {
-      "loanAmount": 530800,
-      "loans": 3
+      "loanAmount": 788000,
+      "loans": 4
     }
   },
   "reps": [
@@ -121,8 +121,8 @@
         "loans": 5
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 257200,
+        "loans": 1
       }
     },
     {
@@ -288,8 +288,8 @@
         "loans": 102
       },
       "month": {
-        "loanAmount": 165000,
-        "loans": 1
+        "loanAmount": 422200,
+        "loans": 2
       }
     },
     {
@@ -376,8 +376,8 @@
         "loans": 1
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 257200,
+        "loans": 1
       }
     },
     {
@@ -415,6 +415,15 @@
     }
   ],
   "latest": [
+    {
+      "id": "WtwD9DFn2dLFvFgCuldX",
+      "name": "",
+      "rep": "Emily Wencelblat",
+      "loanAmount": 257200,
+      "loanType": "Bridge",
+      "stage": "Wire Received",
+      "closedAt": "2026-08-06T12:33:17.740Z"
+    },
     {
       "id": "ZtMOGSPatkhrXlLFEtYk",
       "name": "",
