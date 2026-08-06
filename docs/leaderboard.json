@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-08-06T00:56:30.647Z",
+  "updatedAt": "2026-08-06T04:10:02.410Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 105388404,
-      "loans": 343
+      "loanAmount": 105673404,
+      "loans": 344
     },
     "month": {
-      "loanAmount": 245800,
-      "loans": 2
+      "loanAmount": 530800,
+      "loans": 3
     }
   },
   "reps": [
@@ -260,12 +260,12 @@
     {
       "name": "Nick DeLaCruz",
       "year": {
-        "loanAmount": 238677,
-        "loans": 1
+        "loanAmount": 523677,
+        "loans": 2
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 285000,
+        "loans": 1
       }
     }
   ],
@@ -306,12 +306,12 @@
     {
       "name": "Brandi Smith",
       "year": {
-        "loanAmount": 12795270,
-        "loans": 49
+        "loanAmount": 13080270,
+        "loans": 50
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 285000,
+        "loans": 1
       }
     },
     {
@@ -361,12 +361,12 @@
     {
       "name": "Bailey Girouard",
       "year": {
-        "loanAmount": 238677,
-        "loans": 1
+        "loanAmount": 523677,
+        "loans": 2
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 285000,
+        "loans": 1
       }
     },
     {
@@ -415,6 +415,15 @@
     }
   ],
   "latest": [
+    {
+      "id": "ZtMOGSPatkhrXlLFEtYk",
+      "name": "",
+      "rep": "Nick DeLaCruz",
+      "loanAmount": 285000,
+      "loanType": "DSCR - R/T",
+      "stage": "Wire Received",
+      "closedAt": "2026-08-06T03:26:45.859Z"
+    },
     {
       "id": "EmXfH1subkZQIpcpITL6",
       "name": "",
