@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-08-06T13:24:42.214Z",
+  "updatedAt": "2026-08-06T15:41:06.322Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 105673404,
-      "loans": 344
+      "loanAmount": 106873404,
+      "loans": 349
     },
     "month": {
-      "loanAmount": 788000,
-      "loans": 4
+      "loanAmount": 1988000,
+      "loans": 9
     }
   },
   "reps": [
@@ -84,12 +84,12 @@
     {
       "name": "Raj Vora",
       "year": {
-        "loanAmount": 2738171,
-        "loans": 10
+        "loanAmount": 3938171,
+        "loans": 15
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 1200000,
+        "loans": 5
       }
     },
     {
@@ -306,12 +306,12 @@
     {
       "name": "Brandi Smith",
       "year": {
-        "loanAmount": 13080270,
-        "loans": 50
+        "loanAmount": 14280270,
+        "loans": 55
       },
       "month": {
-        "loanAmount": 285000,
-        "loans": 1
+        "loanAmount": 1485000,
+        "loans": 6
       }
     },
     {
@@ -415,6 +415,51 @@
     }
   ],
   "latest": [
+    {
+      "id": "C6mVCv4TTPk76FNQ8FwP",
+      "name": "",
+      "rep": "Raj Vora",
+      "loanAmount": 240000,
+      "loanType": "DSCR - Purchase",
+      "stage": "Wire Received",
+      "closedAt": "2026-08-06T15:29:53.915Z"
+    },
+    {
+      "id": "3TBhJuIs8iS2nwG753C2",
+      "name": "",
+      "rep": "Raj Vora",
+      "loanAmount": 240000,
+      "loanType": "DSCR - Purchase",
+      "stage": "Wire Received",
+      "closedAt": "2026-08-06T15:29:50.720Z"
+    },
+    {
+      "id": "k2ptciES7sTmIY0MeI8d",
+      "name": "",
+      "rep": "Raj Vora",
+      "loanAmount": 240000,
+      "loanType": "DSCR - Purchase",
+      "stage": "Wire Received",
+      "closedAt": "2026-08-06T15:29:47.521Z"
+    },
+    {
+      "id": "TbPyMufoYSDBppLbUA7V",
+      "name": "",
+      "rep": "Raj Vora",
+      "loanAmount": 240000,
+      "loanType": "DSCR - Purchase",
+      "stage": "Wire Received",
+      "closedAt": "2026-08-06T15:29:43.533Z"
+    },
+    {
+      "id": "0BkuHgLct5eArfKYlgqA",
+      "name": "",
+      "rep": "Raj Vora",
+      "loanAmount": 240000,
+      "loanType": "DSCR - Purchase",
+      "stage": "Wire Received",
+      "closedAt": "2026-08-06T15:29:40.276Z"
+    },
     {
       "id": "WtwD9DFn2dLFvFgCuldX",
       "name": "",
@@ -540,24 +585,6 @@
       "loanType": "DSCR - Purchase",
       "stage": "Wire Received",
       "closedAt": "2026-07-30T18:07:38.126Z"
-    },
-    {
-      "id": "Qy3cVW6UV9A7Vfxsc1mq",
-      "name": "",
-      "rep": "Todd Eliasen",
-      "loanAmount": 184000,
-      "loanType": "",
-      "stage": "Closed",
-      "closedAt": "2026-07-30T13:39:55.404Z"
-    },
-    {
-      "id": "7sIZHaUDMtDsyrs4rEbo",
-      "name": "",
-      "rep": "Todd Eliasen",
-      "loanAmount": 215910,
-      "loanType": "",
-      "stage": "Closed",
-      "closedAt": "2026-07-30T13:39:35.696Z"
     }
   ]
 }
