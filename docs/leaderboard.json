@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T00:33:23.301Z",
+  "updatedAt": "2026-08-07T03:34:00.745Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
@@ -621,24 +621,6 @@
       "loanType": "Fix & Flip",
       "stage": "Wire Received",
       "closedAt": "2026-07-31T13:51:32.089Z"
-    },
-    {
-      "id": "8Z2KQv2eJX4FZFu0ojU1",
-      "name": "",
-      "rep": "Ryan McCoy",
-      "loanAmount": 148000,
-      "loanType": "DSCR - R/T",
-      "stage": "Wire Received",
-      "closedAt": "2026-07-31T00:54:12.214Z"
-    },
-    {
-      "id": "TZxaf2YkWmcgghXQUxGB",
-      "name": "",
-      "rep": "Ryan McCoy",
-      "loanAmount": 220000,
-      "loanType": "",
-      "stage": "Closed",
-      "closedAt": "2026-07-31T00:54:10.510Z"
     }
   ]
 }
