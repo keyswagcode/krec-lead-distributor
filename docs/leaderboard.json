@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-08-07T18:10:41.776Z",
+  "updatedAt": "2026-08-07T19:14:10.221Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 108212704,
-      "loans": 358
+      "loanAmount": 109356704,
+      "loans": 359
     },
     "month": {
-      "loanAmount": 3989594,
-      "loans": 21
+      "loanAmount": 5133594,
+      "loans": 22
     }
   },
   "reps": [
@@ -62,12 +62,12 @@
     {
       "name": "Frank Estrada",
       "year": {
-        "loanAmount": 5744370,
-        "loans": 10
+        "loanAmount": 6888370,
+        "loans": 11
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 1144000,
+        "loans": 1
       }
     },
     {
@@ -284,12 +284,12 @@
     {
       "name": "Daisy Mondragon",
       "year": {
-        "loanAmount": 36180237,
-        "loans": 109
+        "loanAmount": 37324237,
+        "loans": 110
       },
       "month": {
-        "loanAmount": 1774200,
-        "loans": 10
+        "loanAmount": 2918200,
+        "loans": 11
       }
     },
     {
@@ -415,6 +415,15 @@
     }
   ],
   "latest": [
+    {
+      "id": "IWF4XgYJkEItopMbfNaj",
+      "name": "",
+      "rep": "Frank Estrada",
+      "loanAmount": 1144000,
+      "loanType": "Bank Statement",
+      "stage": "Wire Received",
+      "closedAt": "2026-08-07T19:13:13.414Z"
+    },
     {
       "id": "ipZJUGSbIsprDtAqTeMa",
       "name": "",
