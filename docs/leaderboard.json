@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T23:53:38.841Z",
+  "updatedAt": "2026-08-08T00:50:14.686Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
@@ -10,8 +10,8 @@
       "loans": 359
     },
     "month": {
-      "loanAmount": 5372594,
-      "loans": 24
+      "loanAmount": 5592594,
+      "loans": 25
     }
   },
   "reps": [
@@ -220,8 +220,8 @@
         "loans": 12
       },
       "month": {
-        "loanAmount": 142500,
-        "loans": 1
+        "loanAmount": 362500,
+        "loans": 2
       }
     },
     {
@@ -321,8 +321,8 @@
         "loans": 30
       },
       "month": {
-        "loanAmount": 202500,
-        "loans": 1
+        "loanAmount": 422500,
+        "loans": 2
       }
     },
     {
@@ -415,6 +415,15 @@
     }
   ],
   "latest": [
+    {
+      "id": "TZxaf2YkWmcgghXQUxGB",
+      "name": "",
+      "rep": "Ryan McCoy",
+      "loanAmount": 220000,
+      "loanType": "",
+      "stage": "Wire Received",
+      "closedAt": "2026-08-08T00:06:29.689Z"
+    },
     {
       "id": "jbGOagUF7SoLhtHOnNR6",
       "name": "",
