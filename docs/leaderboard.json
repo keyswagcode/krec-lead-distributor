@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-08-11T14:39:55.191Z",
+  "updatedAt": "2026-08-11T15:36:48.068Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 109356704,
-      "loans": 359
+      "loanAmount": 110494704,
+      "loans": 360
     },
     "month": {
-      "loanAmount": 5592594,
-      "loans": 25
+      "loanAmount": 6730594,
+      "loans": 26
     }
   },
   "reps": [
@@ -139,12 +139,12 @@
     {
       "name": "Nicole Lavau",
       "year": {
-        "loanAmount": 12532887,
-        "loans": 18
+        "loanAmount": 13670887,
+        "loans": 19
       },
       "month": {
-        "loanAmount": 165000,
-        "loans": 1
+        "loanAmount": 1303000,
+        "loans": 2
       }
     },
     {
@@ -284,12 +284,12 @@
     {
       "name": "Daisy Mondragon",
       "year": {
-        "loanAmount": 37324237,
-        "loans": 110
+        "loanAmount": 38462237,
+        "loans": 111
       },
       "month": {
-        "loanAmount": 2918200,
-        "loans": 11
+        "loanAmount": 4056200,
+        "loans": 12
       }
     },
     {
@@ -415,6 +415,15 @@
     }
   ],
   "latest": [
+    {
+      "id": "l7CzselyRgVkhKjvgOSw",
+      "name": "",
+      "rep": "Nicole Lavau",
+      "loanAmount": 1138000,
+      "loanType": "Fix & Flip",
+      "stage": "Closed",
+      "closedAt": "2026-08-11T15:10:56.655Z"
+    },
     {
       "id": "TZxaf2YkWmcgghXQUxGB",
       "name": "",
