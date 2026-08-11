@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-08-11T19:36:23.915Z",
+  "updatedAt": "2026-08-11T20:21:35.338Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 111246204,
-      "loans": 362
+      "loanAmount": 112826755,
+      "loans": 363
     },
     "month": {
-      "loanAmount": 8844594,
-      "loans": 31
+      "loanAmount": 10425145,
+      "loans": 32
     }
   },
   "reps": [
@@ -260,12 +260,12 @@
     {
       "name": "Nick DeLaCruz",
       "year": {
-        "loanAmount": 523677,
-        "loans": 2
+        "loanAmount": 2104228,
+        "loans": 3
       },
       "month": {
-        "loanAmount": 285000,
-        "loans": 1
+        "loanAmount": 1865551,
+        "loans": 2
       }
     }
   ],
@@ -306,12 +306,12 @@
     {
       "name": "Brandi Smith",
       "year": {
-        "loanAmount": 14422770,
-        "loans": 56
+        "loanAmount": 16003321,
+        "loans": 57
       },
       "month": {
-        "loanAmount": 1866500,
-        "loans": 9
+        "loanAmount": 3447051,
+        "loans": 10
       }
     },
     {
@@ -415,6 +415,15 @@
     }
   ],
   "latest": [
+    {
+      "id": "beZVqek2QPRwBwGNGXIq",
+      "name": "",
+      "rep": "Nick DeLaCruz",
+      "loanAmount": 1580551,
+      "loanType": "Ground Up Construction",
+      "stage": "Wire Received",
+      "closedAt": "2026-08-11T19:49:58.643Z"
+    },
     {
       "id": "a7run6WCXeqP5tTfKWmu",
       "name": "",
