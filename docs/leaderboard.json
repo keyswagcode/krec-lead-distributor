@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T17:33:46.475Z",
+  "updatedAt": "2026-08-12T18:29:51.759Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
@@ -416,6 +416,24 @@
   ],
   "latest": [
     {
+      "id": "5PYZCcXGjGb94VNtA7BR",
+      "name": "",
+      "rep": "Luis Danny Franco",
+      "loanAmount": 80000,
+      "loanType": "DSCR - Purchase",
+      "stage": "Wire Received",
+      "closedAt": "2026-08-12T18:17:10.478Z"
+    },
+    {
+      "id": "9PXCEhbSrHWIHo1hH9hu",
+      "name": "",
+      "rep": "Luis Danny Franco",
+      "loanAmount": 80800,
+      "loanType": "DSCR - Purchase",
+      "stage": "Wire Received",
+      "closedAt": "2026-08-12T18:17:08.868Z"
+    },
+    {
       "id": "JaNBH98FtWJRO62IhSZE",
       "name": "",
       "rep": "Samuel Vickrey",
@@ -549,15 +567,6 @@
       "loanType": "DSCR - R/T",
       "stage": "Closed",
       "closedAt": "2026-08-06T19:31:10.061Z"
-    },
-    {
-      "id": "5PYZCcXGjGb94VNtA7BR",
-      "name": "",
-      "rep": "Luis Danny Franco",
-      "loanAmount": 80000,
-      "loanType": "DSCR - Purchase",
-      "stage": "Closed",
-      "closedAt": "2026-08-06T19:19:39.336Z"
     },
     {
       "id": "rknWs9eXyKOE9VcBbknj",
