@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-08-11T23:36:27.323Z",
+  "updatedAt": "2026-08-12T00:40:09.991Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 112826755,
-      "loans": 363
+      "loanAmount": 112935505,
+      "loans": 364
     },
     "month": {
-      "loanAmount": 10425145,
-      "loans": 32
+      "loanAmount": 10533895,
+      "loans": 33
     }
   },
   "reps": [
@@ -205,12 +205,12 @@
     {
       "name": "Samuel Vickrey",
       "year": {
-        "loanAmount": 423670,
-        "loans": 4
+        "loanAmount": 532420,
+        "loans": 5
       },
       "month": {
-        "loanAmount": 239000,
-        "loans": 2
+        "loanAmount": 347750,
+        "loans": 3
       }
     },
     {
@@ -306,12 +306,12 @@
     {
       "name": "Brandi Smith",
       "year": {
-        "loanAmount": 16003321,
-        "loans": 57
+        "loanAmount": 16112071,
+        "loans": 58
       },
       "month": {
-        "loanAmount": 3447051,
-        "loans": 10
+        "loanAmount": 3555801,
+        "loans": 11
       }
     },
     {
@@ -415,6 +415,15 @@
     }
   ],
   "latest": [
+    {
+      "id": "JaNBH98FtWJRO62IhSZE",
+      "name": "",
+      "rep": "Samuel Vickrey",
+      "loanAmount": 108750,
+      "loanType": "DSCR - C/O",
+      "stage": "Closed",
+      "closedAt": "2026-08-12T00:35:34.488Z"
+    },
     {
       "id": "beZVqek2QPRwBwGNGXIq",
       "name": "",
