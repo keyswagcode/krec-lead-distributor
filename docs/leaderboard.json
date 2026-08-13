@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T20:09:01.769Z",
+  "updatedAt": "2026-08-13T21:01:14.223Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
@@ -558,15 +558,6 @@
       "loanType": "Bank Statement",
       "stage": "Wire Received",
       "closedAt": "2026-08-07T19:13:13.414Z"
-    },
-    {
-      "id": "5hwckc7XfpJstWVhLgJ7",
-      "name": "",
-      "rep": "Trey Victor",
-      "loanAmount": 202500,
-      "loanType": "DSCR - R/T",
-      "stage": "Wire Received",
-      "closedAt": "2026-08-06T20:31:29.118Z"
     }
   ]
 }
