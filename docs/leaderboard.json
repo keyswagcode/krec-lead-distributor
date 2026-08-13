@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-08-13T21:01:14.223Z",
+  "updatedAt": "2026-08-13T21:55:55.123Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 113164255,
-      "loans": 365
+      "loanAmount": 113336755,
+      "loans": 366
     },
     "month": {
-      "loanAmount": 10762645,
-      "loans": 34
+      "loanAmount": 10935145,
+      "loans": 35
     }
   },
   "reps": [
@@ -51,12 +51,12 @@
     {
       "name": "Bailey Girouard",
       "year": {
-        "loanAmount": 6593175,
-        "loans": 30
+        "loanAmount": 6765675,
+        "loans": 31
       },
       "month": {
-        "loanAmount": 404000,
-        "loans": 2
+        "loanAmount": 576500,
+        "loans": 3
       }
     },
     {
@@ -306,12 +306,12 @@
     {
       "name": "Brandi Smith",
       "year": {
-        "loanAmount": 16112071,
-        "loans": 58
+        "loanAmount": 16284571,
+        "loans": 59
       },
       "month": {
-        "loanAmount": 3555801,
-        "loans": 11
+        "loanAmount": 3728301,
+        "loans": 12
       }
     },
     {
@@ -345,6 +345,17 @@
       "month": {
         "loanAmount": 385394,
         "loans": 3
+      }
+    },
+    {
+      "name": "Omar Olson",
+      "year": {
+        "loanAmount": 172500,
+        "loans": 1
+      },
+      "month": {
+        "loanAmount": 172500,
+        "loans": 1
       }
     },
     {
@@ -415,6 +426,15 @@
     }
   ],
   "latest": [
+    {
+      "id": "kMWgbSNkdls2f7487XuN",
+      "name": "",
+      "rep": "Bailey Girouard",
+      "loanAmount": 172500,
+      "loanType": "DSCR - C/O",
+      "stage": "Closed",
+      "closedAt": "2026-08-13T21:36:50.343Z"
+    },
     {
       "id": "ipZJUGSbIsprDtAqTeMa",
       "name": "",
