@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-08-13T17:30:38.487Z",
+  "updatedAt": "2026-08-13T18:29:48.904Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 112935505,
-      "loans": 364
+      "loanAmount": 113164255,
+      "loans": 365
     },
     "month": {
-      "loanAmount": 10533895,
-      "loans": 33
+      "loanAmount": 10762645,
+      "loans": 34
     }
   },
   "reps": [
@@ -205,12 +205,12 @@
     {
       "name": "Samuel Vickrey",
       "year": {
-        "loanAmount": 532420,
-        "loans": 5
+        "loanAmount": 761170,
+        "loans": 6
       },
       "month": {
-        "loanAmount": 347750,
-        "loans": 3
+        "loanAmount": 576500,
+        "loans": 4
       }
     },
     {
@@ -317,12 +317,12 @@
     {
       "name": "Adam Epperson",
       "year": {
-        "loanAmount": 8090658,
-        "loans": 30
+        "loanAmount": 8319408,
+        "loans": 31
       },
       "month": {
-        "loanAmount": 422500,
-        "loans": 2
+        "loanAmount": 651250,
+        "loans": 3
       }
     },
     {
@@ -416,6 +416,24 @@
   ],
   "latest": [
     {
+      "id": "l7CzselyRgVkhKjvgOSw",
+      "name": "",
+      "rep": "Nicole Lavau",
+      "loanAmount": 1138000,
+      "loanType": "Fix & Flip",
+      "stage": "Wire Received",
+      "closedAt": "2026-08-13T17:51:26.487Z"
+    },
+    {
+      "id": "6ekv1Wv0xiBGL6MCmENV",
+      "name": "",
+      "rep": "Samuel Vickrey",
+      "loanAmount": 228750,
+      "loanType": "DSCR - C/O",
+      "stage": "Closed",
+      "closedAt": "2026-08-13T17:35:18.910Z"
+    },
+    {
       "id": "5PYZCcXGjGb94VNtA7BR",
       "name": "",
       "rep": "Luis Danny Franco",
@@ -497,15 +515,6 @@
       "closedAt": "2026-08-11T16:29:09.240Z"
     },
     {
-      "id": "l7CzselyRgVkhKjvgOSw",
-      "name": "",
-      "rep": "Nicole Lavau",
-      "loanAmount": 1138000,
-      "loanType": "Fix & Flip",
-      "stage": "Closed",
-      "closedAt": "2026-08-11T15:10:56.655Z"
-    },
-    {
       "id": "TZxaf2YkWmcgghXQUxGB",
       "name": "",
       "rep": "Ryan McCoy",
@@ -567,15 +576,6 @@
       "loanType": "DSCR - R/T",
       "stage": "Closed",
       "closedAt": "2026-08-06T19:31:10.061Z"
-    },
-    {
-      "id": "rknWs9eXyKOE9VcBbknj",
-      "name": "",
-      "rep": "Jeremiah Ibrahim",
-      "loanAmount": 140000,
-      "loanType": "DSCR - Purchase",
-      "stage": "Closed",
-      "closedAt": "2026-08-06T17:46:24.784Z"
     }
   ]
 }
