@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T11:57:16.606Z",
+  "updatedAt": "2026-08-13T13:08:24.181Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
@@ -684,15 +684,6 @@
       "loanType": "DSCR - Purchase",
       "stage": "Wire Received",
       "closedAt": "2026-08-06T15:29:40.276Z"
-    },
-    {
-      "id": "WtwD9DFn2dLFvFgCuldX",
-      "name": "",
-      "rep": "Emily Wencelblat",
-      "loanAmount": 257200,
-      "loanType": "Bridge",
-      "stage": "Wire Received",
-      "closedAt": "2026-08-06T12:33:17.740Z"
     }
   ]
 }
