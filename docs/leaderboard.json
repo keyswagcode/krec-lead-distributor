@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T02:43:22.143Z",
+  "updatedAt": "2026-08-13T04:31:03.044Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
@@ -693,15 +693,6 @@
       "loanType": "Bridge",
       "stage": "Wire Received",
       "closedAt": "2026-08-06T12:33:17.740Z"
-    },
-    {
-      "id": "ZtMOGSPatkhrXlLFEtYk",
-      "name": "",
-      "rep": "Nick DeLaCruz",
-      "loanAmount": 285000,
-      "loanType": "DSCR - R/T",
-      "stage": "Wire Received",
-      "closedAt": "2026-08-06T03:26:45.859Z"
     }
   ]
 }
