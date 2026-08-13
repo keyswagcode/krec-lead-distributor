@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T15:32:47.101Z",
+  "updatedAt": "2026-08-13T16:28:47.507Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
@@ -576,69 +576,6 @@
       "loanType": "DSCR - Purchase",
       "stage": "Closed",
       "closedAt": "2026-08-06T17:46:24.784Z"
-    },
-    {
-      "id": "RBTPx0WkaZDOaeBZqAaW",
-      "name": "",
-      "rep": "Raj Vora",
-      "loanAmount": 235200,
-      "loanType": "DSCR - R/T",
-      "stage": "Wire Received",
-      "closedAt": "2026-08-06T16:04:43.378Z"
-    },
-    {
-      "id": "HyALzDXegf8kgKmdS4rL",
-      "name": "",
-      "rep": "Raj Vora",
-      "loanAmount": 232800,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-08-06T16:04:38.969Z"
-    },
-    {
-      "id": "Ur8E3h1ogNiWiCfhxtHj",
-      "name": "",
-      "rep": "Raj Vora",
-      "loanAmount": 0,
-      "loanType": "",
-      "stage": "Wire Received",
-      "closedAt": "2026-08-06T16:04:30.617Z"
-    },
-    {
-      "id": "l5v9q9Ok85IfL9cefxl3",
-      "name": "",
-      "rep": "Raj Vora",
-      "loanAmount": 186750,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-08-06T16:04:25.239Z"
-    },
-    {
-      "id": "KpeJSLkvIHhAZGw6MmEF",
-      "name": "",
-      "rep": "Raj Vora",
-      "loanAmount": 185250,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-08-06T16:04:22.506Z"
-    },
-    {
-      "id": "xdqGzXIRmowJXKGG4NFo",
-      "name": "",
-      "rep": "Raj Vora",
-      "loanAmount": 186750,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-08-06T16:04:19.914Z"
-    },
-    {
-      "id": "8qKOhmRlydPghT9dMxvV",
-      "name": "",
-      "rep": "Raj Vora",
-      "loanAmount": 185250,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-08-06T16:04:16.543Z"
     }
   ]
 }
