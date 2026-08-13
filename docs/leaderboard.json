@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T00:07:37.891Z",
+  "updatedAt": "2026-08-13T02:43:22.143Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
@@ -702,15 +702,6 @@
       "loanType": "DSCR - R/T",
       "stage": "Wire Received",
       "closedAt": "2026-08-06T03:26:45.859Z"
-    },
-    {
-      "id": "EmXfH1subkZQIpcpITL6",
-      "name": "",
-      "rep": "Nicole Lavau",
-      "loanAmount": 165000,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-08-06T00:45:42.987Z"
     }
   ]
 }
