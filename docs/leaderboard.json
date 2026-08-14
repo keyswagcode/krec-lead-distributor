@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T20:59:30.583Z",
+  "updatedAt": "2026-08-14T21:30:04.298Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
@@ -560,24 +560,6 @@
       "loanType": "",
       "stage": "Wire Received",
       "closedAt": "2026-08-08T00:06:29.689Z"
-    },
-    {
-      "id": "jbGOagUF7SoLhtHOnNR6",
-      "name": "",
-      "rep": "Samuel Vickrey",
-      "loanAmount": 135000,
-      "loanType": "DSCR - R/T",
-      "stage": "Wire Received",
-      "closedAt": "2026-08-07T21:12:10.335Z"
-    },
-    {
-      "id": "EJorcXi0rVkSTn8sNqaZ",
-      "name": "",
-      "rep": "Samuel Vickrey",
-      "loanAmount": 104000,
-      "loanType": "DSCR - R/T",
-      "stage": "Wire Received",
-      "closedAt": "2026-08-07T21:12:07.911Z"
     }
   ]
 }
