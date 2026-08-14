@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-08-14T17:24:24.984Z",
+  "updatedAt": "2026-08-14T18:15:04.853Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 113336755,
-      "loans": 366
+      "loanAmount": 113456755,
+      "loans": 367
     },
     "month": {
-      "loanAmount": 10935145,
-      "loans": 35
+      "loanAmount": 11055145,
+      "loans": 36
     }
   },
   "reps": [
@@ -216,12 +216,12 @@
     {
       "name": "Ryan McCoy",
       "year": {
-        "loanAmount": 2402200,
-        "loans": 12
+        "loanAmount": 2522200,
+        "loans": 13
       },
       "month": {
-        "loanAmount": 362500,
-        "loans": 2
+        "loanAmount": 482500,
+        "loans": 3
       }
     },
     {
@@ -306,12 +306,12 @@
     {
       "name": "Brandi Smith",
       "year": {
-        "loanAmount": 16284571,
-        "loans": 59
+        "loanAmount": 16404571,
+        "loans": 60
       },
       "month": {
-        "loanAmount": 3728301,
-        "loans": 12
+        "loanAmount": 3848301,
+        "loans": 13
       }
     },
     {
@@ -426,6 +426,15 @@
     }
   ],
   "latest": [
+    {
+      "id": "m8KpNhCf4NBV6bkWYeM2",
+      "name": "",
+      "rep": "Ryan McCoy",
+      "loanAmount": 120000,
+      "loanType": "DSCR - R/T",
+      "stage": "Closed",
+      "closedAt": "2026-08-14T17:32:06.554Z"
+    },
     {
       "id": "kMWgbSNkdls2f7487XuN",
       "name": "",
