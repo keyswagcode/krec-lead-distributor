@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T18:15:04.853Z",
+  "updatedAt": "2026-08-14T19:15:22.015Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
@@ -578,15 +578,6 @@
       "loanType": "DSCR - R/T",
       "stage": "Wire Received",
       "closedAt": "2026-08-07T21:12:07.911Z"
-    },
-    {
-      "id": "IWF4XgYJkEItopMbfNaj",
-      "name": "",
-      "rep": "Frank Estrada",
-      "loanAmount": 1144000,
-      "loanType": "Bank Statement",
-      "stage": "Wire Received",
-      "closedAt": "2026-08-07T19:13:13.414Z"
     }
   ]
 }
