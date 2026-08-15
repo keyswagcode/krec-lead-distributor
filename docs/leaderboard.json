@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T00:00:28.031Z",
+  "updatedAt": "2026-08-15T01:43:15.480Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
@@ -551,15 +551,6 @@
       "loanType": "DSCR - C/O",
       "stage": "Closed",
       "closedAt": "2026-08-11T16:29:09.240Z"
-    },
-    {
-      "id": "TZxaf2YkWmcgghXQUxGB",
-      "name": "",
-      "rep": "Ryan McCoy",
-      "loanAmount": 220000,
-      "loanType": "",
-      "stage": "Wire Received",
-      "closedAt": "2026-08-08T00:06:29.689Z"
     }
   ]
 }
