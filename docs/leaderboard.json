@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-08-17T21:32:57.784Z",
+  "updatedAt": "2026-08-17T21:54:23.106Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 113631955,
-      "loans": 368
+      "loanAmount": 113895955,
+      "loans": 369
     },
     "month": {
-      "loanAmount": 11230345,
-      "loans": 37
+      "loanAmount": 11494345,
+      "loans": 38
     }
   },
   "reps": [
@@ -258,6 +258,17 @@
       }
     },
     {
+      "name": "Gabriel Giordano",
+      "year": {
+        "loanAmount": 264000,
+        "loans": 1
+      },
+      "month": {
+        "loanAmount": 264000,
+        "loans": 1
+      }
+    },
+    {
       "name": "Nick DeLaCruz",
       "year": {
         "loanAmount": 2104228,
@@ -317,12 +328,12 @@
     {
       "name": "Adam Epperson",
       "year": {
-        "loanAmount": 8494608,
-        "loans": 32
+        "loanAmount": 8758608,
+        "loans": 33
       },
       "month": {
-        "loanAmount": 826450,
-        "loans": 4
+        "loanAmount": 1090450,
+        "loans": 5
       }
     },
     {
@@ -426,6 +437,15 @@
     }
   ],
   "latest": [
+    {
+      "id": "ZAwbJtZlTtyGz5DdzLdh",
+      "name": "",
+      "rep": "Gabriel Giordano",
+      "loanAmount": 264000,
+      "loanType": "DSCR - C/O",
+      "stage": "Closed",
+      "closedAt": "2026-08-17T21:51:04.121Z"
+    },
     {
       "id": "m8KpNhCf4NBV6bkWYeM2",
       "name": "",
