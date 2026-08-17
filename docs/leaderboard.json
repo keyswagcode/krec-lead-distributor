@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-08-17T19:21:24.521Z",
+  "updatedAt": "2026-08-17T19:47:18.927Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 113456755,
-      "loans": 367
+      "loanAmount": 113631955,
+      "loans": 368
     },
     "month": {
-      "loanAmount": 11055145,
-      "loans": 36
+      "loanAmount": 11230345,
+      "loans": 37
     }
   },
   "reps": [
@@ -194,12 +194,12 @@
     {
       "name": "Jason Weber",
       "year": {
-        "loanAmount": 2887007,
-        "loans": 13
+        "loanAmount": 3062207,
+        "loans": 14
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 175200,
+        "loans": 1
       }
     },
     {
@@ -317,12 +317,12 @@
     {
       "name": "Adam Epperson",
       "year": {
-        "loanAmount": 8319408,
-        "loans": 31
+        "loanAmount": 8494608,
+        "loans": 32
       },
       "month": {
-        "loanAmount": 651250,
-        "loans": 3
+        "loanAmount": 826450,
+        "loans": 4
       }
     },
     {
@@ -427,6 +427,24 @@
   ],
   "latest": [
     {
+      "id": "6ekv1Wv0xiBGL6MCmENV",
+      "name": "",
+      "rep": "Samuel Vickrey",
+      "loanAmount": 228750,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-08-17T19:24:14.140Z"
+    },
+    {
+      "id": "HK9mqCaqnPhSN4AGrfOC",
+      "name": "",
+      "rep": "Jason Weber",
+      "loanAmount": 175200,
+      "loanType": "DSCR - Purchase",
+      "stage": "Closed",
+      "closedAt": "2026-08-17T19:24:12.660Z"
+    },
+    {
       "id": "m8KpNhCf4NBV6bkWYeM2",
       "name": "",
       "rep": "Ryan McCoy",
@@ -461,15 +479,6 @@
       "loanType": "Fix & Flip",
       "stage": "Wire Received",
       "closedAt": "2026-08-13T17:51:26.487Z"
-    },
-    {
-      "id": "6ekv1Wv0xiBGL6MCmENV",
-      "name": "",
-      "rep": "Samuel Vickrey",
-      "loanAmount": 228750,
-      "loanType": "DSCR - C/O",
-      "stage": "Closed",
-      "closedAt": "2026-08-13T17:35:18.910Z"
     },
     {
       "id": "5PYZCcXGjGb94VNtA7BR",
