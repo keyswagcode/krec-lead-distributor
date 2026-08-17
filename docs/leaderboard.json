@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T20:03:36.193Z",
+  "updatedAt": "2026-08-17T20:38:02.348Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
@@ -427,6 +427,15 @@
   ],
   "latest": [
     {
+      "id": "m8KpNhCf4NBV6bkWYeM2",
+      "name": "",
+      "rep": "Ryan McCoy",
+      "loanAmount": 120000,
+      "loanType": "DSCR - R/T",
+      "stage": "Wire Received",
+      "closedAt": "2026-08-17T20:29:40.894Z"
+    },
+    {
       "id": "6ekv1Wv0xiBGL6MCmENV",
       "name": "",
       "rep": "Samuel Vickrey",
@@ -443,15 +452,6 @@
       "loanType": "DSCR - Purchase",
       "stage": "Closed",
       "closedAt": "2026-08-17T19:24:12.660Z"
-    },
-    {
-      "id": "m8KpNhCf4NBV6bkWYeM2",
-      "name": "",
-      "rep": "Ryan McCoy",
-      "loanAmount": 120000,
-      "loanType": "DSCR - R/T",
-      "stage": "Closed",
-      "closedAt": "2026-08-14T17:32:06.554Z"
     },
     {
       "id": "kMWgbSNkdls2f7487XuN",
