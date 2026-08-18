@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T16:14:33.316Z",
+  "updatedAt": "2026-08-18T16:49:55.102Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
@@ -571,33 +571,6 @@
       "loanType": "DSCR - C/O",
       "stage": "Wire Received",
       "closedAt": "2026-08-11T18:27:15.680Z"
-    },
-    {
-      "id": "kg6i8uucfxAALgfH0e7e",
-      "name": "",
-      "rep": "Brendon Dragon",
-      "loanAmount": 958500,
-      "loanType": "Portfolio",
-      "stage": "Wire Received",
-      "closedAt": "2026-08-11T16:29:28.764Z"
-    },
-    {
-      "id": "Sej61Dy38pAs8ghPpvmf",
-      "name": "",
-      "rep": "Brendon Dragon",
-      "loanAmount": 487500,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-08-11T16:29:24.462Z"
-    },
-    {
-      "id": "aPUu3m0yXh7fAEhEt0TE",
-      "name": "",
-      "rep": "Brendon Dragon",
-      "loanAmount": 264000,
-      "loanType": "DSCR - C/O",
-      "stage": "Closed",
-      "closedAt": "2026-08-11T16:29:09.240Z"
     }
   ]
 }
