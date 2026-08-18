@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-08-18T15:50:01.998Z",
+  "updatedAt": "2026-08-18T16:14:33.316Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 113895955,
-      "loans": 369
+      "loanAmount": 114285960,
+      "loans": 371
     },
     "month": {
-      "loanAmount": 11494345,
-      "loans": 38
+      "loanAmount": 11884350,
+      "loans": 40
     }
   },
   "reps": [
@@ -51,12 +51,12 @@
     {
       "name": "Bailey Girouard",
       "year": {
-        "loanAmount": 6765675,
-        "loans": 31
+        "loanAmount": 7155680,
+        "loans": 33
       },
       "month": {
-        "loanAmount": 576500,
-        "loans": 3
+        "loanAmount": 966505,
+        "loans": 5
       }
     },
     {
@@ -295,12 +295,12 @@
     {
       "name": "Daisy Mondragon",
       "year": {
-        "loanAmount": 39213737,
-        "loans": 113
+        "loanAmount": 39421737,
+        "loans": 114
       },
       "month": {
-        "loanAmount": 6170200,
-        "loans": 17
+        "loanAmount": 6378200,
+        "loans": 18
       }
     },
     {
@@ -317,12 +317,12 @@
     {
       "name": "Brandi Smith",
       "year": {
-        "loanAmount": 16404571,
-        "loans": 60
+        "loanAmount": 16586576,
+        "loans": 61
       },
       "month": {
-        "loanAmount": 3848301,
-        "loans": 13
+        "loanAmount": 4030306,
+        "loans": 14
       }
     },
     {
@@ -437,6 +437,24 @@
     }
   ],
   "latest": [
+    {
+      "id": "qqa2FDPw23HenJ8kCQ5K",
+      "name": "",
+      "rep": "Bailey Girouard",
+      "loanAmount": 208000,
+      "loanType": "DSCR - C/O",
+      "stage": "Closed",
+      "closedAt": "2026-08-18T16:00:03.660Z"
+    },
+    {
+      "id": "2I3jk5dVTev29bhQRFZW",
+      "name": "",
+      "rep": "Bailey Girouard",
+      "loanAmount": 182005,
+      "loanType": "Fix & Flip",
+      "stage": "Closed",
+      "closedAt": "2026-08-18T16:00:02.217Z"
+    },
     {
       "id": "ZAwbJtZlTtyGz5DdzLdh",
       "name": "",
