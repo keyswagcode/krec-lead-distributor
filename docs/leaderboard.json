@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T18:04:56.112Z",
+  "updatedAt": "2026-08-18T18:53:04.046Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
@@ -553,24 +553,6 @@
       "loanType": "Ground Up Construction",
       "stage": "Wire Received",
       "closedAt": "2026-08-11T19:49:58.643Z"
-    },
-    {
-      "id": "a7run6WCXeqP5tTfKWmu",
-      "name": "",
-      "rep": "Bailey Girouard",
-      "loanAmount": 180000,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-08-11T18:27:15.688Z"
-    },
-    {
-      "id": "123O0iEhrA8b1nqCMpOJ",
-      "name": "",
-      "rep": "Bailey Girouard",
-      "loanAmount": 224000,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-08-11T18:27:15.680Z"
     }
   ]
 }
