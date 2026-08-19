@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T23:53:53.946Z",
+  "updatedAt": "2026-08-19T00:40:17.296Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
@@ -535,15 +535,6 @@
       "loanType": "DSCR - Purchase",
       "stage": "Wire Received",
       "closedAt": "2026-08-12T18:17:08.868Z"
-    },
-    {
-      "id": "JaNBH98FtWJRO62IhSZE",
-      "name": "",
-      "rep": "Samuel Vickrey",
-      "loanAmount": 108750,
-      "loanType": "DSCR - C/O",
-      "stage": "Closed",
-      "closedAt": "2026-08-12T00:35:34.488Z"
     }
   ]
 }
