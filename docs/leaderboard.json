@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T17:58:42.572Z",
+  "updatedAt": "2026-08-19T18:39:40.341Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
@@ -517,24 +517,6 @@
       "loanType": "Fix & Flip",
       "stage": "Wire Received",
       "closedAt": "2026-08-13T17:51:26.487Z"
-    },
-    {
-      "id": "5PYZCcXGjGb94VNtA7BR",
-      "name": "",
-      "rep": "Luis Danny Franco",
-      "loanAmount": 80000,
-      "loanType": "DSCR - Purchase",
-      "stage": "Wire Received",
-      "closedAt": "2026-08-12T18:17:10.478Z"
-    },
-    {
-      "id": "9PXCEhbSrHWIHo1hH9hu",
-      "name": "",
-      "rep": "Luis Danny Franco",
-      "loanAmount": 80800,
-      "loanType": "DSCR - Purchase",
-      "stage": "Wire Received",
-      "closedAt": "2026-08-12T18:17:08.868Z"
     }
   ]
 }
