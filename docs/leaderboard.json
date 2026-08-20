@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T20:01:22.909Z",
+  "updatedAt": "2026-08-20T20:38:30.862Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
@@ -490,15 +490,6 @@
       "loanType": "DSCR - C/O",
       "stage": "Closed",
       "closedAt": "2026-08-13T21:36:50.343Z"
-    },
-    {
-      "id": "ipZJUGSbIsprDtAqTeMa",
-      "name": "",
-      "rep": "Trey Victor",
-      "loanAmount": 224594,
-      "loanType": "Fix & Flip",
-      "stage": "Wire Received",
-      "closedAt": "2026-08-13T20:01:37.756Z"
     }
   ]
 }
