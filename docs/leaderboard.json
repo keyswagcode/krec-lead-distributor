@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-08-20T22:31:38.577Z",
+  "updatedAt": "2026-08-20T22:58:15.433Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 114110760,
-      "loans": 370
+      "loanAmount": 114178760,
+      "loans": 371
     },
     "month": {
-      "loanAmount": 11709150,
-      "loans": 39
+      "loanAmount": 11777150,
+      "loans": 40
     }
   },
   "reps": [
@@ -128,12 +128,12 @@
     {
       "name": "Luis Danny Franco",
       "year": {
-        "loanAmount": 4435963,
-        "loans": 7
+        "loanAmount": 4503963,
+        "loans": 8
       },
       "month": {
-        "loanAmount": 160800,
-        "loans": 2
+        "loanAmount": 228800,
+        "loans": 3
       }
     },
     {
@@ -317,12 +317,12 @@
     {
       "name": "Brandi Smith",
       "year": {
-        "loanAmount": 16586576,
-        "loans": 61
+        "loanAmount": 16654576,
+        "loans": 62
       },
       "month": {
-        "loanAmount": 4030306,
-        "loans": 14
+        "loanAmount": 4098306,
+        "loans": 15
       }
     },
     {
@@ -437,6 +437,15 @@
     }
   ],
   "latest": [
+    {
+      "id": "pZYBMFbsyFBwaiBZ6ztN",
+      "name": "",
+      "rep": "Luis Danny Franco",
+      "loanAmount": 68000,
+      "loanType": "DSCR - Purchase",
+      "stage": "Closed",
+      "closedAt": "2026-08-20T22:32:08.250Z"
+    },
     {
       "id": "ZAwbJtZlTtyGz5DdzLdh",
       "name": "",
