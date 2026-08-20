@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-08-20T17:50:52.663Z",
+  "updatedAt": "2026-08-20T18:17:13.641Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 114285960,
-      "loans": 371
+      "loanAmount": 114110760,
+      "loans": 370
     },
     "month": {
-      "loanAmount": 11884350,
-      "loans": 40
+      "loanAmount": 11709150,
+      "loans": 39
     }
   },
   "reps": [
@@ -194,12 +194,12 @@
     {
       "name": "Jason Weber",
       "year": {
-        "loanAmount": 3062207,
-        "loans": 14
+        "loanAmount": 2887007,
+        "loans": 13
       },
       "month": {
-        "loanAmount": 175200,
-        "loans": 1
+        "loanAmount": 0,
+        "loans": 0
       }
     },
     {
@@ -328,12 +328,12 @@
     {
       "name": "Adam Epperson",
       "year": {
-        "loanAmount": 8758608,
-        "loans": 33
+        "loanAmount": 8583408,
+        "loans": 32
       },
       "month": {
-        "loanAmount": 1090450,
-        "loans": 5
+        "loanAmount": 915250,
+        "loans": 4
       }
     },
     {
@@ -483,15 +483,6 @@
       "closedAt": "2026-08-17T19:24:14.140Z"
     },
     {
-      "id": "HK9mqCaqnPhSN4AGrfOC",
-      "name": "",
-      "rep": "Jason Weber",
-      "loanAmount": 175200,
-      "loanType": "DSCR - Purchase",
-      "stage": "Closed",
-      "closedAt": "2026-08-17T19:24:12.660Z"
-    },
-    {
       "id": "kMWgbSNkdls2f7487XuN",
       "name": "",
       "rep": "Bailey Girouard",
@@ -508,15 +499,6 @@
       "loanType": "Fix & Flip",
       "stage": "Wire Received",
       "closedAt": "2026-08-13T20:01:37.756Z"
-    },
-    {
-      "id": "l7CzselyRgVkhKjvgOSw",
-      "name": "",
-      "rep": "Nicole Lavau",
-      "loanAmount": 1138000,
-      "loanType": "Fix & Flip",
-      "stage": "Wire Received",
-      "closedAt": "2026-08-13T17:51:26.487Z"
     }
   ]
 }
