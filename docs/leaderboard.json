@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-08-21T20:38:47.477Z",
+  "updatedAt": "2026-08-21T20:58:51.753Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 114783460,
-      "loans": 374
+      "loanAmount": 114895460,
+      "loans": 375
     },
     "month": {
-      "loanAmount": 12381850,
-      "loans": 43
+      "loanAmount": 12493850,
+      "loans": 44
     }
   },
   "reps": [
@@ -205,12 +205,12 @@
     {
       "name": "Samuel Vickrey",
       "year": {
-        "loanAmount": 761170,
-        "loans": 6
+        "loanAmount": 873170,
+        "loans": 7
       },
       "month": {
-        "loanAmount": 576500,
-        "loans": 4
+        "loanAmount": 688500,
+        "loans": 5
       }
     },
     {
@@ -328,12 +328,12 @@
     {
       "name": "Adam Epperson",
       "year": {
-        "loanAmount": 8953608,
-        "loans": 34
+        "loanAmount": 9065608,
+        "loans": 35
       },
       "month": {
-        "loanAmount": 1285450,
-        "loans": 6
+        "loanAmount": 1397450,
+        "loans": 7
       }
     },
     {
@@ -448,6 +448,15 @@
     }
   ],
   "latest": [
+    {
+      "id": "jj9TtcwuEa0HZAiQNh7l",
+      "name": "",
+      "rep": "Samuel Vickrey",
+      "loanAmount": 112000,
+      "loanType": "DSCR - C/O",
+      "stage": "Closed",
+      "closedAt": "2026-08-21T20:57:18.594Z"
+    },
     {
       "id": "HK9mqCaqnPhSN4AGrfOC",
       "name": "",
