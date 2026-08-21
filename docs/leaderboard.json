@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-08-21T19:00:44.809Z",
+  "updatedAt": "2026-08-21T19:31:42.221Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 114178760,
-      "loans": 371
+      "loanAmount": 114373760,
+      "loans": 372
     },
     "month": {
-      "loanAmount": 11777150,
-      "loans": 40
+      "loanAmount": 11972150,
+      "loans": 41
     }
   },
   "reps": [
@@ -106,12 +106,12 @@
     {
       "name": "Trey Victor",
       "year": {
-        "loanAmount": 2997899,
-        "loans": 15
+        "loanAmount": 3192899,
+        "loans": 16
       },
       "month": {
-        "loanAmount": 427094,
-        "loans": 2
+        "loanAmount": 622094,
+        "loans": 3
       }
     },
     {
@@ -328,12 +328,12 @@
     {
       "name": "Adam Epperson",
       "year": {
-        "loanAmount": 8583408,
-        "loans": 32
+        "loanAmount": 8778408,
+        "loans": 33
       },
       "month": {
-        "loanAmount": 915250,
-        "loans": 4
+        "loanAmount": 1110250,
+        "loans": 5
       }
     },
     {
@@ -437,6 +437,15 @@
     }
   ],
   "latest": [
+    {
+      "id": "efl1hIhHF4P7aDOrfj67",
+      "name": "",
+      "rep": "Trey Victor",
+      "loanAmount": 195000,
+      "loanType": "DSCR - C/O",
+      "stage": "Closed",
+      "closedAt": "2026-08-21T19:19:56.055Z"
+    },
     {
       "id": "pZYBMFbsyFBwaiBZ6ztN",
       "name": "",
