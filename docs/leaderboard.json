@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-08-24T14:05:56.395Z",
+  "updatedAt": "2026-08-24T14:55:28.658Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 114895460,
-      "loans": 375
+      "loanAmount": 114603335,
+      "loans": 374
     },
     "month": {
       "loanAmount": 12493850,
@@ -183,8 +183,8 @@
     {
       "name": "Christopher LaFlesh",
       "year": {
-        "loanAmount": 2257675,
-        "loans": 12
+        "loanAmount": 1965550,
+        "loans": 11
       },
       "month": {
         "loanAmount": 0,
@@ -295,8 +295,8 @@
     {
       "name": "Daisy Mondragon",
       "year": {
-        "loanAmount": 39421737,
-        "loans": 114
+        "loanAmount": 39129612,
+        "loans": 113
       },
       "month": {
         "loanAmount": 6378200,
