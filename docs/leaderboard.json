@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T16:06:56.064Z",
+  "updatedAt": "2026-08-24T16:52:39.016Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
@@ -449,6 +449,15 @@
   ],
   "latest": [
     {
+      "id": "efl1hIhHF4P7aDOrfj67",
+      "name": "",
+      "rep": "Trey Victor",
+      "loanAmount": 195000,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-08-24T16:14:30.917Z"
+    },
+    {
       "id": "MNZpHgCckqkWFde9Xgm6",
       "name": "",
       "rep": "Nicole Lavau",
@@ -492,15 +501,6 @@
       "loanType": "DSCR - C/O",
       "stage": "Closed",
       "closedAt": "2026-08-21T20:31:06.382Z"
-    },
-    {
-      "id": "efl1hIhHF4P7aDOrfj67",
-      "name": "",
-      "rep": "Trey Victor",
-      "loanAmount": 195000,
-      "loanType": "DSCR - C/O",
-      "stage": "Closed",
-      "closedAt": "2026-08-21T19:19:56.055Z"
     },
     {
       "id": "pZYBMFbsyFBwaiBZ6ztN",
