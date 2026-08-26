@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-08-25T23:51:18.095Z",
+  "updatedAt": "2026-08-26T00:26:53.668Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 115795124,
-      "loans": 379
+      "loanAmount": 116729349,
+      "loans": 384
     },
     "month": {
-      "loanAmount": 13685639,
-      "loans": 49
+      "loanAmount": 14619864,
+      "loans": 54
     }
   },
   "reps": [
@@ -150,12 +150,12 @@
     {
       "name": "Lindsay Milano",
       "year": {
-        "loanAmount": 23774313,
-        "loans": 42
+        "loanAmount": 24708538,
+        "loans": 47
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 934225,
+        "loans": 5
       }
     },
     {
@@ -306,12 +306,12 @@
     {
       "name": "Chelsea Juda",
       "year": {
-        "loanAmount": 2415473,
-        "loans": 30
+        "loanAmount": 2473073,
+        "loans": 31
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 57600,
+        "loans": 1
       }
     },
     {
@@ -350,12 +350,12 @@
     {
       "name": "Jillian Haines",
       "year": {
-        "loanAmount": 7329040,
-        "loans": 13
+        "loanAmount": 7888040,
+        "loans": 14
       },
       "month": {
-        "loanAmount": 385394,
-        "loans": 3
+        "loanAmount": 944394,
+        "loans": 4
       }
     },
     {
@@ -448,6 +448,51 @@
     }
   ],
   "latest": [
+    {
+      "id": "9vg6flBevsKqiu7KcXs5",
+      "name": "",
+      "rep": "Lindsay Milano",
+      "loanAmount": 162825,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-08-26T00:07:36.157Z"
+    },
+    {
+      "id": "awaUgDjDMZX5PM433wjV",
+      "name": "",
+      "rep": "Lindsay Milano",
+      "loanAmount": 86000,
+      "loanType": "DSCR - Purchase",
+      "stage": "Wire Received",
+      "closedAt": "2026-08-26T00:05:27.099Z"
+    },
+    {
+      "id": "B1AAtgTcEMkB9femZ6ih",
+      "name": "",
+      "rep": "Lindsay Milano",
+      "loanAmount": 57600,
+      "loanType": "DSCR - Purchase",
+      "stage": "Wire Received",
+      "closedAt": "2026-08-26T00:03:02.260Z"
+    },
+    {
+      "id": "rtQpCiGPgq1CQrPJ5v1m",
+      "name": "",
+      "rep": "Lindsay Milano",
+      "loanAmount": 68800,
+      "loanType": "DSCR - Purchase",
+      "stage": "Wire Received",
+      "closedAt": "2026-08-26T00:03:00.383Z"
+    },
+    {
+      "id": "ExmGx1fXD8nycGkCZU7n",
+      "name": "",
+      "rep": "Lindsay Milano",
+      "loanAmount": 559000,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-08-26T00:02:04.735Z"
+    },
     {
       "id": "QFvmWlRrfeGX7nW8V9Of",
       "name": "",
