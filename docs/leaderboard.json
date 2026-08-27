@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-08-27T10:30:34.436Z",
+  "updatedAt": "2026-08-27T20:43:38.314Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 116927599,
-      "loans": 386
+      "loanAmount": 117072599,
+      "loans": 387
     },
     "month": {
-      "loanAmount": 14818114,
-      "loans": 56
+      "loanAmount": 14963114,
+      "loans": 57
     }
   },
   "reps": [
@@ -51,11 +51,11 @@
     {
       "name": "Bailey Girouard",
       "year": {
-        "loanAmount": 7924880,
+        "loanAmount": 7929880,
         "loans": 36
       },
       "month": {
-        "loanAmount": 1735705,
+        "loanAmount": 1740705,
         "loans": 8
       }
     },
@@ -128,12 +128,12 @@
     {
       "name": "Luis Danny Franco",
       "year": {
-        "loanAmount": 4702213,
-        "loans": 10
+        "loanAmount": 4842213,
+        "loans": 11
       },
       "month": {
-        "loanAmount": 427050,
-        "loans": 5
+        "loanAmount": 567050,
+        "loans": 6
       }
     },
     {
@@ -317,11 +317,11 @@
     {
       "name": "Brandi Smith",
       "year": {
-        "loanAmount": 17423776,
+        "loanAmount": 17428776,
         "loans": 65
       },
       "month": {
-        "loanAmount": 4867506,
+        "loanAmount": 4872506,
         "loans": 18
       }
     },
@@ -449,6 +449,42 @@
   ],
   "latest": [
     {
+      "id": "QFvmWlRrfeGX7nW8V9Of",
+      "name": "",
+      "rep": "Bailey Girouard",
+      "loanAmount": 280000,
+      "loanType": "DSCR - R/T",
+      "stage": "Wire Received",
+      "closedAt": "2026-08-27T17:52:33.064Z"
+    },
+    {
+      "id": "CKNBhJZeiJNeFr0vUKpg",
+      "name": "",
+      "rep": "Bailey Girouard",
+      "loanAmount": 319200,
+      "loanType": "DSCR - R/T",
+      "stage": "Wire Received",
+      "closedAt": "2026-08-27T17:52:31.986Z"
+    },
+    {
+      "id": "6vm75TQSK0zEtXUa7PBs",
+      "name": "",
+      "rep": "Bailey Girouard",
+      "loanAmount": 175000,
+      "loanType": "DSCR - R/T",
+      "stage": "Wire Received",
+      "closedAt": "2026-08-27T17:49:23.324Z"
+    },
+    {
+      "id": "CrK1NeQ8FC3eI5IyKWIm",
+      "name": "",
+      "rep": "Luis Danny Franco",
+      "loanAmount": 140000,
+      "loanType": "Fix & Flip",
+      "stage": "Closed",
+      "closedAt": "2026-08-27T16:10:03.585Z"
+    },
+    {
       "id": "WLU7BAOeuvsIKEC8lqva",
       "name": "",
       "rep": "Luis Danny Franco",
@@ -510,33 +546,6 @@
       "loanType": "DSCR - C/O",
       "stage": "Wire Received",
       "closedAt": "2026-08-26T00:02:04.735Z"
-    },
-    {
-      "id": "QFvmWlRrfeGX7nW8V9Of",
-      "name": "",
-      "rep": "Bailey Girouard",
-      "loanAmount": 280000,
-      "loanType": "DSCR - R/T",
-      "stage": "Closed",
-      "closedAt": "2026-08-25T23:26:55.150Z"
-    },
-    {
-      "id": "CKNBhJZeiJNeFr0vUKpg",
-      "name": "",
-      "rep": "Bailey Girouard",
-      "loanAmount": 319200,
-      "loanType": "DSCR - R/T",
-      "stage": "Closed",
-      "closedAt": "2026-08-25T23:26:53.452Z"
-    },
-    {
-      "id": "6vm75TQSK0zEtXUa7PBs",
-      "name": "",
-      "rep": "Bailey Girouard",
-      "loanAmount": 170000,
-      "loanType": "DSCR - R/T",
-      "stage": "Closed",
-      "closedAt": "2026-08-25T23:26:49.657Z"
     },
     {
       "id": "2I3jk5dVTev29bhQRFZW",
@@ -627,15 +636,6 @@
       "loanType": "DSCR - Purchase",
       "stage": "Closed",
       "closedAt": "2026-08-20T22:32:08.250Z"
-    },
-    {
-      "id": "ZAwbJtZlTtyGz5DdzLdh",
-      "name": "",
-      "rep": "Gabriel Giordano",
-      "loanAmount": 264000,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-08-20T18:24:00.653Z"
     }
   ]
 }
