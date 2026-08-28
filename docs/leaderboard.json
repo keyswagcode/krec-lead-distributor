@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-27T20:43:38.314Z",
+  "updatedAt": "2026-08-28T04:30:16.036Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
@@ -7,11 +7,11 @@
   "totals": {
     "year": {
       "loanAmount": 117072599,
-      "loans": 387
+      "loans": 388
     },
     "month": {
       "loanAmount": 14963114,
-      "loans": 57
+      "loans": 58
     }
   },
   "reps": [
@@ -206,11 +206,11 @@
       "name": "Samuel Vickrey",
       "year": {
         "loanAmount": 873170,
-        "loans": 7
+        "loans": 8
       },
       "month": {
         "loanAmount": 688500,
-        "loans": 5
+        "loans": 6
       }
     },
     {
@@ -449,6 +449,24 @@
   ],
   "latest": [
     {
+      "id": "Aowq1X3cjlRhow3JowG6",
+      "name": "",
+      "rep": "Samuel Vickrey",
+      "loanAmount": 0,
+      "loanType": "",
+      "stage": "Closed",
+      "closedAt": "2026-08-27T23:44:40.406Z"
+    },
+    {
+      "id": "JaNBH98FtWJRO62IhSZE",
+      "name": "",
+      "rep": "Samuel Vickrey",
+      "loanAmount": 108750,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-08-27T23:38:18.951Z"
+    },
+    {
       "id": "QFvmWlRrfeGX7nW8V9Of",
       "name": "",
       "rep": "Bailey Girouard",
@@ -627,15 +645,6 @@
       "loanType": "DSCR - C/O",
       "stage": "Closed",
       "closedAt": "2026-08-21T20:31:06.382Z"
-    },
-    {
-      "id": "pZYBMFbsyFBwaiBZ6ztN",
-      "name": "",
-      "rep": "Luis Danny Franco",
-      "loanAmount": 68000,
-      "loanType": "DSCR - Purchase",
-      "stage": "Closed",
-      "closedAt": "2026-08-20T22:32:08.250Z"
     }
   ]
 }
