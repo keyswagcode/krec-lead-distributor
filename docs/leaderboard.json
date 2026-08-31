@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-08-31T15:24:28.625Z",
+  "updatedAt": "2026-08-31T20:55:40.567Z",
   "year": 2026,
   "monthLabel": "August 2026",
   "monthPrefix": "2026-08",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 122079300,
-      "loans": 394
+      "loanAmount": 122302700,
+      "loans": 395
     },
     "month": {
-      "loanAmount": 19969815,
-      "loans": 64
+      "loanAmount": 20193215,
+      "loans": 65
     }
   },
   "reps": [
@@ -40,12 +40,12 @@
     {
       "name": "Hazel Wilder",
       "year": {
-        "loanAmount": 2663300,
-        "loans": 12
+        "loanAmount": 2886700,
+        "loans": 13
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 223400,
+        "loans": 1
       }
     },
     {
@@ -295,12 +295,12 @@
     {
       "name": "Daisy Mondragon",
       "year": {
-        "loanAmount": 42802201,
-        "loans": 117
+        "loanAmount": 43025601,
+        "loans": 118
       },
       "month": {
-        "loanAmount": 10050789,
-        "loans": 22
+        "loanAmount": 10274189,
+        "loans": 23
       }
     },
     {
@@ -460,6 +460,24 @@
   ],
   "latest": [
     {
+      "id": "1qBDDMJpDnlm2Bify6hx",
+      "name": "",
+      "rep": "Nick DeLaCruz",
+      "loanAmount": 201150,
+      "loanType": "Fix & Flip",
+      "stage": "Wire Received",
+      "closedAt": "2026-08-31T17:59:29.232Z"
+    },
+    {
+      "id": "bLjbw4TXjg2iU0ZBsvkH",
+      "name": "",
+      "rep": "Hazel Wilder",
+      "loanAmount": 223400,
+      "loanType": "DSCR - C/O",
+      "stage": "Closed",
+      "closedAt": "2026-08-31T16:45:52.908Z"
+    },
+    {
       "id": "XVBFTeNlJyspXduT3eze",
       "name": "",
       "rep": "Nicole Lavau",
@@ -521,15 +539,6 @@
       "loanType": "DSCR - C/O",
       "stage": "Closed",
       "closedAt": "2026-08-28T22:15:01.160Z"
-    },
-    {
-      "id": "1qBDDMJpDnlm2Bify6hx",
-      "name": "",
-      "rep": "Nick DeLaCruz",
-      "loanAmount": 201150,
-      "loanType": "Fix & Flip",
-      "stage": "Closed",
-      "closedAt": "2026-08-28T22:14:58.852Z"
     },
     {
       "id": "CrK1NeQ8FC3eI5IyKWIm",
@@ -683,15 +692,6 @@
       "loanType": "DSCR - C/O",
       "stage": "Wire Received",
       "closedAt": "2026-08-25T23:26:44.458Z"
-    },
-    {
-      "id": "efl1hIhHF4P7aDOrfj67",
-      "name": "",
-      "rep": "Trey Victor",
-      "loanAmount": 195000,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-08-24T16:14:30.917Z"
     }
   ]
 }
