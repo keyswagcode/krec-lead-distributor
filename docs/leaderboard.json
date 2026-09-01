@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-09-01T00:19:24.832Z",
+  "updatedAt": "2026-09-01T05:20:41.907Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 125698200,
-      "loans": 400
+      "loanAmount": 126393545,
+      "loans": 405
     },
     "month": {
-      "loanAmount": 0,
-      "loans": 0
+      "loanAmount": 706520,
+      "loans": 5
     }
   },
   "reps": [
@@ -217,11 +217,11 @@
       "name": "Ryan McCoy",
       "year": {
         "loanAmount": 4427200,
-        "loans": 15
+        "loans": 18
       },
       "month": {
         "loanAmount": 0,
-        "loans": 0
+        "loans": 3
       }
     },
     {
@@ -249,23 +249,23 @@
     {
       "name": "Paulo Bermudez",
       "year": {
-        "loanAmount": 360000,
-        "loans": 1
+        "loanAmount": 847000,
+        "loans": 2
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 487000,
+        "loans": 1
       }
     },
     {
       "name": "Nick DeLaCruz",
       "year": {
-        "loanAmount": 2305378,
-        "loans": 4
+        "loanAmount": 2513723,
+        "loans": 5
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 219520,
+        "loans": 1
       }
     },
     {
@@ -317,7 +317,7 @@
     {
       "name": "Brandi Smith",
       "year": {
-        "loanAmount": 19185477,
+        "loanAmount": 19174302,
         "loans": 69
       },
       "month": {
@@ -328,12 +328,12 @@
     {
       "name": "Adam Epperson",
       "year": {
-        "loanAmount": 12345008,
-        "loans": 39
+        "loanAmount": 12832008,
+        "loans": 43
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 487000,
+        "loans": 4
       }
     },
     {
@@ -471,6 +471,51 @@
   ],
   "latest": [
     {
+      "id": "dLMl1EcpQXOhnkcTj0Ju",
+      "name": "",
+      "rep": "Nick DeLaCruz",
+      "loanAmount": 219520,
+      "loanType": "Ground Up Construction",
+      "stage": "Closed",
+      "closedAt": "2026-09-01T03:03:30.406Z"
+    },
+    {
+      "id": "4hh1snlxx1VsBX4Uyys8",
+      "name": "",
+      "rep": "Ryan McCoy",
+      "loanAmount": 0,
+      "loanType": "",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-01T01:47:38.178Z"
+    },
+    {
+      "id": "ppnpuBBs6uMYIi2yaY1h",
+      "name": "",
+      "rep": "Ryan McCoy",
+      "loanAmount": 0,
+      "loanType": "",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-01T01:40:27.089Z"
+    },
+    {
+      "id": "EZqQJLSyZMVdPcZfoovF",
+      "name": "",
+      "rep": "Paulo Bermudez",
+      "loanAmount": 487000,
+      "loanType": "Fix & Flip",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-01T01:34:31.003Z"
+    },
+    {
+      "id": "AgIYJ7fkgH5eS21lO2Rt",
+      "name": "",
+      "rep": "Ryan McCoy",
+      "loanAmount": 0,
+      "loanType": "",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-01T01:12:20.698Z"
+    },
+    {
       "id": "HK9mqCaqnPhSN4AGrfOC",
       "name": "",
       "rep": "Jason Weber",
@@ -537,7 +582,7 @@
       "id": "1qBDDMJpDnlm2Bify6hx",
       "name": "",
       "rep": "Nick DeLaCruz",
-      "loanAmount": 201150,
+      "loanAmount": 189975,
       "loanType": "Fix & Flip",
       "stage": "Wire Received",
       "closedAt": "2026-08-31T17:59:29.232Z"
