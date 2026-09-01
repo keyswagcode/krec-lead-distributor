@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-09-01T14:56:12.052Z",
+  "updatedAt": "2026-09-01T18:08:39.462Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 129261195,
-      "loans": 412
+      "loanAmount": 129553195,
+      "loans": 413
     },
     "month": {
-      "loanAmount": 4194170,
-      "loans": 13
+      "loanAmount": 4486170,
+      "loans": 14
     }
   },
   "reps": [
@@ -40,12 +40,12 @@
     {
       "name": "Hazel Wilder",
       "year": {
-        "loanAmount": 2886700,
-        "loans": 13
+        "loanAmount": 3178700,
+        "loans": 14
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 292000,
+        "loans": 1
       }
     },
     {
@@ -295,12 +295,12 @@
     {
       "name": "Daisy Mondragon",
       "year": {
-        "loanAmount": 43025601,
-        "loans": 118
+        "loanAmount": 43317601,
+        "loans": 119
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 292000,
+        "loans": 1
       }
     },
     {
@@ -481,6 +481,15 @@
     }
   ],
   "latest": [
+    {
+      "id": "MzJsFv4wVYSlGe0VGNW4",
+      "name": "",
+      "rep": "Hazel Wilder",
+      "loanAmount": 292000,
+      "loanType": "DSCR - C/O",
+      "stage": "Closed",
+      "closedAt": "2026-09-01T15:19:29.199Z"
+    },
     {
       "id": "sXVrTwyLIhWKKXed2Cge",
       "name": "",
