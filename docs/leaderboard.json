@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T20:09:14.035Z",
+  "updatedAt": "2026-09-02T22:37:06.162Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
@@ -7,11 +7,11 @@
   "totals": {
     "year": {
       "loanAmount": 130064490,
-      "loans": 415
+      "loans": 417
     },
     "month": {
       "loanAmount": 4857290,
-      "loans": 16
+      "loans": 18
     }
   },
   "reps": [
@@ -206,11 +206,11 @@
       "name": "Samuel Vickrey",
       "year": {
         "loanAmount": 1013345,
-        "loans": 8
+        "loans": 10
       },
       "month": {
         "loanAmount": 0,
-        "loans": 0
+        "loans": 2
       }
     },
     {
@@ -481,6 +481,24 @@
     }
   ],
   "latest": [
+    {
+      "id": "jC5w0K8IcSErd39QQL3L",
+      "name": "",
+      "rep": "Samuel Vickrey",
+      "loanAmount": 0,
+      "loanType": "",
+      "stage": "Closed",
+      "closedAt": "2026-09-02T22:30:30.204Z"
+    },
+    {
+      "id": "uwOPFsW41B54D4H5G61M",
+      "name": "",
+      "rep": "Samuel Vickrey",
+      "loanAmount": 0,
+      "loanType": "",
+      "stage": "Closed",
+      "closedAt": "2026-09-02T22:30:25.182Z"
+    },
     {
       "id": "EJPUOC0uobX8ETTaFKrl",
       "name": "",
