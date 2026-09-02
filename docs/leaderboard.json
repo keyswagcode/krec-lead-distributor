@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-09-02T14:02:12.609Z",
+  "updatedAt": "2026-09-02T17:50:51.961Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 129693370,
-      "loans": 413
+      "loanAmount": 130064490,
+      "loans": 415
     },
     "month": {
-      "loanAmount": 4486170,
-      "loans": 14
+      "loanAmount": 4857290,
+      "loans": 16
     }
   },
   "reps": [
@@ -51,12 +51,12 @@
     {
       "name": "Bailey Girouard",
       "year": {
-        "loanAmount": 7929880,
-        "loans": 36
+        "loanAmount": 8301000,
+        "loans": 38
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 371120,
+        "loans": 2
       }
     },
     {
@@ -317,12 +317,12 @@
     {
       "name": "Brandi Smith",
       "year": {
-        "loanAmount": 20692602,
-        "loans": 72
+        "loanAmount": 21063722,
+        "loans": 74
       },
       "month": {
-        "loanAmount": 2138300,
-        "loans": 4
+        "loanAmount": 2509420,
+        "loans": 6
       }
     },
     {
@@ -372,12 +372,12 @@
     {
       "name": "Omar Olson",
       "year": {
-        "loanAmount": 172500,
-        "loans": 1
+        "loanAmount": 375000,
+        "loans": 2
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 202500,
+        "loans": 1
       }
     },
     {
@@ -481,6 +481,24 @@
     }
   ],
   "latest": [
+    {
+      "id": "EJPUOC0uobX8ETTaFKrl",
+      "name": "",
+      "rep": "Bailey Girouard",
+      "loanAmount": 168620,
+      "loanType": "Fix & Flip",
+      "stage": "Closed",
+      "closedAt": "2026-09-02T15:30:58.820Z"
+    },
+    {
+      "id": "1G8yw9HVBuE7nBdtqTAR",
+      "name": "",
+      "rep": "Bailey Girouard",
+      "loanAmount": 202500,
+      "loanType": "DSCR - C/O",
+      "stage": "Closed",
+      "closedAt": "2026-09-02T15:28:18.252Z"
+    },
     {
       "id": "MzJsFv4wVYSlGe0VGNW4",
       "name": "",
