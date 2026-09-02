@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-01T23:14:33.149Z",
+  "updatedAt": "2026-09-02T01:03:09.820Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 129553195,
+      "loanAmount": 129693370,
       "loans": 413
     },
     "month": {
@@ -205,7 +205,7 @@
     {
       "name": "Samuel Vickrey",
       "year": {
-        "loanAmount": 873170,
+        "loanAmount": 1013345,
         "loans": 8
       },
       "month": {
@@ -782,8 +782,8 @@
       "id": "Aowq1X3cjlRhow3JowG6",
       "name": "",
       "rep": "Samuel Vickrey",
-      "loanAmount": 0,
-      "loanType": "",
+      "loanAmount": 140175,
+      "loanType": "Bridge",
       "stage": "Closed",
       "closedAt": "2026-08-27T23:44:40.406Z"
     },
@@ -822,78 +822,6 @@
       "loanType": "DSCR - R/T",
       "stage": "Wire Received",
       "closedAt": "2026-08-27T17:49:23.324Z"
-    },
-    {
-      "id": "9vg6flBevsKqiu7KcXs5",
-      "name": "",
-      "rep": "Lindsay Milano",
-      "loanAmount": 162825,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-08-26T00:07:36.157Z"
-    },
-    {
-      "id": "awaUgDjDMZX5PM433wjV",
-      "name": "",
-      "rep": "Lindsay Milano",
-      "loanAmount": 86000,
-      "loanType": "DSCR - Purchase",
-      "stage": "Wire Received",
-      "closedAt": "2026-08-26T00:05:27.099Z"
-    },
-    {
-      "id": "B1AAtgTcEMkB9femZ6ih",
-      "name": "",
-      "rep": "Lindsay Milano",
-      "loanAmount": 57600,
-      "loanType": "DSCR - Purchase",
-      "stage": "Wire Received",
-      "closedAt": "2026-08-26T00:03:02.260Z"
-    },
-    {
-      "id": "rtQpCiGPgq1CQrPJ5v1m",
-      "name": "",
-      "rep": "Lindsay Milano",
-      "loanAmount": 68800,
-      "loanType": "DSCR - Purchase",
-      "stage": "Wire Received",
-      "closedAt": "2026-08-26T00:03:00.383Z"
-    },
-    {
-      "id": "ExmGx1fXD8nycGkCZU7n",
-      "name": "",
-      "rep": "Lindsay Milano",
-      "loanAmount": 559000,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-08-26T00:02:04.735Z"
-    },
-    {
-      "id": "2I3jk5dVTev29bhQRFZW",
-      "name": "",
-      "rep": "Bailey Girouard",
-      "loanAmount": 182005,
-      "loanType": "Fix & Flip",
-      "stage": "Wire Received",
-      "closedAt": "2026-08-25T23:26:47.958Z"
-    },
-    {
-      "id": "qqa2FDPw23HenJ8kCQ5K",
-      "name": "",
-      "rep": "Bailey Girouard",
-      "loanAmount": 208000,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-08-25T23:26:46.318Z"
-    },
-    {
-      "id": "kMWgbSNkdls2f7487XuN",
-      "name": "",
-      "rep": "Bailey Girouard",
-      "loanAmount": 172500,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-08-25T23:26:44.458Z"
     }
   ]
 }
