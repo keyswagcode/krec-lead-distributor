@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-09-03T09:38:22.606Z",
+  "updatedAt": "2026-09-03T13:52:00.155Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 130064490,
-      "loans": 417
+      "loanAmount": 130517490,
+      "loans": 421
     },
     "month": {
-      "loanAmount": 4857290,
-      "loans": 18
+      "loanAmount": 5310290,
+      "loans": 22
     }
   },
   "reps": [
@@ -139,12 +139,12 @@
     {
       "name": "Nicole Lavau",
       "year": {
-        "loanAmount": 17343476,
-        "loans": 23
+        "loanAmount": 17796476,
+        "loans": 27
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 453000,
+        "loans": 4
       }
     },
     {
@@ -295,12 +295,12 @@
     {
       "name": "Daisy Mondragon",
       "year": {
-        "loanAmount": 43317601,
-        "loans": 119
+        "loanAmount": 43770601,
+        "loans": 123
       },
       "month": {
-        "loanAmount": 292000,
-        "loans": 1
+        "loanAmount": 745000,
+        "loans": 5
       }
     },
     {
@@ -370,6 +370,17 @@
       }
     },
     {
+      "name": "Gracey Reingold",
+      "year": {
+        "loanAmount": 1577589,
+        "loans": 6
+      },
+      "month": {
+        "loanAmount": 167250,
+        "loans": 2
+      }
+    },
+    {
       "name": "Omar Olson",
       "year": {
         "loanAmount": 375000,
@@ -378,17 +389,6 @@
       "month": {
         "loanAmount": 202500,
         "loans": 1
-      }
-    },
-    {
-      "name": "Gracey Reingold",
-      "year": {
-        "loanAmount": 1410339,
-        "loans": 4
-      },
-      "month": {
-        "loanAmount": 0,
-        "loans": 0
       }
     },
     {
@@ -433,6 +433,17 @@
       "month": {
         "loanAmount": 0,
         "loans": 0
+      }
+    },
+    {
+      "name": "Melissa Boyle",
+      "year": {
+        "loanAmount": 90000,
+        "loans": 1
+      },
+      "month": {
+        "loanAmount": 90000,
+        "loans": 1
       }
     },
     {
@@ -481,6 +492,42 @@
     }
   ],
   "latest": [
+    {
+      "id": "QAI3pBAp3tWnptfd8mdo",
+      "name": "",
+      "rep": "Nicole Lavau",
+      "loanAmount": 90000,
+      "loanType": "DSCR - C/O",
+      "stage": "Closed",
+      "closedAt": "2026-09-03T13:14:41.407Z"
+    },
+    {
+      "id": "CD0e7Q6FmoScLkjCU0vq",
+      "name": "",
+      "rep": "Nicole Lavau",
+      "loanAmount": 192000,
+      "loanType": "DSCR - R/T",
+      "stage": "Closed",
+      "closedAt": "2026-09-03T13:14:39.283Z"
+    },
+    {
+      "id": "BwVdKrUmFhdAObh4eDpY",
+      "name": "",
+      "rep": "Nicole Lavau",
+      "loanAmount": 93750,
+      "loanType": "DSCR - R/T",
+      "stage": "Closed",
+      "closedAt": "2026-09-03T13:14:37.236Z"
+    },
+    {
+      "id": "XdTk0yWNQZZ9DpJ5VrmJ",
+      "name": "",
+      "rep": "Nicole Lavau",
+      "loanAmount": 77250,
+      "loanType": "DSCR - C/O",
+      "stage": "Closed",
+      "closedAt": "2026-09-03T13:14:35.267Z"
+    },
     {
       "id": "jC5w0K8IcSErd39QQL3L",
       "name": "",
