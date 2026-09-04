@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T21:33:02.297Z",
+  "updatedAt": "2026-09-04T23:14:47.805Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
@@ -824,42 +824,6 @@
       "loanType": "DSCR - C/O",
       "stage": "Closed",
       "closedAt": "2026-08-31T16:45:52.908Z"
-    },
-    {
-      "id": "XVBFTeNlJyspXduT3eze",
-      "name": "",
-      "rep": "Nicole Lavau",
-      "loanAmount": 208839,
-      "loanType": "Fix & Flip",
-      "stage": "Wire Received",
-      "closedAt": "2026-08-28T22:55:05.797Z"
-    },
-    {
-      "id": "MNZpHgCckqkWFde9Xgm6",
-      "name": "",
-      "rep": "Nicole Lavau",
-      "loanAmount": 213750,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-08-28T22:55:03.382Z"
-    },
-    {
-      "id": "iysXjJFgahtNhB9Ysy7a",
-      "name": "",
-      "rep": "Sebastian Muenda",
-      "loanAmount": 188000,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-08-28T22:15:23.857Z"
-    },
-    {
-      "id": "uXihNICM3ZEagq3tBNuI",
-      "name": "",
-      "rep": "Christopher LaFlesh",
-      "loanAmount": 747551,
-      "loanType": "DSCR - C/O",
-      "stage": "Closed",
-      "closedAt": "2026-08-28T22:15:01.160Z"
     }
   ]
 }
