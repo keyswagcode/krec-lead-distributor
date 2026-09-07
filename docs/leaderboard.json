@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T19:07:49.693Z",
+  "updatedAt": "2026-09-07T21:59:59.542Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
@@ -1164,15 +1164,6 @@
       "loanType": "DSCR - C/O",
       "stage": "Wire Received",
       "closedAt": "2026-08-31T22:17:38.397Z"
-    },
-    {
-      "id": "eF42BTd1PoQV7OOJGPQU",
-      "name": "",
-      "rep": "Luis Danny Franco",
-      "loanAmount": 116100,
-      "loanType": "Fix & Flip",
-      "stage": "Wire Received",
-      "closedAt": "2026-08-31T21:22:06.038Z"
     }
   ]
 }
