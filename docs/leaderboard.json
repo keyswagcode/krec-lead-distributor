@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-09-07T15:05:43.878Z",
+  "updatedAt": "2026-09-07T19:07:49.693Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 131492390,
-      "loans": 424
+      "loanAmount": 140801891,
+      "loans": 453
     },
     "month": {
-      "loanAmount": 11049765,
-      "loans": 30
+      "loanAmount": 26217128,
+      "loans": 74
     }
   },
   "reps": [
@@ -29,23 +29,23 @@
     {
       "name": "Sebastian Muenda",
       "year": {
-        "loanAmount": 1979900,
-        "loans": 8
+        "loanAmount": 2952550,
+        "loans": 12
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 972650,
+        "loans": 4
       }
     },
     {
       "name": "Hazel Wilder",
       "year": {
-        "loanAmount": 3178700,
-        "loans": 14
+        "loanAmount": 4096744,
+        "loans": 16
       },
       "month": {
-        "loanAmount": 292000,
-        "loans": 1
+        "loanAmount": 1643444,
+        "loans": 5
       }
     },
     {
@@ -62,8 +62,8 @@
     {
       "name": "Frank Estrada",
       "year": {
-        "loanAmount": 6888370,
-        "loans": 11
+        "loanAmount": 5744370,
+        "loans": 10
       },
       "month": {
         "loanAmount": 0,
@@ -73,34 +73,34 @@
     {
       "name": "Todd Eliasen",
       "year": {
-        "loanAmount": 1461918,
-        "loans": 7
+        "loanAmount": 1898405,
+        "loans": 10
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 836397,
+        "loans": 5
       }
     },
     {
       "name": "Raj Vora",
       "year": {
-        "loanAmount": 5330971,
-        "loans": 22
+        "loanAmount": 5540971,
+        "loans": 23
       },
       "month": {
-        "loanAmount": 416000,
-        "loans": 1
+        "loanAmount": 626000,
+        "loans": 2
       }
     },
     {
       "name": "Jeremiah Ibrahim",
       "year": {
-        "loanAmount": 6168257,
-        "loans": 16
+        "loanAmount": 9822164,
+        "loans": 23
       },
       "month": {
-        "loanAmount": 176400,
-        "loans": 1
+        "loanAmount": 4289057,
+        "loans": 10
       }
     },
     {
@@ -161,22 +161,22 @@
     {
       "name": "Mathieu StGermain",
       "year": {
-        "loanAmount": 948553,
-        "loans": 8
+        "loanAmount": 3682310,
+        "loans": 16
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 2859757,
+        "loans": 10
       }
     },
     {
       "name": "Will Deroo",
       "year": {
-        "loanAmount": 8980370,
+        "loanAmount": 9134270,
         "loans": 19
       },
       "month": {
-        "loanAmount": 3487650,
+        "loanAmount": 3641550,
         "loans": 8
       }
     },
@@ -187,19 +187,19 @@
         "loans": 12
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 747551,
+        "loans": 1
       }
     },
     {
       "name": "Jason Weber",
       "year": {
-        "loanAmount": 3296707,
-        "loans": 15
+        "loanAmount": 3723264,
+        "loans": 19
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 927307,
+        "loans": 6
       }
     },
     {
@@ -216,12 +216,12 @@
     {
       "name": "Ryan McCoy",
       "year": {
-        "loanAmount": 4427200,
-        "loans": 18
+        "loanAmount": 5375400,
+        "loans": 19
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 3
+        "loanAmount": 2995700,
+        "loans": 7
       }
     },
     {
@@ -295,12 +295,12 @@
     {
       "name": "Daisy Mondragon",
       "year": {
-        "loanAmount": 44363001,
-        "loans": 125
+        "loanAmount": 47915049,
+        "loans": 137
       },
       "month": {
-        "loanAmount": 4587400,
-        "loans": 9
+        "loanAmount": 10441848,
+        "loans": 27
       }
     },
     {
@@ -317,23 +317,23 @@
     {
       "name": "Brandi Smith",
       "year": {
-        "loanAmount": 21063722,
-        "loans": 74
+        "loanAmount": 25029811,
+        "loans": 87
       },
       "month": {
-        "loanAmount": 2509420,
-        "loans": 6
+        "loanAmount": 7491560,
+        "loans": 23
       }
     },
     {
       "name": "Adam Epperson",
       "year": {
-        "loanAmount": 12832008,
-        "loans": 43
+        "loanAmount": 13794708,
+        "loans": 44
       },
       "month": {
-        "loanAmount": 1861400,
-        "loans": 6
+        "loanAmount": 4729100,
+        "loans": 9
       }
     },
     {
@@ -350,12 +350,12 @@
     {
       "name": "Jillian Haines",
       "year": {
-        "loanAmount": 8527190,
-        "loans": 18
+        "loanAmount": 9370190,
+        "loans": 20
       },
       "month": {
-        "loanAmount": 540900,
-        "loans": 3
+        "loanAmount": 1383900,
+        "loans": 5
       }
     },
     {
@@ -447,24 +447,24 @@
       }
     },
     {
-      "name": "Daniel Frank",
+      "name": "Josh Papazis",
       "year": {
-        "loanAmount": 234500,
+        "loanAmount": 242981,
         "loans": 1
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 242981,
+        "loans": 1
       }
     },
     {
-      "name": "Luis Danny Franco",
+      "name": "Nicole Lavau",
       "year": {
-        "loanAmount": 0,
+        "loanAmount": 518400,
         "loans": 1
       },
       "month": {
-        "loanAmount": 0,
+        "loanAmount": 518400,
         "loans": 1
       }
     },
@@ -478,20 +478,423 @@
         "loanAmount": 0,
         "loans": 0
       }
-    },
-    {
-      "name": "Josh Papazis",
-      "year": {
-        "loanAmount": 215910,
-        "loans": 1
-      },
-      "month": {
-        "loanAmount": 0,
-        "loans": 0
-      }
     }
   ],
   "latest": [
+    {
+      "id": "WSCITdWQpZ7XXtfm0bqQ",
+      "name": "",
+      "rep": "Will Deroo",
+      "loanAmount": 620900,
+      "loanType": "DSCR - R/T",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T18:11:45.653Z"
+    },
+    {
+      "id": "J3yghmZVgMWC2Y42ie1r",
+      "name": "",
+      "rep": "Todd Eliasen",
+      "loanAmount": 163285,
+      "loanType": "Fix & Flip",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T17:56:14.527Z"
+    },
+    {
+      "id": "cpOLdJyBeGwbYv6pnCN5",
+      "name": "",
+      "rep": "Todd Eliasen",
+      "loanAmount": 285400,
+      "loanType": "Fix & Flip",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T17:55:09.342Z"
+    },
+    {
+      "id": "aNgKDQvMN0YaKGGdDz5p",
+      "name": "",
+      "rep": "Todd Eliasen",
+      "loanAmount": 29940,
+      "loanType": "Bridge",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T17:53:08.684Z"
+    },
+    {
+      "id": "zOYT59jXRa7I9o04347c",
+      "name": "",
+      "rep": "Todd Eliasen",
+      "loanAmount": 114791,
+      "loanType": "",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T17:50:00.257Z"
+    },
+    {
+      "id": "3NagdBvLwzSrN2O4epfp",
+      "name": "",
+      "rep": "Todd Eliasen",
+      "loanAmount": 242981,
+      "loanType": "Fix & Flip",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T17:48:14.889Z"
+    },
+    {
+      "id": "JIlWpheVdIhHOkbVmkua",
+      "name": "",
+      "rep": "Sebastian Muenda",
+      "loanAmount": 266650,
+      "loanType": "Fix & Flip",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T17:46:19.066Z"
+    },
+    {
+      "id": "sw3MMD1rsUKeC0WVOg4N",
+      "name": "",
+      "rep": "Sebastian Muenda",
+      "loanAmount": 272000,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T17:45:43.491Z"
+    },
+    {
+      "id": "UO1K0ZbQa7IkHojCNUZY",
+      "name": "",
+      "rep": "Sebastian Muenda",
+      "loanAmount": 224000,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T17:44:20.658Z"
+    },
+    {
+      "id": "kETUfrkulCOQexGAFNsD",
+      "name": "",
+      "rep": "Sebastian Muenda",
+      "loanAmount": 210000,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T17:35:15.393Z"
+    },
+    {
+      "id": "XFwrZ7OJdVVfd41GViNI",
+      "name": "",
+      "rep": "Ryan McCoy",
+      "loanAmount": 500000,
+      "loanType": "DSCR - C/O",
+      "stage": "Closed",
+      "closedAt": "2026-09-07T17:31:00.227Z"
+    },
+    {
+      "id": "SdtHkfPJv2nGoswqbyKm",
+      "name": "",
+      "rep": "Ryan McCoy",
+      "loanAmount": 1725000,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T17:29:06.688Z"
+    },
+    {
+      "id": "BgW35Gllk1lImWXcXHlh",
+      "name": "",
+      "rep": "Ryan McCoy",
+      "loanAmount": 180000,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T17:28:32.939Z"
+    },
+    {
+      "id": "cMRiaGHRfn2yvsebKvH9",
+      "name": "",
+      "rep": "Ryan McCoy",
+      "loanAmount": 128000,
+      "loanType": "DSCR - R/T",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T17:26:50.873Z"
+    },
+    {
+      "id": "Kmq0pLtd00lKgUmTgBNQ",
+      "name": "",
+      "rep": "Raj Vora",
+      "loanAmount": 210000,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T17:05:13.275Z"
+    },
+    {
+      "id": "OH6rJZ0Nl8sfaFiOxJ0O",
+      "name": "",
+      "rep": "Mathieu StGermain",
+      "loanAmount": 161250,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T16:28:53.960Z"
+    },
+    {
+      "id": "bGarGy0UT8x5XmVrM3OT",
+      "name": "",
+      "rep": "Mathieu StGermain",
+      "loanAmount": 140250,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T16:22:54.315Z"
+    },
+    {
+      "id": "PgG7z5SWDEzLq9PF7N3T",
+      "name": "",
+      "rep": "Mathieu StGermain",
+      "loanAmount": 210000,
+      "loanType": "Fix & Flip Refi",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T16:21:31.371Z"
+    },
+    {
+      "id": "Dk9ReX8xUSNEyV7PRgOf",
+      "name": "",
+      "rep": "Mathieu StGermain",
+      "loanAmount": 165600,
+      "loanType": "Fix & Flip",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T16:20:56.176Z"
+    },
+    {
+      "id": "SnerSIeEQmJtBlKC8GC0",
+      "name": "",
+      "rep": "Mathieu StGermain",
+      "loanAmount": 697500,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T16:18:34.939Z"
+    },
+    {
+      "id": "smPPoW90AIdTrPVRy8M6",
+      "name": "",
+      "rep": "Mathieu StGermain",
+      "loanAmount": 163800,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T16:02:56.016Z"
+    },
+    {
+      "id": "VrozRLo4817vn7KFco7M",
+      "name": "",
+      "rep": "Mathieu StGermain",
+      "loanAmount": 480000,
+      "loanType": "DSCR - Purchase",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T16:02:14.973Z"
+    },
+    {
+      "id": "AQeEAmd3ZBUmgMegkBY5",
+      "name": "",
+      "rep": "Mathieu StGermain",
+      "loanAmount": 370357,
+      "loanType": "Fix & Flip",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T16:01:35.890Z"
+    },
+    {
+      "id": "ZTJOZnnH5fRrWuuJ5ZCJ",
+      "name": "",
+      "rep": "Mathieu StGermain",
+      "loanAmount": 126000,
+      "loanType": "Bridge",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T16:00:59.407Z"
+    },
+    {
+      "id": "PkMVrDegwML2xsKlU9av",
+      "name": "",
+      "rep": "Mathieu StGermain",
+      "loanAmount": 345000,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T16:00:28.101Z"
+    },
+    {
+      "id": "rknWs9eXyKOE9VcBbknj",
+      "name": "",
+      "rep": "Jeremiah Ibrahim",
+      "loanAmount": 140000,
+      "loanType": "DSCR - Purchase",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T15:57:27.598Z"
+    },
+    {
+      "id": "bQNprJgO9k423XO78QwL",
+      "name": "",
+      "rep": "Jeremiah Ibrahim",
+      "loanAmount": 318750,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T15:56:41.148Z"
+    },
+    {
+      "id": "UIUeKgyWqSbJ0tEobg5z",
+      "name": "",
+      "rep": "Jeremiah Ibrahim",
+      "loanAmount": 344900,
+      "loanType": "",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T15:55:50.060Z"
+    },
+    {
+      "id": "37dIIlp9zOmrVCY5IB5m",
+      "name": "",
+      "rep": "Jeremiah Ibrahim",
+      "loanAmount": 1908022,
+      "loanType": "Ground Up Construction",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T15:54:19.859Z"
+    },
+    {
+      "id": "Sd3KVag4jI31tI0rBeFs",
+      "name": "",
+      "rep": "Jeremiah Ibrahim",
+      "loanAmount": 422500,
+      "loanType": "DSCR - R/T",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T15:51:42.366Z"
+    },
+    {
+      "id": "bVdLQw4RcKxbidzb6znM",
+      "name": "",
+      "rep": "Jeremiah Ibrahim",
+      "loanAmount": 340000,
+      "loanType": "DSCR - Purchase",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T15:40:03.976Z"
+    },
+    {
+      "id": "Mykh6Nvyn6wTpXd2rtjF",
+      "name": "",
+      "rep": "Jeremiah Ibrahim",
+      "loanAmount": 194600,
+      "loanType": "Bridge",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T15:39:07.985Z"
+    },
+    {
+      "id": "RvUBrfuFs2O52WuD0PjU",
+      "name": "",
+      "rep": "Jeremiah Ibrahim",
+      "loanAmount": 297585,
+      "loanType": "Fix & Flip",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T15:37:33.858Z"
+    },
+    {
+      "id": "miSTl0VTYmWZQEjRzLzE",
+      "name": "",
+      "rep": "Jeremiah Ibrahim",
+      "loanAmount": 144500,
+      "loanType": "DSCR - R/T",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T15:29:50.771Z"
+    },
+    {
+      "id": "OKMFtoIVgZier7dIpTbT",
+      "name": "",
+      "rep": "Jason Weber",
+      "loanAmount": 101575,
+      "loanType": "Fix & Flip",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T15:26:33.496Z"
+    },
+    {
+      "id": "w73zC1P7BIG3clAe7vYf",
+      "name": "",
+      "rep": "Jason Weber",
+      "loanAmount": 129000,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T15:25:44.281Z"
+    },
+    {
+      "id": "pF4a0AhPIrh0vYzc6x1U",
+      "name": "",
+      "rep": "Jason Weber",
+      "loanAmount": 76082,
+      "loanType": "Fix & Flip",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T15:24:57.711Z"
+    },
+    {
+      "id": "DWzTRprqjLfaamcvkDlN",
+      "name": "",
+      "rep": "Jason Weber",
+      "loanAmount": 137000,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T15:24:13.371Z"
+    },
+    {
+      "id": "fp10PHnq3R1H5kzdShzs",
+      "name": "",
+      "rep": "Jason Weber",
+      "loanAmount": 222400,
+      "loanType": "Bridge",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T15:23:08.489Z"
+    },
+    {
+      "id": "Lu2p0iCBTkm0xekiGmAe",
+      "name": "",
+      "rep": "Jason Weber",
+      "loanAmount": 261250,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T15:21:44.098Z"
+    },
+    {
+      "id": "OrQxj5dd0CzbhQSVCUby",
+      "name": "",
+      "rep": "Hazel Wilder",
+      "loanAmount": 518400,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T15:15:49.086Z"
+    },
+    {
+      "id": "LkiyelmH74zqizcHnxTh",
+      "name": "",
+      "rep": "Hazel Wilder",
+      "loanAmount": 412500,
+      "loanType": "DSCR - Purchase",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T15:14:11.067Z"
+    },
+    {
+      "id": "DqzN7CvPPPJoaaB3ycKo",
+      "name": "",
+      "rep": "Hazel Wilder",
+      "loanAmount": 203250,
+      "loanType": "DSCR - R/T",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T15:13:05.745Z"
+    },
+    {
+      "id": "bLjbw4TXjg2iU0ZBsvkH",
+      "name": "",
+      "rep": "Hazel Wilder",
+      "loanAmount": 229294,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T15:10:47.693Z"
+    },
+    {
+      "id": "MzJsFv4wVYSlGe0VGNW4",
+      "name": "",
+      "rep": "Hazel Wilder",
+      "loanAmount": 280000,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T15:09:40.552Z"
+    },
+    {
+      "id": "uXihNICM3ZEagq3tBNuI",
+      "name": "",
+      "rep": "Christopher LaFlesh",
+      "loanAmount": 747551,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-07T15:07:33.123Z"
+    },
     {
       "id": "LA0yg5OUOPU4oXsRN7XF",
       "name": "",
@@ -613,7 +1016,7 @@
       "id": "osCMzFhPgf2YGXpYfZOc",
       "name": "",
       "rep": "Jeremiah Ibrahim",
-      "loanAmount": 176400,
+      "loanAmount": 178200,
       "loanType": "Fix & Flip",
       "stage": "Closed",
       "closedAt": "2026-09-04T00:05:02.027Z"
@@ -637,15 +1040,6 @@
       "closedAt": "2026-09-02T15:28:18.252Z"
     },
     {
-      "id": "MzJsFv4wVYSlGe0VGNW4",
-      "name": "",
-      "rep": "Hazel Wilder",
-      "loanAmount": 292000,
-      "loanType": "DSCR - C/O",
-      "stage": "Closed",
-      "closedAt": "2026-09-01T15:19:29.199Z"
-    },
-    {
       "id": "sXVrTwyLIhWKKXed2Cge",
       "name": "",
       "rep": "Will Deroo",
@@ -653,15 +1047,6 @@
       "loanType": "",
       "stage": "Wire Received",
       "closedAt": "2026-09-01T14:16:22.922Z"
-    },
-    {
-      "id": "WSCITdWQpZ7XXtfm0bqQ",
-      "name": "",
-      "rep": "Will Deroo",
-      "loanAmount": 620900,
-      "loanType": "DSCR - R/T",
-      "stage": "Closed",
-      "closedAt": "2026-09-01T14:14:13.791Z"
     },
     {
       "id": "S9VPls69LMIp34l2rqWl",
@@ -685,7 +1070,7 @@
       "id": "mLFjqLtBJbEqHnL8FOv1",
       "name": "",
       "rep": "Will Deroo",
-      "loanAmount": 620000,
+      "loanAmount": 620900,
       "loanType": "DSCR - R/T",
       "stage": "Wire Received",
       "closedAt": "2026-09-01T14:01:57.814Z"
@@ -694,7 +1079,7 @@
       "id": "uw6tilLqOw8x87obA0qE",
       "name": "",
       "rep": "Will Deroo",
-      "loanAmount": 0,
+      "loanAmount": 153000,
       "loanType": "",
       "stage": "Wire Received",
       "closedAt": "2026-09-01T14:01:38.414Z"
@@ -730,7 +1115,7 @@
       "id": "4hh1snlxx1VsBX4Uyys8",
       "name": "",
       "rep": "Ryan McCoy",
-      "loanAmount": 0,
+      "loanAmount": 156000,
       "loanType": "",
       "stage": "Wire Received",
       "closedAt": "2026-09-01T01:47:38.178Z"
@@ -739,7 +1124,7 @@
       "id": "ppnpuBBs6uMYIi2yaY1h",
       "name": "",
       "rep": "Ryan McCoy",
-      "loanAmount": 0,
+      "loanAmount": 179200,
       "loanType": "",
       "stage": "Wire Received",
       "closedAt": "2026-09-01T01:40:27.089Z"
@@ -757,7 +1142,7 @@
       "id": "AgIYJ7fkgH5eS21lO2Rt",
       "name": "",
       "rep": "Ryan McCoy",
-      "loanAmount": 0,
+      "loanAmount": 127500,
       "loanType": "",
       "stage": "Wire Received",
       "closedAt": "2026-09-01T01:12:20.698Z"
@@ -781,24 +1166,6 @@
       "closedAt": "2026-08-31T22:17:38.397Z"
     },
     {
-      "id": "SdtHkfPJv2nGoswqbyKm",
-      "name": "",
-      "rep": "Ryan McCoy",
-      "loanAmount": 1725000,
-      "loanType": "DSCR - C/O",
-      "stage": "Closed",
-      "closedAt": "2026-08-31T21:51:22.524Z"
-    },
-    {
-      "id": "BgW35Gllk1lImWXcXHlh",
-      "name": "",
-      "rep": "Ryan McCoy",
-      "loanAmount": 180000,
-      "loanType": "DSCR - C/O",
-      "stage": "Closed",
-      "closedAt": "2026-08-31T21:51:04.838Z"
-    },
-    {
       "id": "eF42BTd1PoQV7OOJGPQU",
       "name": "",
       "rep": "Luis Danny Franco",
@@ -806,24 +1173,6 @@
       "loanType": "Fix & Flip",
       "stage": "Wire Received",
       "closedAt": "2026-08-31T21:22:06.038Z"
-    },
-    {
-      "id": "1qBDDMJpDnlm2Bify6hx",
-      "name": "",
-      "rep": "Nick DeLaCruz",
-      "loanAmount": 189975,
-      "loanType": "Fix & Flip",
-      "stage": "Wire Received",
-      "closedAt": "2026-08-31T17:59:29.232Z"
-    },
-    {
-      "id": "bLjbw4TXjg2iU0ZBsvkH",
-      "name": "",
-      "rep": "Hazel Wilder",
-      "loanAmount": 223400,
-      "loanType": "DSCR - C/O",
-      "stage": "Closed",
-      "closedAt": "2026-08-31T16:45:52.908Z"
     }
   ]
 }
