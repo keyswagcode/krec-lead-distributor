@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-09-08T00:08:27.390Z",
+  "updatedAt": "2026-09-08T04:29:36.398Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 140801891,
-      "loans": 453
+      "loanAmount": 146701891,
+      "loans": 455
     },
     "month": {
       "loanAmount": 26217128,
@@ -150,8 +150,8 @@
     {
       "name": "Lindsay Milano",
       "year": {
-        "loanAmount": 24708538,
-        "loans": 47
+        "loanAmount": 30608538,
+        "loans": 49
       },
       "month": {
         "loanAmount": 0,
@@ -690,7 +690,7 @@
     },
     {
       "id": "ZTJOZnnH5fRrWuuJ5ZCJ",
-      "name": "Demar Lutz - 807 March Ct Unit E Wilmington NC 28405",
+      "name": "",
       "rep": "Mathieu StGermain",
       "loanAmount": 126000,
       "loanType": "Bridge",
@@ -1101,51 +1101,6 @@
       "loanType": "DSCR - R/T",
       "stage": "Wire Received",
       "closedAt": "2026-09-01T13:58:54.665Z"
-    },
-    {
-      "id": "dLMl1EcpQXOhnkcTj0Ju",
-      "name": "",
-      "rep": "Nick DeLaCruz",
-      "loanAmount": 219520,
-      "loanType": "Ground Up Construction",
-      "stage": "Closed",
-      "closedAt": "2026-09-01T03:03:30.406Z"
-    },
-    {
-      "id": "4hh1snlxx1VsBX4Uyys8",
-      "name": "",
-      "rep": "Ryan McCoy",
-      "loanAmount": 156000,
-      "loanType": "",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-01T01:47:38.178Z"
-    },
-    {
-      "id": "ppnpuBBs6uMYIi2yaY1h",
-      "name": "",
-      "rep": "Ryan McCoy",
-      "loanAmount": 179200,
-      "loanType": "",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-01T01:40:27.089Z"
-    },
-    {
-      "id": "EZqQJLSyZMVdPcZfoovF",
-      "name": "",
-      "rep": "Paulo Bermudez",
-      "loanAmount": 487000,
-      "loanType": "Fix & Flip",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-01T01:34:31.003Z"
-    },
-    {
-      "id": "AgIYJ7fkgH5eS21lO2Rt",
-      "name": "",
-      "rep": "Ryan McCoy",
-      "loanAmount": 127500,
-      "loanType": "",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-01T01:12:20.698Z"
     }
   ]
 }
