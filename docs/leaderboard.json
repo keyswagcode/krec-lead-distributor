@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-09-08T17:23:45.449Z",
+  "updatedAt": "2026-09-08T19:59:44.967Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 147590641,
-      "loans": 456
+      "loanAmount": 147933551,
+      "loans": 459
     },
     "month": {
-      "loanAmount": 27105878,
-      "loans": 75
+      "loanAmount": 27448788,
+      "loans": 78
     }
   },
   "reps": [
@@ -128,12 +128,12 @@
     {
       "name": "Luis Danny Franco",
       "year": {
-        "loanAmount": 4958313,
-        "loans": 12
+        "loanAmount": 5206813,
+        "loans": 14
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 248500,
+        "loans": 2
       }
     },
     {
@@ -205,12 +205,12 @@
     {
       "name": "Samuel Vickrey",
       "year": {
-        "loanAmount": 1013345,
-        "loans": 10
+        "loanAmount": 1107755,
+        "loans": 11
       },
       "month": {
-        "loanAmount": 140175,
-        "loans": 3
+        "loanAmount": 234585,
+        "loans": 4
       }
     },
     {
@@ -295,12 +295,12 @@
     {
       "name": "Daisy Mondragon",
       "year": {
-        "loanAmount": 48803799,
-        "loans": 138
+        "loanAmount": 48990699,
+        "loans": 139
       },
       "month": {
-        "loanAmount": 11330598,
-        "loans": 28
+        "loanAmount": 11517498,
+        "loans": 29
       }
     },
     {
@@ -481,6 +481,33 @@
     }
   ],
   "latest": [
+    {
+      "id": "dDsaJ1gNIZkOcoqxqYUz",
+      "name": "",
+      "rep": "Luis Danny Franco",
+      "loanAmount": 186900,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-08T18:01:32.947Z"
+    },
+    {
+      "id": "Okt2mYYnM2De0gXxHL0H",
+      "name": "",
+      "rep": "Luis Danny Franco",
+      "loanAmount": 61600,
+      "loanType": "DSCR - Purchase",
+      "stage": "Closed",
+      "closedAt": "2026-09-08T18:01:03.950Z"
+    },
+    {
+      "id": "nE7jtvU6dsFhas9WFmrh",
+      "name": "",
+      "rep": "Samuel Vickrey",
+      "loanAmount": 94410,
+      "loanType": "Bridge",
+      "stage": "Closed",
+      "closedAt": "2026-09-08T17:39:09.593Z"
+    },
     {
       "id": "UUJ8frlyDsnYD1SFaHhC",
       "name": "",
