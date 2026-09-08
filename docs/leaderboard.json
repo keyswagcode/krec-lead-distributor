@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-09-08T13:30:06.748Z",
+  "updatedAt": "2026-09-08T17:23:45.449Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 146701891,
-      "loans": 455
+      "loanAmount": 147590641,
+      "loans": 456
     },
     "month": {
-      "loanAmount": 26217128,
-      "loans": 74
+      "loanAmount": 27105878,
+      "loans": 75
     }
   },
   "reps": [
@@ -62,12 +62,12 @@
     {
       "name": "Frank Estrada",
       "year": {
-        "loanAmount": 5744370,
-        "loans": 10
+        "loanAmount": 6633120,
+        "loans": 11
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 888750,
+        "loans": 1
       }
     },
     {
@@ -295,12 +295,12 @@
     {
       "name": "Daisy Mondragon",
       "year": {
-        "loanAmount": 47915049,
-        "loans": 137
+        "loanAmount": 48803799,
+        "loans": 138
       },
       "month": {
-        "loanAmount": 10441848,
-        "loans": 27
+        "loanAmount": 11330598,
+        "loans": 28
       }
     },
     {
@@ -481,6 +481,15 @@
     }
   ],
   "latest": [
+    {
+      "id": "UUJ8frlyDsnYD1SFaHhC",
+      "name": "",
+      "rep": "Frank Estrada",
+      "loanAmount": 888750,
+      "loanType": "Fix & Flip",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-08T16:15:25.865Z"
+    },
     {
       "id": "WSCITdWQpZ7XXtfm0bqQ",
       "name": "",
@@ -1038,69 +1047,6 @@
       "loanType": "DSCR - C/O",
       "stage": "Closed",
       "closedAt": "2026-09-02T15:28:18.252Z"
-    },
-    {
-      "id": "sXVrTwyLIhWKKXed2Cge",
-      "name": "",
-      "rep": "Will Deroo",
-      "loanAmount": 570050,
-      "loanType": "",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-01T14:16:22.922Z"
-    },
-    {
-      "id": "S9VPls69LMIp34l2rqWl",
-      "name": "",
-      "rep": "Will Deroo",
-      "loanAmount": 158400,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-01T14:02:16.754Z"
-    },
-    {
-      "id": "SzaCv9eV8U7cjMt0bQQg",
-      "name": "",
-      "rep": "Will Deroo",
-      "loanAmount": 412300,
-      "loanType": "DSCR - R/T",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-01T14:02:01.467Z"
-    },
-    {
-      "id": "mLFjqLtBJbEqHnL8FOv1",
-      "name": "",
-      "rep": "Will Deroo",
-      "loanAmount": 620900,
-      "loanType": "DSCR - R/T",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-01T14:01:57.814Z"
-    },
-    {
-      "id": "uw6tilLqOw8x87obA0qE",
-      "name": "",
-      "rep": "Will Deroo",
-      "loanAmount": 153000,
-      "loanType": "",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-01T14:01:38.414Z"
-    },
-    {
-      "id": "DNNVDo8WWb8rQ3GHg6Og",
-      "name": "",
-      "rep": "Will Deroo",
-      "loanAmount": 826000,
-      "loanType": "DSCR - R/T",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-01T14:01:22.624Z"
-    },
-    {
-      "id": "XBRnDWISJhcQhdvHIgbb",
-      "name": "",
-      "rep": "Will Deroo",
-      "loanAmount": 280000,
-      "loanType": "DSCR - R/T",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-01T13:58:54.665Z"
     }
   ]
 }
