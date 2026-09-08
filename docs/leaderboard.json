@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-09-08T19:59:44.967Z",
+  "updatedAt": "2026-09-08T22:30:34.743Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 147933551,
-      "loans": 459
+      "loanAmount": 148301311,
+      "loans": 461
     },
     "month": {
-      "loanAmount": 27448788,
-      "loans": 78
+      "loanAmount": 27930801,
+      "loans": 81
     }
   },
   "reps": [
@@ -165,8 +165,8 @@
         "loans": 16
       },
       "month": {
-        "loanAmount": 2859757,
-        "loans": 10
+        "loanAmount": 2974010,
+        "loans": 11
       }
     },
     {
@@ -258,6 +258,17 @@
       }
     },
     {
+      "name": "Trever Sears",
+      "year": {
+        "loanAmount": 367760,
+        "loans": 2
+      },
+      "month": {
+        "loanAmount": 367760,
+        "loans": 2
+      }
+    },
+    {
       "name": "Nick DeLaCruz",
       "year": {
         "loanAmount": 2513723,
@@ -317,12 +328,12 @@
     {
       "name": "Brandi Smith",
       "year": {
-        "loanAmount": 25029811,
-        "loans": 87
+        "loanAmount": 25220771,
+        "loans": 88
       },
       "month": {
-        "loanAmount": 7491560,
-        "loans": 23
+        "loanAmount": 7682520,
+        "loans": 24
       }
     },
     {
@@ -481,6 +492,33 @@
     }
   ],
   "latest": [
+    {
+      "id": "O3brItoS5zCz2njvnT56",
+      "name": "",
+      "rep": "Mathieu StGermain",
+      "loanAmount": 114253,
+      "loanType": "Fix & Flip",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-08T21:44:06.478Z"
+    },
+    {
+      "id": "KVTqraW3tPqnW8gNCbLL",
+      "name": "",
+      "rep": "Trever Sears",
+      "loanAmount": 176800,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-08T20:32:50.663Z"
+    },
+    {
+      "id": "zYE2nmv5OAFW781qBWrk",
+      "name": "",
+      "rep": "Trever Sears",
+      "loanAmount": 190960,
+      "loanType": "DSCR - Purchase",
+      "stage": "Closed",
+      "closedAt": "2026-09-08T20:27:03.639Z"
+    },
     {
       "id": "dDsaJ1gNIZkOcoqxqYUz",
       "name": "",
