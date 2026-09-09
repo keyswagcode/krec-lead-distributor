@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-09-09T17:26:43.784Z",
+  "updatedAt": "2026-09-09T19:57:08.764Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 148478111,
-      "loans": 462
+      "loanAmount": 149155361,
+      "loans": 463
     },
     "month": {
-      "loanAmount": 28107601,
-      "loans": 82
+      "loanAmount": 28784851,
+      "loans": 83
     }
   },
   "reps": [
@@ -84,12 +84,12 @@
     {
       "name": "Raj Vora",
       "year": {
-        "loanAmount": 5540971,
-        "loans": 23
+        "loanAmount": 6218221,
+        "loans": 24
       },
       "month": {
-        "loanAmount": 626000,
-        "loans": 2
+        "loanAmount": 1303250,
+        "loans": 3
       }
     },
     {
@@ -328,12 +328,12 @@
     {
       "name": "Brandi Smith",
       "year": {
-        "loanAmount": 25220771,
-        "loans": 88
+        "loanAmount": 25898021,
+        "loans": 89
       },
       "month": {
-        "loanAmount": 7682520,
-        "loans": 24
+        "loanAmount": 8359770,
+        "loans": 25
       }
     },
     {
@@ -492,6 +492,24 @@
     }
   ],
   "latest": [
+    {
+      "id": "Sg5ZyZJr9HJgslLLybyi",
+      "name": "",
+      "rep": "Raj Vora",
+      "loanAmount": 416000,
+      "loanType": "DSCR - C/O",
+      "stage": "Closed",
+      "closedAt": "2026-09-09T18:25:12.939Z"
+    },
+    {
+      "id": "VXILVSTv4GJ8u4bX8AqE",
+      "name": "",
+      "rep": "Raj Vora",
+      "loanAmount": 677250,
+      "loanType": "Fix & Flip",
+      "stage": "Closed",
+      "closedAt": "2026-09-09T18:21:24.777Z"
+    },
     {
       "id": "Rk89weCZhlIDxizgAJe8",
       "name": "",
@@ -1085,15 +1103,6 @@
       "loanType": "",
       "stage": "Wire Received",
       "closedAt": "2026-09-04T17:09:47.433Z"
-    },
-    {
-      "id": "Sg5ZyZJr9HJgslLLybyi",
-      "name": "",
-      "rep": "Raj Vora",
-      "loanAmount": 416000,
-      "loanType": "DSCR - C/O",
-      "stage": "Closed",
-      "closedAt": "2026-09-04T16:11:46.614Z"
     },
     {
       "id": "osCMzFhPgf2YGXpYfZOc",
