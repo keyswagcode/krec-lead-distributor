@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-09-09T13:54:17.325Z",
+  "updatedAt": "2026-09-09T17:26:43.784Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 148301311,
-      "loans": 461
+      "loanAmount": 148478111,
+      "loans": 462
     },
     "month": {
-      "loanAmount": 27930801,
-      "loans": 81
+      "loanAmount": 28107601,
+      "loans": 82
     }
   },
   "reps": [
@@ -260,12 +260,12 @@
     {
       "name": "Trever Sears",
       "year": {
-        "loanAmount": 367760,
-        "loans": 2
+        "loanAmount": 544560,
+        "loans": 3
       },
       "month": {
-        "loanAmount": 367760,
-        "loans": 2
+        "loanAmount": 544560,
+        "loans": 3
       }
     },
     {
@@ -493,6 +493,24 @@
   ],
   "latest": [
     {
+      "id": "Rk89weCZhlIDxizgAJe8",
+      "name": "",
+      "rep": "Trever Sears",
+      "loanAmount": 176800,
+      "loanType": "DSCR - C/O",
+      "stage": "Closed",
+      "closedAt": "2026-09-09T16:58:09.181Z"
+    },
+    {
+      "id": "Okt2mYYnM2De0gXxHL0H",
+      "name": "",
+      "rep": "Luis Danny Franco",
+      "loanAmount": 61600,
+      "loanType": "DSCR - Purchase",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-09T16:18:55.984Z"
+    },
+    {
       "id": "O3brItoS5zCz2njvnT56",
       "name": "",
       "rep": "Mathieu StGermain",
@@ -527,15 +545,6 @@
       "loanType": "DSCR - C/O",
       "stage": "Wire Received",
       "closedAt": "2026-09-08T18:01:32.947Z"
-    },
-    {
-      "id": "Okt2mYYnM2De0gXxHL0H",
-      "name": "",
-      "rep": "Luis Danny Franco",
-      "loanAmount": 61600,
-      "loanType": "DSCR - Purchase",
-      "stage": "Closed",
-      "closedAt": "2026-09-08T18:01:03.950Z"
     },
     {
       "id": "nE7jtvU6dsFhas9WFmrh",
@@ -1094,24 +1103,6 @@
       "loanType": "Fix & Flip",
       "stage": "Closed",
       "closedAt": "2026-09-04T00:05:02.027Z"
-    },
-    {
-      "id": "EJPUOC0uobX8ETTaFKrl",
-      "name": "",
-      "rep": "Bailey Girouard",
-      "loanAmount": 168620,
-      "loanType": "Fix & Flip",
-      "stage": "Closed",
-      "closedAt": "2026-09-02T15:30:58.820Z"
-    },
-    {
-      "id": "1G8yw9HVBuE7nBdtqTAR",
-      "name": "",
-      "rep": "Bailey Girouard",
-      "loanAmount": 202500,
-      "loanType": "DSCR - C/O",
-      "stage": "Closed",
-      "closedAt": "2026-09-02T15:28:18.252Z"
     }
   ]
 }
