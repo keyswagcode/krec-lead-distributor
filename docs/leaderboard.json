@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-09-11T18:32:46.754Z",
+  "updatedAt": "2026-09-11T21:14:07.114Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 149659361,
-      "loans": 464
+      "loanAmount": 150165611,
+      "loans": 465
     },
     "month": {
-      "loanAmount": 29288851,
-      "loans": 84
+      "loanAmount": 29795101,
+      "loans": 85
     }
   },
   "reps": [
@@ -40,12 +40,12 @@
     {
       "name": "Hazel Wilder",
       "year": {
-        "loanAmount": 4096744,
-        "loans": 16
+        "loanAmount": 4602994,
+        "loans": 17
       },
       "month": {
-        "loanAmount": 1643444,
-        "loans": 5
+        "loanAmount": 2149694,
+        "loans": 6
       }
     },
     {
@@ -339,12 +339,12 @@
     {
       "name": "Adam Epperson",
       "year": {
-        "loanAmount": 13794708,
-        "loans": 44
+        "loanAmount": 14300958,
+        "loans": 45
       },
       "month": {
-        "loanAmount": 4729100,
-        "loans": 9
+        "loanAmount": 5235350,
+        "loans": 10
       }
     },
     {
@@ -492,6 +492,15 @@
     }
   ],
   "latest": [
+    {
+      "id": "v1Jha85S3NLnYIdDmNUP",
+      "name": "",
+      "rep": "Hazel Wilder",
+      "loanAmount": 506250,
+      "loanType": "DSCR - R/T",
+      "stage": "Closed",
+      "closedAt": "2026-09-11T19:00:05.188Z"
+    },
     {
       "id": "NvyiV0zGgStWhyF4yuwh",
       "name": "",
