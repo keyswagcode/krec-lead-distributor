@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-09-10T23:36:51.098Z",
+  "updatedAt": "2026-09-11T01:26:57.204Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 149155361,
-      "loans": 463
+      "loanAmount": 149659361,
+      "loans": 464
     },
     "month": {
-      "loanAmount": 28784851,
-      "loans": 83
+      "loanAmount": 29288851,
+      "loans": 84
     }
   },
   "reps": [
@@ -150,12 +150,12 @@
     {
       "name": "Lindsay Milano",
       "year": {
-        "loanAmount": 30608538,
-        "loans": 49
+        "loanAmount": 31112538,
+        "loans": 50
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 504000,
+        "loans": 1
       }
     },
     {
@@ -361,12 +361,12 @@
     {
       "name": "Jillian Haines",
       "year": {
-        "loanAmount": 9370190,
-        "loans": 20
+        "loanAmount": 9874190,
+        "loans": 21
       },
       "month": {
-        "loanAmount": 1383900,
-        "loans": 5
+        "loanAmount": 1887900,
+        "loans": 6
       }
     },
     {
@@ -492,6 +492,15 @@
     }
   ],
   "latest": [
+    {
+      "id": "NvyiV0zGgStWhyF4yuwh",
+      "name": "",
+      "rep": "Lindsay Milano",
+      "loanAmount": 504000,
+      "loanType": "DSCR - Purchase",
+      "stage": "Closed",
+      "closedAt": "2026-09-10T23:38:44.578Z"
+    },
     {
       "id": "Sg5ZyZJr9HJgslLLybyi",
       "name": "",
@@ -1103,15 +1112,6 @@
       "loanType": "",
       "stage": "Wire Received",
       "closedAt": "2026-09-04T17:09:47.433Z"
-    },
-    {
-      "id": "osCMzFhPgf2YGXpYfZOc",
-      "name": "",
-      "rep": "Jeremiah Ibrahim",
-      "loanAmount": 178200,
-      "loanType": "Fix & Flip",
-      "stage": "Closed",
-      "closedAt": "2026-09-04T00:05:02.027Z"
     }
   ]
 }
