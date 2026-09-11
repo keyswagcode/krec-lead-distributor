@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T15:12:13.540Z",
+  "updatedAt": "2026-09-11T18:32:46.754Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
@@ -1004,114 +1004,6 @@
       "loanType": "DSCR - C/O",
       "stage": "Wire Received",
       "closedAt": "2026-09-07T15:07:33.123Z"
-    },
-    {
-      "id": "LA0yg5OUOPU4oXsRN7XF",
-      "name": "",
-      "rep": "Daniel Frank",
-      "loanAmount": 134400,
-      "loanType": "DSCR - Purchase",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-04T18:25:38.107Z"
-    },
-    {
-      "id": "JmhH6udv841EvEcduGaI",
-      "name": "",
-      "rep": "Daniel Frank",
-      "loanAmount": 382500,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-04T18:25:36.141Z"
-    },
-    {
-      "id": "nK4CwffdQGE8GlhUzXLY",
-      "name": "",
-      "rep": "Daniel Frank",
-      "loanAmount": 1240000,
-      "loanType": "Bank Statement",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-04T18:25:13.346Z"
-    },
-    {
-      "id": "XsnRt5fOWJ3ONCzGlIqA",
-      "name": "",
-      "rep": "Nicole Lavau",
-      "loanAmount": 1625000,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-04T17:11:57.101Z"
-    },
-    {
-      "id": "QAI3pBAp3tWnptfd8mdo",
-      "name": "",
-      "rep": "Nicole Lavau",
-      "loanAmount": 90000,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-04T17:11:54.716Z"
-    },
-    {
-      "id": "CD0e7Q6FmoScLkjCU0vq",
-      "name": "",
-      "rep": "Nicole Lavau",
-      "loanAmount": 192000,
-      "loanType": "DSCR - R/T",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-04T17:11:52.968Z"
-    },
-    {
-      "id": "BwVdKrUmFhdAObh4eDpY",
-      "name": "",
-      "rep": "Nicole Lavau",
-      "loanAmount": 93750,
-      "loanType": "DSCR - R/T",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-04T17:11:49.830Z"
-    },
-    {
-      "id": "9kMlgHn9v3Sli2p1JJ3y",
-      "name": "",
-      "rep": "Nicole Lavau",
-      "loanAmount": 1625000,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-04T17:11:47.968Z"
-    },
-    {
-      "id": "XdTk0yWNQZZ9DpJ5VrmJ",
-      "name": "",
-      "rep": "Nicole Lavau",
-      "loanAmount": 77250,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-04T17:11:44.251Z"
-    },
-    {
-      "id": "uwOPFsW41B54D4H5G61M",
-      "name": "",
-      "rep": "Samuel Vickrey",
-      "loanAmount": 0,
-      "loanType": "",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-04T17:09:52.418Z"
-    },
-    {
-      "id": "Aowq1X3cjlRhow3JowG6",
-      "name": "",
-      "rep": "Samuel Vickrey",
-      "loanAmount": 140175,
-      "loanType": "Bridge",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-04T17:09:50.172Z"
-    },
-    {
-      "id": "jC5w0K8IcSErd39QQL3L",
-      "name": "",
-      "rep": "Samuel Vickrey",
-      "loanAmount": 0,
-      "loanType": "",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-04T17:09:47.433Z"
     }
   ]
 }
