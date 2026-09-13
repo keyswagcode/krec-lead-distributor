@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T19:38:36.862Z",
+  "updatedAt": "2026-09-13T21:41:37.861Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
@@ -493,6 +493,15 @@
   ],
   "latest": [
     {
+      "id": "XFwrZ7OJdVVfd41GViNI",
+      "name": "",
+      "rep": "Ryan McCoy",
+      "loanAmount": 500000,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-13T21:08:45.888Z"
+    },
+    {
       "id": "v1Jha85S3NLnYIdDmNUP",
       "name": "",
       "rep": "Hazel Wilder",
@@ -689,15 +698,6 @@
       "loanType": "DSCR - C/O",
       "stage": "Wire Received",
       "closedAt": "2026-09-07T17:35:15.393Z"
-    },
-    {
-      "id": "XFwrZ7OJdVVfd41GViNI",
-      "name": "",
-      "rep": "Ryan McCoy",
-      "loanAmount": 500000,
-      "loanType": "DSCR - C/O",
-      "stage": "Closed",
-      "closedAt": "2026-09-07T17:31:00.227Z"
     },
     {
       "id": "SdtHkfPJv2nGoswqbyKm",
