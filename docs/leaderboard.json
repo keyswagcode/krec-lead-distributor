@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-09-15T15:01:37.774Z",
+  "updatedAt": "2026-09-15T18:53:52.578Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 150789611,
-      "loans": 466
+      "loanAmount": 150860111,
+      "loans": 467
     },
     "month": {
-      "loanAmount": 30419101,
-      "loans": 86
+      "loanAmount": 30489601,
+      "loans": 87
     }
   },
   "reps": [
@@ -40,12 +40,12 @@
     {
       "name": "Hazel Wilder",
       "year": {
-        "loanAmount": 4602994,
-        "loans": 17
+        "loanAmount": 4673494,
+        "loans": 18
       },
       "month": {
-        "loanAmount": 2149694,
-        "loans": 6
+        "loanAmount": 2220194,
+        "loans": 7
       }
     },
     {
@@ -493,6 +493,15 @@
   ],
   "latest": [
     {
+      "id": "NJlWV9ayefrlNJbV3q55",
+      "name": "",
+      "rep": "Hazel Wilder",
+      "loanAmount": 70500,
+      "loanType": "DSCR - C/O",
+      "stage": "Closed",
+      "closedAt": "2026-09-15T16:38:48.527Z"
+    },
+    {
       "id": "m5R4yuqIuzS7tZRChXw3",
       "name": "",
       "rep": "Daniel Frank",
@@ -590,33 +599,6 @@
       "loanType": "DSCR - Purchase",
       "stage": "Closed",
       "closedAt": "2026-09-08T20:27:03.639Z"
-    },
-    {
-      "id": "dDsaJ1gNIZkOcoqxqYUz",
-      "name": "",
-      "rep": "Luis Danny Franco",
-      "loanAmount": 186900,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-08T18:01:32.947Z"
-    },
-    {
-      "id": "nE7jtvU6dsFhas9WFmrh",
-      "name": "",
-      "rep": "Samuel Vickrey",
-      "loanAmount": 94410,
-      "loanType": "Bridge",
-      "stage": "Closed",
-      "closedAt": "2026-09-08T17:39:09.593Z"
-    },
-    {
-      "id": "UUJ8frlyDsnYD1SFaHhC",
-      "name": "",
-      "rep": "Frank Estrada",
-      "loanAmount": 888750,
-      "loanType": "Fix & Flip",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-08T16:15:25.865Z"
     }
   ]
 }
