@@ -1,29 +1,29 @@
 {
-  "updatedAt": "2026-09-14T22:13:09.669Z",
+  "updatedAt": "2026-09-15T00:39:35.032Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 150165611,
-      "loans": 465
+      "loanAmount": 150789611,
+      "loans": 466
     },
     "month": {
-      "loanAmount": 29795101,
-      "loans": 85
+      "loanAmount": 30419101,
+      "loans": 86
     }
   },
   "reps": [
     {
       "name": "Daniel Frank",
       "year": {
-        "loanAmount": 4035900,
-        "loans": 10
+        "loanAmount": 4659900,
+        "loans": 11
       },
       "month": {
-        "loanAmount": 1756900,
-        "loans": 3
+        "loanAmount": 2380900,
+        "loans": 4
       }
     },
     {
@@ -361,12 +361,12 @@
     {
       "name": "Jillian Haines",
       "year": {
-        "loanAmount": 9874190,
-        "loans": 21
+        "loanAmount": 10498190,
+        "loans": 22
       },
       "month": {
-        "loanAmount": 1887900,
-        "loans": 6
+        "loanAmount": 2511900,
+        "loans": 7
       }
     },
     {
@@ -482,16 +482,25 @@
     {
       "name": "Eric Zesati",
       "year": {
-        "loanAmount": 84000,
-        "loans": 1
+        "loanAmount": 708000,
+        "loans": 2
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 624000,
+        "loans": 1
       }
     }
   ],
   "latest": [
+    {
+      "id": "m5R4yuqIuzS7tZRChXw3",
+      "name": "",
+      "rep": "Daniel Frank",
+      "loanAmount": 624000,
+      "loanType": "DSCR - R/T",
+      "stage": "Closed",
+      "closedAt": "2026-09-14T22:24:58.973Z"
+    },
     {
       "id": "XFwrZ7OJdVVfd41GViNI",
       "name": "",
