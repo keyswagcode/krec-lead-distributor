@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-09-15T18:53:52.578Z",
+  "updatedAt": "2026-09-15T21:49:49.670Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 150860111,
-      "loans": 467
+      "loanAmount": 151038611,
+      "loans": 468
     },
     "month": {
-      "loanAmount": 30489601,
-      "loans": 87
+      "loanAmount": 30668101,
+      "loans": 88
     }
   },
   "reps": [
@@ -282,12 +282,12 @@
     {
       "name": "Gabriel Giordano",
       "year": {
-        "loanAmount": 264000,
-        "loans": 1
+        "loanAmount": 442500,
+        "loans": 2
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 178500,
+        "loans": 1
       }
     }
   ],
@@ -339,12 +339,12 @@
     {
       "name": "Adam Epperson",
       "year": {
-        "loanAmount": 14300958,
-        "loans": 45
+        "loanAmount": 14479458,
+        "loans": 46
       },
       "month": {
-        "loanAmount": 5235350,
-        "loans": 10
+        "loanAmount": 5413850,
+        "loans": 11
       }
     },
     {
@@ -493,6 +493,15 @@
   ],
   "latest": [
     {
+      "id": "yuS6Ql3ziBtcXgzGVlK1",
+      "name": "",
+      "rep": "Gabriel Giordano",
+      "loanAmount": 178500,
+      "loanType": "DSCR - R/T",
+      "stage": "Closed",
+      "closedAt": "2026-09-15T19:18:26.625Z"
+    },
+    {
       "id": "NJlWV9ayefrlNJbV3q55",
       "name": "",
       "rep": "Hazel Wilder",
@@ -572,33 +581,6 @@
       "loanType": "DSCR - Purchase",
       "stage": "Wire Received",
       "closedAt": "2026-09-09T16:18:55.984Z"
-    },
-    {
-      "id": "O3brItoS5zCz2njvnT56",
-      "name": "",
-      "rep": "Mathieu StGermain",
-      "loanAmount": 114253,
-      "loanType": "Fix & Flip",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-08T21:44:06.478Z"
-    },
-    {
-      "id": "KVTqraW3tPqnW8gNCbLL",
-      "name": "",
-      "rep": "Trever Sears",
-      "loanAmount": 176800,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-08T20:32:50.663Z"
-    },
-    {
-      "id": "zYE2nmv5OAFW781qBWrk",
-      "name": "",
-      "rep": "Trever Sears",
-      "loanAmount": 190960,
-      "loanType": "DSCR - Purchase",
-      "stage": "Closed",
-      "closedAt": "2026-09-08T20:27:03.639Z"
     }
   ]
 }
