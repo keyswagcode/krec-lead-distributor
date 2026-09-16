@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T12:13:58.408Z",
+  "updatedAt": "2026-09-16T16:59:44.672Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
@@ -563,24 +563,6 @@
       "loanType": "Fix & Flip",
       "stage": "Closed",
       "closedAt": "2026-09-09T18:21:24.777Z"
-    },
-    {
-      "id": "Rk89weCZhlIDxizgAJe8",
-      "name": "",
-      "rep": "Trever Sears",
-      "loanAmount": 176800,
-      "loanType": "DSCR - C/O",
-      "stage": "Closed",
-      "closedAt": "2026-09-09T16:58:09.181Z"
-    },
-    {
-      "id": "Okt2mYYnM2De0gXxHL0H",
-      "name": "",
-      "rep": "Luis Danny Franco",
-      "loanAmount": 61600,
-      "loanType": "DSCR - Purchase",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-09T16:18:55.984Z"
     }
   ]
 }
