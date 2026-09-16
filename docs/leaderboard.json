@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-09-16T19:56:45.816Z",
+  "updatedAt": "2026-09-16T22:38:28.853Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 151038611,
-      "loans": 468
+      "loanAmount": 151147361,
+      "loans": 469
     },
     "month": {
-      "loanAmount": 30668101,
-      "loans": 88
+      "loanAmount": 30776851,
+      "loans": 89
     }
   },
   "reps": [
@@ -150,12 +150,12 @@
     {
       "name": "Lindsay Milano",
       "year": {
-        "loanAmount": 31112538,
-        "loans": 50
+        "loanAmount": 31221288,
+        "loans": 51
       },
       "month": {
-        "loanAmount": 504000,
-        "loans": 1
+        "loanAmount": 612750,
+        "loans": 2
       }
     },
     {
@@ -370,6 +370,17 @@
       }
     },
     {
+      "name": "Ankit Nayak",
+      "year": {
+        "loanAmount": 108750,
+        "loans": 1
+      },
+      "month": {
+        "loanAmount": 108750,
+        "loans": 1
+      }
+    },
+    {
       "name": "Cole Dressler",
       "year": {
         "loanAmount": 116100,
@@ -493,6 +504,24 @@
   ],
   "latest": [
     {
+      "id": "Y0mh4I6uRM5iaNNS5bfk",
+      "name": "",
+      "rep": "Lindsay Milano",
+      "loanAmount": 108750,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-16T20:08:17.115Z"
+    },
+    {
+      "id": "NvyiV0zGgStWhyF4yuwh",
+      "name": "",
+      "rep": "Lindsay Milano",
+      "loanAmount": 504000,
+      "loanType": "DSCR - Purchase",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-16T20:07:51.528Z"
+    },
+    {
       "id": "yuS6Ql3ziBtcXgzGVlK1",
       "name": "",
       "rep": "Gabriel Giordano",
@@ -536,15 +565,6 @@
       "loanType": "DSCR - R/T",
       "stage": "Closed",
       "closedAt": "2026-09-11T19:00:05.188Z"
-    },
-    {
-      "id": "NvyiV0zGgStWhyF4yuwh",
-      "name": "",
-      "rep": "Lindsay Milano",
-      "loanAmount": 504000,
-      "loanType": "DSCR - Purchase",
-      "stage": "Closed",
-      "closedAt": "2026-09-10T23:38:44.578Z"
     }
   ]
 }
