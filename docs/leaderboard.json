@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-09-17T15:07:16.511Z",
+  "updatedAt": "2026-09-17T19:00:19.535Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 151327361,
-      "loans": 470
+      "loanAmount": 152520161,
+      "loans": 472
     },
     "month": {
-      "loanAmount": 30956851,
-      "loans": 90
+      "loanAmount": 32149651,
+      "loans": 92
     }
   },
   "reps": [
@@ -128,12 +128,12 @@
     {
       "name": "Luis Danny Franco",
       "year": {
-        "loanAmount": 5206813,
-        "loans": 14
+        "loanAmount": 6399613,
+        "loans": 16
       },
       "month": {
-        "loanAmount": 248500,
-        "loans": 2
+        "loanAmount": 1441300,
+        "loans": 4
       }
     },
     {
@@ -339,12 +339,12 @@
     {
       "name": "Adam Epperson",
       "year": {
-        "loanAmount": 14479458,
-        "loans": 46
+        "loanAmount": 15559458,
+        "loans": 47
       },
       "month": {
-        "loanAmount": 5413850,
-        "loans": 11
+        "loanAmount": 6493850,
+        "loans": 12
       }
     },
     {
@@ -370,6 +370,17 @@
       }
     },
     {
+      "name": "Cole Dressler",
+      "year": {
+        "loanAmount": 228900,
+        "loans": 2
+      },
+      "month": {
+        "loanAmount": 112800,
+        "loans": 1
+      }
+    },
+    {
       "name": "Ankit Nayak",
       "year": {
         "loanAmount": 108750,
@@ -378,17 +389,6 @@
       "month": {
         "loanAmount": 108750,
         "loans": 1
-      }
-    },
-    {
-      "name": "Cole Dressler",
-      "year": {
-        "loanAmount": 116100,
-        "loans": 1
-      },
-      "month": {
-        "loanAmount": 0,
-        "loans": 0
       }
     },
     {
@@ -503,6 +503,24 @@
     }
   ],
   "latest": [
+    {
+      "id": "GtDD2MycWQtcOtyRAhfr",
+      "name": "",
+      "rep": "Luis Danny Franco",
+      "loanAmount": 1080000,
+      "loanType": "Bank Statement",
+      "stage": "Closed",
+      "closedAt": "2026-09-17T18:05:01.262Z"
+    },
+    {
+      "id": "LMmgQPXaXczNinggJqHR",
+      "name": "",
+      "rep": "Luis Danny Franco",
+      "loanAmount": 112800,
+      "loanType": "Fix & Flip",
+      "stage": "Closed",
+      "closedAt": "2026-09-17T18:04:35.581Z"
+    },
     {
       "id": "XNP9GE3frsr7xt3ftcuR",
       "name": "",
