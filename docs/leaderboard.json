@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-09-18T21:50:46.554Z",
+  "updatedAt": "2026-09-18T23:40:05.311Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 152952562,
-      "loans": 475
+      "loanAmount": 153821562,
+      "loans": 477
     },
     "month": {
-      "loanAmount": 32582052,
-      "loans": 95
+      "loanAmount": 33451052,
+      "loans": 97
     }
   },
   "reps": [
@@ -84,12 +84,12 @@
     {
       "name": "Raj Vora",
       "year": {
-        "loanAmount": 6218221,
-        "loans": 24
+        "loanAmount": 6562221,
+        "loans": 25
       },
       "month": {
-        "loanAmount": 1303250,
-        "loans": 3
+        "loanAmount": 1647250,
+        "loans": 4
       }
     },
     {
@@ -183,12 +183,12 @@
     {
       "name": "Christopher LaFlesh",
       "year": {
-        "loanAmount": 2713101,
-        "loans": 12
+        "loanAmount": 3238101,
+        "loans": 13
       },
       "month": {
-        "loanAmount": 747551,
-        "loans": 1
+        "loanAmount": 1272551,
+        "loans": 2
       }
     },
     {
@@ -328,12 +328,12 @@
     {
       "name": "Brandi Smith",
       "year": {
-        "loanAmount": 26078021,
-        "loans": 90
+        "loanAmount": 26947021,
+        "loans": 92
       },
       "month": {
-        "loanAmount": 8539770,
-        "loans": 26
+        "loanAmount": 9408770,
+        "loans": 28
       }
     },
     {
@@ -504,6 +504,33 @@
   ],
   "latest": [
     {
+      "id": "XNP9GE3frsr7xt3ftcuR",
+      "name": "",
+      "rep": "Nick DeLaCruz",
+      "loanAmount": 180000,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-18T22:52:16.664Z"
+    },
+    {
+      "id": "bwMxQtfhHp01ZlTFqDah",
+      "name": "",
+      "rep": "Christopher LaFlesh",
+      "loanAmount": 525000,
+      "loanType": "DSCR - R/T",
+      "stage": "Closed",
+      "closedAt": "2026-09-18T22:08:22.677Z"
+    },
+    {
+      "id": "iyN9oPqHnwWJOU69zwak",
+      "name": "",
+      "rep": "Raj Vora",
+      "loanAmount": 344000,
+      "loanType": "DSCR - Purchase",
+      "stage": "Closed",
+      "closedAt": "2026-09-18T22:08:15.238Z"
+    },
+    {
       "id": "Ukajnymxteru1YSrQrCX",
       "name": "",
       "rep": "Nicole Lavau",
@@ -556,15 +583,6 @@
       "loanType": "Fix & Flip",
       "stage": "Closed",
       "closedAt": "2026-09-17T18:04:35.581Z"
-    },
-    {
-      "id": "XNP9GE3frsr7xt3ftcuR",
-      "name": "",
-      "rep": "Nick DeLaCruz",
-      "loanAmount": 180000,
-      "loanType": "DSCR - C/O",
-      "stage": "Closed",
-      "closedAt": "2026-09-16T23:53:06.111Z"
     },
     {
       "id": "Y0mh4I6uRM5iaNNS5bfk",
