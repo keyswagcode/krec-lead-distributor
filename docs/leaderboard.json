@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-09-18T13:36:00.745Z",
+  "updatedAt": "2026-09-18T17:11:30.989Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 152520161,
-      "loans": 472
+      "loanAmount": 152952562,
+      "loans": 475
     },
     "month": {
-      "loanAmount": 32149651,
-      "loans": 92
+      "loanAmount": 32582052,
+      "loans": 95
     }
   },
   "reps": [
     {
       "name": "Daniel Frank",
       "year": {
-        "loanAmount": 4659900,
+        "loanAmount": 4755900,
         "loans": 11
       },
       "month": {
-        "loanAmount": 2380900,
+        "loanAmount": 2476900,
         "loans": 4
       }
     },
@@ -128,23 +128,23 @@
     {
       "name": "Luis Danny Franco",
       "year": {
-        "loanAmount": 6399613,
-        "loans": 16
+        "loanAmount": 6560613,
+        "loans": 18
       },
       "month": {
-        "loanAmount": 1441300,
-        "loans": 4
+        "loanAmount": 1602300,
+        "loans": 6
       }
     },
     {
       "name": "Nicole Lavau",
       "year": {
-        "loanAmount": 17796476,
-        "loans": 27
+        "loanAmount": 17971877,
+        "loans": 28
       },
       "month": {
-        "loanAmount": 3703000,
-        "loans": 6
+        "loanAmount": 3878401,
+        "loans": 7
       }
     },
     {
@@ -339,11 +339,11 @@
     {
       "name": "Adam Epperson",
       "year": {
-        "loanAmount": 15559458,
+        "loanAmount": 15655458,
         "loans": 47
       },
       "month": {
-        "loanAmount": 6493850,
+        "loanAmount": 6589850,
         "loans": 12
       }
     },
@@ -361,12 +361,12 @@
     {
       "name": "Jillian Haines",
       "year": {
-        "loanAmount": 10498190,
-        "loans": 22
+        "loanAmount": 10558190,
+        "loans": 23
       },
       "month": {
-        "loanAmount": 2511900,
-        "loans": 7
+        "loanAmount": 2571900,
+        "loans": 8
       }
     },
     {
@@ -400,6 +400,17 @@
       "month": {
         "loanAmount": 94410,
         "loans": 1
+      }
+    },
+    {
+      "name": "Melissa Boyle",
+      "year": {
+        "loanAmount": 265401,
+        "loans": 2
+      },
+      "month": {
+        "loanAmount": 265401,
+        "loans": 2
       }
     },
     {
@@ -458,17 +469,6 @@
       }
     },
     {
-      "name": "Melissa Boyle",
-      "year": {
-        "loanAmount": 90000,
-        "loans": 1
-      },
-      "month": {
-        "loanAmount": 90000,
-        "loans": 1
-      }
-    },
-    {
       "name": "Josh Papazis",
       "year": {
         "loanAmount": 242981,
@@ -503,6 +503,42 @@
     }
   ],
   "latest": [
+    {
+      "id": "Ukajnymxteru1YSrQrCX",
+      "name": "",
+      "rep": "Nicole Lavau",
+      "loanAmount": 175401,
+      "loanType": "Fix & Flip",
+      "stage": "Closed",
+      "closedAt": "2026-09-18T15:27:33.087Z"
+    },
+    {
+      "id": "YM9WpVmHdPJYTV9LpfkZ",
+      "name": "",
+      "rep": "Luis Danny Franco",
+      "loanAmount": 60000,
+      "loanType": "DSCR - Purchase",
+      "stage": "Closed",
+      "closedAt": "2026-09-18T15:02:20.807Z"
+    },
+    {
+      "id": "uSkaVbGjSnI4Q0uA7inV",
+      "name": "",
+      "rep": "Luis Danny Franco",
+      "loanAmount": 101000,
+      "loanType": "DSCR - Purchase",
+      "stage": "Closed",
+      "closedAt": "2026-09-18T15:02:19.240Z"
+    },
+    {
+      "id": "m5R4yuqIuzS7tZRChXw3",
+      "name": "",
+      "rep": "Daniel Frank",
+      "loanAmount": 624000,
+      "loanType": "DSCR - R/T",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-18T14:11:46.255Z"
+    },
     {
       "id": "GtDD2MycWQtcOtyRAhfr",
       "name": "",
@@ -565,15 +601,6 @@
       "loanType": "DSCR - C/O",
       "stage": "Closed",
       "closedAt": "2026-09-15T16:38:48.527Z"
-    },
-    {
-      "id": "m5R4yuqIuzS7tZRChXw3",
-      "name": "",
-      "rep": "Daniel Frank",
-      "loanAmount": 624000,
-      "loanType": "DSCR - R/T",
-      "stage": "Closed",
-      "closedAt": "2026-09-14T22:24:58.973Z"
     },
     {
       "id": "XFwrZ7OJdVVfd41GViNI",
