@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T00:05:25.860Z",
+  "updatedAt": "2026-09-18T04:35:23.772Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
@@ -392,6 +392,17 @@
       }
     },
     {
+      "name": "Kyle Eberts",
+      "year": {
+        "loanAmount": 262410,
+        "loans": 2
+      },
+      "month": {
+        "loanAmount": 94410,
+        "loans": 1
+      }
+    },
+    {
       "name": "Gracey Reingold",
       "year": {
         "loanAmount": 1577589,
@@ -428,17 +439,6 @@
       "name": "Maru Biess",
       "year": {
         "loanAmount": 257200,
-        "loans": 1
-      },
-      "month": {
-        "loanAmount": 0,
-        "loans": 0
-      }
-    },
-    {
-      "name": "Kyle Eberts",
-      "year": {
-        "loanAmount": 168000,
         "loans": 1
       },
       "month": {
