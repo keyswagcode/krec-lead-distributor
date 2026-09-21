@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-09-21T10:54:04.934Z",
+  "updatedAt": "2026-09-21T16:42:41.151Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 153821562,
-      "loans": 477
+      "loanAmount": 154217562,
+      "loans": 478
     },
     "month": {
-      "loanAmount": 33451052,
-      "loans": 97
+      "loanAmount": 33847052,
+      "loans": 98
     }
   },
   "reps": [
@@ -161,12 +161,12 @@
     {
       "name": "Mathieu StGermain",
       "year": {
-        "loanAmount": 3682310,
-        "loans": 16
+        "loanAmount": 4078310,
+        "loans": 17
       },
       "month": {
-        "loanAmount": 2974010,
-        "loans": 11
+        "loanAmount": 3370010,
+        "loans": 12
       }
     },
     {
@@ -503,6 +503,15 @@
     }
   ],
   "latest": [
+    {
+      "id": "B4TfmRPNKWT04xvL3vsR",
+      "name": "",
+      "rep": "Mathieu StGermain",
+      "loanAmount": 396000,
+      "loanType": "Fix & Flip",
+      "stage": "Closed",
+      "closedAt": "2026-09-21T16:39:51.858Z"
+    },
     {
       "id": "XNP9GE3frsr7xt3ftcuR",
       "name": "",
