@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-09-21T16:42:41.151Z",
+  "updatedAt": "2026-09-21T20:38:40.009Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 154217562,
-      "loans": 478
+      "loanAmount": 154449057,
+      "loans": 479
     },
     "month": {
-      "loanAmount": 33847052,
-      "loans": 98
+      "loanAmount": 34078547,
+      "loans": 99
     }
   },
   "reps": [
@@ -84,12 +84,12 @@
     {
       "name": "Raj Vora",
       "year": {
-        "loanAmount": 6562221,
-        "loans": 25
+        "loanAmount": 6793716,
+        "loans": 26
       },
       "month": {
-        "loanAmount": 1647250,
-        "loans": 4
+        "loanAmount": 1878745,
+        "loans": 5
       }
     },
     {
@@ -306,12 +306,12 @@
     {
       "name": "Daisy Mondragon",
       "year": {
-        "loanAmount": 48990699,
-        "loans": 139
+        "loanAmount": 49222194,
+        "loans": 140
       },
       "month": {
-        "loanAmount": 11517498,
-        "loans": 29
+        "loanAmount": 11748993,
+        "loans": 30
       }
     },
     {
@@ -503,6 +503,33 @@
     }
   ],
   "latest": [
+    {
+      "id": "1G8yw9HVBuE7nBdtqTAR",
+      "name": "",
+      "rep": "Bailey Girouard",
+      "loanAmount": 202500,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-21T18:09:32.070Z"
+    },
+    {
+      "id": "EJPUOC0uobX8ETTaFKrl",
+      "name": "",
+      "rep": "Bailey Girouard",
+      "loanAmount": 168620,
+      "loanType": "Fix & Flip",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-21T18:09:31.262Z"
+    },
+    {
+      "id": "h3OftoPIkVnMFC8c9Rn2",
+      "name": "",
+      "rep": "Raj Vora",
+      "loanAmount": 231495,
+      "loanType": "Ground Up Construction",
+      "stage": "Closed",
+      "closedAt": "2026-09-21T16:49:01.201Z"
+    },
     {
       "id": "B4TfmRPNKWT04xvL3vsR",
       "name": "",
