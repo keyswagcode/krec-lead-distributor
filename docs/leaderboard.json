@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T12:09:06.441Z",
+  "updatedAt": "2026-09-22T16:54:48.869Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
@@ -646,15 +646,6 @@
       "loanType": "DSCR - R/T",
       "stage": "Closed",
       "closedAt": "2026-09-15T19:18:26.625Z"
-    },
-    {
-      "id": "NJlWV9ayefrlNJbV3q55",
-      "name": "",
-      "rep": "Hazel Wilder",
-      "loanAmount": 70500,
-      "loanType": "DSCR - C/O",
-      "stage": "Closed",
-      "closedAt": "2026-09-15T16:38:48.527Z"
     }
   ]
 }
