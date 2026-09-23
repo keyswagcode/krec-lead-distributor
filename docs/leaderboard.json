@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-09-23T15:05:54.154Z",
+  "updatedAt": "2026-09-23T19:01:24.680Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 155347807,
-      "loans": 481
+      "loanAmount": 155910807,
+      "loans": 483
     },
     "month": {
-      "loanAmount": 34977297,
-      "loans": 101
+      "loanAmount": 35540297,
+      "loans": 103
     }
   },
   "reps": [
@@ -205,12 +205,12 @@
     {
       "name": "Samuel Vickrey",
       "year": {
-        "loanAmount": 1107755,
-        "loans": 11
+        "loanAmount": 1482755,
+        "loans": 12
       },
       "month": {
-        "loanAmount": 234585,
-        "loans": 4
+        "loanAmount": 609585,
+        "loans": 5
       }
     },
     {
@@ -282,12 +282,12 @@
     {
       "name": "Gabriel Giordano",
       "year": {
-        "loanAmount": 442500,
-        "loans": 2
+        "loanAmount": 630500,
+        "loans": 3
       },
       "month": {
-        "loanAmount": 178500,
-        "loans": 1
+        "loanAmount": 366500,
+        "loans": 2
       }
     }
   ],
@@ -339,12 +339,12 @@
     {
       "name": "Adam Epperson",
       "year": {
-        "loanAmount": 16554208,
-        "loans": 49
+        "loanAmount": 17117208,
+        "loans": 51
       },
       "month": {
-        "loanAmount": 7488600,
-        "loans": 14
+        "loanAmount": 8051600,
+        "loans": 16
       }
     },
     {
@@ -504,6 +504,42 @@
   ],
   "latest": [
     {
+      "id": "uNVi9M27PmGDMW457Hlm",
+      "name": "",
+      "rep": "Samuel Vickrey",
+      "loanAmount": 375000,
+      "loanType": "DSCR - C/O",
+      "stage": "Closed",
+      "closedAt": "2026-09-23T18:49:16.968Z"
+    },
+    {
+      "id": "byhYkJ31JDTCZQoewvaX",
+      "name": "",
+      "rep": "Gabriel Giordano",
+      "loanAmount": 188000,
+      "loanType": "DSCR - R/T",
+      "stage": "Closed",
+      "closedAt": "2026-09-23T16:33:13.967Z"
+    },
+    {
+      "id": "yuS6Ql3ziBtcXgzGVlK1",
+      "name": "",
+      "rep": "Gabriel Giordano",
+      "loanAmount": 178500,
+      "loanType": "DSCR - R/T",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-23T16:32:44.620Z"
+    },
+    {
+      "id": "hFHdVcdUD2Ev4WWB6i01",
+      "name": "",
+      "rep": "Ryan McCoy",
+      "loanAmount": 760000,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-23T16:32:02.825Z"
+    },
+    {
       "id": "iyN9oPqHnwWJOU69zwak",
       "name": "",
       "rep": "Raj Vora",
@@ -538,15 +574,6 @@
       "loanType": "DSCR - C/O",
       "stage": "Wire Received",
       "closedAt": "2026-09-22T20:10:08.181Z"
-    },
-    {
-      "id": "hFHdVcdUD2Ev4WWB6i01",
-      "name": "",
-      "rep": "Ryan McCoy",
-      "loanAmount": 760000,
-      "loanType": "DSCR - C/O",
-      "stage": "Closed",
-      "closedAt": "2026-09-22T20:09:41.180Z"
     },
     {
       "id": "1G8yw9HVBuE7nBdtqTAR",
