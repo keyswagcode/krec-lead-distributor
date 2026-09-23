@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-09-23T19:01:24.680Z",
+  "updatedAt": "2026-09-23T22:12:03.628Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 155910807,
-      "loans": 483
+      "loanAmount": 156008388,
+      "loans": 484
     },
     "month": {
-      "loanAmount": 35540297,
-      "loans": 103
+      "loanAmount": 35637878,
+      "loans": 104
     }
   },
   "reps": [
@@ -51,12 +51,12 @@
     {
       "name": "Bailey Girouard",
       "year": {
-        "loanAmount": 8301000,
-        "loans": 38
+        "loanAmount": 8398581,
+        "loans": 39
       },
       "month": {
-        "loanAmount": 371120,
-        "loans": 2
+        "loanAmount": 468701,
+        "loans": 3
       }
     },
     {
@@ -328,12 +328,12 @@
     {
       "name": "Brandi Smith",
       "year": {
-        "loanAmount": 26947021,
-        "loans": 92
+        "loanAmount": 27044602,
+        "loans": 93
       },
       "month": {
-        "loanAmount": 9408770,
-        "loans": 28
+        "loanAmount": 9506351,
+        "loans": 29
       }
     },
     {
@@ -394,12 +394,12 @@
     {
       "name": "Kyle Eberts",
       "year": {
-        "loanAmount": 262410,
-        "loans": 2
+        "loanAmount": 359991,
+        "loans": 3
       },
       "month": {
-        "loanAmount": 94410,
-        "loans": 1
+        "loanAmount": 191991,
+        "loans": 2
       }
     },
     {
@@ -504,6 +504,33 @@
   ],
   "latest": [
     {
+      "id": "byhYkJ31JDTCZQoewvaX",
+      "name": "",
+      "rep": "Gabriel Giordano",
+      "loanAmount": 188000,
+      "loanType": "DSCR - R/T",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-23T22:05:56.729Z"
+    },
+    {
+      "id": "GtDD2MycWQtcOtyRAhfr",
+      "name": "",
+      "rep": "Luis Danny Franco",
+      "loanAmount": 1080000,
+      "loanType": "Bank Statement",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-23T22:05:52.533Z"
+    },
+    {
+      "id": "dS9BHUGa9FXU1BuFaXav",
+      "name": "",
+      "rep": "Bailey Girouard",
+      "loanAmount": 97581,
+      "loanType": "Fix & Flip",
+      "stage": "Closed",
+      "closedAt": "2026-09-23T20:40:16.776Z"
+    },
+    {
       "id": "uNVi9M27PmGDMW457Hlm",
       "name": "",
       "rep": "Samuel Vickrey",
@@ -511,15 +538,6 @@
       "loanType": "DSCR - C/O",
       "stage": "Closed",
       "closedAt": "2026-09-23T18:49:16.968Z"
-    },
-    {
-      "id": "byhYkJ31JDTCZQoewvaX",
-      "name": "",
-      "rep": "Gabriel Giordano",
-      "loanAmount": 188000,
-      "loanType": "DSCR - R/T",
-      "stage": "Closed",
-      "closedAt": "2026-09-23T16:33:13.967Z"
     },
     {
       "id": "yuS6Ql3ziBtcXgzGVlK1",
@@ -666,15 +684,6 @@
       "closedAt": "2026-09-18T14:11:46.255Z"
     },
     {
-      "id": "GtDD2MycWQtcOtyRAhfr",
-      "name": "",
-      "rep": "Luis Danny Franco",
-      "loanAmount": 1080000,
-      "loanType": "Bank Statement",
-      "stage": "Closed",
-      "closedAt": "2026-09-17T18:05:01.262Z"
-    },
-    {
       "id": "LMmgQPXaXczNinggJqHR",
       "name": "",
       "rep": "Luis Danny Franco",
@@ -682,24 +691,6 @@
       "loanType": "Fix & Flip",
       "stage": "Closed",
       "closedAt": "2026-09-17T18:04:35.581Z"
-    },
-    {
-      "id": "Y0mh4I6uRM5iaNNS5bfk",
-      "name": "",
-      "rep": "Lindsay Milano",
-      "loanAmount": 108750,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-16T20:08:17.115Z"
-    },
-    {
-      "id": "NvyiV0zGgStWhyF4yuwh",
-      "name": "",
-      "rep": "Lindsay Milano",
-      "loanAmount": 504000,
-      "loanType": "DSCR - Purchase",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-16T20:07:51.528Z"
     }
   ]
 }
