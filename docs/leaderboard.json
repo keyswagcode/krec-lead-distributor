@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-09-25T15:20:57.242Z",
+  "updatedAt": "2026-09-25T19:21:23.867Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 156068388,
-      "loans": 485
+      "loanAmount": 156518388,
+      "loans": 487
     },
     "month": {
-      "loanAmount": 35697878,
-      "loans": 105
+      "loanAmount": 36147878,
+      "loans": 107
     }
   },
   "reps": [
@@ -51,12 +51,12 @@
     {
       "name": "Bailey Girouard",
       "year": {
-        "loanAmount": 8398581,
-        "loans": 39
+        "loanAmount": 8698581,
+        "loans": 40
       },
       "month": {
-        "loanAmount": 468701,
-        "loans": 3
+        "loanAmount": 768701,
+        "loans": 4
       }
     },
     {
@@ -205,12 +205,12 @@
     {
       "name": "Samuel Vickrey",
       "year": {
-        "loanAmount": 1482755,
-        "loans": 12
+        "loanAmount": 1632755,
+        "loans": 13
       },
       "month": {
-        "loanAmount": 609585,
-        "loans": 5
+        "loanAmount": 759585,
+        "loans": 6
       }
     },
     {
@@ -328,23 +328,23 @@
     {
       "name": "Brandi Smith",
       "year": {
-        "loanAmount": 27044602,
-        "loans": 93
+        "loanAmount": 27344602,
+        "loans": 94
       },
       "month": {
-        "loanAmount": 9506351,
-        "loans": 29
+        "loanAmount": 9806351,
+        "loans": 30
       }
     },
     {
       "name": "Adam Epperson",
       "year": {
-        "loanAmount": 17117208,
-        "loans": 51
+        "loanAmount": 17267208,
+        "loans": 52
       },
       "month": {
-        "loanAmount": 8051600,
-        "loans": 16
+        "loanAmount": 8201600,
+        "loans": 17
       }
     },
     {
@@ -504,6 +504,33 @@
   ],
   "latest": [
     {
+      "id": "bPHDC4kKMzbSAzDnczVh",
+      "name": "",
+      "rep": "Samuel Vickrey",
+      "loanAmount": 150000,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-25T16:58:00.603Z"
+    },
+    {
+      "id": "uNVi9M27PmGDMW457Hlm",
+      "name": "",
+      "rep": "Samuel Vickrey",
+      "loanAmount": 375000,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-25T16:57:45.068Z"
+    },
+    {
+      "id": "BpO26kdzgMdQJbrUA0AR",
+      "name": "",
+      "rep": "Bailey Girouard",
+      "loanAmount": 300000,
+      "loanType": "DSCR - C/O",
+      "stage": "Closed",
+      "closedAt": "2026-09-25T15:57:56.137Z"
+    },
+    {
       "id": "7Lu56IC0uddz0d4mAuPn",
       "name": "",
       "rep": "Lindsay Milano",
@@ -538,15 +565,6 @@
       "loanType": "Fix & Flip",
       "stage": "Closed",
       "closedAt": "2026-09-23T20:40:16.776Z"
-    },
-    {
-      "id": "uNVi9M27PmGDMW457Hlm",
-      "name": "",
-      "rep": "Samuel Vickrey",
-      "loanAmount": 375000,
-      "loanType": "DSCR - C/O",
-      "stage": "Closed",
-      "closedAt": "2026-09-23T18:49:16.968Z"
     },
     {
       "id": "yuS6Ql3ziBtcXgzGVlK1",
@@ -655,15 +673,6 @@
       "loanType": "DSCR - R/T",
       "stage": "Closed",
       "closedAt": "2026-09-18T22:08:22.677Z"
-    },
-    {
-      "id": "Ukajnymxteru1YSrQrCX",
-      "name": "",
-      "rep": "Nicole Lavau",
-      "loanAmount": 175401,
-      "loanType": "Fix & Flip",
-      "stage": "Closed",
-      "closedAt": "2026-09-18T15:27:33.087Z"
     }
   ]
 }
