@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-09-25T19:21:23.867Z",
+  "updatedAt": "2026-09-25T22:32:22.945Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 156518388,
-      "loans": 487
+      "loanAmount": 157194028,
+      "loans": 489
     },
     "month": {
-      "loanAmount": 36147878,
-      "loans": 107
+      "loanAmount": 36823518,
+      "loans": 109
     }
   },
   "reps": [
@@ -139,12 +139,12 @@
     {
       "name": "Nicole Lavau",
       "year": {
-        "loanAmount": 17971877,
-        "loans": 28
+        "loanAmount": 18647517,
+        "loans": 30
       },
       "month": {
-        "loanAmount": 3878401,
-        "loans": 7
+        "loanAmount": 4554041,
+        "loans": 9
       }
     },
     {
@@ -306,12 +306,12 @@
     {
       "name": "Daisy Mondragon",
       "year": {
-        "loanAmount": 49222194,
-        "loans": 140
+        "loanAmount": 49897834,
+        "loans": 142
       },
       "month": {
-        "loanAmount": 11748993,
-        "loans": 30
+        "loanAmount": 12424633,
+        "loans": 32
       }
     },
     {
@@ -416,12 +416,12 @@
     {
       "name": "Gracey Reingold",
       "year": {
-        "loanAmount": 1577589,
-        "loans": 6
+        "loanAmount": 2253229,
+        "loans": 8
       },
       "month": {
-        "loanAmount": 167250,
-        "loans": 2
+        "loanAmount": 842890,
+        "loans": 4
       }
     },
     {
@@ -503,6 +503,33 @@
     }
   ],
   "latest": [
+    {
+      "id": "5xHSHNpc9Gv5omQBTl00",
+      "name": "",
+      "rep": "Nicole Lavau",
+      "loanAmount": 337820,
+      "loanType": "Ground Up Construction",
+      "stage": "Closed",
+      "closedAt": "2026-09-25T22:09:55.218Z"
+    },
+    {
+      "id": "R6FP3frBTPF6r6aH1jl0",
+      "name": "",
+      "rep": "Nicole Lavau",
+      "loanAmount": 337820,
+      "loanType": "Ground Up Construction",
+      "stage": "Closed",
+      "closedAt": "2026-09-25T22:09:53.139Z"
+    },
+    {
+      "id": "Ukajnymxteru1YSrQrCX",
+      "name": "",
+      "rep": "Nicole Lavau",
+      "loanAmount": 175401,
+      "loanType": "Fix & Flip",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-25T22:09:43.218Z"
+    },
     {
       "id": "bPHDC4kKMzbSAzDnczVh",
       "name": "",
@@ -664,15 +691,6 @@
       "loanType": "DSCR - C/O",
       "stage": "Wire Received",
       "closedAt": "2026-09-18T22:52:16.664Z"
-    },
-    {
-      "id": "bwMxQtfhHp01ZlTFqDah",
-      "name": "",
-      "rep": "Christopher LaFlesh",
-      "loanAmount": 525000,
-      "loanType": "DSCR - R/T",
-      "stage": "Closed",
-      "closedAt": "2026-09-18T22:08:22.677Z"
     }
   ]
 }
