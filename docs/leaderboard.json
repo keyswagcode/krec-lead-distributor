@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T22:32:22.945Z",
+  "updatedAt": "2026-09-26T00:50:15.203Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
@@ -682,15 +682,6 @@
       "loanType": "Fix & Flip",
       "stage": "Closed",
       "closedAt": "2026-09-21T16:39:51.858Z"
-    },
-    {
-      "id": "XNP9GE3frsr7xt3ftcuR",
-      "name": "",
-      "rep": "Nick DeLaCruz",
-      "loanAmount": 180000,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-18T22:52:16.664Z"
     }
   ]
 }
