@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-09-28T15:51:49.534Z",
+  "updatedAt": "2026-09-28T21:25:50.359Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 157194028,
-      "loans": 489
+      "loanAmount": 157733293,
+      "loans": 491
     },
     "month": {
-      "loanAmount": 36823518,
-      "loans": 109
+      "loanAmount": 37362783,
+      "loans": 111
     }
   },
   "reps": [
@@ -271,12 +271,12 @@
     {
       "name": "Nick DeLaCruz",
       "year": {
-        "loanAmount": 2693723,
-        "loans": 6
+        "loanAmount": 3232988,
+        "loans": 8
       },
       "month": {
-        "loanAmount": 399520,
-        "loans": 2
+        "loanAmount": 938785,
+        "loans": 4
       }
     },
     {
@@ -328,12 +328,12 @@
     {
       "name": "Brandi Smith",
       "year": {
-        "loanAmount": 27344602,
-        "loans": 94
+        "loanAmount": 27714352,
+        "loans": 95
       },
       "month": {
-        "loanAmount": 9806351,
-        "loans": 30
+        "loanAmount": 10176101,
+        "loans": 31
       }
     },
     {
@@ -504,6 +504,24 @@
   ],
   "latest": [
     {
+      "id": "cMJs5tQiMS6rAS6C42PZ",
+      "name": "",
+      "rep": "Nick DeLaCruz",
+      "loanAmount": 169515,
+      "loanType": "Fix & Flip",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-28T19:44:50.237Z"
+    },
+    {
+      "id": "d4Lsn294wnGKeaVObVTi",
+      "name": "",
+      "rep": "Nick DeLaCruz",
+      "loanAmount": 369750,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-28T19:43:15.111Z"
+    },
+    {
       "id": "YM9WpVmHdPJYTV9LpfkZ",
       "name": "",
       "rep": "Luis Danny Franco",
@@ -673,42 +691,6 @@
       "loanType": "DSCR - C/O",
       "stage": "Wire Received",
       "closedAt": "2026-09-22T20:10:08.181Z"
-    },
-    {
-      "id": "1G8yw9HVBuE7nBdtqTAR",
-      "name": "",
-      "rep": "Bailey Girouard",
-      "loanAmount": 202500,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-21T18:09:32.070Z"
-    },
-    {
-      "id": "EJPUOC0uobX8ETTaFKrl",
-      "name": "",
-      "rep": "Bailey Girouard",
-      "loanAmount": 168620,
-      "loanType": "Fix & Flip",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-21T18:09:31.262Z"
-    },
-    {
-      "id": "h3OftoPIkVnMFC8c9Rn2",
-      "name": "",
-      "rep": "Raj Vora",
-      "loanAmount": 231495,
-      "loanType": "Ground Up Construction",
-      "stage": "Closed",
-      "closedAt": "2026-09-21T16:49:01.201Z"
-    },
-    {
-      "id": "B4TfmRPNKWT04xvL3vsR",
-      "name": "",
-      "rep": "Mathieu StGermain",
-      "loanAmount": 396000,
-      "loanType": "Fix & Flip",
-      "stage": "Closed",
-      "closedAt": "2026-09-21T16:39:51.858Z"
     }
   ]
 }
