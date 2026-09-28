@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T07:33:11.844Z",
+  "updatedAt": "2026-09-28T15:51:49.534Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
@@ -504,6 +504,42 @@
   ],
   "latest": [
     {
+      "id": "YM9WpVmHdPJYTV9LpfkZ",
+      "name": "",
+      "rep": "Luis Danny Franco",
+      "loanAmount": 60000,
+      "loanType": "DSCR - Purchase",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-28T15:03:50.831Z"
+    },
+    {
+      "id": "uSkaVbGjSnI4Q0uA7inV",
+      "name": "",
+      "rep": "Luis Danny Franco",
+      "loanAmount": 101000,
+      "loanType": "DSCR - Purchase",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-28T15:03:49.756Z"
+    },
+    {
+      "id": "LMmgQPXaXczNinggJqHR",
+      "name": "",
+      "rep": "Luis Danny Franco",
+      "loanAmount": 112800,
+      "loanType": "Fix & Flip",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-28T15:03:48.811Z"
+    },
+    {
+      "id": "dS9BHUGa9FXU1BuFaXav",
+      "name": "",
+      "rep": "Bailey Girouard",
+      "loanAmount": 97581,
+      "loanType": "Fix & Flip",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-28T14:05:31.911Z"
+    },
+    {
       "id": "5xHSHNpc9Gv5omQBTl00",
       "name": "",
       "rep": "Nicole Lavau",
@@ -583,15 +619,6 @@
       "loanType": "Bank Statement",
       "stage": "Wire Received",
       "closedAt": "2026-09-23T22:05:52.533Z"
-    },
-    {
-      "id": "dS9BHUGa9FXU1BuFaXav",
-      "name": "",
-      "rep": "Bailey Girouard",
-      "loanAmount": 97581,
-      "loanType": "Fix & Flip",
-      "stage": "Closed",
-      "closedAt": "2026-09-23T20:40:16.776Z"
     },
     {
       "id": "yuS6Ql3ziBtcXgzGVlK1",
