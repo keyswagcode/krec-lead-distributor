@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Key Activity Board</title>
+<meta name="robots" content="noindex,nofollow">
+<style>
+  /* ---- tokens: same validated dark palette as the loan scoreboard ---- */
+  :root{
+    --surface:#101318; --panel:#171b22; --panel-2:#20252e; --line:#2b313c;
+    --ink:#ffffff; --ink-2:#c3c2b7; --ink-3:#828a96;
+    --data:#3987e5; --data-2:#199e70; --brand:#e9b83c; --good:#22c55e;
+    --gold:#e9b83c; --silver:#c7cfdc; --bronze:#cd8a52; --call-miss:#25517f;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{background:var(--surface);color:var(--ink);overflow:hidden;cursor:none;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  .num{font-variant-numeric:tabular-nums;font-feature-settings:"tnum"}
+  .aurora{position:fixed;inset:-25%;z-index:0;filter:blur(90px);opacity:.28;pointer-events:none}
+  .blob{position:absolute;width:44vw;height:44vw;border-radius:50%}
+  .b1{background:radial-gradient(circle,#1d4ed8 0%,transparent 65%);top:-8%;left:-6%;animation:d1 30s ease-in-out infinite alternate}
+  .b2{background:radial-gradient(circle,#0e7490 0%,transparent 65%);bottom:-14%;right:-8%;animation:d2 36s ease-in-out infinite alternate}
+  @keyframes d1{to{transform:translate(8vw,6vh) scale(1.15)}}
+  @keyframes d2{to{transform:translate(-7vw,-5vh) scale(.9)}}
+
+  #app{position:relative;z-index:2;display:flex;flex-direction:column;height:calc(100vh - 9vh);padding:2vh 2.2vw 1.6vh;gap:1.4vh}
+  header{display:flex;align-items:center;gap:1vw}
+  .logo{display:flex;align-items:baseline;gap:.5vw;white-space:nowrap}
+  .logo b{font-size:2.6vh;letter-spacing:.16em;color:var(--brand);font-weight:800}
+  .logo span{font-size:2.6vh;letter-spacing:.16em;font-weight:800}
+  .nav{display:flex;gap:.4vw;margin-left:1.2vw}
+  .nav a{cursor:pointer;text-decoration:none;font-size:1.5vh;font-weight:700;letter-spacing:.1em;
+         padding:.5vh .9vw;border-radius:999px;border:1px solid var(--line);color:var(--ink-3)}
+  .nav a.on{background:var(--brand);border-color:var(--brand);color:#14161a}
+  .live{display:flex;align-items:center;gap:.45vw;color:var(--ink-3);font-size:1.5vh;margin-left:.8vw}
+  .livedot{width:.9vh;height:.9vh;border-radius:50%;background:var(--good);animation:pulse 2s infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+  #clock{margin-left:auto;font-size:2.1vh;color:var(--ink-2);font-weight:600}
+
+  .tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:1vw}
+  .tile{background:var(--panel);border:1px solid var(--line);border-radius:1.2vh;padding:1.5vh 1.3vw;animation:in .5s ease both}
+  .tiles .tile:nth-child(2){animation-delay:.07s}.tiles .tile:nth-child(3){animation-delay:.14s}.tiles .tile:nth-child(4){animation-delay:.21s}
+  @keyframes in{from{opacity:0;transform:translateY(12px)}to{opacity:1}}
+  .tile .k{font-size:1.5vh;letter-spacing:.13em;color:var(--ink-3);text-transform:uppercase}
+  .tile .v{font-size:4.4vh;font-weight:800;margin-top:.3vh}
+  .tile .s{font-size:1.6vh;color:var(--ink-2);margin-top:.2vh;min-height:1.6vh}
+  .v.calls{color:var(--data)} .v.sms{color:var(--data-2)} .v.opps{color:var(--brand)}
+
+  main{flex:1;display:grid;grid-template-columns:1fr 1fr 1fr;gap:1vw;min-height:0}
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:1.2vh;padding:1.6vh 1.1vw;display:flex;flex-direction:column;min-height:0;animation:in .55s ease both .1s}
+  .panel h2{font-size:1.75vh;letter-spacing:.14em;color:var(--ink-3);text-transform:uppercase;display:flex;align-items:baseline;gap:.7vw}
+  .panel h2 .hint{margin-left:auto;color:var(--ink-3);font-weight:400;letter-spacing:0;text-transform:none;font-size:1.35vh}
+  .rows{flex:1;display:flex;flex-direction:column;justify-content:space-evenly;min-height:0;margin-top:.4vh}
+  .row{display:grid;grid-template-columns:2.2vw minmax(0,1fr) auto;gap:.7vw;align-items:center}
+  .rank{font-size:2vh;font-weight:800;color:var(--ink-3);text-align:center}
+  .row.r1 .rank{color:var(--gold)} .row.r2 .rank{color:var(--silver)} .row.r3 .rank{color:var(--bronze)}
+  .who{min-width:0}
+  .nm{font-size:1.85vh;font-weight:650;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+  .row.r1 .nm{font-weight:800}
+  .track{position:relative;height:.9vh;background:var(--panel-2);border-radius:.45vh;overflow:hidden;margin-top:.4vh}
+  .fill{position:absolute;inset:0 auto 0 0;border-radius:0 .45vh .45vh 0;min-width:3px}
+  .metric{text-align:right;white-space:nowrap}
+  .metric b{font-size:2vh;font-weight:800}
+  .metric small{display:block;font-size:1.25vh;color:var(--ink-3)}
+  .crown{filter:drop-shadow(0 0 6px rgba(233,184,60,.75))}
+
+  #weekbar{display:flex;align-items:center;background:var(--panel);border-top:2px solid var(--brand);margin:0 -2.2vw -1.6vh;height:9vh;padding:0 2vw;gap:1.4vw}
+  #weekbar .tag{color:var(--brand);font-weight:800;letter-spacing:.12em;font-size:1.6vh;white-space:nowrap}
+  .wk{flex:1;display:flex;align-items:flex-end;gap:1vw;height:6.4vh}
+  .wkcol{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:.3vh;min-width:0}
+  .wkbar{width:100%;max-width:5vw;background:var(--brand);border-radius:.5vh .5vh 0 0;min-height:2px}
+  .wkval{font-size:1.5vh;font-weight:800}
+  .wklab{font-size:1.2vh;color:var(--ink-3);white-space:nowrap}
+</style>
+</head>
+<body>
+<div class="aurora"><div class="blob b1"></div><div class="blob b2"></div></div>
+
+<div id="app">
+  <header>
+    <div class="logo"><b>KEY</b><span>ACTIVITY BOARD</span></div>
+    <nav class="nav"><a href="index.html">LOANS</a><a class="on" href="activity.html">ACTIVITY</a></nav>
+    <div class="live"><span class="livedot"></span><span id="updated">—</span></div>
+    <div id="clock" class="num"></div>
+  </header>
+
+  <section class="tiles">
+    <div class="tile"><div class="k">Calls Dialed</div><div class="v num" id="t-dials">—</div><div class="s" id="t-dials-sub"></div></div>
+    <div class="tile"><div class="k">Calls Connected</div><div class="v num calls" id="t-conn">—</div><div class="s" id="t-conn-sub"></div></div>
+    <div class="tile"><div class="k">Texts Sent</div><div class="v num sms" id="t-sms">—</div><div class="s">by AEs · automation excluded</div></div>
+    <div class="tile"><div class="k">Opps Created</div><div class="v num opps" id="t-opps">—</div><div class="s">Loan Pipeline</div></div>
+  </section>
+
+  <main>
+    <div class="panel"><h2>📞 Calls <span class="hint">dials · connected</span></h2><div class="rows" id="lbCalls"></div></div>
+    <div class="panel"><h2>💬 Texts Sent <span class="hint">manual sends</span></h2><div class="rows" id="lbSms"></div></div>
+    <div class="panel"><h2>🎯 Opps Created <span class="hint">Loan Pipeline</span></h2><div class="rows" id="lbOpps"></div></div>
+  </main>
+</div>
+
+<div id="weekbar">
+  <div class="tag">🎯 OPPS / WEEK</div>
+  <div class="wk" id="wk"></div>
+</div>
+
+<script>
+const fmt=n=>(n||0).toLocaleString("en-US");
+function clock(){document.getElementById("clock").textContent=new Date().toLocaleString("en-US",{weekday:"short",month:"short",day:"numeric",hour:"numeric",minute:"2-digit"});}
+clock(); setInterval(clock,30000);
+
+function board(elId,rows,key,color,fmtRow,N){
+  const rs=rows.filter(r=>(r[key]||0)>0).sort((a,b)=>(b[key]||0)-(a[key]||0)).slice(0,N);
+  const max=Math.max(1,...rs.map(r=>r[key]||0));
+  document.getElementById(elId).innerHTML=rs.map((r,i)=>`
+    <div class="row r${i+1}">
+      <div class="rank num">${i+1}</div>
+      <div class="who"><div class="nm">${r.name}${i===0?' <span class="crown">👑</span>':""}</div>
+        <div class="track"><div class="fill" style="width:${(r[key]||0)/max*100}%;background:${color}"></div></div></div>
+      <div class="metric num">${fmtRow(r)}</div>
+    </div>`).join("");
+}
+
+async function load(){
+  const d=await fetch("activity-data.json",{cache:"no-store"}).then(r=>r.json());
+  const rows=Object.entries(d.aes).map(([name,v])=>({name,...v}));
+  const D=rows.reduce((x,r)=>x+r.d,0),C=rows.reduce((x,r)=>x+r.c,0),
+        S=rows.reduce((x,r)=>x+r.s,0),O=rows.reduce((x,r)=>x+(r.o||0),0);
+  document.getElementById("updated").textContent=`${d.monthLabel} · data as of ${d.updatedAt}`;
+  document.getElementById("t-dials").textContent=fmt(D);
+  document.getElementById("t-dials-sub").textContent=d.monthLabel;
+  document.getElementById("t-conn").textContent=fmt(C);
+  document.getElementById("t-conn-sub").textContent=(D?Math.round(C/D*100):0)+"% connect rate";
+  document.getElementById("t-sms").textContent=fmt(S);
+  document.getElementById("t-opps").textContent=fmt(O);
+  const N=10;
+  board("lbCalls",rows,"d","var(--data)",r=>`<b>${fmt(r.d)}</b><small>${fmt(r.c)} conn · ${r.d?Math.round(r.c/r.d*100):0}%</small>`,N);
+  board("lbSms",rows,"s","var(--data-2)",r=>`<b>${fmt(r.s)}</b><small>texts</small>`,N);
+  board("lbOpps",rows,"o","var(--brand)",r=>`<b>${fmt(r.o||0)}</b><small>opps</small>`,N);
+  const wl=d.weeks.labels,wt=d.weeks.team,max=Math.max(...wt,1);
+  document.getElementById("wk").innerHTML=wl.map((w,i)=>{
+    const lab=new Date(w+"T12:00:00").toLocaleDateString("en-US",{month:"short",day:"numeric"});
+    return `<div class="wkcol"><div class="wkval num">${wt[i]}</div>
+      <div class="wkbar" style="height:${Math.max(wt[i]/max*4.2,0.2)}vh"></div>
+      <div class="wklab">wk of ${lab}</div></div>`;}).join("");
+}
+load();
+// nightly reload (same habit as the loan board)
+setTimeout(()=>location.reload(), (()=>{const n=new Date(),t=new Date(n);t.setHours(28,0,0,0);return t-n;})());
+</script>
+</body>
+</html>

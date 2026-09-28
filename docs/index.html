@@ -32,6 +32,10 @@
   .logo{display:flex;align-items:baseline;gap:.5vw;white-space:nowrap}
   .logo b{font-size:2.6vh;letter-spacing:.16em;color:var(--brand);font-weight:800}
   .logo span{font-size:2.6vh;letter-spacing:.16em;font-weight:800}
+  .nav{display:flex;gap:.4vw;margin-left:1.2vw}
+  .nav a{cursor:pointer;text-decoration:none;font-size:1.5vh;font-weight:700;letter-spacing:.1em;
+         padding:.5vh .9vw;border-radius:999px;border:1px solid var(--line);color:var(--ink-3)}
+  .nav a.on{background:var(--brand);border-color:var(--brand);color:#14161a}
   .live{display:flex;align-items:center;gap:.45vw;color:var(--ink-3);font-size:1.5vh;margin-left:.8vw}
   .livedot{width:.9vh;height:.9vh;border-radius:50%;background:var(--good);animation:pulse 2s infinite}
   @keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
@@ -115,6 +119,7 @@
 <div id="app">
   <header>
     <div class="logo"><b>KEY</b><span>LOAN SCOREBOARD</span></div>
+    <nav class="nav"><a class="on" href="index.html">LOANS</a><a href="activity.html">ACTIVITY</a></nav>
     <div class="live"><span class="livedot"></span><span id="updated">LIVE</span></div>
     <div id="clock" class="num"></div>
   </header>
