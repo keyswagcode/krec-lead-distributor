@@ -88,13 +88,13 @@
 
   <section class="tiles">
     <div class="tile"><div class="k">Calls Dialed</div><div class="v num" id="t-dials">—</div><div class="s" id="t-dials-sub"></div></div>
-    <div class="tile"><div class="k">Calls Connected</div><div class="v num calls" id="t-conn">—</div><div class="s" id="t-conn-sub"></div></div>
+    <div class="tile"><div class="k">Active AEs</div><div class="v num calls" id="t-aes">—</div><div class="s">with outbound this month</div></div>
     <div class="tile"><div class="k">Texts Sent</div><div class="v num sms" id="t-sms">—</div><div class="s">by AEs · automation excluded</div></div>
     <div class="tile"><div class="k">Opps Created</div><div class="v num opps" id="t-opps">—</div><div class="s">Loan Pipeline</div></div>
   </section>
 
   <main>
-    <div class="panel"><h2>📞 Calls <span class="hint">dials · connected</span></h2><div class="rows" id="lbCalls"></div></div>
+    <div class="panel"><h2>📞 Calls Dialed <span class="hint">outbound dials</span></h2><div class="rows" id="lbCalls"></div></div>
     <div class="panel"><h2>💬 Texts Sent <span class="hint">manual sends</span></h2><div class="rows" id="lbSms"></div></div>
     <div class="panel"><h2>🎯 Opps Created <span class="hint">Loan Pipeline</span></h2><div class="rows" id="lbOpps"></div></div>
   </main>
@@ -130,12 +130,11 @@ async function load(){
   document.getElementById("updated").textContent=`${d.monthLabel} · data as of ${d.updatedAt}`;
   document.getElementById("t-dials").textContent=fmt(D);
   document.getElementById("t-dials-sub").textContent=d.monthLabel;
-  document.getElementById("t-conn").textContent=fmt(C);
-  document.getElementById("t-conn-sub").textContent=(D?Math.round(C/D*100):0)+"% connect rate";
+  document.getElementById("t-aes").textContent=rows.filter(r=>r.d+r.s>0).length;
   document.getElementById("t-sms").textContent=fmt(S);
   document.getElementById("t-opps").textContent=fmt(O);
   const N=10;
-  board("lbCalls",rows,"d","var(--data)",r=>`<b>${fmt(r.d)}</b><small>${fmt(r.c)} conn · ${r.d?Math.round(r.c/r.d*100):0}%</small>`,N);
+  board("lbCalls",rows,"d","var(--data)",r=>`<b>${fmt(r.d)}</b><small>dials</small>`,N);
   board("lbSms",rows,"s","var(--data-2)",r=>`<b>${fmt(r.s)}</b><small>texts</small>`,N);
   board("lbOpps",rows,"o","var(--brand)",r=>`<b>${fmt(r.o||0)}</b><small>opps</small>`,N);
   const wl=d.weeks.labels,wt=d.weeks.team,max=Math.max(...wt,1);
