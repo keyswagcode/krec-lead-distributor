@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T18:47:51.519Z",
+  "updatedAt": "2026-09-29T22:42:07.771Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
@@ -691,24 +691,6 @@
       "loanType": "Fix & Flip",
       "stage": "Wire Received",
       "closedAt": "2026-09-23T13:56:25.273Z"
-    },
-    {
-      "id": "v1Jha85S3NLnYIdDmNUP",
-      "name": "",
-      "rep": "Hazel Wilder",
-      "loanAmount": 506250,
-      "loanType": "DSCR - R/T",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-22T20:13:03.464Z"
-    },
-    {
-      "id": "cUMMslyMGWK0jkou7U6p",
-      "name": "",
-      "rep": "Ryan McCoy",
-      "loanAmount": 138750,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-22T20:10:08.181Z"
     }
   ]
 }
