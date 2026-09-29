@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-09-29T06:51:53.702Z",
+  "updatedAt": "2026-09-29T18:47:51.519Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 157733293,
-      "loans": 491
+      "loanAmount": 159039293,
+      "loans": 493
     },
     "month": {
-      "loanAmount": 37362783,
-      "loans": 111
+      "loanAmount": 38668783,
+      "loans": 113
     }
   },
   "reps": [
@@ -95,12 +95,12 @@
     {
       "name": "Jeremiah Ibrahim",
       "year": {
-        "loanAmount": 9822164,
-        "loans": 23
+        "loanAmount": 11128164,
+        "loans": 25
       },
       "month": {
-        "loanAmount": 4289057,
-        "loans": 10
+        "loanAmount": 5595057,
+        "loans": 12
       }
     },
     {
@@ -306,12 +306,12 @@
     {
       "name": "Daisy Mondragon",
       "year": {
-        "loanAmount": 49897834,
-        "loans": 142
+        "loanAmount": 51203834,
+        "loans": 144
       },
       "month": {
-        "loanAmount": 12424633,
-        "loans": 32
+        "loanAmount": 13730633,
+        "loans": 34
       }
     },
     {
@@ -504,6 +504,33 @@
   ],
   "latest": [
     {
+      "id": "BpO26kdzgMdQJbrUA0AR",
+      "name": "",
+      "rep": "Bailey Girouard",
+      "loanAmount": 300000,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-29T17:59:10.747Z"
+    },
+    {
+      "id": "1uk7ohXH8N159bak9X1Z",
+      "name": "",
+      "rep": "Jeremiah Ibrahim",
+      "loanAmount": 161000,
+      "loanType": "DSCR - C/O",
+      "stage": "Closed",
+      "closedAt": "2026-09-29T07:04:54.784Z"
+    },
+    {
+      "id": "zVdCdIZo7HqFLYGypZoA",
+      "name": "",
+      "rep": "Jeremiah Ibrahim",
+      "loanAmount": 1145000,
+      "loanType": "Fix & Flip",
+      "stage": "Closed",
+      "closedAt": "2026-09-29T07:04:52.023Z"
+    },
+    {
       "id": "cMJs5tQiMS6rAS6C42PZ",
       "name": "",
       "rep": "Nick DeLaCruz",
@@ -601,15 +628,6 @@
       "loanType": "DSCR - C/O",
       "stage": "Wire Received",
       "closedAt": "2026-09-25T16:57:45.068Z"
-    },
-    {
-      "id": "BpO26kdzgMdQJbrUA0AR",
-      "name": "",
-      "rep": "Bailey Girouard",
-      "loanAmount": 300000,
-      "loanType": "DSCR - C/O",
-      "stage": "Closed",
-      "closedAt": "2026-09-25T15:57:56.137Z"
     },
     {
       "id": "7Lu56IC0uddz0d4mAuPn",
