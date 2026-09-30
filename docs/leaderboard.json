@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T18:57:11.468Z",
+  "updatedAt": "2026-09-30T22:49:33.346Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
@@ -340,11 +340,11 @@
       "name": "Adam Epperson",
       "year": {
         "loanAmount": 17267208,
-        "loans": 53
+        "loans": 52
       },
       "month": {
         "loanAmount": 8201600,
-        "loans": 18
+        "loans": 17
       }
     },
     {
@@ -655,24 +655,6 @@
       "loanType": "DSCR - C/O",
       "stage": "Wire Received",
       "closedAt": "2026-09-25T16:57:45.068Z"
-    },
-    {
-      "id": "byhYkJ31JDTCZQoewvaX",
-      "name": "",
-      "rep": "Gabriel Giordano",
-      "loanAmount": 188000,
-      "loanType": "DSCR - R/T",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-23T22:05:56.729Z"
-    },
-    {
-      "id": "GtDD2MycWQtcOtyRAhfr",
-      "name": "",
-      "rep": "Luis Danny Franco",
-      "loanAmount": 1080000,
-      "loanType": "Bank Statement",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-23T22:05:52.533Z"
     }
   ]
 }
