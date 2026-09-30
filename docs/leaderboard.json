@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-09-29T22:42:07.771Z",
+  "updatedAt": "2026-09-30T01:36:35.928Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 159039293,
-      "loans": 493
+      "loanAmount": 159198293,
+      "loans": 494
     },
     "month": {
-      "loanAmount": 38668783,
-      "loans": 113
+      "loanAmount": 38827783,
+      "loans": 114
     }
   },
   "reps": [
@@ -150,12 +150,12 @@
     {
       "name": "Lindsay Milano",
       "year": {
-        "loanAmount": 31281288,
-        "loans": 52
+        "loanAmount": 31440288,
+        "loans": 53
       },
       "month": {
-        "loanAmount": 672750,
-        "loans": 3
+        "loanAmount": 831750,
+        "loans": 4
       }
     },
     {
@@ -504,6 +504,24 @@
   ],
   "latest": [
     {
+      "id": "TXpSxPPuFIn5zcWSkPtD",
+      "name": "",
+      "rep": "Lindsay Milano",
+      "loanAmount": 159000,
+      "loanType": "DSCR - C/O",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-30T00:27:04.915Z"
+    },
+    {
+      "id": "7Lu56IC0uddz0d4mAuPn",
+      "name": "",
+      "rep": "Lindsay Milano",
+      "loanAmount": 60000,
+      "loanType": "DSCR - Purchase",
+      "stage": "Wire Received",
+      "closedAt": "2026-09-30T00:27:03.710Z"
+    },
+    {
       "id": "BpO26kdzgMdQJbrUA0AR",
       "name": "",
       "rep": "Bailey Girouard",
@@ -628,15 +646,6 @@
       "loanType": "DSCR - C/O",
       "stage": "Wire Received",
       "closedAt": "2026-09-25T16:57:45.068Z"
-    },
-    {
-      "id": "7Lu56IC0uddz0d4mAuPn",
-      "name": "",
-      "rep": "Lindsay Milano",
-      "loanAmount": 60000,
-      "loanType": "DSCR - Purchase",
-      "stage": "Closed",
-      "closedAt": "2026-09-24T19:38:48.538Z"
     },
     {
       "id": "byhYkJ31JDTCZQoewvaX",
