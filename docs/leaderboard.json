@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-09-30T13:59:08.305Z",
+  "updatedAt": "2026-09-30T18:57:11.468Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 159198293,
-      "loans": 494
+      "loanAmount": 159579793,
+      "loans": 495
     },
     "month": {
-      "loanAmount": 38827783,
-      "loans": 114
+      "loanAmount": 39209283,
+      "loans": 115
     }
   },
   "reps": [
@@ -194,12 +194,12 @@
     {
       "name": "Jason Weber",
       "year": {
-        "loanAmount": 3723264,
-        "loans": 19
+        "loanAmount": 4104764,
+        "loans": 20
       },
       "month": {
-        "loanAmount": 927307,
-        "loans": 6
+        "loanAmount": 1308807,
+        "loans": 7
       }
     },
     {
@@ -317,12 +317,12 @@
     {
       "name": "Chelsea Juda",
       "year": {
-        "loanAmount": 2473073,
-        "loans": 31
+        "loanAmount": 2854573,
+        "loans": 32
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 381500,
+        "loans": 1
       }
     },
     {
@@ -340,11 +340,11 @@
       "name": "Adam Epperson",
       "year": {
         "loanAmount": 17267208,
-        "loans": 52
+        "loans": 53
       },
       "month": {
         "loanAmount": 8201600,
-        "loans": 17
+        "loans": 18
       }
     },
     {
@@ -503,6 +503,15 @@
     }
   ],
   "latest": [
+    {
+      "id": "TdAqeFpASepZv1iECAqE",
+      "name": "",
+      "rep": "Jason Weber",
+      "loanAmount": 381500,
+      "loanType": "DSCR - C/O",
+      "stage": "Closed",
+      "closedAt": "2026-09-30T17:44:09.343Z"
+    },
     {
       "id": "TXpSxPPuFIn5zcWSkPtD",
       "name": "",
@@ -664,24 +673,6 @@
       "loanType": "Bank Statement",
       "stage": "Wire Received",
       "closedAt": "2026-09-23T22:05:52.533Z"
-    },
-    {
-      "id": "yuS6Ql3ziBtcXgzGVlK1",
-      "name": "",
-      "rep": "Gabriel Giordano",
-      "loanAmount": 178500,
-      "loanType": "DSCR - R/T",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-23T16:32:44.620Z"
-    },
-    {
-      "id": "hFHdVcdUD2Ev4WWB6i01",
-      "name": "",
-      "rep": "Ryan McCoy",
-      "loanAmount": 760000,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-23T16:32:02.825Z"
     }
   ]
 }
