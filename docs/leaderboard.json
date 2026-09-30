@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T07:23:33.812Z",
+  "updatedAt": "2026-09-30T13:59:08.305Z",
   "year": 2026,
   "monthLabel": "September 2026",
   "monthPrefix": "2026-09",
@@ -682,24 +682,6 @@
       "loanType": "DSCR - C/O",
       "stage": "Wire Received",
       "closedAt": "2026-09-23T16:32:02.825Z"
-    },
-    {
-      "id": "iyN9oPqHnwWJOU69zwak",
-      "name": "",
-      "rep": "Raj Vora",
-      "loanAmount": 344000,
-      "loanType": "DSCR - Purchase",
-      "stage": "Closed",
-      "closedAt": "2026-09-23T13:56:49.304Z"
-    },
-    {
-      "id": "VXILVSTv4GJ8u4bX8AqE",
-      "name": "",
-      "rep": "Raj Vora",
-      "loanAmount": 677250,
-      "loanType": "Fix & Flip",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-23T13:56:25.273Z"
     }
   ]
 }
