@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-10-01T19:55:03.376Z",
+  "updatedAt": "2026-10-02T02:34:36.893Z",
   "year": 2026,
   "monthLabel": "October 2026",
   "monthPrefix": "2026-10",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 159579793,
-      "loans": 495
+      "loanAmount": 159939793,
+      "loans": 496
     },
     "month": {
-      "loanAmount": 0,
-      "loans": 0
+      "loanAmount": 1431640,
+      "loans": 4
     }
   },
   "reps": [
@@ -143,8 +143,8 @@
         "loans": 30
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 675640,
+        "loans": 2
       }
     },
     {
@@ -161,12 +161,12 @@
     {
       "name": "Mathieu StGermain",
       "year": {
-        "loanAmount": 4078310,
-        "loans": 17
+        "loanAmount": 4438310,
+        "loans": 18
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 756000,
+        "loans": 2
       }
     },
     {
@@ -306,12 +306,12 @@
     {
       "name": "Daisy Mondragon",
       "year": {
-        "loanAmount": 51203834,
-        "loans": 144
+        "loanAmount": 51563834,
+        "loans": 145
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 1035640,
+        "loans": 3
       }
     },
     {
@@ -405,12 +405,12 @@
     {
       "name": "Melissa Boyle",
       "year": {
-        "loanAmount": 265401,
-        "loans": 2
+        "loanAmount": 625401,
+        "loans": 3
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 360000,
+        "loans": 1
       }
     },
     {
@@ -420,8 +420,8 @@
         "loans": 8
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 675640,
+        "loans": 2
       }
     },
     {
@@ -503,6 +503,42 @@
     }
   ],
   "latest": [
+    {
+      "id": "R6FP3frBTPF6r6aH1jl0",
+      "name": "",
+      "rep": "Nicole Lavau",
+      "loanAmount": 337820,
+      "loanType": "Ground Up Construction",
+      "stage": "Wire Received",
+      "closedAt": "2026-10-01T23:08:48.233Z"
+    },
+    {
+      "id": "5xHSHNpc9Gv5omQBTl00",
+      "name": "",
+      "rep": "Nicole Lavau",
+      "loanAmount": 337820,
+      "loanType": "Ground Up Construction",
+      "stage": "Wire Received",
+      "closedAt": "2026-10-01T23:08:46.335Z"
+    },
+    {
+      "id": "gJS4BgXYXMrotqJvXmsa",
+      "name": "",
+      "rep": "Mathieu StGermain",
+      "loanAmount": 360000,
+      "loanType": "DSCR - R/T",
+      "stage": "Wire Received",
+      "closedAt": "2026-10-01T23:05:52.335Z"
+    },
+    {
+      "id": "B4TfmRPNKWT04xvL3vsR",
+      "name": "",
+      "rep": "Mathieu StGermain",
+      "loanAmount": 396000,
+      "loanType": "Fix & Flip",
+      "stage": "Wire Received",
+      "closedAt": "2026-10-01T23:05:39.924Z"
+    },
     {
       "id": "TdAqeFpASepZv1iECAqE",
       "name": "",
@@ -610,24 +646,6 @@
       "loanType": "Fix & Flip",
       "stage": "Wire Received",
       "closedAt": "2026-09-28T14:05:31.911Z"
-    },
-    {
-      "id": "5xHSHNpc9Gv5omQBTl00",
-      "name": "",
-      "rep": "Nicole Lavau",
-      "loanAmount": 337820,
-      "loanType": "Ground Up Construction",
-      "stage": "Closed",
-      "closedAt": "2026-09-25T22:09:55.218Z"
-    },
-    {
-      "id": "R6FP3frBTPF6r6aH1jl0",
-      "name": "",
-      "rep": "Nicole Lavau",
-      "loanAmount": 337820,
-      "loanType": "Ground Up Construction",
-      "stage": "Closed",
-      "closedAt": "2026-09-25T22:09:53.139Z"
     },
     {
       "id": "Ukajnymxteru1YSrQrCX",
