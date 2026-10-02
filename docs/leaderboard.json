@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-10-02T15:27:05.611Z",
+  "updatedAt": "2026-10-02T20:06:07.049Z",
   "year": 2026,
   "monthLabel": "October 2026",
   "monthPrefix": "2026-10",
   "definition": "Funded loans: processing-sheet Paid record through 2026-07-12, plus GHL Loan Pipeline Closed/Wire Received fundings from that date forward (GHL is the go-forward standard). No borrower PII.",
   "totals": {
     "year": {
-      "loanAmount": 159939793,
-      "loans": 496
+      "loanAmount": 160723733,
+      "loans": 500
     },
     "month": {
-      "loanAmount": 1431640,
-      "loans": 4
+      "loanAmount": 2309990,
+      "loans": 9
     }
   },
   "reps": [
@@ -51,12 +51,12 @@
     {
       "name": "Bailey Girouard",
       "year": {
-        "loanAmount": 8698581,
-        "loans": 40
+        "loanAmount": 8918581,
+        "loans": 41
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 220000,
+        "loans": 1
       }
     },
     {
@@ -106,12 +106,12 @@
     {
       "name": "Trey Victor",
       "year": {
-        "loanAmount": 3192899,
-        "loans": 16
+        "loanAmount": 3420899,
+        "loans": 18
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 228000,
+        "loans": 2
       }
     },
     {
@@ -183,12 +183,12 @@
     {
       "name": "Christopher LaFlesh",
       "year": {
-        "loanAmount": 3238101,
-        "loans": 13
+        "loanAmount": 3574041,
+        "loans": 14
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 335940,
+        "loans": 1
       }
     },
     {
@@ -209,8 +209,8 @@
         "loans": 13
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 94410,
+        "loans": 1
       }
     },
     {
@@ -328,23 +328,23 @@
     {
       "name": "Brandi Smith",
       "year": {
-        "loanAmount": 27714352,
-        "loans": 95
+        "loanAmount": 28270292,
+        "loans": 97
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 555940,
+        "loans": 2
       }
     },
     {
       "name": "Adam Epperson",
       "year": {
-        "loanAmount": 17267208,
-        "loans": 52
+        "loanAmount": 17495208,
+        "loans": 54
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 228000,
+        "loans": 2
       }
     },
     {
@@ -398,8 +398,8 @@
         "loans": 3
       },
       "month": {
-        "loanAmount": 0,
-        "loans": 0
+        "loanAmount": 94410,
+        "loans": 1
       }
     },
     {
@@ -503,6 +503,51 @@
     }
   ],
   "latest": [
+    {
+      "id": "ORcUFbY87H1qt8wbBVtH",
+      "name": "",
+      "rep": "Trey Victor",
+      "loanAmount": 101250,
+      "loanType": "DSCR - R/T",
+      "stage": "Closed",
+      "closedAt": "2026-10-02T19:39:21.517Z"
+    },
+    {
+      "id": "YuQFz0JJk8BHh2eVp1hO",
+      "name": "",
+      "rep": "Trey Victor",
+      "loanAmount": 126750,
+      "loanType": "DSCR - C/O",
+      "stage": "Closed",
+      "closedAt": "2026-10-02T19:39:20.024Z"
+    },
+    {
+      "id": "GpzdMLJlrCVJt9I50kV3",
+      "name": "",
+      "rep": "Bailey Girouard",
+      "loanAmount": 220000,
+      "loanType": "DSCR - C/O",
+      "stage": "Closed",
+      "closedAt": "2026-10-02T19:12:30.666Z"
+    },
+    {
+      "id": "CjB6HY65Zfofs9fV2Y1j",
+      "name": "",
+      "rep": "Christopher LaFlesh",
+      "loanAmount": 335940,
+      "loanType": "Fix & Flip",
+      "stage": "Closed",
+      "closedAt": "2026-10-02T16:41:01.746Z"
+    },
+    {
+      "id": "nE7jtvU6dsFhas9WFmrh",
+      "name": "",
+      "rep": "Samuel Vickrey",
+      "loanAmount": 94410,
+      "loanType": "Bridge",
+      "stage": "Wire Received",
+      "closedAt": "2026-10-02T16:38:23.937Z"
+    },
     {
       "id": "R6FP3frBTPF6r6aH1jl0",
       "name": "",
@@ -655,24 +700,6 @@
       "loanType": "Fix & Flip",
       "stage": "Wire Received",
       "closedAt": "2026-09-25T22:09:43.218Z"
-    },
-    {
-      "id": "bPHDC4kKMzbSAzDnczVh",
-      "name": "",
-      "rep": "Samuel Vickrey",
-      "loanAmount": 150000,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-25T16:58:00.603Z"
-    },
-    {
-      "id": "uNVi9M27PmGDMW457Hlm",
-      "name": "",
-      "rep": "Samuel Vickrey",
-      "loanAmount": 375000,
-      "loanType": "DSCR - C/O",
-      "stage": "Wire Received",
-      "closedAt": "2026-09-25T16:57:45.068Z"
     }
   ]
 }
